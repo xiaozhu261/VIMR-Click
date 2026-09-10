@@ -5,7 +5,6 @@ from typing import Any
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import wandb
 from tqdm import tqdm
 
 from efficientvit.apps.trainer import Trainer
@@ -32,6 +31,8 @@ class SAMTrainer(Trainer):
         )
 
         if is_master():
+            import wandb
+
             self.wandb_log = wandb.init(project="efficientvit-sam")
 
     def _validate(self, model, data_loader, epoch: int, sub_epoch: int) -> dict[str, Any]:

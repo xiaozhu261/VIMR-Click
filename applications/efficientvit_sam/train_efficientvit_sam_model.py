@@ -10,7 +10,8 @@ from efficientvit.apps import setup
 from efficientvit.apps.utils import dump_config, parse_unknown_args
 from efficientvit.sam_model_zoo import create_efficientvit_sam_model
 from efficientvit.samcore.data_provider import SAMDataProvider
-from efficientvit.samcore.trainer import SAMRunConfig, SAMTrainer
+from efficientvit.models.vimr import VIMREfficientViTSam
+from efficientvit.samcore.trainer import SAMRunConfig, SAMTrainer, VIMRTrainer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("config", metavar="FILE", help="config file")
@@ -43,7 +44,8 @@ def main():
 
     model = create_efficientvit_sam_model(config["net_config"]["name"], False)
 
-    trainer = SAMTrainer(
+    trainer_cls = VIMRTrainer if isinstance(model, VIMREfficientViTSam) else SAMTrainer
+    trainer = trainer_cls(
         path=args.path,
         model=model,
         data_provider=data_provider,
@@ -54,6 +56,7 @@ def main():
         init_from=config["net_config"]["ckpt"],
         rand_init=args.rand_init,
         last_gamma=args.last_gamma,
+        strict="vimr" not in config["net_config"]["name"],
     )
 
     trainer.prep_for_training(run_config, args.amp)

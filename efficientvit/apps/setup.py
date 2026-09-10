@@ -117,6 +117,7 @@ def init_model(
     backbone_init_from: Optional[str] = None,
     rand_init="trunc_normal",
     last_gamma=None,
+    strict: bool = True,
 ) -> None:
     # initialization
     init_modules(network, init_type=rand_init)
@@ -126,8 +127,12 @@ def init_model(
 
     # load weight
     if init_from is not None and os.path.isfile(init_from):
-        network.load_state_dict(load_state_dict_from_file(init_from))
+        incompatible = network.load_state_dict(load_state_dict_from_file(init_from), strict=strict)
         print(f"Loaded init from {init_from}")
+        if not strict:
+            print(f"New parameters randomly initialized: {len(incompatible.missing_keys)} keys")
+            if incompatible.unexpected_keys:
+                print(f"Unexpected checkpoint keys: {len(incompatible.unexpected_keys)}")
     elif backbone_init_from is not None and os.path.isfile(backbone_init_from):
         network.backbone.load_state_dict(load_state_dict_from_file(backbone_init_from))
         print(f"Loaded backbone init from {backbone_init_from}")

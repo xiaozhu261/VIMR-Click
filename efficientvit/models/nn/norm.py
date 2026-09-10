@@ -4,7 +4,10 @@ import torch
 import torch.nn as nn
 from torch.nn.modules.batchnorm import _BatchNorm
 
-from efficientvit.models.nn.triton_rms_norm import TritonRMSNorm2dFunc
+try:
+    from efficientvit.models.nn.triton_rms_norm import TritonRMSNorm2dFunc
+except (ImportError, ModuleNotFoundError):
+    TritonRMSNorm2dFunc = None
 from efficientvit.models.utils import build_kwargs_from_config
 
 __all__ = ["LayerNorm2d", "TritonRMSNorm2d", "build_norm", "reset_bn", "set_norm_eps"]
@@ -21,7 +24,12 @@ class LayerNorm2d(nn.LayerNorm):
 
 class TritonRMSNorm2d(nn.LayerNorm):
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        return TritonRMSNorm2dFunc.apply(x, self.weight, self.bias, self.eps)
+        if TritonRMSNorm2dFunc is not None and x.is_cuda:
+            return TritonRMSNorm2dFunc.apply(x, self.weight, self.bias, self.eps)
+        out = x * torch.rsqrt(torch.square(x).mean(dim=1, keepdim=True) + self.eps)
+        if self.elementwise_affine:
+            out = out * self.weight.view(1, -1, 1, 1) + self.bias.view(1, -1, 1, 1)
+        return out
 
 
 # register normalization function here

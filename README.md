@@ -1,5 +1,7 @@
 # Efficient Vision Foundation Models for High-Resolution Generation and Perception
 
+VIMR-Click research MVP documentation: [docs/vimr_click_mvp.md](docs/vimr_click_mvp.md).
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)
 
 ## News

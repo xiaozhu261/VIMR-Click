@@ -1,114 +1,96 @@
-# Efficient Vision Foundation Models for High-Resolution Generation and Perception
+# VIMR-Click
 
-VIMR-Click research MVP documentation: [docs/vimr_click_mvp.md](docs/vimr_click_mvp.md).
+基于 [EfficientViT-SAM](https://github.com/mit-han-lab/efficientvit) 的 click-based interactive segmentation 科研原型。项目在冻结的 EfficientViT-SAM 主干上加入视口状态、交互历史、掩码残差和安全更新机制，用于研究多轮点击分割的精度、交互效率与更新稳定性。
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)
+> 当前状态：研究原型。仓库中的结论来自 COCO 2017 小规模固定子集，不代表完整 COCO benchmark 结果。
 
-## News
-- (🔥 New) [2025/09/05] We will no longer maintain this codebase. All future updates and announcements will be made on [DC-Gen](https://github.com/dc-ai-projects/DC-Gen).
-- (🔥 New) [2025/01/24] We released DC-AE-SANA-1.1: [doc](https://github.com/mit-han-lab/efficientvit/blob/master/assets/docs/dc_ae_sana_1.1.md). 
-- (🔥 New) [2025/01/23] DC-AE and SANA are accepted by ICLR 2025.
-- (🔥 New) [2025/01/14] We released **DC-AE+USiT models**: [model](https://huggingface.co/collections/mit-han-lab/dc-ae-diffusion-670dbb8d6b6914cf24c1a49d), [training](https://github.com/mit-han-lab/efficientvit/blob/master/applications/dc_ae/README.md#dc-ae--usit). Using the default training settings and sampling strategy, DC-AE+USiT-2B achieves 1.72 FID on ImageNet 512x512, surpassing the SOTA diffusion model EDM2-XXL and SOTA auto-regressive image generative models (MAGVIT-v2 and MAR-L).
+## 方法概览
 
-______________________________________________________________________
+原始 EfficientViT-SAM 的 Image Encoder、Prompt Encoder 和 Mask Decoder 在正式协议中保持冻结。标有 `NEW` 的部分是本项目新增模块：
 
-- (🔥 New) [2024/12/24] **diffusers** supports DC-AE models. All [DC-AE models in diffusers safetensors](https://huggingface.co/collections/mit-han-lab/dc-ae-670085b9400ad7197bb1009b) are released. [Usage](https://github.com/mit-han-lab/efficientvit/tree/master/applications/dc_ae#deep-compression-autoencoder-diffusers).
-- [2024/10/21] DC-AE and EfficientViT block are used in our latest text-to-image diffusion model SANA! Check the [project page](https://nvlabs.github.io/Sana/) for more details.
-- [2024/10/15] We released **Deep Compression Autoencoder (DC-AE)**: [link](#deep-compression-autoencoder-for-efficient-high-resolution-diffusion-models-paper-readme)!
-- [2024/07/10] EfficientViT is used as the backbone in [Grounding DINO 1.5 Edge](https://arxiv.org/pdf/2405.10300) for efficient open-set object detection.
-- [2024/07/10] EfficientViT-SAM is used in [MedficientSAM](https://github.com/hieplpvip/medficientsam), the 1st place model in [CVPR 2024 Segment Anything In Medical Images On Laptop Challenge](https://www.codabench.org/competitions/1847/).
-- [2024/04/06] EfficientViT-SAM is accepted by [eLVM@CVPR'24](https://sites.google.com/view/elvm/home?authuser=0).
-- [2024/03/19] Online demo of EfficientViT-SAM is available: [https://evitsam.hanlab.ai/](https://evitsam.hanlab.ai/). 
-- [2024/02/07] We released [EfficientViT-SAM](https://arxiv.org/abs/2402.05008), the first accelerated SAM model that matches/outperforms SAM-ViT-H's zero-shot performance, delivering the SOTA performance-efficiency trade-off.
-- [2023/11/20] EfficientViT is available in the [NVIDIA Jetson Generative AI Lab](https://www.jetson-ai-lab.com/tutorial_efficientvit.html).
-- [2023/09/12] EfficientViT is highlighted by [MIT home page](https://www.mit.edu/archive/spotlight/efficient-computer-vision/) and [MIT News](https://news.mit.edu/2023/ai-model-high-resolution-computer-vision-0912).
-- [2023/07/18] EfficientViT is accepted by ICCV 2023.
+```text
+image
+  -> [Frozen] EfficientViT Image Encoder
+  -> image embedding [B,256,64,64] -----------------------------+
+                                                                  |
+clicks -> [Frozen] SAM Prompt Encoder -> sparse/dense prompts -----+
+                                                                  |
+viewport [B,7] -> [NEW] Viewport Intent Encoder ------------------+
+                         -> [NEW, optional] G/O/D Router           |
+click/view/mask history -> [NEW] Click History Memory ------------+-> [NEW] Interaction Fusion
+previous masks -> [NEW] Mask Residual Analyzer -------------------+          |
+                                                                              v
+                                                               [Frozen] SAM Mask Decoder
+                                                                              |
+                                                                              v
+                                                                        draft mask
+                                                                              |
+                                                                              v
+                                                                 [NEW] Safe Update Gate
+                                                                              |
+                                                                              v
+                                                               [NEW, optional] Detail Expert
+                                                                              |
+                                                                              v
+                                                                         final mask
+```
 
-## Content
+新增模块位于 [`efficientvit/models/vimr`](efficientvit/models/vimr)：
 
-### [ICLR 2025] Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models [[paper](https://arxiv.org/abs/2410.10733)] [[readme](applications/dc_ae/README.md)] [[poster](assets/dc_ae_poster.pdf)]
+| 模块 | 作用 | 插入位置 |
+| --- | --- | --- |
+| Viewport Intent Encoder | 将 7 维 zoom/pan/action 状态编码为 viewport token 和 ROI map | Prompt 融合前 |
+| Click History Memory | 用因果 Transformer 汇总点击、视口和历史 mask 统计 | Prompt 融合前 |
+| Mask Residual Analyzer | 分析前两轮 mask 的不确定性与时间残差 | Fusion 和 Safe Update 输入端 |
+| Interaction Fusion | 让交互 token 对缓存图像特征做 cross-attention | Prompt Encoder 与 Mask Decoder 之间 |
+| Safe Update Gate | 以像素级 gate 保守融合上一轮 mask 与新 draft mask | Mask Decoder 后 |
+| G/O/D Router | 融合 global、object、detail 三种图像上下文 | Viewport Encoder 后，可选 |
+| Detail Expert | 在边界与不确定区域预测局部修正 | Safe Update 后，可选 |
 
-**Deep Compression Autoencoder (DC-AE) is a new family of high-spatial compression autoencoders with a spatial compression ratio of up to 128 while maintaining reconstruction quality. It accelerates all latent diffusion models regardless of the diffusion model architecture.**
+Safe Update 使用：
 
-#### Demo
+```text
+final = previous + gate * (draft - previous)
+```
 
-![demo](https://huggingface.co/mit-han-lab/dc-ae-f64c128-in-1.0/resolve/main/assets/dc_ae_demo.gif)
-<p align="center">
-<b> Figure 1: We address the reconstruction accuracy drop of high spatial-compression autoencoders.
-</p>
+Gate 最后一层初始化为约 `0.1`，训练损失为 BCE、Dice、Safe loss 和 Monotonic loss 的组合。
 
-![demo](assets/dc_ae_diffusion_demo.gif)
-<p align="center">
-<b> Figure 2: DC-AE speeds up latent diffusion models.
-</p>
+## 当前实验结果
 
-<p align="center">
-<img src="https://huggingface.co/mit-han-lab/dc-ae-f64c128-in-1.0/resolve/main/assets/dc_ae_sana.jpg"  width="1200">
-</p>
+统一正式协议：COCO 2017 `train2017` 固定 image-disjoint 划分，500 个训练实例、200 个验证实例、3 epochs、最多 5 次点击、seeds 42/43/44、split seed 2026。每个 epoch 验证并按 `mIoU@5` 保存最佳 checkpoint。
 
-<p align="center">
-<b> Figure 3: DC-AE enables efficient text-to-image generation on the laptop: <a href="https://nvlabs.github.io/Sana/">SANA</a>.
-</p>
+### 累计组件消融
 
-- [Usage of Deep Compression Autoencoder](applications/dc_ae/README.md#deep-compression-autoencoder)
-- [Usage of DC-AE-Diffusion](applications/dc_ae/README.md#efficient-diffusion-models-with-dc-ae)
-- [Evaluate Deep Compression Autoencoder](applications/dc_ae/README.md#evaluate-deep-compression-autoencoder)
-- [Demo DC-AE-Diffusion Models](applications/dc_ae/README.md#demo-dc-ae-diffusion-models)
-- [Evaluate DC-AE-Diffusion Models](applications/dc_ae/README.md#evaluate-dc-ae-diffusion-models)
-- [Train DC-AE-Diffusion Models](applications/dc_ae/README.md#train-dc-ae-diffusion-models)
-- [Reference](applications/dc_ae/README.md#reference)
+| 模型 | 训练参数 | mIoU@5 | Regression Rate | Late Regression |
+| --- | ---: | ---: | ---: | ---: |
+| Frozen baseline | 0 | 0.6772 | 0.4300 | 0.4500 |
+| Fusion-only | 686,723 | 0.7853 ± 0.0164 | 0.4650 | 0.5208 |
+| +Viewport | 686,723 | 0.7997 ± 0.0103 | 0.4538 | 0.5117 |
+| +History | 3,932,099 | 0.8121 ± 0.0085 | 0.4129 | 0.4717 |
+| +Residual | 4,099,491 | 0.8180 ± 0.0050 | 0.4471 | 0.5175 |
+| Full VIMR (S3) | 4,159,588 | 0.8173 ± 0.0158 | 0.3604 | 0.4358 |
 
-### [CVPR 2024 eLVM Workshop] EfficientViT-SAM: Accelerated Segment Anything Model Without Accuracy Loss [[paper](https://arxiv.org/abs/2402.05008)] [[online demo](https://evitsam.hanlab.ai/)] [[readme](applications/efficientvit_sam/README.md)]
+Fusion-only 已解释 Frozen baseline 到 `+Viewport` 的大部分提升，因此它是必要的可训练强基线，不能将全部增益归因于 viewport。History 和 Residual 提供递进的精度收益；Safe Update 的主要贡献是降低回退幅度和严重 late-stage regression，而不是进一步提高最终 mIoU。
 
-**EfficientViT-SAM is a new family of accelerated segment anything models by replacing SAM's heavy image encoder with EfficientViT. It delivers a 48.9x measured TensorRT speedup on A100 GPU over SAM-ViT-H without sacrificing accuracy.**
+### Router 与 Detail Expert
 
-<p align="left">
-<img src="https://huggingface.co/mit-han-lab/efficientvit-sam/resolve/main/sam_zero_shot_coco_mAP.png"  width="500">
-</p>
+| 模型 | mIoU@5 | 说明 |
+| --- | ---: | --- |
+| Full VIMR matched rerun | 0.7971 ± 0.0424 | 严格匹配对照 |
+| +G/O/D Router | 0.8173 ± 0.0032 | 精度和跨 seed 稳定性提高 |
+| +Router + Detail Expert | 0.8154 ± 0.0055 | 未超过 Router-only |
 
-- [Pretrained EfficientViT-SAM Models](applications/efficientvit_sam/README.md#pretrained-efficientvit-sam-models)
-- [Usage of EfficientViT-SAM](applications/efficientvit_sam/README.md#usage)
-- [Evaluate EfficientViT-SAM](applications/efficientvit_sam/README.md#evaluation)
-- [Visualize EfficientViT-SAM](applications/efficientvit_sam/README.md#visualization)
-- [Deploy EfficientViT-SAM](applications/efficientvit_sam/README.md#deployment)
-- [Train EfficientViT-SAM](applications/efficientvit_sam/README.md#training)
-- [Reference](applications/efficientvit_sam/README.md#reference)
+Router 当前是有潜力的可选扩展；Detail Expert 尚未产生稳定增益，并观察到路由偏向 Detail 的塌缩现象。
 
-### [ICCV 2023] EfficientViT-Classification [[paper](https://arxiv.org/abs/2205.14756)] [[readme](applications/efficientvit_cls/README.md)]
+### Viewport 信号风险
 
-**Efficient image classification models with EfficientViT backbones.**
+Synthetic viewport 相对 Default viewport 的 `mIoU@5` 提高约 `0.0329`，但相对 Shuffled viewport 仅提高约 `0.0012`，且跨 seed 不一致。因此目前不能声称模型已经学习到独立于点击位置的真实 zoom/pan 意图。
 
-<p align="left">
-<img src="https://huggingface.co/han-cai/efficientvit-cls/resolve/main/efficientvit_cls_results.png"  width="600">
-</p>
+完整结果与限制见 [`outputs/vimr_all_experiments_summary/VIMR_all_experiments_report.md`](outputs/vimr_all_experiments_summary/VIMR_all_experiments_report.md)。
 
-- [Pretrained EfficientViT Classification Models](applications/efficientvit_cls/README.md#pretrained-efficientvit-classification-models)
-- [Usage of EfficientViT Classification Models](applications/efficientvit_cls/README.md#usage)
-- [Evaluate EfficientViT Classification Models](applications/efficientvit_cls/README.md#evaluation)
-- [Export EfficientViT Classification Models](applications/efficientvit_cls/README.md#export)
-- [Train EfficientViT Classification Models](applications/efficientvit_cls/README.md#training)
-- [Reference](applications/efficientvit_cls/README.md#reference)
+## 环境安装
 
-### [ICCV 2023] EfficientViT-Segmentation [[paper](https://arxiv.org/abs/2205.14756)] [[readme](applications/efficientvit_seg/README.md)]
-
-**Efficient semantic segmantation models with EfficientViT backbones.**
-
-![demo](assets/cityscapes_l1.gif)
-
-- [Pretrained EfficientViT Segmentation Models](applications/efficientvit_seg/README.md#pretrained-efficientvit-segmentation-models)
-- [Usage of EfficientViT Segmentation Models](applications/efficientvit_seg/README.md#usage)
-- [Evaluate EfficientViT Segmentation Models](applications/efficientvit_seg/README.md#evaluation)
-- [Visualize EfficientViT Segmentation Models](applications/efficientvit_seg/README.md#visualization)
-- [Export EfficientViT Segmentation Models](applications/efficientvit_seg/README.md#export)
-- [Reference](applications/efficientvit_seg/README.md#reference)
-
-### EfficientViT-GazeSAM [[readme](applications/efficientvit_gazesam/README.md)]
-
-**Gaze-prompted image segmentation models capable of running in real time with TensorRT on an NVIDIA RTX 4070.**
-
-![GazeSAM demo](https://huggingface.co/mit-han-lab/efficientvit-sam/resolve/main/gazesam/efficientvit_gazesam_demo.gif)
-
-## Getting Started
+建议使用 Python 3.10：
 
 ```bash
 conda create -n efficientvit python=3.10
@@ -116,45 +98,111 @@ conda activate efficientvit
 pip install -U -r requirements.txt
 ```
 
-## Third-Party Implementation/Integration
+准备 EfficientViT-SAM-L0 checkpoint：
 
-- [NVIDIA Jetson Generative AI Lab](https://www.jetson-ai-lab.com/tutorial_efficientvit.html)
-- [timm](https://github.com/huggingface/pytorch-image-models): [link](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/efficientvit_mit.py)
-- [X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling): [link](https://github.com/CVHub520/X-AnyLabeling/blob/main/anylabeling/services/auto_labeling/efficientvit_sam.py)
-- [Grounding DINO 1.5 Edge](https://github.com/IDEA-Research/Grounding-DINO-1.5-API): [link](https://arxiv.org/pdf/2405.10300)
-
-## Contact
-
-[Han Cai](http://hancai.ai/)
-
-## Reference
-
-If EfficientViT or EfficientViT-SAM or DC-AE is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
-
-```bibtex
-@inproceedings{cai2023efficientvit,
-  title={Efficientvit: Lightweight multi-scale attention for high-resolution dense prediction},
-  author={Cai, Han and Li, Junyan and Hu, Muyan and Gan, Chuang and Han, Song},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={17302--17313},
-  year={2023}
-}
+```text
+assets/checkpoints/efficientvit_sam/efficientvit_sam_l0.pt
 ```
+
+模型权重和 COCO 数据不随仓库发布。
+
+## COCO 数据布局
+
+默认脚本读取：
+
+```text
+dataset/coco/
+├── annotations_trainval2017/
+│   └── annotations/
+│       └── instances_train2017.json
+└── train2017/
+    └── train2017/
+        └── *.jpg
+```
+
+`dataset/` 已加入 `.gitignore`，不会被提交到 GitHub。
+
+## 训练与评估
+
+运行统一三种子协议：
+
+```bash
+python tools/run_vimr_coco_protocol.py
+```
+
+主要指标包括 `mIoU@1/2/3/5`、`NoC@85/90`、`Success@85/90`、Regression Rate，以及第 4/5 次点击后的 late-stage regression。
+
+运行 Safe Update 权重扫描：
+
+```bash
+python tools/run_vimr_safe_update_sweep.py
+```
+
+运行累计组件消融，其中包含严格的 Fusion-only 对照：
+
+```bash
+python tools/run_vimr_component_ablation.py
+```
+
+运行 viewport 信号对照：
+
+```bash
+python tools/run_vimr_viewport_signal_ablation.py
+```
+
+运行 Router/Detail Expert matched 消融：
+
+```bash
+python tools/run_vimr_router_detail_ablation.py
+```
+
+## 可视化
+
+完成 viewport 信号实验后运行：
+
+```bash
+python tools/visualize_vimr_viewport_ablation.py
+```
+
+该工具对比 Frozen baseline、Default、Synthetic、Shuffled 和 Correct-oracle viewport 的逐点击预测、IoU 与 viewport 框。
+
+## 测试
+
+```bash
+python -m unittest discover -s tests -v
+python tools/count_vimr_params.py --model efficientvit-sam-vimr-l0
+```
+
+## 代码入口
+
+- 模型组装与前向流程：[`efficientvit/models/vimr/model.py`](efficientvit/models/vimr/model.py)
+- 新增模块：[`efficientvit/models/vimr/modules.py`](efficientvit/models/vimr/modules.py)
+- 训练损失：[`efficientvit/models/vimr/losses.py`](efficientvit/models/vimr/losses.py)
+- 多轮状态预测器：[`efficientvit/models/vimr/predictor.py`](efficientvit/models/vimr/predictor.py)
+- 正式 COCO 协议：[`tools/run_vimr_coco_protocol.py`](tools/run_vimr_coco_protocol.py)
+- 详细设计说明：[`docs/vimr_click_mvp.md`](docs/vimr_click_mvp.md)
+
+## 当前限制
+
+- 正式结果仅基于小规模 COCO 子集和 3 个随机种子，主要用于方法筛选。
+- 同一验证集同时用于 checkpoint 选择与最终报告，结果可能存在乐观偏差。
+- Synthetic viewport 与点击位置高度相关，独立 viewport 语义尚未建立。
+- Detail Expert 当前没有稳定收益，G/O/D Router 仍需 route balancing 或弱监督。
+- 尚未在更大测试集、其他数据集和其他 SAM 骨干上验证泛化能力。
+
+## 上游项目与许可证
+
+本项目基于 MIT HAN Lab 的 [EfficientViT](https://github.com/mit-han-lab/efficientvit) 与 [EfficientViT-SAM](https://arxiv.org/abs/2402.05008)。原始实现保留在现有 `efficientvit` 与 `applications` 目录中。
+
+仓库沿用上游项目的 [Apache License 2.0](LICENSE)。使用本项目时，请同时遵守 EfficientViT、Segment Anything、COCO 数据集和相关 checkpoint 的许可条款。
+
+如果 EfficientViT-SAM 对研究有帮助，请引用：
 
 ```bibtex
 @article{zhang2024efficientvit,
   title={EfficientViT-SAM: Accelerated Segment Anything Model Without Performance Loss},
   author={Zhang, Zhuoyang and Cai, Han and Han, Song},
   journal={arXiv preprint arXiv:2402.05008},
-  year={2024}
-}
-```
-
-```bibtex
-@article{chen2024deep,
-  title={Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models},
-  author={Chen, Junyu and Cai, Han and Chen, Junsong and Xie, Enze and Yang, Shang and Tang, Haotian and Li, Muyang and Lu, Yao and Han, Song},
-  journal={arXiv preprint arXiv:2410.10733},
   year={2024}
 }
 ```

@@ -1,0 +1,13 @@
+{
+  "shuffle_seed": 90210,
+  "train_source_indices": [
+    1,
+    0
+  ],
+  "validation_source_indices": [
+    1,
+    0
+  ],
+  "train_fixed_points": 0,
+  "validation_fixed_points": 0
+}

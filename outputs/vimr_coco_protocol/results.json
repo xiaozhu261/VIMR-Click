@@ -1,0 +1,388 @@
+{
+  "protocol": {
+    "dataset": "COCO 2017 train split, fixed image-disjoint holdout",
+    "train_instances": 500,
+    "validation_instances": 200,
+    "epochs": 3,
+    "max_clicks": 5,
+    "training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "split_seed": 2026,
+    "learning_rate": 0.0001,
+    "selection_metric": "mIoU@5",
+    "selection_direction": "max",
+    "base_modules_frozen": true,
+    "instance_sampling": "largest eligible non-crowd instance; one instance per image",
+    "area_ratio_range": [
+      0.01,
+      0.6
+    ],
+    "click_policy": "first positive click at the GT distance-transform maximum; subsequent click at maximum absolute GT-probability error, with label read from GT",
+    "baseline_prompt_policy": "all clicks accumulated plus previous-mask prompt",
+    "vimr_prompt_policy": "current click through SAM plus explicit click/view/mask history",
+    "noc_failure_value": 6,
+    "regression_epsilon": 1e-06,
+    "checkpoint_sha256": "c4f994b01a16d48bcf2fbbb089448cfbf58fae5811edfa8113c953b8b8cc64b8",
+    "elapsed_seconds": 1537.6037812232971
+  },
+  "baseline": {
+    "mIoU@1": 0.4258545961824711,
+    "mIoU@2": 0.627116411854513,
+    "mIoU@3": 0.6315220391849289,
+    "mIoU@5": 0.679223030663561,
+    "NoC@85": 3.57,
+    "Success@85/5": 0.645,
+    "NoC@90": 4.425,
+    "Success@90/5": 0.425,
+    "RegressionRate": 0.43,
+    "RegressionRate@4": 0.44,
+    "RegressionRate@5": 0.46,
+    "LateRegressionRate@4-5": 0.45
+  },
+  "seeds": {
+    "42": {
+      "seed": 42,
+      "best_epoch": 2,
+      "selection_metric": "mIoU@5",
+      "selection_direction": "max",
+      "selection_score": 0.801914347911952,
+      "trainable_vimr_parameters": 4159588,
+      "epoch_history": [
+        {
+          "epoch": 1,
+          "mean_train_iou_at_max_clicks": 0.7209141531610949,
+          "mean_gradient_norm": 2.154094850115478,
+          "mIoU@1": 0.7283818081393838,
+          "mIoU@2": 0.7493178166949656,
+          "mIoU@3": 0.7631407569907606,
+          "mIoU@5": 0.7752656783722341,
+          "NoC@85": 3.36,
+          "Success@85/5": 0.56,
+          "NoC@90": 4.225,
+          "Success@90/5": 0.375,
+          "RegressionRate": 0.39,
+          "RegressionRate@4": 0.44,
+          "RegressionRate@5": 0.505,
+          "LateRegressionRate@4-5": 0.4725
+        },
+        {
+          "epoch": 2,
+          "mean_train_iou_at_max_clicks": 0.8043453046437353,
+          "mean_gradient_norm": 0.726468311233446,
+          "mIoU@1": 0.7618042426742613,
+          "mIoU@2": 0.7817478965688497,
+          "mIoU@3": 0.791393770724535,
+          "mIoU@5": 0.801914347911952,
+          "NoC@85": 3.185,
+          "Success@85/5": 0.595,
+          "NoC@90": 4.2,
+          "Success@90/5": 0.39,
+          "RegressionRate": 0.4075,
+          "RegressionRate@4": 0.465,
+          "RegressionRate@5": 0.51,
+          "LateRegressionRate@4-5": 0.4875
+        },
+        {
+          "epoch": 3,
+          "mean_train_iou_at_max_clicks": 0.8157758629739692,
+          "mean_gradient_norm": 0.6033403584510088,
+          "mIoU@1": 0.7644029080867767,
+          "mIoU@2": 0.7764477944001555,
+          "mIoU@3": 0.7814363485155628,
+          "mIoU@5": 0.7965261349850334,
+          "NoC@85": 3.065,
+          "Success@85/5": 0.63,
+          "NoC@90": 4.13,
+          "Success@90/5": 0.405,
+          "RegressionRate": 0.43,
+          "RegressionRate@4": 0.45,
+          "RegressionRate@5": 0.505,
+          "LateRegressionRate@4-5": 0.4775
+        }
+      ],
+      "baseline_metrics": {
+        "mIoU@1": 0.4258545961824711,
+        "mIoU@2": 0.627116411854513,
+        "mIoU@3": 0.6315220391849289,
+        "mIoU@5": 0.679223030663561,
+        "NoC@85": 3.57,
+        "Success@85/5": 0.645,
+        "NoC@90": 4.425,
+        "Success@90/5": 0.425,
+        "RegressionRate": 0.43,
+        "RegressionRate@4": 0.44,
+        "RegressionRate@5": 0.46,
+        "LateRegressionRate@4-5": 0.45
+      },
+      "vimr_metrics": {
+        "mIoU@1": 0.7618042426742613,
+        "mIoU@2": 0.7817478965688497,
+        "mIoU@3": 0.791393770724535,
+        "mIoU@5": 0.801914347911952,
+        "NoC@85": 3.185,
+        "Success@85/5": 0.595,
+        "NoC@90": 4.2,
+        "Success@90/5": 0.39,
+        "RegressionRate": 0.4075,
+        "RegressionRate@4": 0.465,
+        "RegressionRate@5": 0.51,
+        "LateRegressionRate@4-5": 0.4875
+      }
+    },
+    "43": {
+      "seed": 43,
+      "best_epoch": 3,
+      "selection_metric": "mIoU@5",
+      "selection_direction": "max",
+      "selection_score": 0.8329656241089105,
+      "trainable_vimr_parameters": 4159588,
+      "epoch_history": [
+        {
+          "epoch": 1,
+          "mean_train_iou_at_max_clicks": 0.7367779305614531,
+          "mean_gradient_norm": 2.564506748301908,
+          "mIoU@1": 0.7638909631595016,
+          "mIoU@2": 0.7703692707233131,
+          "mIoU@3": 0.7766274509078357,
+          "mIoU@5": 0.7887663196865469,
+          "NoC@85": 3.19,
+          "Success@85/5": 0.6,
+          "NoC@90": 4.12,
+          "Success@90/5": 0.39,
+          "RegressionRate": 0.40375,
+          "RegressionRate@4": 0.435,
+          "RegressionRate@5": 0.55,
+          "LateRegressionRate@4-5": 0.4925
+        },
+        {
+          "epoch": 2,
+          "mean_train_iou_at_max_clicks": 0.8072753221234307,
+          "mean_gradient_norm": 0.9880474277511239,
+          "mIoU@1": 0.7771260742843151,
+          "mIoU@2": 0.7995464641973377,
+          "mIoU@3": 0.8045383452996612,
+          "mIoU@5": 0.8062172304280102,
+          "NoC@85": 3.02,
+          "Success@85/5": 0.63,
+          "NoC@90": 4.125,
+          "Success@90/5": 0.395,
+          "RegressionRate": 0.38375,
+          "RegressionRate@4": 0.505,
+          "RegressionRate@5": 0.495,
+          "LateRegressionRate@4-5": 0.5
+        },
+        {
+          "epoch": 3,
+          "mean_train_iou_at_max_clicks": 0.8208973851911724,
+          "mean_gradient_norm": 0.5936522641461343,
+          "mIoU@1": 0.7856496220827103,
+          "mIoU@2": 0.8103406488895416,
+          "mIoU@3": 0.8206347833573818,
+          "mIoU@5": 0.8329656241089105,
+          "NoC@85": 2.78,
+          "Success@85/5": 0.69,
+          "NoC@90": 3.985,
+          "Success@90/5": 0.435,
+          "RegressionRate": 0.3475,
+          "RegressionRate@4": 0.38,
+          "RegressionRate@5": 0.43,
+          "LateRegressionRate@4-5": 0.405
+        }
+      ],
+      "baseline_metrics": {
+        "mIoU@1": 0.4258545961824711,
+        "mIoU@2": 0.627116411854513,
+        "mIoU@3": 0.6315220391849289,
+        "mIoU@5": 0.679223030663561,
+        "NoC@85": 3.57,
+        "Success@85/5": 0.645,
+        "NoC@90": 4.425,
+        "Success@90/5": 0.425,
+        "RegressionRate": 0.43,
+        "RegressionRate@4": 0.44,
+        "RegressionRate@5": 0.46,
+        "LateRegressionRate@4-5": 0.45
+      },
+      "vimr_metrics": {
+        "mIoU@1": 0.7856496220827103,
+        "mIoU@2": 0.8103406488895416,
+        "mIoU@3": 0.8206347833573818,
+        "mIoU@5": 0.8329656241089105,
+        "NoC@85": 2.78,
+        "Success@85/5": 0.69,
+        "NoC@90": 3.985,
+        "Success@90/5": 0.435,
+        "RegressionRate": 0.3475,
+        "RegressionRate@4": 0.38,
+        "RegressionRate@5": 0.43,
+        "LateRegressionRate@4-5": 0.405
+      }
+    },
+    "44": {
+      "seed": 44,
+      "best_epoch": 3,
+      "selection_metric": "mIoU@5",
+      "selection_direction": "max",
+      "selection_score": 0.8331577070057392,
+      "trainable_vimr_parameters": 4159588,
+      "epoch_history": [
+        {
+          "epoch": 1,
+          "mean_train_iou_at_max_clicks": 0.7317830643840134,
+          "mean_gradient_norm": 2.182339290153235,
+          "mIoU@1": 0.7600303707644344,
+          "mIoU@2": 0.7806610901094974,
+          "mIoU@3": 0.7811942221526987,
+          "mIoU@5": 0.7810894947825,
+          "NoC@85": 3.205,
+          "Success@85/5": 0.595,
+          "NoC@90": 4.23,
+          "Success@90/5": 0.375,
+          "RegressionRate": 0.3825,
+          "RegressionRate@4": 0.46,
+          "RegressionRate@5": 0.48,
+          "LateRegressionRate@4-5": 0.47
+        },
+        {
+          "epoch": 2,
+          "mean_train_iou_at_max_clicks": 0.8060436659101397,
+          "mean_gradient_norm": 0.7262028145678341,
+          "mIoU@1": 0.7886630399525165,
+          "mIoU@2": 0.8030012067779899,
+          "mIoU@3": 0.8045593398064375,
+          "mIoU@5": 0.8106808993965388,
+          "NoC@85": 2.905,
+          "Success@85/5": 0.65,
+          "NoC@90": 3.965,
+          "Success@90/5": 0.435,
+          "RegressionRate": 0.38125,
+          "RegressionRate@4": 0.455,
+          "RegressionRate@5": 0.42,
+          "LateRegressionRate@4-5": 0.4375
+        },
+        {
+          "epoch": 3,
+          "mean_train_iou_at_max_clicks": 0.8236451692730188,
+          "mean_gradient_norm": 0.5579010837804526,
+          "mIoU@1": 0.7773863325361162,
+          "mIoU@2": 0.8103621568717062,
+          "mIoU@3": 0.8224356470257044,
+          "mIoU@5": 0.8331577070057392,
+          "NoC@85": 2.92,
+          "Success@85/5": 0.66,
+          "NoC@90": 3.96,
+          "Success@90/5": 0.45,
+          "RegressionRate": 0.33,
+          "RegressionRate@4": 0.34,
+          "RegressionRate@5": 0.41,
+          "LateRegressionRate@4-5": 0.375
+        }
+      ],
+      "baseline_metrics": {
+        "mIoU@1": 0.4258545961824711,
+        "mIoU@2": 0.627116411854513,
+        "mIoU@3": 0.6315220391849289,
+        "mIoU@5": 0.679223030663561,
+        "NoC@85": 3.57,
+        "Success@85/5": 0.645,
+        "NoC@90": 4.425,
+        "Success@90/5": 0.425,
+        "RegressionRate": 0.43,
+        "RegressionRate@4": 0.44,
+        "RegressionRate@5": 0.46,
+        "LateRegressionRate@4-5": 0.45
+      },
+      "vimr_metrics": {
+        "mIoU@1": 0.7773863325361162,
+        "mIoU@2": 0.8103621568717062,
+        "mIoU@3": 0.8224356470257044,
+        "mIoU@5": 0.8331577070057392,
+        "NoC@85": 2.92,
+        "Success@85/5": 0.66,
+        "NoC@90": 3.96,
+        "Success@90/5": 0.45,
+        "RegressionRate": 0.33,
+        "RegressionRate@4": 0.34,
+        "RegressionRate@5": 0.41,
+        "LateRegressionRate@4-5": 0.375
+      }
+    }
+  },
+  "aggregate": {
+    "mIoU@1": {
+      "baseline": 0.4258545961824711,
+      "vimr_mean": 0.7749467324310292,
+      "vimr_std": 0.012108437813680841,
+      "delta_mean": 0.34909213624855806
+    },
+    "mIoU@2": {
+      "baseline": 0.627116411854513,
+      "vimr_mean": 0.8008169007766992,
+      "vimr_std": 0.01651424557034199,
+      "delta_mean": 0.17370048892218626
+    },
+    "mIoU@3": {
+      "baseline": 0.6315220391849289,
+      "vimr_mean": 0.8114880670358738,
+      "vimr_std": 0.017425450802601418,
+      "delta_mean": 0.17996602785094495
+    },
+    "mIoU@5": {
+      "baseline": 0.679223030663561,
+      "vimr_mean": 0.8226792263422006,
+      "vimr_std": 0.017983168689835072,
+      "delta_mean": 0.14345619567863954
+    },
+    "NoC@85": {
+      "baseline": 3.57,
+      "vimr_mean": 2.9616666666666664,
+      "vimr_std": 0.20568989604094168,
+      "delta_mean": -0.6083333333333334
+    },
+    "Success@85/5": {
+      "baseline": 0.645,
+      "vimr_mean": 0.6483333333333333,
+      "vimr_std": 0.048562674281111544,
+      "delta_mean": 0.0033333333333332993
+    },
+    "NoC@90": {
+      "baseline": 4.425,
+      "vimr_mean": 4.048333333333333,
+      "vimr_std": 0.13194064322009869,
+      "delta_mean": -0.3766666666666669
+    },
+    "Success@90/5": {
+      "baseline": 0.425,
+      "vimr_mean": 0.425,
+      "vimr_std": 0.031224989991991987,
+      "delta_mean": 0.0
+    },
+    "RegressionRate": {
+      "baseline": 0.43,
+      "vimr_mean": 0.36166666666666664,
+      "vimr_std": 0.04064582799419065,
+      "delta_mean": -0.06833333333333336
+    },
+    "RegressionRate@4": {
+      "baseline": 0.44,
+      "vimr_mean": 0.395,
+      "vimr_std": 0.06383572667401853,
+      "delta_mean": -0.044999999999999984
+    },
+    "RegressionRate@5": {
+      "baseline": 0.46,
+      "vimr_mean": 0.44999999999999996,
+      "vimr_std": 0.05291502622129183,
+      "delta_mean": -0.010000000000000064
+    },
+    "LateRegressionRate@4-5": {
+      "baseline": 0.45,
+      "vimr_mean": 0.42250000000000004,
+      "vimr_std": 0.058255900988655206,
+      "delta_mean": -0.02749999999999997
+    }
+  }
+}

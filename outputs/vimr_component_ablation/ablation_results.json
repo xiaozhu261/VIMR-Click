@@ -1,0 +1,814 @@
+{
+  "models": [
+    {
+      "label": "Baseline",
+      "source": "frozen EfficientViT-SAM baseline from the shared validation runs",
+      "best_epochs": [],
+      "trainable_parameters": [
+        0
+      ],
+      "aggregate": {
+        "mIoU@1": {
+          "baseline": 0.4258545961824711,
+          "vimr_mean": 0.4258545961824711,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "mIoU@2": {
+          "baseline": 0.627116411854513,
+          "vimr_mean": 0.627116411854513,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "mIoU@3": {
+          "baseline": 0.6315220391849289,
+          "vimr_mean": 0.6315220391849289,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "mIoU@5": {
+          "baseline": 0.679223030663561,
+          "vimr_mean": 0.679223030663561,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "NoC@85": {
+          "baseline": 3.57,
+          "vimr_mean": 3.57,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "Success@85/5": {
+          "baseline": 0.645,
+          "vimr_mean": 0.645,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "NoC@90": {
+          "baseline": 4.425,
+          "vimr_mean": 4.425,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "Success@90/5": {
+          "baseline": 0.425,
+          "vimr_mean": 0.425,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "RegressionRate": {
+          "baseline": 0.43,
+          "vimr_mean": 0.43,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "MeanRegressionMagnitude": {
+          "baseline": 0.11326966876440565,
+          "vimr_mean": 0.11326966876440565,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "FinalSuccess@85/5": {
+          "baseline": 0.365,
+          "vimr_mean": 0.365,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "LostAfterSuccess@85/5": {
+          "baseline": 0.28,
+          "vimr_mean": 0.28,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "FinalSuccess@90/5": {
+          "baseline": 0.2,
+          "vimr_mean": 0.2,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "LostAfterSuccess@90/5": {
+          "baseline": 0.225,
+          "vimr_mean": 0.225,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "RegressionRate@4": {
+          "baseline": 0.44,
+          "vimr_mean": 0.44,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "RegressionRate@5": {
+          "baseline": 0.46,
+          "vimr_mean": 0.46,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "LateRegressionRate@4-5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.45,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "LateMeanRegressionMagnitude@4-5": {
+          "baseline": 0.10184253261773847,
+          "vimr_mean": 0.10184253261773847,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "LateSevereRegressionRate@4-5>0.05": {
+          "baseline": 0.2625,
+          "vimr_mean": 0.2625,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        },
+        "LateSevereRegressionRate@4-5>0.10": {
+          "baseline": 0.2375,
+          "vimr_mean": 0.2375,
+          "vimr_std": 0.0,
+          "delta_mean": 0.0
+        }
+      }
+    },
+    {
+      "label": "Fusion-only",
+      "source": "G:\\lab\\VIMR-Click\\outputs\\vimr_component_ablation\\fusion_only\\results.json",
+      "best_epochs": [
+        2,
+        3,
+        3
+      ],
+      "trainable_parameters": [
+        686723,
+        686723,
+        686723
+      ],
+      "aggregate": {
+        "mIoU@1": {
+          "baseline": 0.4258545961824711,
+          "vimr_mean": 0.7630950226696829,
+          "vimr_std": 0.010993543206616602,
+          "delta_mean": 0.33724042648721175
+        },
+        "mIoU@2": {
+          "baseline": 0.627116411854513,
+          "vimr_mean": 0.7849774273283159,
+          "vimr_std": 0.013008407372319609,
+          "delta_mean": 0.15786101547380293
+        },
+        "mIoU@3": {
+          "baseline": 0.6315220391849289,
+          "vimr_mean": 0.786473329749812,
+          "vimr_std": 0.012913581152974439,
+          "delta_mean": 0.1549512905648831
+        },
+        "mIoU@5": {
+          "baseline": 0.679223030663561,
+          "vimr_mean": 0.7853140893040957,
+          "vimr_std": 0.016403974575455896,
+          "delta_mean": 0.1060910586405347
+        },
+        "NoC@85": {
+          "baseline": 3.57,
+          "vimr_mean": 3.0700000000000003,
+          "vimr_std": 0.06383572667401852,
+          "delta_mean": -0.49999999999999956
+        },
+        "Success@85/5": {
+          "baseline": 0.645,
+          "vimr_mean": 0.615,
+          "vimr_std": 0.017320508075688787,
+          "delta_mean": -0.030000000000000027
+        },
+        "NoC@90": {
+          "baseline": 4.425,
+          "vimr_mean": 4.131666666666667,
+          "vimr_std": 0.050083264004389005,
+          "delta_mean": -0.293333333333333
+        },
+        "Success@90/5": {
+          "baseline": 0.425,
+          "vimr_mean": 0.3933333333333333,
+          "vimr_std": 0.014433756729740626,
+          "delta_mean": -0.031666666666666676
+        },
+        "RegressionRate": {
+          "baseline": 0.43,
+          "vimr_mean": 0.465,
+          "vimr_std": 0.02384848003542363,
+          "delta_mean": 0.03500000000000003
+        },
+        "MeanRegressionMagnitude": {
+          "baseline": 0.11326966876440565,
+          "vimr_mean": 0.011281572589944819,
+          "vimr_std": 0.0020929328460508527,
+          "delta_mean": -0.10198809617446083
+        },
+        "FinalSuccess@85/5": {
+          "baseline": 0.365,
+          "vimr_mean": 0.5483333333333333,
+          "vimr_std": 0.03329164059239693,
+          "delta_mean": 0.18333333333333335
+        },
+        "LostAfterSuccess@85/5": {
+          "baseline": 0.28,
+          "vimr_mean": 0.06666666666666667,
+          "vimr_std": 0.016072751268321594,
+          "delta_mean": -0.21333333333333337
+        },
+        "FinalSuccess@90/5": {
+          "baseline": 0.2,
+          "vimr_mean": 0.3633333333333333,
+          "vimr_std": 0.012583057392117928,
+          "delta_mean": 0.16333333333333327
+        },
+        "LostAfterSuccess@90/5": {
+          "baseline": 0.225,
+          "vimr_mean": 0.030000000000000002,
+          "vimr_std": 0.008660254037844388,
+          "delta_mean": -0.195
+        },
+        "RegressionRate@4": {
+          "baseline": 0.44,
+          "vimr_mean": 0.53,
+          "vimr_std": 0.02291287847477922,
+          "delta_mean": 0.09000000000000002
+        },
+        "RegressionRate@5": {
+          "baseline": 0.46,
+          "vimr_mean": 0.5116666666666667,
+          "vimr_std": 0.017559422921421246,
+          "delta_mean": 0.051666666666666694
+        },
+        "LateRegressionRate@4-5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.5208333333333334,
+          "vimr_std": 0.02020725942163692,
+          "delta_mean": 0.07083333333333336
+        },
+        "LateMeanRegressionMagnitude@4-5": {
+          "baseline": 0.10184253261773847,
+          "vimr_mean": 0.010631765564521627,
+          "vimr_std": 0.002880584417229961,
+          "delta_mean": -0.09121076705321685
+        },
+        "LateSevereRegressionRate@4-5>0.05": {
+          "baseline": 0.2625,
+          "vimr_mean": 0.04083333333333333,
+          "vimr_std": 0.005773502691896258,
+          "delta_mean": -0.22166666666666668
+        },
+        "LateSevereRegressionRate@4-5>0.10": {
+          "baseline": 0.2375,
+          "vimr_mean": 0.020833333333333332,
+          "vimr_std": 0.0038188130791298666,
+          "delta_mean": -0.21666666666666665
+        }
+      }
+    },
+    {
+      "label": "+Viewport",
+      "source": "G:\\lab\\VIMR-Click\\outputs\\vimr_component_ablation\\viewport\\results.json",
+      "best_epochs": [
+        2,
+        3,
+        3
+      ],
+      "trainable_parameters": [
+        686723,
+        686723,
+        686723
+      ],
+      "aggregate": {
+        "mIoU@1": {
+          "baseline": 0.42594562833197414,
+          "vimr_mean": 0.7717807087767868,
+          "vimr_std": 0.008189673362656523,
+          "delta_mean": 0.3458350804448127
+        },
+        "mIoU@2": {
+          "baseline": 0.6262182111782022,
+          "vimr_mean": 0.7931902492232621,
+          "vimr_std": 0.0048347388847345,
+          "delta_mean": 0.1669720380450599
+        },
+        "mIoU@3": {
+          "baseline": 0.6306060100707691,
+          "vimr_mean": 0.8014011203978831,
+          "vimr_std": 0.006587958064004763,
+          "delta_mean": 0.17079511032711403
+        },
+        "mIoU@5": {
+          "baseline": 0.6771603284718003,
+          "vimr_mean": 0.7996976242171755,
+          "vimr_std": 0.010287983637337657,
+          "delta_mean": 0.1225372957453752
+        },
+        "NoC@85": {
+          "baseline": 3.585,
+          "vimr_mean": 3.0,
+          "vimr_std": 0.06557438524301992,
+          "delta_mean": -0.585
+        },
+        "Success@85/5": {
+          "baseline": 0.645,
+          "vimr_mean": 0.6383333333333333,
+          "vimr_std": 0.012583057392117928,
+          "delta_mean": -0.00666666666666671
+        },
+        "NoC@90": {
+          "baseline": 4.435,
+          "vimr_mean": 4.068333333333333,
+          "vimr_std": 0.016072751268321757,
+          "delta_mean": -0.36666666666666625
+        },
+        "Success@90/5": {
+          "baseline": 0.43,
+          "vimr_mean": 0.415,
+          "vimr_std": 0.008660254037844362,
+          "delta_mean": -0.015000000000000013
+        },
+        "RegressionRate": {
+          "baseline": 0.43,
+          "vimr_mean": 0.45375000000000004,
+          "vimr_std": 0.0340266439720405,
+          "delta_mean": 0.02375000000000005
+        },
+        "MeanRegressionMagnitude": {
+          "baseline": 0.11261006712389644,
+          "vimr_mean": 0.008213495989233101,
+          "vimr_std": 0.002060023874686311,
+          "delta_mean": -0.10439657113466334
+        },
+        "FinalSuccess@85/5": {
+          "baseline": 0.385,
+          "vimr_mean": 0.585,
+          "vimr_std": 0.01732050807568879,
+          "delta_mean": 0.19999999999999996
+        },
+        "LostAfterSuccess@85/5": {
+          "baseline": 0.26,
+          "vimr_mean": 0.05333333333333334,
+          "vimr_std": 0.020207259421636897,
+          "delta_mean": -0.20666666666666667
+        },
+        "FinalSuccess@90/5": {
+          "baseline": 0.225,
+          "vimr_mean": 0.3633333333333333,
+          "vimr_std": 0.020816659994661313,
+          "delta_mean": 0.13833333333333328
+        },
+        "LostAfterSuccess@90/5": {
+          "baseline": 0.205,
+          "vimr_mean": 0.051666666666666666,
+          "vimr_std": 0.012583057392117916,
+          "delta_mean": -0.15333333333333332
+        },
+        "RegressionRate@4": {
+          "baseline": 0.45,
+          "vimr_mean": 0.5283333333333333,
+          "vimr_std": 0.010408329997330672,
+          "delta_mean": 0.07833333333333331
+        },
+        "RegressionRate@5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.49500000000000005,
+          "vimr_std": 0.052678268764263715,
+          "delta_mean": 0.04500000000000004
+        },
+        "LateRegressionRate@4-5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.5116666666666666,
+          "vimr_std": 0.027651100038395094,
+          "delta_mean": 0.06166666666666659
+        },
+        "LateMeanRegressionMagnitude@4-5": {
+          "baseline": 0.1018001232430106,
+          "vimr_mean": 0.008492821866918044,
+          "vimr_std": 0.0025925098983508327,
+          "delta_mean": -0.09330730137609256
+        },
+        "LateSevereRegressionRate@4-5>0.05": {
+          "baseline": 0.265,
+          "vimr_mean": 0.0375,
+          "vimr_std": 0.01520690632574555,
+          "delta_mean": -0.2275
+        },
+        "LateSevereRegressionRate@4-5>0.10": {
+          "baseline": 0.235,
+          "vimr_mean": 0.01916666666666667,
+          "vimr_std": 0.008779711460710615,
+          "delta_mean": -0.21583333333333332
+        }
+      }
+    },
+    {
+      "label": "+History",
+      "source": "G:\\lab\\VIMR-Click\\outputs\\vimr_component_ablation\\history\\results.json",
+      "best_epochs": [
+        3,
+        3,
+        3
+      ],
+      "trainable_parameters": [
+        3932099,
+        3932099,
+        3932099
+      ],
+      "aggregate": {
+        "mIoU@1": {
+          "baseline": 0.42594562833197414,
+          "vimr_mean": 0.7709798097734649,
+          "vimr_std": 0.01736217735284047,
+          "delta_mean": 0.3450341814414908
+        },
+        "mIoU@2": {
+          "baseline": 0.6262182111782022,
+          "vimr_mean": 0.7908289604282376,
+          "vimr_std": 0.016759928090833962,
+          "delta_mean": 0.16461074925003538
+        },
+        "mIoU@3": {
+          "baseline": 0.6306060100707691,
+          "vimr_mean": 0.8043111768225207,
+          "vimr_std": 0.015595881936155532,
+          "delta_mean": 0.17370516675175163
+        },
+        "mIoU@5": {
+          "baseline": 0.6771603284718003,
+          "vimr_mean": 0.8121133667525525,
+          "vimr_std": 0.008489545926156656,
+          "delta_mean": 0.13495303828075222
+        },
+        "NoC@85": {
+          "baseline": 3.585,
+          "vimr_mean": 3.0399999999999996,
+          "vimr_std": 0.0793725393319377,
+          "delta_mean": -0.5450000000000004
+        },
+        "Success@85/5": {
+          "baseline": 0.645,
+          "vimr_mean": 0.64,
+          "vimr_std": 0.018027756377319962,
+          "delta_mean": -0.0050000000000000044
+        },
+        "NoC@90": {
+          "baseline": 4.435,
+          "vimr_mean": 4.04,
+          "vimr_std": 0.056789083458003056,
+          "delta_mean": -0.3949999999999996
+        },
+        "Success@90/5": {
+          "baseline": 0.43,
+          "vimr_mean": 0.4266666666666667,
+          "vimr_std": 0.010408329997330672,
+          "delta_mean": -0.0033333333333332993
+        },
+        "RegressionRate": {
+          "baseline": 0.43,
+          "vimr_mean": 0.41291666666666665,
+          "vimr_std": 0.007324331596352917,
+          "delta_mean": -0.01708333333333334
+        },
+        "MeanRegressionMagnitude": {
+          "baseline": 0.11261006712389644,
+          "vimr_mean": 0.006845819569098239,
+          "vimr_std": 0.0028050657256821535,
+          "delta_mean": -0.1057642475547982
+        },
+        "FinalSuccess@85/5": {
+          "baseline": 0.385,
+          "vimr_mean": 0.615,
+          "vimr_std": 0.008660254037844395,
+          "delta_mean": 0.22999999999999998
+        },
+        "LostAfterSuccess@85/5": {
+          "baseline": 0.26,
+          "vimr_mean": 0.024999999999999998,
+          "vimr_std": 0.018027756377319945,
+          "delta_mean": -0.23500000000000001
+        },
+        "FinalSuccess@90/5": {
+          "baseline": 0.225,
+          "vimr_mean": 0.39999999999999997,
+          "vimr_std": 0.008660254037844362,
+          "delta_mean": 0.17499999999999996
+        },
+        "LostAfterSuccess@90/5": {
+          "baseline": 0.205,
+          "vimr_mean": 0.02666666666666667,
+          "vimr_std": 0.011547005383792516,
+          "delta_mean": -0.17833333333333332
+        },
+        "RegressionRate@4": {
+          "baseline": 0.45,
+          "vimr_mean": 0.47333333333333333,
+          "vimr_std": 0.03329164059239696,
+          "delta_mean": 0.023333333333333317
+        },
+        "RegressionRate@5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.47000000000000003,
+          "vimr_std": 0.042720018726587664,
+          "delta_mean": 0.020000000000000018
+        },
+        "LateRegressionRate@4-5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.4716666666666667,
+          "vimr_std": 0.024281337140555765,
+          "delta_mean": 0.021666666666666667
+        },
+        "LateMeanRegressionMagnitude@4-5": {
+          "baseline": 0.1018001232430106,
+          "vimr_mean": 0.007233901136787609,
+          "vimr_std": 0.0032419763258336996,
+          "delta_mean": -0.094566222106223
+        },
+        "LateSevereRegressionRate@4-5>0.05": {
+          "baseline": 0.265,
+          "vimr_mean": 0.0325,
+          "vimr_std": 0.0175,
+          "delta_mean": -0.2325
+        },
+        "LateSevereRegressionRate@4-5>0.10": {
+          "baseline": 0.235,
+          "vimr_mean": 0.017499999999999998,
+          "vimr_std": 0.0114564392373896,
+          "delta_mean": -0.2175
+        }
+      }
+    },
+    {
+      "label": "+Residual",
+      "source": "G:\\lab\\VIMR-Click\\outputs\\vimr_component_ablation\\residual\\results.json",
+      "best_epochs": [
+        2,
+        3,
+        3
+      ],
+      "trainable_parameters": [
+        4099491,
+        4099491,
+        4099491
+      ],
+      "aggregate": {
+        "mIoU@1": {
+          "baseline": 0.42594562833197414,
+          "vimr_mean": 0.7847696957457811,
+          "vimr_std": 0.005432626240097323,
+          "delta_mean": 0.358824067413807
+        },
+        "mIoU@2": {
+          "baseline": 0.6262182111782022,
+          "vimr_mean": 0.8042153558689945,
+          "vimr_std": 0.003794881673159894,
+          "delta_mean": 0.1779971446907923
+        },
+        "mIoU@3": {
+          "baseline": 0.6306060100707691,
+          "vimr_mean": 0.813366682715714,
+          "vimr_std": 0.0014175307583086944,
+          "delta_mean": 0.1827606726449449
+        },
+        "mIoU@5": {
+          "baseline": 0.6771603284718003,
+          "vimr_mean": 0.8179769952083008,
+          "vimr_std": 0.004953904453656447,
+          "delta_mean": 0.1408166667365005
+        },
+        "NoC@85": {
+          "baseline": 3.585,
+          "vimr_mean": 2.936666666666667,
+          "vimr_std": 0.00763762615825957,
+          "delta_mean": -0.648333333333333
+        },
+        "Success@85/5": {
+          "baseline": 0.645,
+          "vimr_mean": 0.65,
+          "vimr_std": 0.013228756555322964,
+          "delta_mean": 0.0050000000000000044
+        },
+        "NoC@90": {
+          "baseline": 4.435,
+          "vimr_mean": 4.031666666666667,
+          "vimr_std": 0.02254624876411442,
+          "delta_mean": -0.40333333333333243
+        },
+        "Success@90/5": {
+          "baseline": 0.43,
+          "vimr_mean": 0.42166666666666663,
+          "vimr_std": 0.011547005383792526,
+          "delta_mean": -0.00833333333333336
+        },
+        "RegressionRate": {
+          "baseline": 0.43,
+          "vimr_mean": 0.44708333333333333,
+          "vimr_std": 0.017062996024536058,
+          "delta_mean": 0.01708333333333334
+        },
+        "MeanRegressionMagnitude": {
+          "baseline": 0.11261006712389644,
+          "vimr_mean": 0.007728234354702484,
+          "vimr_std": 0.0019389197282697712,
+          "delta_mean": -0.10488183276919395
+        },
+        "FinalSuccess@85/5": {
+          "baseline": 0.385,
+          "vimr_mean": 0.6083333333333334,
+          "vimr_std": 0.012583057392117928,
+          "delta_mean": 0.22333333333333338
+        },
+        "LostAfterSuccess@85/5": {
+          "baseline": 0.26,
+          "vimr_mean": 0.041666666666666664,
+          "vimr_std": 0.025658007197234423,
+          "delta_mean": -0.21833333333333335
+        },
+        "FinalSuccess@90/5": {
+          "baseline": 0.225,
+          "vimr_mean": 0.37833333333333335,
+          "vimr_std": 0.01892969448600093,
+          "delta_mean": 0.15333333333333335
+        },
+        "LostAfterSuccess@90/5": {
+          "baseline": 0.205,
+          "vimr_mean": 0.043333333333333335,
+          "vimr_std": 0.007637626158259732,
+          "delta_mean": -0.16166666666666665
+        },
+        "RegressionRate@4": {
+          "baseline": 0.45,
+          "vimr_mean": 0.5083333333333333,
+          "vimr_std": 0.03752776749732571,
+          "delta_mean": 0.05833333333333329
+        },
+        "RegressionRate@5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.5266666666666667,
+          "vimr_std": 0.023094010767585053,
+          "delta_mean": 0.07666666666666672
+        },
+        "LateRegressionRate@4-5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.5175,
+          "vimr_std": 0.029474565306378993,
+          "delta_mean": 0.06749999999999995
+        },
+        "LateMeanRegressionMagnitude@4-5": {
+          "baseline": 0.1018001232430106,
+          "vimr_mean": 0.007334257965994766,
+          "vimr_std": 0.0018987940291485788,
+          "delta_mean": -0.09446586527701584
+        },
+        "LateSevereRegressionRate@4-5>0.05": {
+          "baseline": 0.265,
+          "vimr_mean": 0.0275,
+          "vimr_std": 0.006614378277661477,
+          "delta_mean": -0.23750000000000002
+        },
+        "LateSevereRegressionRate@4-5>0.10": {
+          "baseline": 0.235,
+          "vimr_mean": 0.01333333333333333,
+          "vimr_std": 0.01010362971081845,
+          "delta_mean": -0.22166666666666665
+        }
+      }
+    },
+    {
+      "label": "Full VIMR",
+      "source": "G:\\lab\\VIMR-Click\\outputs\\vimr_safe_update_sweep\\S3\\results.json",
+      "best_epochs": [
+        3,
+        3,
+        3
+      ],
+      "trainable_parameters": [
+        4159588,
+        4159588,
+        4159588
+      ],
+      "aggregate": {
+        "mIoU@1": {
+          "baseline": 0.42594562833197414,
+          "vimr_mean": 0.7836664560716601,
+          "vimr_std": 0.003513129530950564,
+          "delta_mean": 0.35772082773968594
+        },
+        "mIoU@2": {
+          "baseline": 0.6262182111782022,
+          "vimr_mean": 0.8031146474865576,
+          "vimr_std": 0.010828059697286483,
+          "delta_mean": 0.1768964363083554
+        },
+        "mIoU@3": {
+          "baseline": 0.6306060100707691,
+          "vimr_mean": 0.8094780671969056,
+          "vimr_std": 0.014060735637638572,
+          "delta_mean": 0.17887205712613652
+        },
+        "mIoU@5": {
+          "baseline": 0.6771603284718003,
+          "vimr_mean": 0.8173214002884924,
+          "vimr_std": 0.015755721074382747,
+          "delta_mean": 0.14016107181669213
+        },
+        "NoC@85": {
+          "baseline": 3.585,
+          "vimr_mean": 2.918333333333333,
+          "vimr_std": 0.08976822006330157,
+          "delta_mean": -0.666666666666667
+        },
+        "Success@85/5": {
+          "baseline": 0.645,
+          "vimr_mean": 0.6566666666666667,
+          "vimr_std": 0.027537852736430536,
+          "delta_mean": 0.011666666666666714
+        },
+        "NoC@90": {
+          "baseline": 4.435,
+          "vimr_mean": 4.0216666666666665,
+          "vimr_std": 0.09073771725877466,
+          "delta_mean": -0.4133333333333331
+        },
+        "Success@90/5": {
+          "baseline": 0.43,
+          "vimr_mean": 0.4183333333333333,
+          "vimr_std": 0.025658007197234413,
+          "delta_mean": -0.011666666666666714
+        },
+        "RegressionRate": {
+          "baseline": 0.43,
+          "vimr_mean": 0.36041666666666666,
+          "vimr_std": 0.06048415770541354,
+          "delta_mean": -0.06958333333333333
+        },
+        "MeanRegressionMagnitude": {
+          "baseline": 0.11261006712389644,
+          "vimr_mean": 0.004897815423707167,
+          "vimr_std": 0.001544386318745479,
+          "delta_mean": -0.10771225170018928
+        },
+        "FinalSuccess@85/5": {
+          "baseline": 0.385,
+          "vimr_mean": 0.615,
+          "vimr_std": 0.043588989435406775,
+          "delta_mean": 0.22999999999999998
+        },
+        "LostAfterSuccess@85/5": {
+          "baseline": 0.26,
+          "vimr_mean": 0.041666666666666664,
+          "vimr_std": 0.01755942292142123,
+          "delta_mean": -0.21833333333333335
+        },
+        "FinalSuccess@90/5": {
+          "baseline": 0.225,
+          "vimr_mean": 0.38999999999999996,
+          "vimr_std": 0.03278719262151001,
+          "delta_mean": 0.16499999999999995
+        },
+        "LostAfterSuccess@90/5": {
+          "baseline": 0.205,
+          "vimr_mean": 0.028333333333333335,
+          "vimr_std": 0.007637626158259734,
+          "delta_mean": -0.17666666666666664
+        },
+        "RegressionRate@4": {
+          "baseline": 0.45,
+          "vimr_mean": 0.4116666666666667,
+          "vimr_std": 0.08020806277010642,
+          "delta_mean": -0.03833333333333333
+        },
+        "RegressionRate@5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.46,
+          "vimr_std": 0.07262919523166976,
+          "delta_mean": 0.010000000000000009
+        },
+        "LateRegressionRate@4-5": {
+          "baseline": 0.45,
+          "vimr_mean": 0.43583333333333335,
+          "vimr_std": 0.06644233088425879,
+          "delta_mean": -0.01416666666666666
+        },
+        "LateMeanRegressionMagnitude@4-5": {
+          "baseline": 0.1018001232430106,
+          "vimr_mean": 0.0037613825406879187,
+          "vimr_std": 0.001635482112136423,
+          "delta_mean": -0.09803874070232269
+        },
+        "LateSevereRegressionRate@4-5>0.05": {
+          "baseline": 0.265,
+          "vimr_mean": 0.011666666666666667,
+          "vimr_std": 0.008036375634160795,
+          "delta_mean": -0.25333333333333335
+        },
+        "LateSevereRegressionRate@4-5>0.10": {
+          "baseline": 0.235,
+          "vimr_mean": 0.0033333333333333335,
+          "vimr_std": 0.003818813079129866,
+          "delta_mean": -0.23166666666666666
+        }
+      }
+    }
+  ]
+}

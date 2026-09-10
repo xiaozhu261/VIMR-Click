@@ -1,0 +1,33 @@
+net_config:
+  name: efficientvit-sam-vimr-l0
+  ckpt: assets/checkpoints/efficientvit_sam/distilled_model/efficientvit-sam-l0.pt
+  vimr_config:
+    enabled: true
+    use_viewport: true
+    use_history: true
+    use_residual: true
+    use_safe_update: true
+    safe_update: true
+    d_model: 256
+    memory_layers: 4
+    memory_heads: 8
+    memory_ffn_dim: 1024
+    max_history: 16
+    viewport_fourier_levels: 6
+    action_embedding_dim: 32
+    lambda_safe: 0.2
+    lambda_monotonic: 0.1
+    monotonic_margin: 0.0
+    gate_init_probability: 0.1
+    freeze_image_encoder: true
+    freeze_prompt_encoder: false
+    enable_expert_router: false
+    enable_detail_refinement: false
+    router_temperature: 1.0
+    detail_refinement_strength: 1.0
+
+data_provider:
+  image_size: 512
+
+run_config:
+  base_lr: 0.0000008

@@ -1,0 +1,37 @@
+{
+  "protocol": {
+    "dataset": "COCO 2017 train split, deterministic image-disjoint holdout",
+    "train_instances": 64,
+    "eval_instances": 32,
+    "epochs": 1,
+    "max_clicks": 3,
+    "learning_rate": 0.0001,
+    "seed": 42,
+    "device": "cuda",
+    "elapsed_seconds": 17.340686082839966,
+    "mean_gradient_norm": 6.132481762673706,
+    "base_modules_frozen": true
+  },
+  "metrics": {
+    "baseline": {
+      "mIoU@1": 0.5027748020074796,
+      "mIoU@2": 0.6659208463970572,
+      "mIoU@3": 0.5948294789995998,
+      "NoC@85": 2.71875,
+      "Success@85/3": 0.59375,
+      "NoC@90": 3.125,
+      "Success@90/3": 0.40625,
+      "RegressionRate": 0.40625
+    },
+    "vimr": {
+      "mIoU@1": 0.7283955869497731,
+      "mIoU@2": 0.7373200290603563,
+      "mIoU@3": 0.7530144121501507,
+      "NoC@85": 2.59375,
+      "Success@85/3": 0.5,
+      "NoC@90": 3.03125,
+      "Success@90/3": 0.375,
+      "RegressionRate": 0.453125
+    }
+  }
+}

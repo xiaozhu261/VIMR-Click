@@ -1,0 +1,2408 @@
+{
+  "protocol": {
+    "dataset": "COCO 2017 train split, fixed image-disjoint holdout",
+    "train_instances": 500,
+    "validation_instances": 200,
+    "epochs": 3,
+    "max_clicks": 5,
+    "training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "split_seed": 2026,
+    "shuffle_seed": 90210,
+    "learning_rate": 0.0001,
+    "selection_metric": "mIoU@5",
+    "selection_direction": "max",
+    "components": {
+      "viewport": true,
+      "history": false,
+      "residual": false,
+      "safe_update": false
+    },
+    "fixed_click_policy": "One frozen-baseline-derived sequence per instance, shared by all modes, epochs, and seeds",
+    "viewport_modes": {
+      "default": "global [0.5,0.5,0,0,0,0,0] at every round",
+      "synthetic": "current click-centered policy from viewport_from_click",
+      "shuffled": "no-self instance permutation of complete synthetic trajectories",
+      "correct": "GT-instance-bbox oracle from round 2 onward; not real user telemetry"
+    },
+    "checkpoint_sha256": "c4f994b01a16d48bcf2fbbb089448cfbf58fae5811edfa8113c953b8b8cc64b8",
+    "elapsed_seconds": 8600.17145204544
+  },
+  "baseline": {
+    "mIoU@1": 0.42594562833197414,
+    "mIoU@2": 0.6262182111782022,
+    "mIoU@3": 0.6306060100707691,
+    "mIoU@5": 0.6771603284718003,
+    "NoC@85": 3.585,
+    "Success@85/5": 0.645,
+    "NoC@90": 4.435,
+    "Success@90/5": 0.43,
+    "RegressionRate": 0.43,
+    "MeanRegressionMagnitude": 0.11261006712389644,
+    "FinalSuccess@85/5": 0.385,
+    "LostAfterSuccess@85/5": 0.26,
+    "FinalSuccess@90/5": 0.225,
+    "LostAfterSuccess@90/5": 0.205,
+    "RegressionRate@4": 0.45,
+    "RegressionRate@5": 0.45,
+    "LateRegressionRate@4-5": 0.45,
+    "LateMeanRegressionMagnitude@4-5": 0.1018001232430106,
+    "LateSevereRegressionRate@4-5>0.05": 0.265,
+    "LateSevereRegressionRate@4-5>0.10": 0.235
+  },
+  "modes": {
+    "default": {
+      "42": {
+        "seed": 42,
+        "mode": "default",
+        "best_epoch": 2,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7363559048925526,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.6100592264669685,
+            "mean_gradient_norm": 5.595659482322633,
+            "mIoU@1": 0.7250373258115723,
+            "mIoU@2": 0.740240024792729,
+            "mIoU@3": 0.7249419474729802,
+            "mIoU@5": 0.701452746897703,
+            "NoC@85": 3.425,
+            "Success@85/5": 0.545,
+            "NoC@90": 4.37,
+            "Success@90/5": 0.36,
+            "RegressionRate": 0.51875,
+            "MeanRegressionMagnitude": 0.0261994551117823,
+            "FinalSuccess@85/5": 0.44,
+            "LostAfterSuccess@85/5": 0.105,
+            "FinalSuccess@90/5": 0.29,
+            "LostAfterSuccess@90/5": 0.07,
+            "RegressionRate@4": 0.52,
+            "RegressionRate@5": 0.58,
+            "LateRegressionRate@4-5": 0.55,
+            "LateMeanRegressionMagnitude@4-5": 0.024978664586960804,
+            "LateSevereRegressionRate@4-5>0.05": 0.1075,
+            "LateSevereRegressionRate@4-5>0.10": 0.0725
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7120005912579654,
+            "mean_gradient_norm": 2.2431489026546476,
+            "mIoU@1": 0.7098010995890945,
+            "mIoU@2": 0.7428469740925356,
+            "mIoU@3": 0.7410922421701253,
+            "mIoU@5": 0.7363559048925526,
+            "NoC@85": 3.425,
+            "Success@85/5": 0.555,
+            "NoC@90": 4.4,
+            "Success@90/5": 0.365,
+            "RegressionRate": 0.4475,
+            "MeanRegressionMagnitude": 0.01481374466966372,
+            "FinalSuccess@85/5": 0.495,
+            "LostAfterSuccess@85/5": 0.06,
+            "FinalSuccess@90/5": 0.315,
+            "LostAfterSuccess@90/5": 0.05,
+            "RegressionRate@4": 0.51,
+            "RegressionRate@5": 0.55,
+            "LateRegressionRate@4-5": 0.53,
+            "LateMeanRegressionMagnitude@4-5": 0.01288646658300422,
+            "LateSevereRegressionRate@4-5>0.05": 0.0725,
+            "LateSevereRegressionRate@4-5>0.10": 0.0325
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7244691723396827,
+            "mean_gradient_norm": 1.6314070237129927,
+            "mIoU@1": 0.724072293434292,
+            "mIoU@2": 0.7338806910067797,
+            "mIoU@3": 0.7262289065099321,
+            "mIoU@5": 0.7192983449297026,
+            "NoC@85": 3.515,
+            "Success@85/5": 0.53,
+            "NoC@90": 4.425,
+            "Success@90/5": 0.325,
+            "RegressionRate": 0.515,
+            "MeanRegressionMagnitude": 0.01538622543332167,
+            "FinalSuccess@85/5": 0.475,
+            "LostAfterSuccess@85/5": 0.055,
+            "FinalSuccess@90/5": 0.29,
+            "LostAfterSuccess@90/5": 0.035,
+            "RegressionRate@4": 0.51,
+            "RegressionRate@5": 0.565,
+            "LateRegressionRate@4-5": 0.5375,
+            "LateMeanRegressionMagnitude@4-5": 0.012964031101437285,
+            "LateSevereRegressionRate@4-5>0.05": 0.06,
+            "LateSevereRegressionRate@4-5>0.10": 0.03
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7098010995890945,
+          "mIoU@2": 0.7428469740925356,
+          "mIoU@3": 0.7410922421701253,
+          "mIoU@5": 0.7363559048925526,
+          "NoC@85": 3.425,
+          "Success@85/5": 0.555,
+          "NoC@90": 4.4,
+          "Success@90/5": 0.365,
+          "RegressionRate": 0.4475,
+          "MeanRegressionMagnitude": 0.01481374466966372,
+          "FinalSuccess@85/5": 0.495,
+          "LostAfterSuccess@85/5": 0.06,
+          "FinalSuccess@90/5": 0.315,
+          "LostAfterSuccess@90/5": 0.05,
+          "RegressionRate@4": 0.51,
+          "RegressionRate@5": 0.55,
+          "LateRegressionRate@4-5": 0.53,
+          "LateMeanRegressionMagnitude@4-5": 0.01288646658300422,
+          "LateSevereRegressionRate@4-5>0.05": 0.0725,
+          "LateSevereRegressionRate@4-5>0.10": 0.0325
+        }
+      },
+      "43": {
+        "seed": 43,
+        "mode": "default",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.742200846431806,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.535005739696222,
+            "mean_gradient_norm": 5.598315903067589,
+            "mIoU@1": 0.6814798710122705,
+            "mIoU@2": 0.6949381819274276,
+            "mIoU@3": 0.6871433332621018,
+            "mIoU@5": 0.6843099759188408,
+            "NoC@85": 3.715,
+            "Success@85/5": 0.485,
+            "NoC@90": 4.545,
+            "Success@90/5": 0.31,
+            "RegressionRate": 0.4875,
+            "MeanRegressionMagnitude": 0.017752044714743533,
+            "FinalSuccess@85/5": 0.42,
+            "LostAfterSuccess@85/5": 0.065,
+            "FinalSuccess@90/5": 0.26,
+            "LostAfterSuccess@90/5": 0.05,
+            "RegressionRate@4": 0.5,
+            "RegressionRate@5": 0.48,
+            "LateRegressionRate@4-5": 0.49,
+            "LateMeanRegressionMagnitude@4-5": 0.015570666758922016,
+            "LateSevereRegressionRate@4-5>0.05": 0.0775,
+            "LateSevereRegressionRate@4-5>0.10": 0.0425
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.698488250704133,
+            "mean_gradient_norm": 3.3313946553096176,
+            "mIoU@1": 0.7135971904592588,
+            "mIoU@2": 0.7222375411167741,
+            "mIoU@3": 0.7203289709065576,
+            "mIoU@5": 0.7141995740047423,
+            "NoC@85": 3.63,
+            "Success@85/5": 0.515,
+            "NoC@90": 4.395,
+            "Success@90/5": 0.355,
+            "RegressionRate": 0.485,
+            "MeanRegressionMagnitude": 0.017437121291441145,
+            "FinalSuccess@85/5": 0.48,
+            "LostAfterSuccess@85/5": 0.035,
+            "FinalSuccess@90/5": 0.3,
+            "LostAfterSuccess@90/5": 0.055,
+            "RegressionRate@4": 0.555,
+            "RegressionRate@5": 0.51,
+            "LateRegressionRate@4-5": 0.5325,
+            "LateMeanRegressionMagnitude@4-5": 0.015815955607395155,
+            "LateSevereRegressionRate@4-5>0.05": 0.065,
+            "LateSevereRegressionRate@4-5>0.10": 0.0425
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7175593827296398,
+            "mean_gradient_norm": 2.354140509225428,
+            "mIoU@1": 0.7122218629810959,
+            "mIoU@2": 0.7491481359023601,
+            "mIoU@3": 0.7480724226718303,
+            "mIoU@5": 0.742200846431806,
+            "NoC@85": 3.47,
+            "Success@85/5": 0.57,
+            "NoC@90": 4.39,
+            "Success@90/5": 0.36,
+            "RegressionRate": 0.47,
+            "MeanRegressionMagnitude": 0.020814269354741555,
+            "FinalSuccess@85/5": 0.475,
+            "LostAfterSuccess@85/5": 0.095,
+            "FinalSuccess@90/5": 0.285,
+            "LostAfterSuccess@90/5": 0.075,
+            "RegressionRate@4": 0.505,
+            "RegressionRate@5": 0.53,
+            "LateRegressionRate@4-5": 0.5175,
+            "LateMeanRegressionMagnitude@4-5": 0.020763429106445984,
+            "LateSevereRegressionRate@4-5>0.05": 0.0925,
+            "LateSevereRegressionRate@4-5>0.10": 0.0475
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7122218629810959,
+          "mIoU@2": 0.7491481359023601,
+          "mIoU@3": 0.7480724226718303,
+          "mIoU@5": 0.742200846431806,
+          "NoC@85": 3.47,
+          "Success@85/5": 0.57,
+          "NoC@90": 4.39,
+          "Success@90/5": 0.36,
+          "RegressionRate": 0.47,
+          "MeanRegressionMagnitude": 0.020814269354741555,
+          "FinalSuccess@85/5": 0.475,
+          "LostAfterSuccess@85/5": 0.095,
+          "FinalSuccess@90/5": 0.285,
+          "LostAfterSuccess@90/5": 0.075,
+          "RegressionRate@4": 0.505,
+          "RegressionRate@5": 0.53,
+          "LateRegressionRate@4-5": 0.5175,
+          "LateMeanRegressionMagnitude@4-5": 0.020763429106445984,
+          "LateSevereRegressionRate@4-5>0.05": 0.0925,
+          "LateSevereRegressionRate@4-5>0.10": 0.0475
+        }
+      },
+      "44": {
+        "seed": 44,
+        "mode": "default",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7800889013486448,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.5432094715636012,
+            "mean_gradient_norm": 6.031714452035725,
+            "mIoU@1": 0.7606763682886958,
+            "mIoU@2": 0.7518879499746254,
+            "mIoU@3": 0.7564497307648161,
+            "mIoU@5": 0.7426043416128959,
+            "NoC@85": 3.235,
+            "Success@85/5": 0.585,
+            "NoC@90": 4.19,
+            "Success@90/5": 0.39,
+            "RegressionRate": 0.4875,
+            "MeanRegressionMagnitude": 0.020226794986083405,
+            "FinalSuccess@85/5": 0.535,
+            "LostAfterSuccess@85/5": 0.05,
+            "FinalSuccess@90/5": 0.33,
+            "LostAfterSuccess@90/5": 0.06,
+            "RegressionRate@4": 0.47,
+            "RegressionRate@5": 0.535,
+            "LateRegressionRate@4-5": 0.5025,
+            "LateMeanRegressionMagnitude@4-5": 0.02031077839991667,
+            "LateSevereRegressionRate@4-5>0.05": 0.06,
+            "LateSevereRegressionRate@4-5>0.10": 0.0525
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7443082847689512,
+            "mean_gradient_norm": 2.246448891978711,
+            "mIoU@1": 0.7715296650491655,
+            "mIoU@2": 0.778015866195783,
+            "mIoU@3": 0.7769847847847268,
+            "mIoU@5": 0.7714165790111293,
+            "NoC@85": 3.14,
+            "Success@85/5": 0.61,
+            "NoC@90": 4.125,
+            "Success@90/5": 0.4,
+            "RegressionRate": 0.4925,
+            "MeanRegressionMagnitude": 0.011544463790814917,
+            "FinalSuccess@85/5": 0.57,
+            "LostAfterSuccess@85/5": 0.04,
+            "FinalSuccess@90/5": 0.35,
+            "LostAfterSuccess@90/5": 0.05,
+            "RegressionRate@4": 0.495,
+            "RegressionRate@5": 0.57,
+            "LateRegressionRate@4-5": 0.5325,
+            "LateMeanRegressionMagnitude@4-5": 0.011211483122970094,
+            "LateSevereRegressionRate@4-5>0.05": 0.0425,
+            "LateSevereRegressionRate@4-5>0.10": 0.03
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7584608423759928,
+            "mean_gradient_norm": 1.4998673909977078,
+            "mIoU@1": 0.7595737816486507,
+            "mIoU@2": 0.7794966496442793,
+            "mIoU@3": 0.7775630624580663,
+            "mIoU@5": 0.7800889013486448,
+            "NoC@85": 3.05,
+            "Success@85/5": 0.635,
+            "NoC@90": 4.115,
+            "Success@90/5": 0.405,
+            "RegressionRate": 0.48375,
+            "MeanRegressionMagnitude": 0.011125238958702538,
+            "FinalSuccess@85/5": 0.58,
+            "LostAfterSuccess@85/5": 0.055,
+            "FinalSuccess@90/5": 0.355,
+            "LostAfterSuccess@90/5": 0.05,
+            "RegressionRate@4": 0.51,
+            "RegressionRate@5": 0.53,
+            "LateRegressionRate@4-5": 0.52,
+            "LateMeanRegressionMagnitude@4-5": 0.009392779881018214,
+            "LateSevereRegressionRate@4-5>0.05": 0.035,
+            "LateSevereRegressionRate@4-5>0.10": 0.02
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7595737816486507,
+          "mIoU@2": 0.7794966496442793,
+          "mIoU@3": 0.7775630624580663,
+          "mIoU@5": 0.7800889013486448,
+          "NoC@85": 3.05,
+          "Success@85/5": 0.635,
+          "NoC@90": 4.115,
+          "Success@90/5": 0.405,
+          "RegressionRate": 0.48375,
+          "MeanRegressionMagnitude": 0.011125238958702538,
+          "FinalSuccess@85/5": 0.58,
+          "LostAfterSuccess@85/5": 0.055,
+          "FinalSuccess@90/5": 0.355,
+          "LostAfterSuccess@90/5": 0.05,
+          "RegressionRate@4": 0.51,
+          "RegressionRate@5": 0.53,
+          "LateRegressionRate@4-5": 0.52,
+          "LateMeanRegressionMagnitude@4-5": 0.009392779881018214,
+          "LateSevereRegressionRate@4-5>0.05": 0.035,
+          "LateSevereRegressionRate@4-5>0.10": 0.02
+        }
+      }
+    },
+    "synthetic": {
+      "42": {
+        "seed": 42,
+        "mode": "synthetic",
+        "best_epoch": 2,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7908850650850218,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.6520837212401238,
+            "mean_gradient_norm": 4.928663529209793,
+            "mIoU@1": 0.7546666473522783,
+            "mIoU@2": 0.7800327370408923,
+            "mIoU@3": 0.7816081598959863,
+            "mIoU@5": 0.7815620214398951,
+            "NoC@85": 3.17,
+            "Success@85/5": 0.605,
+            "NoC@90": 4.13,
+            "Success@90/5": 0.41,
+            "RegressionRate": 0.5125,
+            "MeanRegressionMagnitude": 0.012748914061376126,
+            "FinalSuccess@85/5": 0.54,
+            "LostAfterSuccess@85/5": 0.065,
+            "FinalSuccess@90/5": 0.375,
+            "LostAfterSuccess@90/5": 0.035,
+            "RegressionRate@4": 0.59,
+            "RegressionRate@5": 0.54,
+            "LateRegressionRate@4-5": 0.565,
+            "LateMeanRegressionMagnitude@4-5": 0.010871549170988147,
+            "LateSevereRegressionRate@4-5>0.05": 0.0525,
+            "LateSevereRegressionRate@4-5>0.10": 0.0275
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7633066012267955,
+            "mean_gradient_norm": 2.108798482231796,
+            "mIoU@1": 0.7647724230214954,
+            "mIoU@2": 0.7877298341598362,
+            "mIoU@3": 0.7890095334034413,
+            "mIoU@5": 0.7908850650850218,
+            "NoC@85": 3.06,
+            "Success@85/5": 0.625,
+            "NoC@90": 4.115,
+            "Success@90/5": 0.4,
+            "RegressionRate": 0.4875,
+            "MeanRegressionMagnitude": 0.007344687941949815,
+            "FinalSuccess@85/5": 0.575,
+            "LostAfterSuccess@85/5": 0.05,
+            "FinalSuccess@90/5": 0.375,
+            "LostAfterSuccess@90/5": 0.025,
+            "RegressionRate@4": 0.5,
+            "RegressionRate@5": 0.605,
+            "LateRegressionRate@4-5": 0.5525,
+            "LateMeanRegressionMagnitude@4-5": 0.0064656677888706325,
+            "LateSevereRegressionRate@4-5>0.05": 0.02,
+            "LateSevereRegressionRate@4-5>0.10": 0.0125
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7837491003836039,
+            "mean_gradient_norm": 1.4306029618568719,
+            "mIoU@1": 0.7489580995589494,
+            "mIoU@2": 0.7591097563225776,
+            "mIoU@3": 0.75273482556222,
+            "mIoU@5": 0.7491569438925945,
+            "NoC@85": 3.27,
+            "Success@85/5": 0.56,
+            "NoC@90": 4.325,
+            "Success@90/5": 0.35,
+            "RegressionRate": 0.50125,
+            "MeanRegressionMagnitude": 0.009586232173023745,
+            "FinalSuccess@85/5": 0.49,
+            "LostAfterSuccess@85/5": 0.07,
+            "FinalSuccess@90/5": 0.32,
+            "LostAfterSuccess@90/5": 0.03,
+            "RegressionRate@4": 0.53,
+            "RegressionRate@5": 0.52,
+            "LateRegressionRate@4-5": 0.525,
+            "LateMeanRegressionMagnitude@4-5": 0.007651664462173358,
+            "LateSevereRegressionRate@4-5>0.05": 0.0425,
+            "LateSevereRegressionRate@4-5>0.10": 0.0225
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7647724230214954,
+          "mIoU@2": 0.7877298341598362,
+          "mIoU@3": 0.7890095334034413,
+          "mIoU@5": 0.7908850650850218,
+          "NoC@85": 3.06,
+          "Success@85/5": 0.625,
+          "NoC@90": 4.115,
+          "Success@90/5": 0.4,
+          "RegressionRate": 0.4875,
+          "MeanRegressionMagnitude": 0.007344687941949815,
+          "FinalSuccess@85/5": 0.575,
+          "LostAfterSuccess@85/5": 0.05,
+          "FinalSuccess@90/5": 0.375,
+          "LostAfterSuccess@90/5": 0.025,
+          "RegressionRate@4": 0.5,
+          "RegressionRate@5": 0.605,
+          "LateRegressionRate@4-5": 0.5525,
+          "LateMeanRegressionMagnitude@4-5": 0.0064656677888706325,
+          "LateSevereRegressionRate@4-5>0.05": 0.02,
+          "LateSevereRegressionRate@4-5>0.10": 0.0125
+        }
+      },
+      "43": {
+        "seed": 43,
+        "mode": "synthetic",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7848115876223892,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.5659561501568824,
+            "mean_gradient_norm": 3.502231190286577,
+            "mIoU@1": 0.75375235542655,
+            "mIoU@2": 0.7533678274409613,
+            "mIoU@3": 0.7520539104512863,
+            "mIoU@5": 0.7437217558904377,
+            "NoC@85": 3.37,
+            "Success@85/5": 0.545,
+            "NoC@90": 4.36,
+            "Success@90/5": 0.335,
+            "RegressionRate": 0.52625,
+            "MeanRegressionMagnitude": 0.012418050143733126,
+            "FinalSuccess@85/5": 0.48,
+            "LostAfterSuccess@85/5": 0.065,
+            "FinalSuccess@90/5": 0.32,
+            "LostAfterSuccess@90/5": 0.015,
+            "RegressionRate@4": 0.54,
+            "RegressionRate@5": 0.51,
+            "LateRegressionRate@4-5": 0.525,
+            "LateMeanRegressionMagnitude@4-5": 0.012588010512954497,
+            "LateSevereRegressionRate@4-5>0.05": 0.0425,
+            "LateSevereRegressionRate@4-5>0.10": 0.0275
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7622227171175182,
+            "mean_gradient_norm": 1.5445657616965474,
+            "mIoU@1": 0.7706661394424736,
+            "mIoU@2": 0.7798417611792684,
+            "mIoU@3": 0.7727116728929104,
+            "mIoU@5": 0.7705634447257035,
+            "NoC@85": 3.19,
+            "Success@85/5": 0.575,
+            "NoC@90": 4.265,
+            "Success@90/5": 0.36,
+            "RegressionRate": 0.54625,
+            "MeanRegressionMagnitude": 0.005348687581717968,
+            "FinalSuccess@85/5": 0.53,
+            "LostAfterSuccess@85/5": 0.045,
+            "FinalSuccess@90/5": 0.33,
+            "LostAfterSuccess@90/5": 0.03,
+            "RegressionRate@4": 0.645,
+            "RegressionRate@5": 0.56,
+            "LateRegressionRate@4-5": 0.6025,
+            "LateMeanRegressionMagnitude@4-5": 0.003606944334751461,
+            "LateSevereRegressionRate@4-5>0.05": 0.01,
+            "LateSevereRegressionRate@4-5>0.10": 0.0
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7860102724141907,
+            "mean_gradient_norm": 1.092936278179288,
+            "mIoU@1": 0.7871698886901141,
+            "mIoU@2": 0.793188507501036,
+            "mIoU@3": 0.7864209143677726,
+            "mIoU@5": 0.7848115876223892,
+            "NoC@85": 3.035,
+            "Success@85/5": 0.605,
+            "NoC@90": 4.125,
+            "Success@90/5": 0.39,
+            "RegressionRate": 0.5675,
+            "MeanRegressionMagnitude": 0.006523205535486341,
+            "FinalSuccess@85/5": 0.545,
+            "LostAfterSuccess@85/5": 0.06,
+            "FinalSuccess@90/5": 0.33,
+            "LostAfterSuccess@90/5": 0.06,
+            "RegressionRate@4": 0.635,
+            "RegressionRate@5": 0.64,
+            "LateRegressionRate@4-5": 0.6375,
+            "LateMeanRegressionMagnitude@4-5": 0.004478386554401368,
+            "LateSevereRegressionRate@4-5>0.05": 0.0125,
+            "LateSevereRegressionRate@4-5>0.10": 0.005
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7871698886901141,
+          "mIoU@2": 0.793188507501036,
+          "mIoU@3": 0.7864209143677726,
+          "mIoU@5": 0.7848115876223892,
+          "NoC@85": 3.035,
+          "Success@85/5": 0.605,
+          "NoC@90": 4.125,
+          "Success@90/5": 0.39,
+          "RegressionRate": 0.5675,
+          "MeanRegressionMagnitude": 0.006523205535486341,
+          "FinalSuccess@85/5": 0.545,
+          "LostAfterSuccess@85/5": 0.06,
+          "FinalSuccess@90/5": 0.33,
+          "LostAfterSuccess@90/5": 0.06,
+          "RegressionRate@4": 0.635,
+          "RegressionRate@5": 0.64,
+          "LateRegressionRate@4-5": 0.6375,
+          "LateMeanRegressionMagnitude@4-5": 0.004478386554401368,
+          "LateSevereRegressionRate@4-5>0.05": 0.0125,
+          "LateSevereRegressionRate@4-5>0.10": 0.005
+        }
+      },
+      "44": {
+        "seed": 44,
+        "mode": "synthetic",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7815628032910172,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.6002461584177363,
+            "mean_gradient_norm": 4.314115773364901,
+            "mIoU@1": 0.7744301986508071,
+            "mIoU@2": 0.7766756257205271,
+            "mIoU@3": 0.7756771473179106,
+            "mIoU@5": 0.7751073460024781,
+            "NoC@85": 3.185,
+            "Success@85/5": 0.575,
+            "NoC@90": 4.175,
+            "Success@90/5": 0.375,
+            "RegressionRate": 0.5525,
+            "MeanRegressionMagnitude": 0.007044898140593432,
+            "FinalSuccess@85/5": 0.535,
+            "LostAfterSuccess@85/5": 0.04,
+            "FinalSuccess@90/5": 0.345,
+            "LostAfterSuccess@90/5": 0.03,
+            "RegressionRate@4": 0.61,
+            "RegressionRate@5": 0.57,
+            "LateRegressionRate@4-5": 0.59,
+            "LateMeanRegressionMagnitude@4-5": 0.005544988267938606,
+            "LateSevereRegressionRate@4-5>0.05": 0.03,
+            "LateSevereRegressionRate@4-5>0.10": 0.0025
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.76308733420723,
+            "mean_gradient_norm": 1.586772488899529,
+            "mIoU@1": 0.7614240396767855,
+            "mIoU@2": 0.7709898090921342,
+            "mIoU@3": 0.7699329362169374,
+            "mIoU@5": 0.7619201335881371,
+            "NoC@85": 3.245,
+            "Success@85/5": 0.57,
+            "NoC@90": 4.27,
+            "Success@90/5": 0.36,
+            "RegressionRate": 0.53125,
+            "MeanRegressionMagnitude": 0.008691959118586966,
+            "FinalSuccess@85/5": 0.525,
+            "LostAfterSuccess@85/5": 0.045,
+            "FinalSuccess@90/5": 0.345,
+            "LostAfterSuccess@90/5": 0.015,
+            "RegressionRate@4": 0.585,
+            "RegressionRate@5": 0.555,
+            "LateRegressionRate@4-5": 0.57,
+            "LateMeanRegressionMagnitude@4-5": 0.00927890420134645,
+            "LateSevereRegressionRate@4-5>0.05": 0.035,
+            "LateSevereRegressionRate@4-5>0.10": 0.0275
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7806653656782583,
+            "mean_gradient_norm": 1.3427850282713771,
+            "mIoU@1": 0.7756721915863455,
+            "mIoU@2": 0.7825488560146187,
+            "mIoU@3": 0.7827943576674443,
+            "mIoU@5": 0.7815628032910172,
+            "NoC@85": 3.03,
+            "Success@85/5": 0.61,
+            "NoC@90": 4.135,
+            "Success@90/5": 0.38,
+            "RegressionRate": 0.51375,
+            "MeanRegressionMagnitude": 0.006769713952962775,
+            "FinalSuccess@85/5": 0.565,
+            "LostAfterSuccess@85/5": 0.045,
+            "FinalSuccess@90/5": 0.36,
+            "LostAfterSuccess@90/5": 0.02,
+            "RegressionRate@4": 0.585,
+            "RegressionRate@5": 0.555,
+            "LateRegressionRate@4-5": 0.57,
+            "LateMeanRegressionMagnitude@4-5": 0.006236342371557839,
+            "LateSevereRegressionRate@4-5>0.05": 0.0225,
+            "LateSevereRegressionRate@4-5>0.10": 0.0125
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7756721915863455,
+          "mIoU@2": 0.7825488560146187,
+          "mIoU@3": 0.7827943576674443,
+          "mIoU@5": 0.7815628032910172,
+          "NoC@85": 3.03,
+          "Success@85/5": 0.61,
+          "NoC@90": 4.135,
+          "Success@90/5": 0.38,
+          "RegressionRate": 0.51375,
+          "MeanRegressionMagnitude": 0.006769713952962775,
+          "FinalSuccess@85/5": 0.565,
+          "LostAfterSuccess@85/5": 0.045,
+          "FinalSuccess@90/5": 0.36,
+          "LostAfterSuccess@90/5": 0.02,
+          "RegressionRate@4": 0.585,
+          "RegressionRate@5": 0.555,
+          "LateRegressionRate@4-5": 0.57,
+          "LateMeanRegressionMagnitude@4-5": 0.006236342371557839,
+          "LateSevereRegressionRate@4-5>0.05": 0.0225,
+          "LateSevereRegressionRate@4-5>0.10": 0.0125
+        }
+      }
+    },
+    "shuffled": {
+      "42": {
+        "seed": 42,
+        "mode": "shuffled",
+        "best_epoch": 1,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7840105987084098,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.6315742487537209,
+            "mean_gradient_norm": 4.338245268195868,
+            "mIoU@1": 0.7409241019142792,
+            "mIoU@2": 0.7862457056599669,
+            "mIoU@3": 0.787017995454371,
+            "mIoU@5": 0.7840105987084098,
+            "NoC@85": 3.135,
+            "Success@85/5": 0.61,
+            "NoC@90": 4.165,
+            "Success@90/5": 0.395,
+            "RegressionRate": 0.50125,
+            "MeanRegressionMagnitude": 0.008786169464874547,
+            "FinalSuccess@85/5": 0.55,
+            "LostAfterSuccess@85/5": 0.06,
+            "FinalSuccess@90/5": 0.36,
+            "LostAfterSuccess@90/5": 0.035,
+            "RegressionRate@4": 0.555,
+            "RegressionRate@5": 0.54,
+            "LateRegressionRate@4-5": 0.5475,
+            "LateMeanRegressionMagnitude@4-5": 0.008508021345478482,
+            "LateSevereRegressionRate@4-5>0.05": 0.035,
+            "LateSevereRegressionRate@4-5>0.10": 0.0225
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7722331247411784,
+            "mean_gradient_norm": 1.5465487866103649,
+            "mIoU@1": 0.7730609338916838,
+            "mIoU@2": 0.7864354206714779,
+            "mIoU@3": 0.7816758038615808,
+            "mIoU@5": 0.77951822291594,
+            "NoC@85": 3.025,
+            "Success@85/5": 0.625,
+            "NoC@90": 4.07,
+            "Success@90/5": 0.415,
+            "RegressionRate": 0.51375,
+            "MeanRegressionMagnitude": 0.009402709850110113,
+            "FinalSuccess@85/5": 0.545,
+            "LostAfterSuccess@85/5": 0.08,
+            "FinalSuccess@90/5": 0.35,
+            "LostAfterSuccess@90/5": 0.065,
+            "RegressionRate@4": 0.57,
+            "RegressionRate@5": 0.595,
+            "LateRegressionRate@4-5": 0.5825,
+            "LateMeanRegressionMagnitude@4-5": 0.009065993407275527,
+            "LateSevereRegressionRate@4-5>0.05": 0.0325,
+            "LateSevereRegressionRate@4-5>0.10": 0.015
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7807517135099042,
+            "mean_gradient_norm": 1.170127734389156,
+            "mIoU@1": 0.7657814615406096,
+            "mIoU@2": 0.7731641528755426,
+            "mIoU@3": 0.767380794789642,
+            "mIoU@5": 0.764118371186778,
+            "NoC@85": 3.15,
+            "Success@85/5": 0.595,
+            "NoC@90": 4.21,
+            "Success@90/5": 0.37,
+            "RegressionRate": 0.545,
+            "MeanRegressionMagnitude": 0.008341313402634115,
+            "FinalSuccess@85/5": 0.53,
+            "LostAfterSuccess@85/5": 0.065,
+            "FinalSuccess@90/5": 0.33,
+            "LostAfterSuccess@90/5": 0.04,
+            "RegressionRate@4": 0.59,
+            "RegressionRate@5": 0.555,
+            "LateRegressionRate@4-5": 0.5725,
+            "LateMeanRegressionMagnitude@4-5": 0.007249797978438437,
+            "LateSevereRegressionRate@4-5>0.05": 0.02,
+            "LateSevereRegressionRate@4-5>0.10": 0.0075
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7409241019142792,
+          "mIoU@2": 0.7862457056599669,
+          "mIoU@3": 0.787017995454371,
+          "mIoU@5": 0.7840105987084098,
+          "NoC@85": 3.135,
+          "Success@85/5": 0.61,
+          "NoC@90": 4.165,
+          "Success@90/5": 0.395,
+          "RegressionRate": 0.50125,
+          "MeanRegressionMagnitude": 0.008786169464874547,
+          "FinalSuccess@85/5": 0.55,
+          "LostAfterSuccess@85/5": 0.06,
+          "FinalSuccess@90/5": 0.36,
+          "LostAfterSuccess@90/5": 0.035,
+          "RegressionRate@4": 0.555,
+          "RegressionRate@5": 0.54,
+          "LateRegressionRate@4-5": 0.5475,
+          "LateMeanRegressionMagnitude@4-5": 0.008508021345478482,
+          "LateSevereRegressionRate@4-5>0.05": 0.035,
+          "LateSevereRegressionRate@4-5>0.10": 0.0225
+        }
+      },
+      "43": {
+        "seed": 43,
+        "mode": "shuffled",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.77989817004418,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.5518134991352417,
+            "mean_gradient_norm": 4.278773578096181,
+            "mIoU@1": 0.7434090430289507,
+            "mIoU@2": 0.746242500403896,
+            "mIoU@3": 0.7349801613483578,
+            "mIoU@5": 0.7377312471577898,
+            "NoC@85": 3.43,
+            "Success@85/5": 0.535,
+            "NoC@90": 4.29,
+            "Success@90/5": 0.355,
+            "RegressionRate": 0.535,
+            "MeanRegressionMagnitude": 0.010866839935770258,
+            "FinalSuccess@85/5": 0.485,
+            "LostAfterSuccess@85/5": 0.05,
+            "FinalSuccess@90/5": 0.315,
+            "LostAfterSuccess@90/5": 0.04,
+            "RegressionRate@4": 0.57,
+            "RegressionRate@5": 0.6,
+            "LateRegressionRate@4-5": 0.585,
+            "LateMeanRegressionMagnitude@4-5": 0.00768949342193082,
+            "LateSevereRegressionRate@4-5>0.05": 0.04,
+            "LateSevereRegressionRate@4-5>0.10": 0.0125
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7508879320241977,
+            "mean_gradient_norm": 1.577819254089147,
+            "mIoU@1": 0.7707252850290388,
+            "mIoU@2": 0.7755746663734316,
+            "mIoU@3": 0.7715735499141738,
+            "mIoU@5": 0.7701108231022954,
+            "NoC@85": 3.21,
+            "Success@85/5": 0.57,
+            "NoC@90": 4.32,
+            "Success@90/5": 0.35,
+            "RegressionRate": 0.52125,
+            "MeanRegressionMagnitude": 0.007968691795831546,
+            "FinalSuccess@85/5": 0.51,
+            "LostAfterSuccess@85/5": 0.06,
+            "FinalSuccess@90/5": 0.31,
+            "LostAfterSuccess@90/5": 0.04,
+            "RegressionRate@4": 0.595,
+            "RegressionRate@5": 0.515,
+            "LateRegressionRate@4-5": 0.555,
+            "LateMeanRegressionMagnitude@4-5": 0.007516944196540862,
+            "LateSevereRegressionRate@4-5>0.05": 0.0325,
+            "LateSevereRegressionRate@4-5>0.10": 0.015
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7694958434315631,
+            "mean_gradient_norm": 1.0864457404725254,
+            "mIoU@1": 0.7785669416002929,
+            "mIoU@2": 0.7844877957738936,
+            "mIoU@3": 0.7809847269719467,
+            "mIoU@5": 0.77989817004418,
+            "NoC@85": 3.185,
+            "Success@85/5": 0.585,
+            "NoC@90": 4.265,
+            "Success@90/5": 0.355,
+            "RegressionRate": 0.54,
+            "MeanRegressionMagnitude": 0.006726608733515604,
+            "FinalSuccess@85/5": 0.515,
+            "LostAfterSuccess@85/5": 0.07,
+            "FinalSuccess@90/5": 0.325,
+            "LostAfterSuccess@90/5": 0.03,
+            "RegressionRate@4": 0.61,
+            "RegressionRate@5": 0.535,
+            "LateRegressionRate@4-5": 0.5725,
+            "LateMeanRegressionMagnitude@4-5": 0.00623369581924635,
+            "LateSevereRegressionRate@4-5>0.05": 0.03,
+            "LateSevereRegressionRate@4-5>0.10": 0.005
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7785669416002929,
+          "mIoU@2": 0.7844877957738936,
+          "mIoU@3": 0.7809847269719467,
+          "mIoU@5": 0.77989817004418,
+          "NoC@85": 3.185,
+          "Success@85/5": 0.585,
+          "NoC@90": 4.265,
+          "Success@90/5": 0.355,
+          "RegressionRate": 0.54,
+          "MeanRegressionMagnitude": 0.006726608733515604,
+          "FinalSuccess@85/5": 0.515,
+          "LostAfterSuccess@85/5": 0.07,
+          "FinalSuccess@90/5": 0.325,
+          "LostAfterSuccess@90/5": 0.03,
+          "RegressionRate@4": 0.61,
+          "RegressionRate@5": 0.535,
+          "LateRegressionRate@4-5": 0.5725,
+          "LateMeanRegressionMagnitude@4-5": 0.00623369581924635,
+          "LateSevereRegressionRate@4-5>0.05": 0.03,
+          "LateSevereRegressionRate@4-5>0.10": 0.005
+        }
+      },
+      "44": {
+        "seed": 44,
+        "mode": "shuffled",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7897936947317794,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.5722454501097818,
+            "mean_gradient_norm": 4.709686366826296,
+            "mIoU@1": 0.7706211376003921,
+            "mIoU@2": 0.7756560950726271,
+            "mIoU@3": 0.761144900014624,
+            "mIoU@5": 0.7590079428069294,
+            "NoC@85": 3.12,
+            "Success@85/5": 0.605,
+            "NoC@90": 4.17,
+            "Success@90/5": 0.395,
+            "RegressionRate": 0.4975,
+            "MeanRegressionMagnitude": 0.014600450734142213,
+            "FinalSuccess@85/5": 0.535,
+            "LostAfterSuccess@85/5": 0.07,
+            "FinalSuccess@90/5": 0.345,
+            "LostAfterSuccess@90/5": 0.05,
+            "RegressionRate@4": 0.49,
+            "RegressionRate@5": 0.585,
+            "LateRegressionRate@4-5": 0.5375,
+            "LateMeanRegressionMagnitude@4-5": 0.00803953967988491,
+            "LateSevereRegressionRate@4-5>0.05": 0.04,
+            "LateSevereRegressionRate@4-5>0.10": 0.0175
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.755146521194023,
+            "mean_gradient_norm": 1.84566912022233,
+            "mIoU@1": 0.7503430975042283,
+            "mIoU@2": 0.7572381866816431,
+            "mIoU@3": 0.7590805765730329,
+            "mIoU@5": 0.750109074570355,
+            "NoC@85": 3.2,
+            "Success@85/5": 0.585,
+            "NoC@90": 4.225,
+            "Success@90/5": 0.38,
+            "RegressionRate": 0.5025,
+            "MeanRegressionMagnitude": 0.008496169139252743,
+            "FinalSuccess@85/5": 0.52,
+            "LostAfterSuccess@85/5": 0.065,
+            "FinalSuccess@90/5": 0.325,
+            "LostAfterSuccess@90/5": 0.055,
+            "RegressionRate@4": 0.55,
+            "RegressionRate@5": 0.595,
+            "LateRegressionRate@4-5": 0.5725,
+            "LateMeanRegressionMagnitude@4-5": 0.007556182740663644,
+            "LateSevereRegressionRate@4-5>0.05": 0.05,
+            "LateSevereRegressionRate@4-5>0.10": 0.0175
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7719905808615731,
+            "mean_gradient_norm": 1.2525107551589607,
+            "mIoU@1": 0.7808738396503031,
+            "mIoU@2": 0.7970878605823963,
+            "mIoU@3": 0.7966711352672428,
+            "mIoU@5": 0.7897936947317794,
+            "NoC@85": 2.95,
+            "Success@85/5": 0.64,
+            "NoC@90": 4.1,
+            "Success@90/5": 0.4,
+            "RegressionRate": 0.4775,
+            "MeanRegressionMagnitude": 0.006070506094256416,
+            "FinalSuccess@85/5": 0.585,
+            "LostAfterSuccess@85/5": 0.055,
+            "FinalSuccess@90/5": 0.355,
+            "LostAfterSuccess@90/5": 0.045,
+            "RegressionRate@4": 0.515,
+            "RegressionRate@5": 0.615,
+            "LateRegressionRate@4-5": 0.565,
+            "LateMeanRegressionMagnitude@4-5": 0.006985891030635685,
+            "LateSevereRegressionRate@4-5>0.05": 0.0175,
+            "LateSevereRegressionRate@4-5>0.10": 0.0075
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7808738396503031,
+          "mIoU@2": 0.7970878605823963,
+          "mIoU@3": 0.7966711352672428,
+          "mIoU@5": 0.7897936947317794,
+          "NoC@85": 2.95,
+          "Success@85/5": 0.64,
+          "NoC@90": 4.1,
+          "Success@90/5": 0.4,
+          "RegressionRate": 0.4775,
+          "MeanRegressionMagnitude": 0.006070506094256416,
+          "FinalSuccess@85/5": 0.585,
+          "LostAfterSuccess@85/5": 0.055,
+          "FinalSuccess@90/5": 0.355,
+          "LostAfterSuccess@90/5": 0.045,
+          "RegressionRate@4": 0.515,
+          "RegressionRate@5": 0.615,
+          "LateRegressionRate@4-5": 0.565,
+          "LateMeanRegressionMagnitude@4-5": 0.006985891030635685,
+          "LateSevereRegressionRate@4-5>0.05": 0.0175,
+          "LateSevereRegressionRate@4-5>0.10": 0.0075
+        }
+      }
+    },
+    "correct": {
+      "42": {
+        "seed": 42,
+        "mode": "correct",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.7787444567400962,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.6432625671094138,
+            "mean_gradient_norm": 5.563039366338402,
+            "mIoU@1": 0.7306856766715646,
+            "mIoU@2": 0.7527030133642256,
+            "mIoU@3": 0.7449925717926817,
+            "mIoU@5": 0.7480515892070252,
+            "NoC@85": 3.37,
+            "Success@85/5": 0.56,
+            "NoC@90": 4.35,
+            "Success@90/5": 0.37,
+            "RegressionRate": 0.44375,
+            "MeanRegressionMagnitude": 0.011313272760162363,
+            "FinalSuccess@85/5": 0.51,
+            "LostAfterSuccess@85/5": 0.05,
+            "FinalSuccess@90/5": 0.335,
+            "LostAfterSuccess@90/5": 0.035,
+            "RegressionRate@4": 0.48,
+            "RegressionRate@5": 0.49,
+            "LateRegressionRate@4-5": 0.485,
+            "LateMeanRegressionMagnitude@4-5": 0.009315698490827345,
+            "LateSevereRegressionRate@4-5>0.05": 0.05,
+            "LateSevereRegressionRate@4-5>0.10": 0.02
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7592565713787117,
+            "mean_gradient_norm": 2.4047169205620884,
+            "mIoU@1": 0.7586813338007778,
+            "mIoU@2": 0.7759136344492435,
+            "mIoU@3": 0.7766792566748336,
+            "mIoU@5": 0.7755552558146883,
+            "NoC@85": 3.14,
+            "Success@85/5": 0.6,
+            "NoC@90": 4.14,
+            "Success@90/5": 0.395,
+            "RegressionRate": 0.45,
+            "MeanRegressionMagnitude": 0.007166210499999579,
+            "FinalSuccess@85/5": 0.565,
+            "LostAfterSuccess@85/5": 0.035,
+            "FinalSuccess@90/5": 0.38,
+            "LostAfterSuccess@90/5": 0.015,
+            "RegressionRate@4": 0.54,
+            "RegressionRate@5": 0.49,
+            "LateRegressionRate@4-5": 0.515,
+            "LateMeanRegressionMagnitude@4-5": 0.005239468057989143,
+            "LateSevereRegressionRate@4-5>0.05": 0.0175,
+            "LateSevereRegressionRate@4-5>0.10": 0.0075
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7932659800746478,
+            "mean_gradient_norm": 2.0596714814938606,
+            "mIoU@1": 0.7653576662763953,
+            "mIoU@2": 0.7823887927213218,
+            "mIoU@3": 0.7804391165822744,
+            "mIoU@5": 0.7787444567400962,
+            "NoC@85": 3.06,
+            "Success@85/5": 0.63,
+            "NoC@90": 4.08,
+            "Success@90/5": 0.415,
+            "RegressionRate": 0.47875,
+            "MeanRegressionMagnitude": 0.013442258412542287,
+            "FinalSuccess@85/5": 0.56,
+            "LostAfterSuccess@85/5": 0.07,
+            "FinalSuccess@90/5": 0.37,
+            "LostAfterSuccess@90/5": 0.045,
+            "RegressionRate@4": 0.55,
+            "RegressionRate@5": 0.51,
+            "LateRegressionRate@4-5": 0.53,
+            "LateMeanRegressionMagnitude@4-5": 0.01029644774273038,
+            "LateSevereRegressionRate@4-5>0.05": 0.03,
+            "LateSevereRegressionRate@4-5>0.10": 0.02
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7653576662763953,
+          "mIoU@2": 0.7823887927213218,
+          "mIoU@3": 0.7804391165822744,
+          "mIoU@5": 0.7787444567400962,
+          "NoC@85": 3.06,
+          "Success@85/5": 0.63,
+          "NoC@90": 4.08,
+          "Success@90/5": 0.415,
+          "RegressionRate": 0.47875,
+          "MeanRegressionMagnitude": 0.013442258412542287,
+          "FinalSuccess@85/5": 0.56,
+          "LostAfterSuccess@85/5": 0.07,
+          "FinalSuccess@90/5": 0.37,
+          "LostAfterSuccess@90/5": 0.045,
+          "RegressionRate@4": 0.55,
+          "RegressionRate@5": 0.51,
+          "LateRegressionRate@4-5": 0.53,
+          "LateMeanRegressionMagnitude@4-5": 0.01029644774273038,
+          "LateSevereRegressionRate@4-5>0.05": 0.03,
+          "LateSevereRegressionRate@4-5>0.10": 0.02
+        }
+      },
+      "43": {
+        "seed": 43,
+        "mode": "correct",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.8030342618748546,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.4829271615630569,
+            "mean_gradient_norm": 6.6398996052145955,
+            "mIoU@1": 0.7177586637064814,
+            "mIoU@2": 0.7219582575093955,
+            "mIoU@3": 0.7223790083848871,
+            "mIoU@5": 0.7146004725807871,
+            "NoC@85": 3.555,
+            "Success@85/5": 0.525,
+            "NoC@90": 4.48,
+            "Success@90/5": 0.32,
+            "RegressionRate": 0.45125,
+            "MeanRegressionMagnitude": 0.016747602291288785,
+            "FinalSuccess@85/5": 0.465,
+            "LostAfterSuccess@85/5": 0.06,
+            "FinalSuccess@90/5": 0.29,
+            "LostAfterSuccess@90/5": 0.03,
+            "RegressionRate@4": 0.465,
+            "RegressionRate@5": 0.525,
+            "LateRegressionRate@4-5": 0.495,
+            "LateMeanRegressionMagnitude@4-5": 0.012037184634245933,
+            "LateSevereRegressionRate@4-5>0.05": 0.0525,
+            "LateSevereRegressionRate@4-5>0.10": 0.025
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7472824470378109,
+            "mean_gradient_norm": 2.92571816617623,
+            "mIoU@1": 0.7259221312729642,
+            "mIoU@2": 0.7417533375241327,
+            "mIoU@3": 0.7429369642416713,
+            "mIoU@5": 0.7419029253980262,
+            "NoC@85": 3.32,
+            "Success@85/5": 0.555,
+            "NoC@90": 4.37,
+            "Success@90/5": 0.335,
+            "RegressionRate": 0.4975,
+            "MeanRegressionMagnitude": 0.008463305367113207,
+            "FinalSuccess@85/5": 0.495,
+            "LostAfterSuccess@85/5": 0.06,
+            "FinalSuccess@90/5": 0.325,
+            "LostAfterSuccess@90/5": 0.01,
+            "RegressionRate@4": 0.56,
+            "RegressionRate@5": 0.545,
+            "LateRegressionRate@4-5": 0.5525,
+            "LateMeanRegressionMagnitude@4-5": 0.006997892937652068,
+            "LateSevereRegressionRate@4-5>0.05": 0.0375,
+            "LateSevereRegressionRate@4-5>0.10": 0.01
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.752841145214843,
+            "mean_gradient_norm": 2.4975344644114377,
+            "mIoU@1": 0.7454934975272045,
+            "mIoU@2": 0.7723391601908952,
+            "mIoU@3": 0.787196046783356,
+            "mIoU@5": 0.8030342618748546,
+            "NoC@85": 3.045,
+            "Success@85/5": 0.65,
+            "NoC@90": 4.16,
+            "Success@90/5": 0.395,
+            "RegressionRate": 0.45,
+            "MeanRegressionMagnitude": 0.010228847069338371,
+            "FinalSuccess@85/5": 0.58,
+            "LostAfterSuccess@85/5": 0.07,
+            "FinalSuccess@90/5": 0.38,
+            "LostAfterSuccess@90/5": 0.015,
+            "RegressionRate@4": 0.52,
+            "RegressionRate@5": 0.51,
+            "LateRegressionRate@4-5": 0.515,
+            "LateMeanRegressionMagnitude@4-5": 0.00823197801473725,
+            "LateSevereRegressionRate@4-5>0.05": 0.03,
+            "LateSevereRegressionRate@4-5>0.10": 0.0175
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7454934975272045,
+          "mIoU@2": 0.7723391601908952,
+          "mIoU@3": 0.787196046783356,
+          "mIoU@5": 0.8030342618748546,
+          "NoC@85": 3.045,
+          "Success@85/5": 0.65,
+          "NoC@90": 4.16,
+          "Success@90/5": 0.395,
+          "RegressionRate": 0.45,
+          "MeanRegressionMagnitude": 0.010228847069338371,
+          "FinalSuccess@85/5": 0.58,
+          "LostAfterSuccess@85/5": 0.07,
+          "FinalSuccess@90/5": 0.38,
+          "LostAfterSuccess@90/5": 0.015,
+          "RegressionRate@4": 0.52,
+          "RegressionRate@5": 0.51,
+          "LateRegressionRate@4-5": 0.515,
+          "LateMeanRegressionMagnitude@4-5": 0.00823197801473725,
+          "LateSevereRegressionRate@4-5>0.05": 0.03,
+          "LateSevereRegressionRate@4-5>0.10": 0.0175
+        }
+      },
+      "44": {
+        "seed": 44,
+        "mode": "correct",
+        "best_epoch": 3,
+        "selection_metric": "mIoU@5",
+        "selection_direction": "max",
+        "selection_score": 0.8088451873604208,
+        "trainable_parameters": 686723,
+        "epoch_history": [
+          {
+            "epoch": 1,
+            "mean_train_iou_at_max_clicks": 0.5696049705518672,
+            "mean_gradient_norm": 6.138073324050755,
+            "mIoU@1": 0.7217786365421489,
+            "mIoU@2": 0.7788969844044186,
+            "mIoU@3": 0.793561100740917,
+            "mIoU@5": 0.780475581153296,
+            "NoC@85": 3.09,
+            "Success@85/5": 0.65,
+            "NoC@90": 4.17,
+            "Success@90/5": 0.41,
+            "RegressionRate": 0.4575,
+            "MeanRegressionMagnitude": 0.0204386853746837,
+            "FinalSuccess@85/5": 0.55,
+            "LostAfterSuccess@85/5": 0.1,
+            "FinalSuccess@90/5": 0.36,
+            "LostAfterSuccess@90/5": 0.05,
+            "RegressionRate@4": 0.55,
+            "RegressionRate@5": 0.55,
+            "LateRegressionRate@4-5": 0.55,
+            "LateMeanRegressionMagnitude@4-5": 0.024855908905155957,
+            "LateSevereRegressionRate@4-5>0.05": 0.08,
+            "LateSevereRegressionRate@4-5>0.10": 0.0575
+          },
+          {
+            "epoch": 2,
+            "mean_train_iou_at_max_clicks": 0.7700567214058974,
+            "mean_gradient_norm": 2.182558608494699,
+            "mIoU@1": 0.7689224678464234,
+            "mIoU@2": 0.7899972668848931,
+            "mIoU@3": 0.7899153120070695,
+            "mIoU@5": 0.7889320417656563,
+            "NoC@85": 3.02,
+            "Success@85/5": 0.635,
+            "NoC@90": 4.11,
+            "Success@90/5": 0.395,
+            "RegressionRate": 0.4625,
+            "MeanRegressionMagnitude": 0.009554609740735031,
+            "FinalSuccess@85/5": 0.585,
+            "LostAfterSuccess@85/5": 0.05,
+            "FinalSuccess@90/5": 0.375,
+            "LostAfterSuccess@90/5": 0.02,
+            "RegressionRate@4": 0.48,
+            "RegressionRate@5": 0.52,
+            "LateRegressionRate@4-5": 0.5,
+            "LateMeanRegressionMagnitude@4-5": 0.009114355138735845,
+            "LateSevereRegressionRate@4-5>0.05": 0.0425,
+            "LateSevereRegressionRate@4-5>0.10": 0.0225
+          },
+          {
+            "epoch": 3,
+            "mean_train_iou_at_max_clicks": 0.7905379448254244,
+            "mean_gradient_norm": 1.5317997292354704,
+            "mIoU@1": 0.7820083810016513,
+            "mIoU@2": 0.8014569103671237,
+            "mIoU@3": 0.802606432964094,
+            "mIoU@5": 0.8088451873604208,
+            "NoC@85": 2.93,
+            "Success@85/5": 0.66,
+            "NoC@90": 3.99,
+            "Success@90/5": 0.42,
+            "RegressionRate": 0.45375,
+            "MeanRegressionMagnitude": 0.008504169801963144,
+            "FinalSuccess@85/5": 0.595,
+            "LostAfterSuccess@85/5": 0.065,
+            "FinalSuccess@90/5": 0.385,
+            "LostAfterSuccess@90/5": 0.035,
+            "RegressionRate@4": 0.525,
+            "RegressionRate@5": 0.475,
+            "LateRegressionRate@4-5": 0.5,
+            "LateMeanRegressionMagnitude@4-5": 0.009623548634845065,
+            "LateSevereRegressionRate@4-5>0.05": 0.0375,
+            "LateSevereRegressionRate@4-5>0.10": 0.025
+          }
+        ],
+        "metrics": {
+          "mIoU@1": 0.7820083810016513,
+          "mIoU@2": 0.8014569103671237,
+          "mIoU@3": 0.802606432964094,
+          "mIoU@5": 0.8088451873604208,
+          "NoC@85": 2.93,
+          "Success@85/5": 0.66,
+          "NoC@90": 3.99,
+          "Success@90/5": 0.42,
+          "RegressionRate": 0.45375,
+          "MeanRegressionMagnitude": 0.008504169801963144,
+          "FinalSuccess@85/5": 0.595,
+          "LostAfterSuccess@85/5": 0.065,
+          "FinalSuccess@90/5": 0.385,
+          "LostAfterSuccess@90/5": 0.035,
+          "RegressionRate@4": 0.525,
+          "RegressionRate@5": 0.475,
+          "LateRegressionRate@4-5": 0.5,
+          "LateMeanRegressionMagnitude@4-5": 0.009623548634845065,
+          "LateSevereRegressionRate@4-5>0.05": 0.0375,
+          "LateSevereRegressionRate@4-5>0.10": 0.025
+        }
+      }
+    }
+  },
+  "aggregates": {
+    "default": {
+      "mIoU@1": {
+        "baseline": 0.42594562833197414,
+        "mean": 0.7271989147396137,
+        "std": 0.0280635712157845,
+        "delta_vs_baseline": 0.3012532864076396
+      },
+      "mIoU@2": {
+        "baseline": 0.6262182111782022,
+        "mean": 0.757163919879725,
+        "std": 0.01959564426322481,
+        "delta_vs_baseline": 0.13094570870152278
+      },
+      "mIoU@3": {
+        "baseline": 0.6306060100707691,
+        "mean": 0.7555759091000072,
+        "std": 0.019358639274293012,
+        "delta_vs_baseline": 0.12496989902923805
+      },
+      "mIoU@5": {
+        "baseline": 0.6771603284718003,
+        "mean": 0.7528818842243344,
+        "std": 0.0237425182110325,
+        "delta_vs_baseline": 0.07572155575253414
+      },
+      "NoC@85": {
+        "baseline": 3.585,
+        "mean": 3.315,
+        "std": 0.23059705115200424,
+        "delta_vs_baseline": -0.27
+      },
+      "Success@85/5": {
+        "baseline": 0.645,
+        "mean": 0.5866666666666667,
+        "std": 0.04252450274057691,
+        "delta_vs_baseline": -0.05833333333333335
+      },
+      "NoC@90": {
+        "baseline": 4.435,
+        "mean": 4.301666666666667,
+        "std": 0.1617353805861083,
+        "delta_vs_baseline": -0.13333333333333286
+      },
+      "Success@90/5": {
+        "baseline": 0.43,
+        "mean": 0.37666666666666665,
+        "std": 0.02466441431158126,
+        "delta_vs_baseline": -0.053333333333333344
+      },
+      "RegressionRate": {
+        "baseline": 0.43,
+        "mean": 0.46708333333333335,
+        "std": 0.018300159379998123,
+        "delta_vs_baseline": 0.03708333333333336
+      },
+      "MeanRegressionMagnitude": {
+        "baseline": 0.11261006712389644,
+        "mean": 0.015584417661035938,
+        "std": 0.004890274036142039,
+        "delta_vs_baseline": -0.0970256494628605
+      },
+      "FinalSuccess@85/5": {
+        "baseline": 0.385,
+        "mean": 0.5166666666666666,
+        "std": 0.055752428945592424,
+        "delta_vs_baseline": 0.1316666666666666
+      },
+      "LostAfterSuccess@85/5": {
+        "baseline": 0.26,
+        "mean": 0.06999999999999999,
+        "std": 0.02179449471770337,
+        "delta_vs_baseline": -0.19
+      },
+      "FinalSuccess@90/5": {
+        "baseline": 0.225,
+        "mean": 0.3183333333333333,
+        "std": 0.035118845842842465,
+        "delta_vs_baseline": 0.0933333333333333
+      },
+      "LostAfterSuccess@90/5": {
+        "baseline": 0.205,
+        "mean": 0.05833333333333333,
+        "std": 0.01443375672974064,
+        "delta_vs_baseline": -0.14666666666666667
+      },
+      "RegressionRate@4": {
+        "baseline": 0.45,
+        "mean": 0.5083333333333334,
+        "std": 0.0028867513459481316,
+        "delta_vs_baseline": 0.058333333333333404
+      },
+      "RegressionRate@5": {
+        "baseline": 0.45,
+        "mean": 0.5366666666666667,
+        "std": 0.011547005383792525,
+        "delta_vs_baseline": 0.08666666666666673
+      },
+      "LateRegressionRate@4-5": {
+        "baseline": 0.45,
+        "mean": 0.5225,
+        "std": 0.006614378277661503,
+        "delta_vs_baseline": 0.07249999999999995
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "baseline": 0.1018001232430106,
+        "mean": 0.014347558523489472,
+        "std": 0.005824432006285549,
+        "delta_vs_baseline": -0.08745256471952113
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "baseline": 0.265,
+        "mean": 0.06666666666666667,
+        "std": 0.02919046648022832,
+        "delta_vs_baseline": -0.19833333333333336
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "baseline": 0.235,
+        "mean": 0.03333333333333333,
+        "std": 0.013768926368215254,
+        "delta_vs_baseline": -0.20166666666666666
+      }
+    },
+    "synthetic": {
+      "mIoU@1": {
+        "baseline": 0.42594562833197414,
+        "mean": 0.7758715010993184,
+        "std": 0.011200062959899334,
+        "delta_vs_baseline": 0.3499258727673442
+      },
+      "mIoU@2": {
+        "baseline": 0.6262182111782022,
+        "mean": 0.7878223992251635,
+        "std": 0.005320429696612379,
+        "delta_vs_baseline": 0.1616041880469613
+      },
+      "mIoU@3": {
+        "baseline": 0.6306060100707691,
+        "mean": 0.7860749351462193,
+        "std": 0.0031219991309481853,
+        "delta_vs_baseline": 0.15546892507545018
+      },
+      "mIoU@5": {
+        "baseline": 0.6771603284718003,
+        "mean": 0.7857531519994762,
+        "std": 0.004731918093768988,
+        "delta_vs_baseline": 0.10859282352767585
+      },
+      "NoC@85": {
+        "baseline": 3.585,
+        "mean": 3.0416666666666665,
+        "std": 0.016072751268321663,
+        "delta_vs_baseline": -0.5433333333333334
+      },
+      "Success@85/5": {
+        "baseline": 0.645,
+        "mean": 0.6133333333333333,
+        "std": 0.010408329997330672,
+        "delta_vs_baseline": -0.03166666666666673
+      },
+      "NoC@90": {
+        "baseline": 4.435,
+        "mean": 4.125,
+        "std": 0.009999999999999787,
+        "delta_vs_baseline": -0.3099999999999996
+      },
+      "Success@90/5": {
+        "baseline": 0.43,
+        "mean": 0.38999999999999996,
+        "std": 0.010000000000000009,
+        "delta_vs_baseline": -0.040000000000000036
+      },
+      "RegressionRate": {
+        "baseline": 0.43,
+        "mean": 0.5229166666666667,
+        "std": 0.04078015244372357,
+        "delta_vs_baseline": 0.0929166666666667
+      },
+      "MeanRegressionMagnitude": {
+        "baseline": 0.11261006712389644,
+        "mean": 0.006879202476799643,
+        "std": 0.0004215437565321512,
+        "delta_vs_baseline": -0.1057308646470968
+      },
+      "FinalSuccess@85/5": {
+        "baseline": 0.385,
+        "mean": 0.5616666666666666,
+        "std": 0.01527525231651942,
+        "delta_vs_baseline": 0.17666666666666664
+      },
+      "LostAfterSuccess@85/5": {
+        "baseline": 0.26,
+        "mean": 0.051666666666666666,
+        "std": 0.007637626158259732,
+        "delta_vs_baseline": -0.20833333333333334
+      },
+      "FinalSuccess@90/5": {
+        "baseline": 0.225,
+        "mean": 0.355,
+        "std": 0.02291287847477919,
+        "delta_vs_baseline": 0.12999999999999998
+      },
+      "LostAfterSuccess@90/5": {
+        "baseline": 0.205,
+        "mean": 0.034999999999999996,
+        "std": 0.021794494717703367,
+        "delta_vs_baseline": -0.16999999999999998
+      },
+      "RegressionRate@4": {
+        "baseline": 0.45,
+        "mean": 0.5733333333333334,
+        "std": 0.06825198409814423,
+        "delta_vs_baseline": 0.12333333333333335
+      },
+      "RegressionRate@5": {
+        "baseline": 0.45,
+        "mean": 0.6000000000000001,
+        "std": 0.042720018726587636,
+        "delta_vs_baseline": 0.15000000000000008
+      },
+      "LateRegressionRate@4-5": {
+        "baseline": 0.45,
+        "mean": 0.5866666666666666,
+        "std": 0.044884110031650756,
+        "delta_vs_baseline": 0.13666666666666655
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "baseline": 0.1018001232430106,
+        "mean": 0.005726798904943279,
+        "std": 0.0010872201177754245,
+        "delta_vs_baseline": -0.09607332433806733
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "baseline": 0.265,
+        "mean": 0.018333333333333333,
+        "std": 0.005204164998665331,
+        "delta_vs_baseline": -0.24666666666666667
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "baseline": 0.235,
+        "mean": 0.01,
+        "std": 0.004330127018922193,
+        "delta_vs_baseline": -0.22499999999999998
+      }
+    },
+    "shuffled": {
+      "mIoU@1": {
+        "baseline": 0.42594562833197414,
+        "mean": 0.7667882943882917,
+        "std": 0.022428726756168346,
+        "delta_vs_baseline": 0.3408426660563175
+      },
+      "mIoU@2": {
+        "baseline": 0.6262182111782022,
+        "mean": 0.7892737873387522,
+        "std": 0.006824028669683626,
+        "delta_vs_baseline": 0.16305557616055
+      },
+      "mIoU@3": {
+        "baseline": 0.6306060100707691,
+        "mean": 0.7882246192311868,
+        "std": 0.00791250952642501,
+        "delta_vs_baseline": 0.1576186091604177
+      },
+      "mIoU@5": {
+        "baseline": 0.6771603284718003,
+        "mean": 0.7845674878281231,
+        "std": 0.004971211756650821,
+        "delta_vs_baseline": 0.10740715935632283
+      },
+      "NoC@85": {
+        "baseline": 3.585,
+        "mean": 3.09,
+        "std": 0.12379418403139936,
+        "delta_vs_baseline": -0.4950000000000001
+      },
+      "Success@85/5": {
+        "baseline": 0.645,
+        "mean": 0.6116666666666667,
+        "std": 0.027537852736430536,
+        "delta_vs_baseline": -0.033333333333333326
+      },
+      "NoC@90": {
+        "baseline": 4.435,
+        "mean": 4.176666666666667,
+        "std": 0.08311638426527787,
+        "delta_vs_baseline": -0.25833333333333286
+      },
+      "Success@90/5": {
+        "baseline": 0.43,
+        "mean": 0.3833333333333333,
+        "std": 0.02466441431158126,
+        "delta_vs_baseline": -0.04666666666666669
+      },
+      "RegressionRate": {
+        "baseline": 0.43,
+        "mean": 0.50625,
+        "std": 0.031548573660309935,
+        "delta_vs_baseline": 0.07624999999999998
+      },
+      "MeanRegressionMagnitude": {
+        "baseline": 0.11261006712389644,
+        "mean": 0.007194428097548856,
+        "std": 0.001416985569316997,
+        "delta_vs_baseline": -0.10541563902634758
+      },
+      "FinalSuccess@85/5": {
+        "baseline": 0.385,
+        "mean": 0.5499999999999999,
+        "std": 0.034999999999999976,
+        "delta_vs_baseline": 0.16499999999999992
+      },
+      "LostAfterSuccess@85/5": {
+        "baseline": 0.26,
+        "mean": 0.06166666666666667,
+        "std": 0.007637626158259737,
+        "delta_vs_baseline": -0.19833333333333333
+      },
+      "FinalSuccess@90/5": {
+        "baseline": 0.225,
+        "mean": 0.3466666666666667,
+        "std": 0.018929694486000896,
+        "delta_vs_baseline": 0.12166666666666667
+      },
+      "LostAfterSuccess@90/5": {
+        "baseline": 0.205,
+        "mean": 0.03666666666666667,
+        "std": 0.007637626158259732,
+        "delta_vs_baseline": -0.16833333333333333
+      },
+      "RegressionRate@4": {
+        "baseline": 0.45,
+        "mean": 0.56,
+        "std": 0.04769696007084726,
+        "delta_vs_baseline": 0.11000000000000004
+      },
+      "RegressionRate@5": {
+        "baseline": 0.45,
+        "mean": 0.5633333333333334,
+        "std": 0.044814432199162486,
+        "delta_vs_baseline": 0.11333333333333334
+      },
+      "LateRegressionRate@4-5": {
+        "baseline": 0.45,
+        "mean": 0.5616666666666666,
+        "std": 0.012829003598617215,
+        "delta_vs_baseline": 0.11166666666666664
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "baseline": 0.1018001232430106,
+        "mean": 0.007242536065120173,
+        "std": 0.0011586799191804112,
+        "delta_vs_baseline": -0.09455758717789044
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "baseline": 0.265,
+        "mean": 0.0275,
+        "std": 0.009013878188659973,
+        "delta_vs_baseline": -0.23750000000000002
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "baseline": 0.235,
+        "mean": 0.011666666666666667,
+        "std": 0.009464847243000455,
+        "delta_vs_baseline": -0.22333333333333333
+      }
+    },
+    "correct": {
+      "mIoU@1": {
+        "baseline": 0.42594562833197414,
+        "mean": 0.7642865149350837,
+        "std": 0.018280992934879153,
+        "delta_vs_baseline": 0.33834088660310957
+      },
+      "mIoU@2": {
+        "baseline": 0.6262182111782022,
+        "mean": 0.7853949544264469,
+        "std": 0.014789814061689038,
+        "delta_vs_baseline": 0.1591767432482447
+      },
+      "mIoU@3": {
+        "baseline": 0.6306060100707691,
+        "mean": 0.7900805321099081,
+        "std": 0.011361675518700685,
+        "delta_vs_baseline": 0.15947452203913903
+      },
+      "mIoU@5": {
+        "baseline": 0.6771603284718003,
+        "mean": 0.7968746353251239,
+        "std": 0.015967756429550384,
+        "delta_vs_baseline": 0.11971430685332363
+      },
+      "NoC@85": {
+        "baseline": 3.585,
+        "mean": 3.0116666666666667,
+        "std": 0.07112196097783947,
+        "delta_vs_baseline": -0.5733333333333333
+      },
+      "Success@85/5": {
+        "baseline": 0.645,
+        "mean": 0.6466666666666666,
+        "std": 0.01527525231651948,
+        "delta_vs_baseline": 0.0016666666666665941
+      },
+      "NoC@90": {
+        "baseline": 4.435,
+        "mean": 4.076666666666667,
+        "std": 0.08504900548115378,
+        "delta_vs_baseline": -0.3583333333333325
+      },
+      "Success@90/5": {
+        "baseline": 0.43,
+        "mean": 0.41,
+        "std": 0.013228756555322933,
+        "delta_vs_baseline": -0.020000000000000018
+      },
+      "RegressionRate": {
+        "baseline": 0.43,
+        "mean": 0.46083333333333326,
+        "std": 0.015629166111259214,
+        "delta_vs_baseline": 0.030833333333333268
+      },
+      "MeanRegressionMagnitude": {
+        "baseline": 0.11261006712389644,
+        "mean": 0.010725091761281266,
+        "std": 0.0025061671686449783,
+        "delta_vs_baseline": -0.10188497536261518
+      },
+      "FinalSuccess@85/5": {
+        "baseline": 0.385,
+        "mean": 0.5783333333333334,
+        "std": 0.017559422921421187,
+        "delta_vs_baseline": 0.19333333333333336
+      },
+      "LostAfterSuccess@85/5": {
+        "baseline": 0.26,
+        "mean": 0.06833333333333334,
+        "std": 0.0028867513459481316,
+        "delta_vs_baseline": -0.19166666666666665
+      },
+      "FinalSuccess@90/5": {
+        "baseline": 0.225,
+        "mean": 0.37833333333333335,
+        "std": 0.00763762615825974,
+        "delta_vs_baseline": 0.15333333333333335
+      },
+      "LostAfterSuccess@90/5": {
+        "baseline": 0.205,
+        "mean": 0.03166666666666667,
+        "std": 0.015275252316519466,
+        "delta_vs_baseline": -0.1733333333333333
+      },
+      "RegressionRate@4": {
+        "baseline": 0.45,
+        "mean": 0.5316666666666667,
+        "std": 0.016072751268321604,
+        "delta_vs_baseline": 0.08166666666666672
+      },
+      "RegressionRate@5": {
+        "baseline": 0.45,
+        "mean": 0.49833333333333335,
+        "std": 0.020207259421636918,
+        "delta_vs_baseline": 0.04833333333333334
+      },
+      "LateRegressionRate@4-5": {
+        "baseline": 0.45,
+        "mean": 0.515,
+        "std": 0.015000000000000013,
+        "delta_vs_baseline": 0.065
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "baseline": 0.1018001232430106,
+        "mean": 0.009383991464104232,
+        "std": 0.0010528767938320323,
+        "delta_vs_baseline": -0.09241613177890637
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "baseline": 0.265,
+        "mean": 0.0325,
+        "std": 0.004330127018922193,
+        "delta_vs_baseline": -0.2325
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "baseline": 0.235,
+        "mean": 0.020833333333333332,
+        "std": 0.0038188130791298666,
+        "delta_vs_baseline": -0.21416666666666664
+      }
+    }
+  },
+  "paired_contrasts": {
+    "synthetic_minus_default": {
+      "mIoU@1": {
+        "mean": 0.04867258635970458,
+        "std": 0.02992615721473972,
+        "per_seed": [
+          0.054971323432400854,
+          0.07494802570901815,
+          0.016098409937694735
+        ]
+      },
+      "mIoU@2": {
+        "mean": 0.0306584793454386,
+        "std": 0.023911444485574564,
+        "per_seed": [
+          0.04488286006730058,
+          0.04404037159867591,
+          0.0030522063703393165
+        ]
+      },
+      "mIoU@3": {
+        "mean": 0.03049902604621213,
+        "std": 0.02239942292512539,
+        "per_seed": [
+          0.047917291233316006,
+          0.038348491695942344,
+          0.00523129520937804
+        ]
+      },
+      "mIoU@5": {
+        "mean": 0.0328712677751416,
+        "std": 0.0278362733461878,
+        "per_seed": [
+          0.05452916019246912,
+          0.04261074119058328,
+          0.001473901942372402
+        ]
+      },
+      "NoC@85": {
+        "mean": -0.27333333333333326,
+        "std": 0.22216735433752033,
+        "per_seed": [
+          -0.36499999999999977,
+          -0.43500000000000005,
+          -0.020000000000000018
+        ]
+      },
+      "Success@85/5": {
+        "mean": 0.026666666666666655,
+        "std": 0.04804511768466524,
+        "per_seed": [
+          0.06999999999999995,
+          0.03500000000000003,
+          -0.025000000000000022
+        ]
+      },
+      "NoC@90": {
+        "mean": -0.17666666666666675,
+        "std": 0.1706116447764725,
+        "per_seed": [
+          -0.28500000000000014,
+          -0.2649999999999997,
+          0.019999999999999574
+        ]
+      },
+      "Success@90/5": {
+        "mean": 0.013333333333333345,
+        "std": 0.033291640592397,
+        "per_seed": [
+          0.03500000000000003,
+          0.030000000000000027,
+          -0.025000000000000022
+        ]
+      },
+      "RegressionRate": {
+        "mean": 0.055833333333333346,
+        "std": 0.03642915499065733,
+        "per_seed": [
+          0.03999999999999998,
+          0.09750000000000003,
+          0.030000000000000027
+        ]
+      },
+      "MeanRegressionMagnitude": {
+        "mean": -0.008705215184236295,
+        "std": 0.005081810570647225,
+        "per_seed": [
+          -0.007469056727713906,
+          -0.014291063819255215,
+          -0.0043555250057397635
+        ]
+      },
+      "FinalSuccess@85/5": {
+        "mean": 0.045000000000000005,
+        "std": 0.05220153254455276,
+        "per_seed": [
+          0.07999999999999996,
+          0.07000000000000006,
+          -0.015000000000000013
+        ]
+      },
+      "LostAfterSuccess@85/5": {
+        "mean": -0.018333333333333333,
+        "std": 0.014433756729740647,
+        "per_seed": [
+          -0.009999999999999995,
+          -0.035,
+          -0.010000000000000002
+        ]
+      },
+      "FinalSuccess@90/5": {
+        "mean": 0.03666666666666668,
+        "std": 0.028431203515386635,
+        "per_seed": [
+          0.06,
+          0.04500000000000004,
+          0.0050000000000000044
+        ]
+      },
+      "LostAfterSuccess@90/5": {
+        "mean": -0.023333333333333334,
+        "std": 0.007637626158259735,
+        "per_seed": [
+          -0.025,
+          -0.015,
+          -0.030000000000000002
+        ]
+      },
+      "RegressionRate@4": {
+        "mean": 0.06499999999999999,
+        "std": 0.07053367989832943,
+        "per_seed": [
+          -0.010000000000000009,
+          0.13,
+          0.07499999999999996
+        ]
+      },
+      "RegressionRate@5": {
+        "mean": 0.06333333333333331,
+        "std": 0.043108390521258526,
+        "per_seed": [
+          0.05499999999999994,
+          0.10999999999999999,
+          0.025000000000000022
+        ]
+      },
+      "LateRegressionRate@4-5": {
+        "mean": 0.06416666666666664,
+        "std": 0.050270103772852265,
+        "per_seed": [
+          0.022499999999999964,
+          0.12,
+          0.04999999999999993
+        ]
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "mean": -0.008620759618546194,
+        "std": 0.0068351984837863155,
+        "per_seed": [
+          -0.006420798794133588,
+          -0.016285042552044618,
+          -0.0031564375094603747
+        ]
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "mean": -0.04833333333333334,
+        "std": 0.03394235309069383,
+        "per_seed": [
+          -0.05249999999999999,
+          -0.08,
+          -0.012500000000000004
+        ]
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "mean": -0.023333333333333334,
+        "std": 0.01773649721149397,
+        "per_seed": [
+          -0.02,
+          -0.0425,
+          -0.0075
+        ]
+      }
+    },
+    "synthetic_minus_shuffled": {
+      "mIoU@1": {
+        "mean": 0.009083206711026581,
+        "std": 0.01453093817306227,
+        "per_seed": [
+          0.02384832110721624,
+          0.008602947089821122,
+          -0.00520164806395762
+        ]
+      },
+      "mIoU@2": {
+        "mean": -0.0014513881135886548,
+        "std": 0.011894706667589962,
+        "per_seed": [
+          0.0014841284998693416,
+          0.008700711727142374,
+          -0.01453900456777768
+        ]
+      },
+      "mIoU@3": {
+        "mean": -0.002149684084967407,
+        "std": 0.010300968118674703,
+        "per_seed": [
+          0.0019915379490702545,
+          0.005436187395825964,
+          -0.01387677759979844
+        ]
+      },
+      "mIoU@5": {
+        "mean": 0.001185664171352981,
+        "std": 0.008213712181131757,
+        "per_seed": [
+          0.006874466376611932,
+          0.004913417578209178,
+          -0.008230891440762167
+        ]
+      },
+      "NoC@85": {
+        "mean": -0.04833333333333334,
+        "std": 0.11729592206608577,
+        "per_seed": [
+          -0.07499999999999973,
+          -0.1499999999999999,
+          0.07999999999999963
+        ]
+      },
+      "Success@85/5": {
+        "mean": 0.001666666666666668,
+        "std": 0.027537852736430536,
+        "per_seed": [
+          0.015000000000000013,
+          0.020000000000000018,
+          -0.030000000000000027
+        ]
+      },
+      "NoC@90": {
+        "mean": -0.05166666666666645,
+        "std": 0.08751190395216708,
+        "per_seed": [
+          -0.04999999999999982,
+          -0.13999999999999968,
+          0.03500000000000014
+        ]
+      },
+      "Success@90/5": {
+        "mean": 0.006666666666666672,
+        "std": 0.027537852736430536,
+        "per_seed": [
+          0.0050000000000000044,
+          0.03500000000000003,
+          -0.020000000000000018
+        ]
+      },
+      "RegressionRate": {
+        "mean": 0.01666666666666668,
+        "std": 0.026702449950020198,
+        "per_seed": [
+          -0.013749999999999984,
+          0.02749999999999997,
+          0.03625000000000006
+        ]
+      },
+      "MeanRegressionMagnitude": {
+        "mean": -0.00031522562074921216,
+        "std": 0.0010747166825839471,
+        "per_seed": [
+          -0.0014414815229247318,
+          -0.00020340319802926356,
+          0.0006992078587063589
+        ]
+      },
+      "FinalSuccess@85/5": {
+        "mean": 0.01166666666666664,
+        "std": 0.02753785273643051,
+        "per_seed": [
+          0.02499999999999991,
+          0.030000000000000027,
+          -0.020000000000000018
+        ]
+      },
+      "LostAfterSuccess@85/5": {
+        "mean": -0.010000000000000002,
+        "std": 6.938893903907228e-18,
+        "per_seed": [
+          -0.009999999999999995,
+          -0.010000000000000009,
+          -0.010000000000000002
+        ]
+      },
+      "FinalSuccess@90/5": {
+        "mean": 0.00833333333333334,
+        "std": 0.005773502691896262,
+        "per_seed": [
+          0.015000000000000013,
+          0.0050000000000000044,
+          0.0050000000000000044
+        ]
+      },
+      "LostAfterSuccess@90/5": {
+        "mean": -0.001666666666666667,
+        "std": 0.02843120351538663,
+        "per_seed": [
+          -0.010000000000000002,
+          0.03,
+          -0.024999999999999998
+        ]
+      },
+      "RegressionRate@4": {
+        "mean": 0.013333333333333308,
+        "std": 0.06331139971074194,
+        "per_seed": [
+          -0.05500000000000005,
+          0.025000000000000022,
+          0.06999999999999995
+        ]
+      },
+      "RegressionRate@5": {
+        "mean": 0.03666666666666666,
+        "std": 0.08607167555783567,
+        "per_seed": [
+          0.06499999999999995,
+          0.10499999999999998,
+          -0.05999999999999994
+        ]
+      },
+      "LateRegressionRate@4-5": {
+        "mean": 0.024999999999999984,
+        "std": 0.03464101615137752,
+        "per_seed": [
+          0.0050000000000000044,
+          0.06499999999999995,
+          0.0050000000000000044
+        ]
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "mean": -0.0015157371601768924,
+        "std": 0.0006788830685550451,
+        "per_seed": [
+          -0.0020423535566078494,
+          -0.001755309264844982,
+          -0.0007495486590778462
+        ]
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "mean": -0.009166666666666668,
+        "std": 0.012332207155790618,
+        "per_seed": [
+          -0.015000000000000003,
+          -0.017499999999999998,
+          0.0049999999999999975
+        ]
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "mean": -0.001666666666666666,
+        "std": 0.007637626158259733,
+        "per_seed": [
+          -0.009999999999999998,
+          0.0,
+          0.005000000000000001
+        ]
+      }
+    },
+    "correct_minus_synthetic": {
+      "mIoU@1": {
+        "mean": -0.011584986164234609,
+        "std": 0.02621808224357154,
+        "per_seed": [
+          0.0005852432548999476,
+          -0.041676391162909554,
+          0.006336189415305782
+        ]
+      },
+      "mIoU@2": {
+        "mean": -0.0024274447987167047,
+        "std": 0.020038201784986078,
+        "per_seed": [
+          -0.005341041438514438,
+          -0.020849347310140764,
+          0.018908054352505088
+        ]
+      },
+      "mIoU@3": {
+        "mean": 0.004005596963688703,
+        "std": 0.014464383519594025,
+        "per_seed": [
+          -0.008570416821166882,
+          0.0007751324155833572,
+          0.019812075296649634
+        ]
+      },
+      "mIoU@5": {
+        "mean": 0.011121483325647774,
+        "std": 0.02064856574097582,
+        "per_seed": [
+          -0.012140608344925585,
+          0.018222674252465376,
+          0.02728238406940353
+        ]
+      },
+      "NoC@85": {
+        "mean": -0.029999999999999954,
+        "std": 0.06082762530298192,
+        "per_seed": [
+          0.0,
+          0.009999999999999787,
+          -0.09999999999999964
+        ]
+      },
+      "Success@85/5": {
+        "mean": 0.03333333333333336,
+        "std": 0.02466441431158126,
+        "per_seed": [
+          0.0050000000000000044,
+          0.04500000000000004,
+          0.050000000000000044
+        ]
+      },
+      "NoC@90": {
+        "mean": -0.048333333333333194,
+        "std": 0.0907377172587745,
+        "per_seed": [
+          -0.03500000000000014,
+          0.03500000000000014,
+          -0.14499999999999957
+        ]
+      },
+      "Success@90/5": {
+        "mean": 0.01999999999999998,
+        "std": 0.01802775637731994,
+        "per_seed": [
+          0.014999999999999958,
+          0.0050000000000000044,
+          0.03999999999999998
+        ]
+      },
+      "RegressionRate": {
+        "mean": -0.062083333333333345,
+        "std": 0.05440492471581349,
+        "per_seed": [
+          -0.00874999999999998,
+          -0.1175,
+          -0.06000000000000005
+        ]
+      },
+      "MeanRegressionMagnitude": {
+        "mean": 0.003845889284481624,
+        "std": 0.0021849357825700954,
+        "per_seed": [
+          0.006097570470592472,
+          0.0037056415338520303,
+          0.0017344558490003693
+        ]
+      },
+      "FinalSuccess@85/5": {
+        "mean": 0.01666666666666668,
+        "std": 0.027537852736430432,
+        "per_seed": [
+          -0.014999999999999902,
+          0.03499999999999992,
+          0.030000000000000027
+        ]
+      },
+      "LostAfterSuccess@85/5": {
+        "mean": 0.016666666666666673,
+        "std": 0.0057735026918962545,
+        "per_seed": [
+          0.020000000000000004,
+          0.010000000000000009,
+          0.020000000000000004
+        ]
+      },
+      "FinalSuccess@90/5": {
+        "mean": 0.023333333333333334,
+        "std": 0.02753785273643051,
+        "per_seed": [
+          -0.0050000000000000044,
+          0.04999999999999999,
+          0.025000000000000022
+        ]
+      },
+      "LostAfterSuccess@90/5": {
+        "mean": -0.0033333333333333327,
+        "std": 0.036170890690351176,
+        "per_seed": [
+          0.019999999999999997,
+          -0.045,
+          0.015000000000000003
+        ]
+      },
+      "RegressionRate@4": {
+        "mean": -0.04166666666666663,
+        "std": 0.08401388774085708,
+        "per_seed": [
+          0.050000000000000044,
+          -0.11499999999999999,
+          -0.05999999999999994
+        ]
+      },
+      "RegressionRate@5": {
+        "mean": -0.10166666666666668,
+        "std": 0.0256580071972344,
+        "per_seed": [
+          -0.09499999999999997,
+          -0.13,
+          -0.08000000000000007
+        ]
+      },
+      "LateRegressionRate@4-5": {
+        "mean": -0.07166666666666661,
+        "std": 0.05002082899486305,
+        "per_seed": [
+          -0.022499999999999964,
+          -0.12249999999999994,
+          -0.06999999999999995
+        ]
+      },
+      "LateMeanRegressionMagnitude@4-5": {
+        "mean": 0.0036571925591609516,
+        "std": 0.00023697882996764135,
+        "per_seed": [
+          0.0038307799538597467,
+          0.003753591460335883,
+          0.0033872062632872256
+        ]
+      },
+      "LateSevereRegressionRate@4-5>0.05": {
+        "mean": 0.014166666666666666,
+        "std": 0.0038188130791298666,
+        "per_seed": [
+          0.009999999999999998,
+          0.017499999999999998,
+          0.015
+        ]
+      },
+      "LateSevereRegressionRate@4-5>0.10": {
+        "mean": 0.010833333333333334,
+        "std": 0.002886751345948129,
+        "per_seed": [
+          0.0075,
+          0.0125,
+          0.0125
+        ]
+      }
+    }
+  },
+  "viewport_signal_criterion": {
+    "definition": "Both paired mIoU@5 means >= +0.01 and both contrasts positive for every seed",
+    "synthetic_minus_default_mIoU@5": 0.0328712677751416,
+    "synthetic_minus_shuffled_mIoU@5": 0.001185664171352981,
+    "positive_for_every_seed": false,
+    "passes": false,
+    "verdict": "inconclusive: independent viewport information not established"
+  }
+}

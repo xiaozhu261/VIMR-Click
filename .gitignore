@@ -8,6 +8,7 @@ __pycache__/
 .slurm/
 .demo/
 
+dataset/
 wandb/
 tmp/
 

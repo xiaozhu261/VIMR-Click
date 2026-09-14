@@ -13,8 +13,20 @@ wandb/
 tmp/
 
 assets/checkpoints/
+assets/checkpoints.zip
 assets/data/
 assets/export_models/
+
+# Ephemeral experiment artifacts. Keep reproducible scripts and final metrics,
+# but do not commit smoke/preflight/benchmark runs, logs, or generated weights.
+/outputs/_smoke*
+/outputs/_benchmark*
+/outputs/_preflight*
+/outputs/*quick*
+/outputs/**/*.log
+/outputs/**/*.pt
+/outputs/**/split_manifest.json
+/outputs/**/per_instance.csv
 
 applications/efficientvit_gazesam/models/pytorch
 applications/efficientvit_gazesam/models/onnx

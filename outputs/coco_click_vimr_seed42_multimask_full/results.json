@@ -1,0 +1,237 @@
+{
+  "protocol": {
+    "dataset": "COCO 2017 val",
+    "images": 5000,
+    "instances": 36781,
+    "clicks": [
+      1,
+      3,
+      5
+    ],
+    "checkpoint": "outputs/vimr_coco_full/seed_42/best_vimr_modules.pt",
+    "checkpoint_seed": 42,
+    "checkpoint_epoch": 3,
+    "viewport_mode": "synthetic",
+    "prompt_policy": "largest-error corrective click in original-image space",
+    "baseline_prompt_state": "all clicks accumulated plus previous-mask prompt",
+    "vimr_prompt_state": "current click plus explicit click/view/mask history",
+    "mask_selection": "highest model-predicted IoU among three VIMR candidates; ground-truth IoU is never used for selection",
+    "ap_definition": "COCO segmentation AP for GT-instance-conditioned point-prompt masks; GT category and SAM predicted IoU score are used",
+    "inference_seconds": 4271.292196329683,
+    "multimask_output": true,
+    "candidate_count": 3,
+    "checkpoint_training_mask_mode": "single-mask"
+  },
+  "baseline_metrics": {
+    "1": {
+      "mIoU": 54.095503559468725,
+      "mIoUS": 48.51162898834196,
+      "mIoUM": 59.0759764507304,
+      "mIoUL": 56.67136905194241,
+      "mAP": 28.357395412025927,
+      "APS": 20.683446304322008,
+      "APM": 32.44869071258004,
+      "APL": 35.620422239839286
+    },
+    "3": {
+      "mIoU": 65.15687811485653,
+      "mIoUS": 54.808013246878964,
+      "mIoUM": 70.50993443969655,
+      "mIoUL": 75.40868215061714,
+      "mAP": 43.91206596813008,
+      "APS": 34.21113858669972,
+      "APM": 49.63279085320411,
+      "APL": 54.85378341284621
+    },
+    "5": {
+      "mIoU": 67.14581646575095,
+      "mIoUS": 56.54713993862304,
+      "mIoUM": 72.29922442445951,
+      "mIoUL": 78.10968590263491,
+      "mAP": 47.51753724268868,
+      "APS": 36.64270007497571,
+      "APM": 52.47112871572616,
+      "APL": 61.16250033635073
+    }
+  },
+  "vimr_metrics": {
+    "1": {
+      "mIoU": 39.720330251669786,
+      "mIoUS": 16.015282116444343,
+      "mIoUM": 45.612981868434034,
+      "mIoUL": 72.2007252184977,
+      "mAP": 19.931435803245257,
+      "APS": 5.616888782765697,
+      "APM": 19.959701453608375,
+      "APL": 37.586585624936916
+    },
+    "3": {
+      "mIoU": 45.2498633311264,
+      "mIoUS": 19.490876217777313,
+      "mIoUM": 52.60185686138082,
+      "mIoUL": 79.20419411219565,
+      "mAP": 31.678288380592996,
+      "APS": 7.804785791146411,
+      "APM": 32.49089517084192,
+      "APL": 60.62203207262645
+    },
+    "5": {
+      "mIoU": 49.60561533762922,
+      "mIoUS": 24.710235333217557,
+      "mIoUM": 57.28700458638288,
+      "mIoUL": 81.60801651780004,
+      "mAP": 36.65029369507528,
+      "APS": 12.953295275173177,
+      "APM": 38.57696046070636,
+      "APL": 66.34835232520985
+    }
+  },
+  "baseline_complexity": {
+    "Params(M)": 34.792784,
+    "MACs(G)": 35.0,
+    "DocumentedThroughput(image/s)": 762.0,
+    "MeasuredPipelineThroughput(image/s)": 1.711123805507038,
+    "documented_protocol": "EfficientViT-SAM README: 512x512, A100 TensorRT fp16, batch 16",
+    "measured_protocol": "cuda, PyTorch, full image loading/encoding, all GT instances, click checkpoints [1, 3, 5] in one 5-click sequence"
+  },
+  "vimr_complexity": {
+    "Params(M)": 38.952372,
+    "BaseParams(M)": 34.792784,
+    "ActiveVIMRParams(M)": 4.159588,
+    "InstantiatedParams(M)": 39.547013,
+    "MACs(G)": 48.55280384,
+    "BackboneLowerBoundMACs(G)": 35.0,
+    "MeasuredPipelineThroughput(image/s)": 1.1706059361371939,
+    "measured_protocol": "cuda, PyTorch, full image loading/encoding, all GT instances, click checkpoints [1, 3, 5] in one 5-click sequence",
+    "ProfiledBaselineMultimaskMACs(G)": 36.63825664,
+    "ProfiledVIMRMultimaskMACs(G)": 50.19106048,
+    "macs_protocol": "PyTorch 2.6 FlopCounterMode, MAC=FLOP/2; 512x512 encoder plus the maximum-history click-5 three-candidate path. Table MACs add the measured VIMR overhead to the published 35G baseline."
+  },
+  "table": [
+    {
+      "method": "Baseline",
+      "click": 1,
+      "mIoU": 54.095503559468725,
+      "mIoUS": 48.51162898834196,
+      "mIoUM": 59.0759764507304,
+      "mIoUL": 56.67136905194241,
+      "mAP": 28.357395412025927,
+      "APS": 20.683446304322008,
+      "APM": 32.44869071258004,
+      "APL": 35.620422239839286,
+      "Params(M)": 34.792784,
+      "MACs(G)": 35.0,
+      "MeasuredPipelineThroughput(image/s)": 1.711123805507038
+    },
+    {
+      "method": "VIMR seed 42 multimask",
+      "click": 1,
+      "mIoU": 39.720330251669786,
+      "mIoUS": 16.015282116444343,
+      "mIoUM": 45.612981868434034,
+      "mIoUL": 72.2007252184977,
+      "mAP": 19.931435803245257,
+      "APS": 5.616888782765697,
+      "APM": 19.959701453608375,
+      "APL": 37.586585624936916,
+      "Params(M)": 38.952372,
+      "MACs(G)": 48.55280384,
+      "MeasuredPipelineThroughput(image/s)": 1.1706059361371939
+    },
+    {
+      "method": "Baseline",
+      "click": 3,
+      "mIoU": 65.15687811485653,
+      "mIoUS": 54.808013246878964,
+      "mIoUM": 70.50993443969655,
+      "mIoUL": 75.40868215061714,
+      "mAP": 43.91206596813008,
+      "APS": 34.21113858669972,
+      "APM": 49.63279085320411,
+      "APL": 54.85378341284621,
+      "Params(M)": 34.792784,
+      "MACs(G)": 35.0,
+      "MeasuredPipelineThroughput(image/s)": 1.711123805507038
+    },
+    {
+      "method": "VIMR seed 42 multimask",
+      "click": 3,
+      "mIoU": 45.2498633311264,
+      "mIoUS": 19.490876217777313,
+      "mIoUM": 52.60185686138082,
+      "mIoUL": 79.20419411219565,
+      "mAP": 31.678288380592996,
+      "APS": 7.804785791146411,
+      "APM": 32.49089517084192,
+      "APL": 60.62203207262645,
+      "Params(M)": 38.952372,
+      "MACs(G)": 48.55280384,
+      "MeasuredPipelineThroughput(image/s)": 1.1706059361371939
+    },
+    {
+      "method": "Baseline",
+      "click": 5,
+      "mIoU": 67.14581646575095,
+      "mIoUS": 56.54713993862304,
+      "mIoUM": 72.29922442445951,
+      "mIoUL": 78.10968590263491,
+      "mAP": 47.51753724268868,
+      "APS": 36.64270007497571,
+      "APM": 52.47112871572616,
+      "APL": 61.16250033635073,
+      "Params(M)": 34.792784,
+      "MACs(G)": 35.0,
+      "MeasuredPipelineThroughput(image/s)": 1.711123805507038
+    },
+    {
+      "method": "VIMR seed 42 multimask",
+      "click": 5,
+      "mIoU": 49.60561533762922,
+      "mIoUS": 24.710235333217557,
+      "mIoUM": 57.28700458638288,
+      "mIoUL": 81.60801651780004,
+      "mAP": 36.65029369507528,
+      "APS": 12.953295275173177,
+      "APM": 38.57696046070636,
+      "APL": 66.34835232520985,
+      "Params(M)": 38.952372,
+      "MACs(G)": 48.55280384,
+      "MeasuredPipelineThroughput(image/s)": 1.1706059361371939
+    }
+  ],
+  "delta_vimr_minus_baseline": [
+    {
+      "click": 1,
+      "mIoU": -14.375173307798939,
+      "mIoUS": -32.496346871897615,
+      "mIoUM": -13.462994582296368,
+      "mIoUL": 15.529356166555282,
+      "mAP": -8.42595960878067,
+      "APS": -15.06655752155631,
+      "APM": -12.488989258971664,
+      "APL": 1.9661633850976301
+    },
+    {
+      "click": 3,
+      "mIoU": -19.907014783730126,
+      "mIoUS": -35.31713702910165,
+      "mIoUM": -17.908077578315734,
+      "mIoUL": 3.7955119615785122,
+      "mAP": -12.233777587537084,
+      "APS": -26.406352795553307,
+      "APM": -17.141895682362197,
+      "APL": 5.768248659780241
+    },
+    {
+      "click": 5,
+      "mIoU": -17.540201128121737,
+      "mIoUS": -31.836904605405483,
+      "mIoUM": -15.012219838076632,
+      "mIoUL": 3.4983306151651306,
+      "mAP": -10.867243547613405,
+      "APS": -23.68940479980253,
+      "APM": -13.8941682550198,
+      "APL": 5.185851988859113
+    }
+  ]
+}

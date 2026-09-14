@@ -1,0 +1,105 @@
+{
+  "protocol": {
+    "dataset": "COCO 2017 val",
+    "model": "efficientvit-sam-l0",
+    "checkpoint": "assets/checkpoints/efficientvit_sam/efficientvit_sam_l0.pt",
+    "images": 5000,
+    "instances": 36781,
+    "clicks": [
+      1,
+      3,
+      5
+    ],
+    "prompt_policy": "largest-error corrective click; all clicks accumulated",
+    "mask_selection": "highest SAM predicted IoU among multimask outputs",
+    "ap_definition": "COCO segmentation AP for GT-instance-conditioned point-prompt masks; GT category and SAM predicted IoU score are used",
+    "inference_seconds": 2922.056243918836
+  },
+  "metrics": {
+    "1": {
+      "mIoU": 54.095503559468725,
+      "mIoUS": 48.51162898834196,
+      "mIoUM": 59.0759764507304,
+      "mIoUL": 56.67136905194241,
+      "mAP": 28.357395412025927,
+      "APS": 20.683446304322008,
+      "APM": 32.44869071258004,
+      "APL": 35.620422239839286
+    },
+    "3": {
+      "mIoU": 65.15687811485653,
+      "mIoUS": 54.808013246878964,
+      "mIoUM": 70.50993443969655,
+      "mIoUL": 75.40868215061714,
+      "mAP": 43.91206596813008,
+      "APS": 34.21113858669972,
+      "APM": 49.63279085320411,
+      "APL": 54.85378341284621
+    },
+    "5": {
+      "mIoU": 67.14581646575095,
+      "mIoUS": 56.54713993862304,
+      "mIoUM": 72.29922442445951,
+      "mIoUL": 78.10968590263491,
+      "mAP": 47.51753724268868,
+      "APS": 36.64270007497571,
+      "APM": 52.47112871572616,
+      "APL": 61.16250033635073
+    }
+  },
+  "complexity": {
+    "Params(M)": 34.792784,
+    "MACs(G)": 35.0,
+    "DocumentedThroughput(image/s)": 762.0,
+    "MeasuredPipelineThroughput(image/s)": 1.711123805507038,
+    "documented_protocol": "EfficientViT-SAM README: 512x512, A100 TensorRT fp16, batch 16",
+    "measured_protocol": "cuda, PyTorch, full image loading/encoding, all GT instances, click checkpoints [1, 3, 5] in one 5-click sequence"
+  },
+  "table": [
+    {
+      "click": 1,
+      "mIoU": 54.095503559468725,
+      "mIoUS": 48.51162898834196,
+      "mIoUM": 59.0759764507304,
+      "mIoUL": 56.67136905194241,
+      "mAP": 28.357395412025927,
+      "APS": 20.683446304322008,
+      "APM": 32.44869071258004,
+      "APL": 35.620422239839286,
+      "Params(M)": 34.792784,
+      "MACs(G)": 35.0,
+      "DocumentedThroughput(image/s)": 762.0,
+      "MeasuredPipelineThroughput(image/s)": 1.711123805507038
+    },
+    {
+      "click": 3,
+      "mIoU": 65.15687811485653,
+      "mIoUS": 54.808013246878964,
+      "mIoUM": 70.50993443969655,
+      "mIoUL": 75.40868215061714,
+      "mAP": 43.91206596813008,
+      "APS": 34.21113858669972,
+      "APM": 49.63279085320411,
+      "APL": 54.85378341284621,
+      "Params(M)": 34.792784,
+      "MACs(G)": 35.0,
+      "DocumentedThroughput(image/s)": 762.0,
+      "MeasuredPipelineThroughput(image/s)": 1.711123805507038
+    },
+    {
+      "click": 5,
+      "mIoU": 67.14581646575095,
+      "mIoUS": 56.54713993862304,
+      "mIoUM": 72.29922442445951,
+      "mIoUL": 78.10968590263491,
+      "mAP": 47.51753724268868,
+      "APS": 36.64270007497571,
+      "APM": 52.47112871572616,
+      "APL": 61.16250033635073,
+      "Params(M)": 34.792784,
+      "MACs(G)": 35.0,
+      "DocumentedThroughput(image/s)": 762.0,
+      "MeasuredPipelineThroughput(image/s)": 1.711123805507038
+    }
+  ]
+}

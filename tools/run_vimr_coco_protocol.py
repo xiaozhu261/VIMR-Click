@@ -38,20 +38,22 @@ def parse_args() -> argparse.Namespace:
         default=ROOT_DIR / "assets/checkpoints/efficientvit_sam/efficientvit_sam_l0.pt",
     )
     parser.add_argument("--output", type=Path, default=ROOT_DIR / "outputs/vimr_coco_protocol")
-    parser.add_argument("--train-instances", type=int, default=500)
-    parser.add_argument("--eval-instances", type=int, default=200)
-    parser.add_argument("--epochs", type=int, default=3)
-    parser.add_argument("--max-clicks", type=int, default=5)
-    parser.add_argument("--seeds", type=int, nargs="+", default=[42, 43, 44])
-    parser.add_argument("--split-seed", type=int, default=2026)
-    parser.add_argument("--learning-rate", type=float, default=1e-4)
-    parser.add_argument("--lambda-safe", type=float, default=0.2)
-    parser.add_argument("--lambda-monotonic", type=float, default=0.1)
-    parser.add_argument("--gate-init-probability", type=float, default=0.1)
+    parser.add_argument("--train-instances", type=int, default=500) # 训练实例数
+    parser.add_argument("--eval-instances", type=int, default=200) # 验证实例数
+    parser.add_argument("--epochs", type=int, default=3) # 每个 seed 训练 3 epoch
+    parser.add_argument("--max-clicks", type=int, default=5) # 最多交互 5 次
+    parser.add_argument("--seeds", type=int, nargs="+", default=[42, 43, 44]) # 3 个训练 seed
+    parser.add_argument("--split-seed", type=int, default=2026) # 固定 train/val 划分
+    parser.add_argument("--learning-rate", type=float, default=1e-4) # AdamW 学习率
+    parser.add_argument("--lambda-safe", type=float, default=0.2) # Safe Update loss 权重
+    parser.add_argument("--lambda-monotonic", type=float, default=0.1) # 单调性约束权重
+    parser.add_argument("--gate-init-probability", type=float, default=0.1) # gate 初始概率
     parser.add_argument("--disable-viewport", action="store_true")
     parser.add_argument("--disable-history", action="store_true")
     parser.add_argument("--disable-residual", action="store_true")
     parser.add_argument("--disable-safe-update", action="store_true")
+    # synthetic：使用以点击位置为中心的 viewport state
+    # default：每轮都给模型一个没有额外信息的全局 viewport state
     parser.add_argument(
         "--viewport-mode",
         choices=("synthetic", "default"),
@@ -60,8 +62,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--enable-expert-router", action="store_true")
     parser.add_argument("--enable-detail-refinement", action="store_true")
-    parser.add_argument("--min-area-ratio", type=float, default=0.01)
-    parser.add_argument("--max-area-ratio", type=float, default=0.60)
+    parser.add_argument("--min-area-ratio", type=float, default=0.01) # 实例最小面积比例
+    parser.add_argument("--max-area-ratio", type=float, default=0.60) # 实例最大面积比例
     parser.add_argument("--selection-metric", default=None, help="Defaults to mIoU@max-clicks (higher is better)")
     parser.add_argument("--progress-every", type=int, default=25)
     parser.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")

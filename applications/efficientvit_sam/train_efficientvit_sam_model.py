@@ -10,8 +10,9 @@ from efficientvit.apps import setup
 from efficientvit.apps.utils import dump_config, parse_unknown_args
 from efficientvit.sam_model_zoo import create_efficientvit_sam_model
 from efficientvit.samcore.data_provider import SAMDataProvider
+from efficientvit.models.cais import CAISEfficientViTSam
 from efficientvit.models.vimr import VIMREfficientViTSam
-from efficientvit.samcore.trainer import SAMRunConfig, SAMTrainer, VIMRTrainer
+from efficientvit.samcore.trainer import CAISTrainer, SAMRunConfig, SAMTrainer, VIMRTrainer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("config", metavar="FILE", help="config file")
@@ -42,9 +43,20 @@ def main():
 
     run_config = setup.setup_run_config(config, SAMRunConfig)
 
-    model = create_efficientvit_sam_model(config["net_config"]["name"], False)
+    net_config = config["net_config"]
+    model_kwargs = {}
+    if "cais" in net_config["name"]:
+        model_kwargs["cais_config"] = net_config.get("cais_config")
+    elif "vimr" in net_config["name"]:
+        model_kwargs["vimr_config"] = net_config.get("vimr_config")
+    model = create_efficientvit_sam_model(net_config["name"], False, **model_kwargs)
 
-    trainer_cls = VIMRTrainer if isinstance(model, VIMREfficientViTSam) else SAMTrainer
+    if isinstance(model, CAISEfficientViTSam):
+        trainer_cls = CAISTrainer
+    elif isinstance(model, VIMREfficientViTSam):
+        trainer_cls = VIMRTrainer
+    else:
+        trainer_cls = SAMTrainer
     trainer = trainer_cls(
         path=args.path,
         model=model,
@@ -56,7 +68,7 @@ def main():
         init_from=config["net_config"]["ckpt"],
         rand_init=args.rand_init,
         last_gamma=args.last_gamma,
-        strict="vimr" not in config["net_config"]["name"],
+        strict=not any(tag in config["net_config"]["name"] for tag in ("vimr", "cais")),
     )
 
     trainer.prep_for_training(run_config, args.amp)

@@ -1,0 +1,22 @@
+net_config:
+  name: efficientvit-sam-cais-l0
+  ckpt: assets/checkpoints/efficientvit_sam/distilled_model/efficientvit_sam_l0.pt
+  cais_config:
+    d_model: 256
+    cognitive_layers: 2
+    cognitive_heads: 8
+    cognitive_ffn_dim: 1024
+    trajectory_channels: 64
+    trajectory_samples: 16
+    boundary_alpha: 2.0
+    boundary_width: 2
+    lambda_iou: 1.0
+    lambda_cognitive: 0.075
+    freeze_image_encoder: true
+    freeze_prompt_encoder: false
+
+data_provider:
+  image_size: 512
+
+run_config:
+  base_lr: 0.0000008

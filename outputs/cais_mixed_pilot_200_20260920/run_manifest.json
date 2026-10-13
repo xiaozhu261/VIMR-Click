@@ -1,0 +1,134 @@
+{
+  "architecture": "CAIS-EfficientViT-SAM-L0 (independent from VIMR)",
+  "dataset": {
+    "root": "outputs\\cais_synthetic_pilot_200_20260920",
+    "train": {
+      "split": "train",
+      "clicks": 1457,
+      "tasks": 426,
+      "trajectory_samples": 16,
+      "source_clicks": {
+        "human": 552,
+        "synthetic": 905
+      },
+      "cognitively_supervised_clicks": 552,
+      "cognitive_target": {
+        "feature_names": [
+          "seeking_time_ms",
+          "pre_click_hover_time_ms",
+          "hard_brake_count",
+          "direction_changes_last_500ms",
+          "mean_deceleration_norm_per_s2",
+          "trajectory_inefficiency"
+        ],
+        "lower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": [
+          7.409769910662747,
+          6.4291442151003,
+          2.0794415416798357,
+          1.0986122886681098,
+          5.296065098197027,
+          0.7717605009603021
+        ],
+        "definition": "mean(clip((log/derived feature - train_q05) / (train_q95 - train_q05), 0, 1))"
+      }
+    },
+    "val": {
+      "split": "val",
+      "clicks": 124,
+      "tasks": 49,
+      "trajectory_samples": 16,
+      "source_clicks": {
+        "human": 124
+      },
+      "cognitively_supervised_clicks": 124,
+      "cognitive_target": {
+        "feature_names": [
+          "seeking_time_ms",
+          "pre_click_hover_time_ms",
+          "hard_brake_count",
+          "direction_changes_last_500ms",
+          "mean_deceleration_norm_per_s2",
+          "trajectory_inefficiency"
+        ],
+        "lower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": [
+          7.409769910662747,
+          6.4291442151003,
+          2.0794415416798357,
+          1.0986122886681098,
+          5.296065098197027,
+          0.7717605009603021
+        ],
+        "definition": "mean(clip((log/derived feature - train_q05) / (train_q95 - train_q05), 0, 1))"
+      }
+    },
+    "test": {
+      "split": "test",
+      "clicks": 112,
+      "tasks": 44,
+      "trajectory_samples": 16,
+      "source_clicks": {
+        "human": 112
+      },
+      "cognitively_supervised_clicks": 112,
+      "cognitive_target": {
+        "feature_names": [
+          "seeking_time_ms",
+          "pre_click_hover_time_ms",
+          "hard_brake_count",
+          "direction_changes_last_500ms",
+          "mean_deceleration_norm_per_s2",
+          "trajectory_inefficiency"
+        ],
+        "lower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": [
+          7.409769910662747,
+          6.4291442151003,
+          2.0794415416798357,
+          1.0986122886681098,
+          5.296065098197027,
+          0.7717605009603021
+        ],
+        "definition": "mean(clip((log/derived feature - train_q05) / (train_q95 - train_q05), 0, 1))"
+      }
+    }
+  },
+  "config": {
+    "d_model": 256,
+    "cognitive_layers": 2,
+    "cognitive_heads": 8,
+    "cognitive_ffn_dim": 1024,
+    "trajectory_channels": 64,
+    "trajectory_samples": 16,
+    "boundary_alpha": 2.0,
+    "boundary_width": 2,
+    "lambda_iou": 1.0,
+    "lambda_cognitive": 0.075,
+    "freeze_image_encoder": true,
+    "freeze_prompt_encoder": true
+  },
+  "trainable_parameters": 8042982,
+  "base_checkpoint": "assets\\checkpoints\\efficientvit_sam\\distilled_model\\efficientvit_sam_l0.pt"
+}

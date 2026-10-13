@@ -1,0 +1,98 @@
+{
+  "args": {
+    "output_dir": "G:\\lab\\VIMR-Click\\outputs\\process_sam_synthetic_final_20261010_seed9527",
+    "instances": 1000,
+    "epochs": 10,
+    "seed": 9527,
+    "device": "cuda",
+    "base_checkpoint": "G:\\lab\\VIMR-Click\\assets\\checkpoints\\efficientvit_sam\\distilled_model\\efficientvit_sam_l0.pt",
+    "annotations": "G:\\lab\\VIMR-Click\\dataset\\coco\\annotations_trainval2017\\annotations\\instances_train2017.json",
+    "image_root": "G:\\lab\\VIMR-Click\\dataset\\coco\\train2017\\train2017",
+    "human_jsonl": "G:\\lab\\VIMR-Click\\outputs\\cais_synthetic_click2_click3_300_20260921\\alignment\\modeling_clicks_strict.jsonl"
+  },
+  "trained_variants": [
+    "E3_final"
+  ],
+  "base_checkpoint_sha256": "3450127f9080533be10bb5133abf508510120814fedc8d2069cb27e0721c9a6f",
+  "simulation_policy": "GT error-driven procedural user; noisy focus, cubic cursor paths, variable hover, zoom and pan",
+  "limitations": "Oracle-user simulation, not observed human behavior; synthetic gains do not establish human benefit",
+  "image_split_policy": "one target per image; human images excluded; grouped 70/15/15",
+  "test_protocol": "Final is adaptive closed-loop; Shuffled/Bypass are paired interventions on Final's identical click/pre-logit sequence",
+  "initial_mask": "no dense mask on first click; exact previous L0 logits thereafter",
+  "event_prefix": "full observed prefix, max 64 ordered events with semantic actions preserved; no future events",
+  "dataset_sha256": "1353e0a676e369f6038b5950d32a0b365e6126ab1d1f59e655deaba4121c9b23",
+  "process_config": {
+    "variant": "E3",
+    "d_model": 256,
+    "state_hidden": 128,
+    "history_hidden": 128,
+    "spatial_hidden": 32,
+    "process_dim": 18,
+    "process_mean": [
+      0.800000011920929,
+      5.841219902038574,
+      7.1367974281311035,
+      0.6777689456939697,
+      3.0445220470428467,
+      2.9422383308410645,
+      0.21622973680496216,
+      0.20018132030963898,
+      0.17969314754009247,
+      0.11679531633853912,
+      0.07417475432157516,
+      5.303366661071777,
+      4.478089332580566,
+      0.29588642716407776,
+      0.34147101640701294,
+      0.39471206068992615,
+      0.0,
+      0.0
+    ],
+    "process_std": [
+      0.4000000059604645,
+      2.9297447204589844,
+      0.3032282292842865,
+      0.34106728434562683,
+      0.0010000000474974513,
+      0.03751862794160843,
+      0.18588204681873322,
+      0.19473765790462494,
+      0.2596578896045685,
+      0.1446925401687622,
+      0.08898381143808365,
+      0.37459754943847656,
+      0.2669312655925751,
+      0.22025038301944733,
+      0.29341399669647217,
+      0.671032726764679,
+      0.0010000000474974513,
+      0.0010000000474974513
+    ],
+    "max_clicks": 5,
+    "raster_sigma": 1.5,
+    "spatial_gate_init": 0.0,
+    "train_mask_decoder": true,
+    "use_event_history": true,
+    "event_dim": 11,
+    "max_process_events": 64
+  },
+  "parameters": {
+    "total": 35063954,
+    "trainable": 4329510,
+    "process": 271170
+  },
+  "coverage": {
+    "train": {
+      "tasks": 700,
+      "clicks": 3500
+    },
+    "val": {
+      "tasks": 150,
+      "clicks": 750
+    },
+    "test": {
+      "tasks": 150,
+      "clicks": 750
+    }
+  }
+}

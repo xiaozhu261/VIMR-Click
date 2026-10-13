@@ -1,0 +1,147 @@
+{
+  "result_type": "oracle_user_synthetic_final_only",
+  "training": {
+    "epochs": 10,
+    "seed": 9527,
+    "trained_variants": [
+      "E3_final"
+    ],
+    "best_epoch": 4
+  },
+  "coverage": {
+    "train": {
+      "tasks": 700,
+      "clicks": 3500
+    },
+    "val": {
+      "tasks": 150,
+      "clicks": 750
+    },
+    "test": {
+      "tasks": 150,
+      "clicks": 750
+    }
+  },
+  "evaluations": {
+    "Frozen_L0": {
+      "IoU@1": 0.5609295369591564,
+      "IoU@3": 0.8372580029567083,
+      "IoU@5": 0.8636236536502838,
+      "click_coverage": {
+        "1": 150,
+        "2": 150,
+        "3": 150,
+        "4": 150,
+        "5": 150
+      },
+      "complete_prefix_tasks": 150,
+      "tasks": 150,
+      "samples": 750,
+      "mean_iou": 0.777075856472676,
+      "Boundary IoU": 0.6700328178105605,
+      "latency_ms_mean": 18.41421053331578,
+      "latency_ms_p95": 26.00624000042444,
+      "IoU@1_complete_prefix": 0.5609295369591564,
+      "IoU@3_complete_prefix": 0.8372580029567083,
+      "IoU@5_complete_prefix": 0.8636236536502838,
+      "NoC@90": 3.953333333333333,
+      "NoC@90_failures": 66,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    },
+    "Final": {
+      "IoU@1": 0.7205867613106967,
+      "IoU@3": 0.8614144665002823,
+      "IoU@5": 0.883076383471489,
+      "click_coverage": {
+        "1": 150,
+        "2": 150,
+        "3": 150,
+        "4": 150,
+        "5": 150
+      },
+      "complete_prefix_tasks": 150,
+      "tasks": 150,
+      "samples": 750,
+      "mean_iou": 0.8324348229716222,
+      "Boundary IoU": 0.7275545950626644,
+      "latency_ms_mean": 31.45228933330994,
+      "latency_ms_p95": 41.637745001025905,
+      "IoU@1_complete_prefix": 0.7205867613106967,
+      "IoU@3_complete_prefix": 0.8614144665002823,
+      "IoU@5_complete_prefix": 0.883076383471489,
+      "NoC@90": 4.013333333333334,
+      "NoC@90_failures": 69,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    },
+    "Shuffled": {
+      "IoU@1": 0.685693598673679,
+      "IoU@3": 0.8611917849381765,
+      "IoU@5": 0.8830166327953338,
+      "click_coverage": {
+        "1": 150,
+        "2": 150,
+        "3": 150,
+        "4": 150,
+        "5": 150
+      },
+      "complete_prefix_tasks": 150,
+      "tasks": 150,
+      "samples": 750,
+      "mean_iou": 0.8248554638397569,
+      "Boundary IoU": 0.7226821582335978,
+      "latency_ms_mean": 30.969008133276173,
+      "latency_ms_p95": 41.739529999540515,
+      "IoU@1_complete_prefix": 0.685693598673679,
+      "IoU@3_complete_prefix": 0.8611917849381765,
+      "IoU@5_complete_prefix": 0.8830166327953338,
+      "NoC@90": 4.013333333333334,
+      "NoC@90_failures": 69,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    },
+    "Bypass": {
+      "IoU@1": 0.6783824132289737,
+      "IoU@3": 0.8593385622898737,
+      "IoU@5": 0.8827330189943313,
+      "click_coverage": {
+        "1": 150,
+        "2": 150,
+        "3": 150,
+        "4": 150,
+        "5": 150
+      },
+      "complete_prefix_tasks": 150,
+      "tasks": 150,
+      "samples": 750,
+      "mean_iou": 0.8192882258178046,
+      "Boundary IoU": 0.7186359979456368,
+      "latency_ms_mean": 11.41461786661724,
+      "latency_ms_p95": 15.810060000330843,
+      "IoU@1_complete_prefix": 0.6783824132289737,
+      "IoU@3_complete_prefix": 0.8593385622898737,
+      "IoU@5_complete_prefix": 0.8827330189943313,
+      "NoC@90": 4.06,
+      "NoC@90_failures": 67,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  "Final_minus_Shuffled": {
+    "tasks": 150,
+    "mean_task_iou_delta": 0.007579359131865203,
+    "bootstrap_95ci": [
+      0.001364693062993077,
+      0.013806217113020828
+    ]
+  },
+  "Final_minus_Bypass": {
+    "tasks": 150,
+    "mean_task_iou_delta": 0.013146597153817613,
+    "bootstrap_95ci": [
+      0.007319172962941229,
+      0.019432587330198536
+    ]
+  },
+  "protocol": "Final is adaptive closed-loop; Shuffled/Bypass are paired interventions on Final's identical click/pre-logit sequence",
+  "limitations": "Oracle-user simulation, not observed human behavior; synthetic gains do not establish human benefit",
+  "NoC_protocol": "Final/Frozen_L0: adaptive five-click closed-loop, failures=6; Shuffled/Bypass: paired replay of Final prompts and pre-logits",
+  "latency_protocol": "cached image embeddings; prompt/process/fusion/decoder included; image encoding, IO, mask upsampling and simulated-user policy excluded"
+}

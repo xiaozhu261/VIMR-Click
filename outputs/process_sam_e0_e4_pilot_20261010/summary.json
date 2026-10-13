@@ -1,0 +1,213 @@
+{
+  "result_type": "matched_replay_experiment",
+  "protocol": {
+    "clicks": "fixed recorded replay, max 5",
+    "previous_mask": "recorded pre_mask, identical for all groups",
+    "source": "human only in train/val/test",
+    "encoders": "original Image/Prompt encoders frozen",
+    "decoder": "same original Mask Decoder, trainable in E0-E3 with identical lr/loss",
+    "loss": "BCEWithLogits + Dice + IoU MSE (weight 1 each)",
+    "E4": "paired test-time shuffling of E3, same checkpoint; recipient clicks/types/masks fixed",
+    "NoC@90": "complete five-click recorded prefixes only; failure 6; not a closed-loop click simulator",
+    "Boundary IoU": "original resolution; inner boundary with distance=round(0.02*image_diagonal)",
+    "Boundary IoU reference": "https://github.com/bowenc0221/boundary-iou-api",
+    "spatial_alignment": "original normalized viewport/path -> resized unpadded image -> SAM padded canvas",
+    "normalization": "selected train-only observed process summaries"
+  },
+  "experiments": {
+    "E0": {
+      "parameters": {
+        "total": 34792784,
+        "trainable": 4058340,
+        "process": 0
+      },
+      "best_epoch": 1,
+      "test": {
+        "IoU@1": 0.8220613198759763,
+        "IoU@3": 0.8434960811566083,
+        "IoU@5": 0.8942788243293762,
+        "click_coverage": {
+          "1": 92,
+          "2": 63,
+          "3": 39,
+          "4": 22,
+          "5": 12
+        },
+        "complete_prefix_tasks": 12,
+        "tasks": 92,
+        "samples": 228,
+        "mean_iou": 0.8445605938241147,
+        "Boundary IoU": 0.6421354416208424,
+        "latency_ms_mean": 17.50518991230708,
+        "latency_ms_p95": 21.285075000469078,
+        "IoU@1_complete_prefix": 0.7985217124223709,
+        "IoU@3_complete_prefix": 0.8608118096987406,
+        "IoU@5_complete_prefix": 0.8942788243293762,
+        "NoC@90": 4.25,
+        "NoC@90_failures": 5,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    },
+    "E1": {
+      "parameters": {
+        "total": 34830032,
+        "trainable": 4095588,
+        "process": 37248
+      },
+      "best_epoch": 1,
+      "test": {
+        "IoU@1": 0.8183435555547476,
+        "IoU@3": 0.84002457291652,
+        "IoU@5": 0.894783283273379,
+        "click_coverage": {
+          "1": 92,
+          "2": 63,
+          "3": 39,
+          "4": 22,
+          "5": 12
+        },
+        "complete_prefix_tasks": 12,
+        "tasks": 92,
+        "samples": 228,
+        "mean_iou": 0.8361831637785623,
+        "Boundary IoU": 0.6366817268413765,
+        "latency_ms_mean": 24.70059254391456,
+        "latency_ms_p95": 29.559305000202585,
+        "IoU@1_complete_prefix": 0.7855819165706635,
+        "IoU@3_complete_prefix": 0.8620998958746592,
+        "IoU@5_complete_prefix": 0.894783283273379,
+        "NoC@90": 3.9166666666666665,
+        "NoC@90_failures": 5,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    },
+    "E2": {
+      "parameters": {
+        "total": 35011280,
+        "trainable": 4276836,
+        "process": 218496
+      },
+      "best_epoch": 1,
+      "test": {
+        "IoU@1": 0.8141583188882341,
+        "IoU@3": 0.8401352908366766,
+        "IoU@5": 0.8967653016249338,
+        "click_coverage": {
+          "1": 92,
+          "2": 63,
+          "3": 39,
+          "4": 22,
+          "5": 12
+        },
+        "complete_prefix_tasks": 12,
+        "tasks": 92,
+        "samples": 228,
+        "mean_iou": 0.836693779287631,
+        "Boundary IoU": 0.6364784189333333,
+        "latency_ms_mean": 20.863253508810374,
+        "latency_ms_p95": 25.013734999447475,
+        "IoU@1_complete_prefix": 0.7802275170882543,
+        "IoU@3_complete_prefix": 0.8603725930054983,
+        "IoU@5_complete_prefix": 0.8967653016249338,
+        "NoC@90": 4.25,
+        "NoC@90_failures": 5,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    },
+    "E3": {
+      "parameters": {
+        "total": 35028882,
+        "trainable": 4294438,
+        "process": 236098
+      },
+      "best_epoch": 1,
+      "test": {
+        "IoU@1": 0.8138858023221078,
+        "IoU@3": 0.8392640741971823,
+        "IoU@5": 0.8942786107460657,
+        "click_coverage": {
+          "1": 92,
+          "2": 63,
+          "3": 39,
+          "4": 22,
+          "5": 12
+        },
+        "complete_prefix_tasks": 12,
+        "tasks": 92,
+        "samples": 228,
+        "mean_iou": 0.8362569064228681,
+        "Boundary IoU": 0.6349328331507104,
+        "latency_ms_mean": 34.17641666670023,
+        "latency_ms_p95": 41.54594999890833,
+        "IoU@1_complete_prefix": 0.7761095973352591,
+        "IoU@3_complete_prefix": 0.8575176497300466,
+        "IoU@5_complete_prefix": 0.8942786107460657,
+        "NoC@90": 4.25,
+        "NoC@90_failures": 5,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    },
+    "E4": {
+      "checkpoint": "../E3/best.pt",
+      "parameters": {
+        "total": 35028882,
+        "trainable": 4294438,
+        "process": 236098
+      },
+      "test": {
+        "IoU@1": 0.8126993393930404,
+        "IoU@3": 0.8454172183305789,
+        "IoU@5": 0.8939864387114843,
+        "click_coverage": {
+          "1": 92,
+          "2": 63,
+          "3": 39,
+          "4": 22,
+          "5": 12
+        },
+        "complete_prefix_tasks": 12,
+        "tasks": 92,
+        "samples": 228,
+        "mean_iou": 0.8392676885256118,
+        "Boundary IoU": 0.6372773052604763,
+        "latency_ms_mean": 31.490723245528976,
+        "latency_ms_p95": 38.944050000282,
+        "IoU@1_complete_prefix": 0.7978188420335451,
+        "IoU@3_complete_prefix": 0.859597772359848,
+        "IoU@5_complete_prefix": 0.8939864387114843,
+        "NoC@90": 4.0,
+        "NoC@90_failures": 5,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    }
+  },
+  "E3_minus_E4": {
+    "tasks": 92,
+    "mean_task_iou_delta": -0.001768963639556929,
+    "bootstrap_95ci": [
+      -0.017564270441737567,
+      0.013688409924439654
+    ]
+  },
+  "training": {
+    "epochs": 1,
+    "seed": 9527
+  },
+  "data_coverage": {
+    "train": {
+      "selected_records": 1122,
+      "selected_tasks": 450,
+      "observed_viewport_records": 1122
+    },
+    "val": {
+      "selected_records": 240,
+      "selected_tasks": 99,
+      "observed_viewport_records": 240
+    },
+    "test": {
+      "selected_records": 228,
+      "selected_tasks": 92,
+      "observed_viewport_records": 228
+    }
+  }
+}

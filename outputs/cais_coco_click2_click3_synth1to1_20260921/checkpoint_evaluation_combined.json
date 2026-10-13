@@ -1,0 +1,72 @@
+{
+  "dataset": "outputs\\coco_click2_click3_combined_20260921",
+  "split_samples": {
+    "val": 240,
+    "test": 228
+  },
+  "results": {
+    "synth1to1": {
+      "checkpoint": "outputs\\cais_coco_click2_click3_synth1to1_20260921\\best.pt",
+      "training_best_epoch": 9,
+      "training_best_val_iou": 0.7203547524215537,
+      "evaluation": {
+        "val": {
+          "loss": 0.6066508194431662,
+          "loss_mask": 0.5232864242667953,
+          "loss_bce": 0.3106573075405322,
+          "loss_dice": 0.2126291165749232,
+          "loss_iou": 0.08231461035792792,
+          "loss_cognitive": 0.01399718609948953,
+          "mask_iou": 0.7202881798744784,
+          "iou_mae": 0.17111465719838936,
+          "cognitive_mae": 0.14020172953605653,
+          "samples": 240,
+          "cognitive_samples": 240
+        },
+        "test": {
+          "loss": 0.4625604939075154,
+          "loss_mask": 0.4129350907659452,
+          "loss_bce": 0.22023156077168032,
+          "loss_dice": 0.19270353019237518,
+          "loss_iou": 0.048322672376258737,
+          "loss_cognitive": 0.01736974546261001,
+          "mask_iou": 0.7380763601303395,
+          "iou_mae": 0.13427058372058367,
+          "cognitive_mae": 0.15283702026333726,
+          "samples": 228,
+          "cognitive_samples": 228
+        }
+      },
+      "test_subgroups": {
+        "click_1": {
+          "mask_iou": 0.6682370576815194,
+          "samples": 92
+        },
+        "click_2": {
+          "mask_iou": 0.7667988228892523,
+          "samples": 63
+        },
+        "click_3": {
+          "mask_iou": 0.7934449536678119,
+          "samples": 39
+        },
+        "click_4": {
+          "mask_iou": 0.79386144741015,
+          "samples": 22
+        },
+        "click_5": {
+          "mask_iou": 0.8404974937438965,
+          "samples": 12
+        },
+        "negative": {
+          "mask_iou": 0.7850434250301785,
+          "samples": 18
+        },
+        "positive": {
+          "mask_iou": 0.7340506117103532,
+          "samples": 210
+        }
+      }
+    }
+  }
+}

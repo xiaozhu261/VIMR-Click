@@ -1,0 +1,292 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.23845652423121713,
+    "val": {
+      "IoU@1": 0.837046583568809,
+      "IoU@3": 0.8654827643663455,
+      "IoU@5": 0.8706571784886447,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8493162436100344,
+      "Boundary IoU": 0.6297881547672053,
+      "latency_ms_mean": 31.489196666567903,
+      "latency_ms_p95": 38.52215499828162,
+      "IoU@1_complete_prefix": 0.7579836980863051,
+      "IoU@3_complete_prefix": 0.7936881238763983,
+      "IoU@5_complete_prefix": 0.8706571784886447,
+      "NoC@90": 4.363636363636363,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.18730809003340476,
+    "val": {
+      "IoU@1": 0.8291918408088009,
+      "IoU@3": 0.8677396636742812,
+      "IoU@5": 0.8744369040835988,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8560454428816835,
+      "Boundary IoU": 0.6391180179392298,
+      "latency_ms_mean": 26.517761250003485,
+      "latency_ms_p95": 33.11368500053504,
+      "IoU@1_complete_prefix": 0.7627199779857289,
+      "IoU@3_complete_prefix": 0.7909935875372454,
+      "IoU@5_complete_prefix": 0.8744369040835988,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.16782212902504598,
+    "val": {
+      "IoU@1": 0.8436391275338452,
+      "IoU@3": 0.8606804150801438,
+      "IoU@5": 0.8736450563777577,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8607752114534378,
+      "Boundary IoU": 0.6441992825828493,
+      "latency_ms_mean": 20.40969041668177,
+      "latency_ms_p95": 23.847464998834766,
+      "IoU@1_complete_prefix": 0.7660465673966841,
+      "IoU@3_complete_prefix": 0.775797269561074,
+      "IoU@5_complete_prefix": 0.8736450563777577,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.15553133417113474,
+    "val": {
+      "IoU@1": 0.8385922666450943,
+      "IoU@3": 0.8624693865959461,
+      "IoU@5": 0.8709567026658491,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8592612763866783,
+      "Boundary IoU": 0.6398303132969886,
+      "latency_ms_mean": 23.42924416684582,
+      "latency_ms_p95": 27.59830500199314,
+      "IoU@1_complete_prefix": 0.7653529210524126,
+      "IoU@3_complete_prefix": 0.7769859460267153,
+      "IoU@5_complete_prefix": 0.8709567026658491,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.14618151680750643,
+    "val": {
+      "IoU@1": 0.8361135965043848,
+      "IoU@3": 0.8631774828984187,
+      "IoU@5": 0.8679234006188132,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8582842105378707,
+      "Boundary IoU": 0.6401012492210915,
+      "latency_ms_mean": 24.71591416673012,
+      "latency_ms_p95": 28.680540001187182,
+      "IoU@1_complete_prefix": 0.7656904648650776,
+      "IoU@3_complete_prefix": 0.7768062028017911,
+      "IoU@5_complete_prefix": 0.8679234006188132,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.13691299216599334,
+    "val": {
+      "IoU@1": 0.8379242229040222,
+      "IoU@3": 0.8629836356028532,
+      "IoU@5": 0.869488922032443,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8588573050374786,
+      "Boundary IoU": 0.636859638717336,
+      "latency_ms_mean": 23.925117916724048,
+      "latency_ms_p95": 28.499925000505755,
+      "IoU@1_complete_prefix": 0.7666263390671123,
+      "IoU@3_complete_prefix": 0.7765823846513574,
+      "IoU@5_complete_prefix": 0.869488922032443,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.12709272954506723,
+    "val": {
+      "IoU@1": 0.8410278016118088,
+      "IoU@3": 0.8634487849015456,
+      "IoU@5": 0.8656770532781427,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8592951888528962,
+      "Boundary IoU": 0.6380216680544739,
+      "latency_ms_mean": 26.06277375002719,
+      "latency_ms_p95": 29.976140000690066,
+      "IoU@1_complete_prefix": 0.7646117156202142,
+      "IoU@3_complete_prefix": 0.7825983600182966,
+      "IoU@5_complete_prefix": 0.8656770532781427,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.120686008830666,
+    "val": {
+      "IoU@1": 0.835622651784709,
+      "IoU@3": 0.8651093512009351,
+      "IoU@5": 0.872455130923878,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8583489269328614,
+      "Boundary IoU": 0.6386205579775075,
+      "latency_ms_mean": 23.112532499969046,
+      "latency_ms_p95": 27.53359500038641,
+      "IoU@1_complete_prefix": 0.7606116533279419,
+      "IoU@3_complete_prefix": 0.7836690247058868,
+      "IoU@5_complete_prefix": 0.872455130923878,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.11709899204964094,
+    "val": {
+      "IoU@1": 0.8402092383816989,
+      "IoU@3": 0.8646238018304874,
+      "IoU@5": 0.8665242357687517,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8593827970015506,
+      "Boundary IoU": 0.6381590776300679,
+      "latency_ms_mean": 23.173263333440747,
+      "latency_ms_p95": 26.94222999944031,
+      "IoU@1_complete_prefix": 0.7629227475686506,
+      "IoU@3_complete_prefix": 0.7841462005268444,
+      "IoU@5_complete_prefix": 0.8665242357687517,
+      "NoC@90": 4.545454545454546,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.11176186049964658,
+    "val": {
+      "IoU@1": 0.8419312356848909,
+      "IoU@3": 0.8588065718993162,
+      "IoU@5": 0.8672732819210399,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8579866974614561,
+      "Boundary IoU": 0.6392729178924734,
+      "latency_ms_mean": 23.568314583250565,
+      "latency_ms_p95": 28.070295001089104,
+      "IoU@1_complete_prefix": 0.7610751011154868,
+      "IoU@3_complete_prefix": 0.7703574083068154,
+      "IoU@5_complete_prefix": 0.8672732819210399,
+      "NoC@90": 4.363636363636363,
+      "NoC@90_failures": 6,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  }
+]

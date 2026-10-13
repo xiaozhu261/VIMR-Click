@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "inputs": {
+    "coco_click2": {
+      "root": "outputs\\coco_click2_training_ready_20260920",
+      "tasks": 319,
+      "clicks": 788,
+      "images": 319,
+      "positive_clicks": 717,
+      "negative_clicks": 71,
+      "task_split_counts": {
+        "train": 226,
+        "val": 49,
+        "test": 44
+      },
+      "click_split_counts": {
+        "train": 552,
+        "val": 124,
+        "test": 112
+      },
+      "image_split_counts": {
+        "train": 226,
+        "val": 49,
+        "test": 44
+      }
+    },
+    "coco_click3": {
+      "root": "outputs\\coco_click3_training_ready_20260921",
+      "tasks": 322,
+      "clicks": 802,
+      "images": 322,
+      "positive_clicks": 743,
+      "negative_clicks": 59,
+      "task_split_counts": {
+        "train": 224,
+        "test": 48,
+        "val": 50
+      },
+      "click_split_counts": {
+        "train": 570,
+        "val": 116,
+        "test": 116
+      },
+      "image_split_counts": {
+        "train": 224,
+        "val": 50,
+        "test": 48
+      }
+    }
+  },
+  "overlap": {
+    "images": 0,
+    "annotations": 0,
+    "split_conflicts_resolved_to_base": 0
+  },
+  "combined": {
+    "tasks": 641,
+    "clicks": 1590,
+    "images": 641,
+    "positive_clicks": 1460,
+    "negative_clicks": 130,
+    "task_split_counts": {
+      "train": 450,
+      "test": 92,
+      "val": 99
+    },
+    "click_split_counts": {
+      "train": 1122,
+      "val": 240,
+      "test": 228
+    },
+    "image_split_counts": {
+      "train": 450,
+      "val": 99,
+      "test": 92
+    }
+  },
+  "leakage_check": {
+    "one_split_per_image": true,
+    "event_id_collisions": 0,
+    "task_run_id_collisions": 0
+  }
+}

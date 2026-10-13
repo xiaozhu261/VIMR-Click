@@ -1,0 +1,80 @@
+{
+  "coco_click2": {
+    "selected_tasks": 319,
+    "tasks_with_zoom_after_first_click": 14,
+    "zoom_actions_after_first_click": 100,
+    "tasks_with_pan_after_first_click": 6,
+    "pan_actions_after_first_click": 12,
+    "examples": [
+      {
+        "first_click_action": {
+          "relative_ms": 5873.632,
+          "type": "click",
+          "details": {
+            "event_id": "3cb2d0ff073e4a0988fc285ea4dad8d2",
+            "step_index": 1,
+            "prompt_type": "positive",
+            "x_norm": 0.355283,
+            "y_norm": 0.671771
+          },
+          "viewport": {
+            "center_x_norm": 0.499234,
+            "center_y_norm": 0.492088,
+            "log_zoom": 0.020109,
+            "zoom_scale": 1.020312,
+            "viewport_width_px": 560,
+            "viewport_height_px": 515,
+            "canvas_render_width_logical_px": 653.0,
+            "canvas_render_height_logical_px": 489.75,
+            "canvas_render_width_px": 653.0,
+            "canvas_render_height_px": 489.75,
+            "device_pixel_ratio": 1.0,
+            "delta_center_x_norm": 0.0,
+            "delta_center_y_norm": 0.0,
+            "delta_log_zoom": 0.0
+          }
+        },
+        "full_path_points": 35
+      }
+    ]
+  },
+  "coco_click3": {
+    "selected_tasks": 322,
+    "tasks_with_zoom_after_first_click": 15,
+    "zoom_actions_after_first_click": 77,
+    "tasks_with_pan_after_first_click": 2,
+    "pan_actions_after_first_click": 5,
+    "examples": [
+      {
+        "first_click_action": {
+          "relative_ms": 3641.952,
+          "type": "click",
+          "details": {
+            "event_id": "558ef0fb0f094b989061cf7b0befe023",
+            "step_index": 1,
+            "prompt_type": "positive",
+            "x_norm": 0.593318,
+            "y_norm": 0.335274
+          },
+          "viewport": {
+            "center_x_norm": 0.499944,
+            "center_y_norm": 0.500582,
+            "log_zoom": 0.294301,
+            "zoom_scale": 1.342188,
+            "viewport_width_px": 1920,
+            "viewport_height_px": 1165,
+            "canvas_render_width_logical_px": 514.058,
+            "canvas_render_height_logical_px": 859.0,
+            "canvas_render_width_px": 514.058,
+            "canvas_render_height_px": 859.0,
+            "device_pixel_ratio": 1.0,
+            "delta_center_x_norm": 0.000312,
+            "delta_center_y_norm": -0.000133,
+            "delta_log_zoom": 0.206118
+          }
+        },
+        "full_path_points": 33
+      }
+    ]
+  }
+}

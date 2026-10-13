@@ -1,0 +1,308 @@
+{
+  "architecture": "CAIS-EfficientViT-SAM-L0 (independent from VIMR)",
+  "dataset": {
+    "root": "outputs\\cais_synthetic_click2_click3_300_20260921",
+    "train": {
+      "split": "train",
+      "source_filter": "human",
+      "clicks": 1122,
+      "tasks": 450,
+      "trajectory_samples": 16,
+      "trajectory_processing": "fixed_window_process_v2",
+      "trajectory_window_ms": 2000.0,
+      "process_feature_names": [
+        "has_previous_click",
+        "log_active_interval_ms",
+        "log_observed_duration_ms",
+        "observed_active_coverage",
+        "log_raw_point_count",
+        "log_unique_xy_count",
+        "path_length_norm",
+        "displacement_norm",
+        "trajectory_inefficiency",
+        "previous_click_distance_norm",
+        "log_previous_to_click_speed_norm_per_s",
+        "log_pre_click_hover_time_ms",
+        "log_press_duration_ms",
+        "log_peak_speed_norm_per_s",
+        "log_mean_deceleration_norm_per_s2",
+        "log_hard_brake_count",
+        "log_direction_changes_last_500ms",
+        "trajectory_end_error_norm"
+      ],
+      "source_clicks": {
+        "human": 1122
+      },
+      "cognitively_supervised_clicks": 1122,
+      "cognitive_target": {
+        "feature_names": [
+          "seeking_time_ms",
+          "pre_click_hover_time_ms",
+          "hard_brake_count",
+          "direction_changes_last_500ms",
+          "mean_deceleration_norm_per_s2",
+          "trajectory_inefficiency"
+        ],
+        "lower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": [
+          7.337806829651152,
+          6.4143445259100975,
+          2.0794415416798357,
+          1.0986122886681098,
+          6.060958746170641,
+          0.7775984802808132
+        ],
+        "definition": "mean(clip((log/derived feature - train_q05) / (train_q95 - train_q05), 0, 1))"
+      }
+    },
+    "val": {
+      "split": "val",
+      "source_filter": null,
+      "clicks": 240,
+      "tasks": 99,
+      "trajectory_samples": 16,
+      "trajectory_processing": "fixed_window_process_v2",
+      "trajectory_window_ms": 2000.0,
+      "process_feature_names": [
+        "has_previous_click",
+        "log_active_interval_ms",
+        "log_observed_duration_ms",
+        "observed_active_coverage",
+        "log_raw_point_count",
+        "log_unique_xy_count",
+        "path_length_norm",
+        "displacement_norm",
+        "trajectory_inefficiency",
+        "previous_click_distance_norm",
+        "log_previous_to_click_speed_norm_per_s",
+        "log_pre_click_hover_time_ms",
+        "log_press_duration_ms",
+        "log_peak_speed_norm_per_s",
+        "log_mean_deceleration_norm_per_s2",
+        "log_hard_brake_count",
+        "log_direction_changes_last_500ms",
+        "trajectory_end_error_norm"
+      ],
+      "source_clicks": {
+        "human": 240
+      },
+      "cognitively_supervised_clicks": 240,
+      "cognitive_target": {
+        "feature_names": [
+          "seeking_time_ms",
+          "pre_click_hover_time_ms",
+          "hard_brake_count",
+          "direction_changes_last_500ms",
+          "mean_deceleration_norm_per_s2",
+          "trajectory_inefficiency"
+        ],
+        "lower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": [
+          7.337806829651152,
+          6.4143445259100975,
+          2.0794415416798357,
+          1.0986122886681098,
+          6.060958746170641,
+          0.7775984802808132
+        ],
+        "definition": "mean(clip((log/derived feature - train_q05) / (train_q95 - train_q05), 0, 1))"
+      }
+    },
+    "test": {
+      "split": "test",
+      "source_filter": null,
+      "clicks": 228,
+      "tasks": 92,
+      "trajectory_samples": 16,
+      "trajectory_processing": "fixed_window_process_v2",
+      "trajectory_window_ms": 2000.0,
+      "process_feature_names": [
+        "has_previous_click",
+        "log_active_interval_ms",
+        "log_observed_duration_ms",
+        "observed_active_coverage",
+        "log_raw_point_count",
+        "log_unique_xy_count",
+        "path_length_norm",
+        "displacement_norm",
+        "trajectory_inefficiency",
+        "previous_click_distance_norm",
+        "log_previous_to_click_speed_norm_per_s",
+        "log_pre_click_hover_time_ms",
+        "log_press_duration_ms",
+        "log_peak_speed_norm_per_s",
+        "log_mean_deceleration_norm_per_s2",
+        "log_hard_brake_count",
+        "log_direction_changes_last_500ms",
+        "trajectory_end_error_norm"
+      ],
+      "source_clicks": {
+        "human": 228
+      },
+      "cognitively_supervised_clicks": 228,
+      "cognitive_target": {
+        "feature_names": [
+          "seeking_time_ms",
+          "pre_click_hover_time_ms",
+          "hard_brake_count",
+          "direction_changes_last_500ms",
+          "mean_deceleration_norm_per_s2",
+          "trajectory_inefficiency"
+        ],
+        "lower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": [
+          7.337806829651152,
+          6.4143445259100975,
+          2.0794415416798357,
+          1.0986122886681098,
+          6.060958746170641,
+          0.7775984802808132
+        ],
+        "definition": "mean(clip((log/derived feature - train_q05) / (train_q95 - train_q05), 0, 1))"
+      }
+    }
+  },
+  "config": {
+    "d_model": 256,
+    "cognitive_layers": 2,
+    "cognitive_heads": 8,
+    "cognitive_ffn_dim": 1024,
+    "trajectory_channels": 64,
+    "trajectory_samples": 16,
+    "trajectory_mean": [
+      -0.2798977792263031,
+      0.002696086885407567,
+      0.021494535729289055
+    ],
+    "trajectory_std": [
+      0.35166680812835693,
+      0.08528468012809753,
+      0.08905382454395294
+    ],
+    "trajectory_encoder": "tcn_attention",
+    "trajectory_processing": "fixed_window_process_v2",
+    "trajectory_window_ms": 2000.0,
+    "process_feature_dim": 18,
+    "process_mean": [
+      0.5989304812834224,
+      4.147523571888181,
+      6.359940053626178,
+      0.4332091408948133,
+      2.4572329408557234,
+      2.316429463087344,
+      0.24718641441912223,
+      0.16522049390832907,
+      0.21709116668790268,
+      0.13335298594177009,
+      0.12351053573627775,
+      4.0956633725533935,
+      4.122126263730666,
+      1.2478164363313804,
+      2.1107361729550647,
+      1.03428751485233,
+      0.2898124717773601,
+      0.0
+    ],
+    "process_std": [
+      0.4901150475888595,
+      3.422062276622436,
+      0.7683558002968573,
+      0.3733558042151685,
+      0.5918639625262301,
+      0.6704145591898195,
+      0.26299546059548257,
+      0.15010420215578715,
+      0.24958370545141395,
+      0.16190747072135392,
+      0.1510790842435263,
+      2.2226442978481775,
+      1.0856483030777302,
+      1.2905015113346112,
+      1.8031057448494583,
+      0.608605501063499,
+      0.40587485290109887,
+      1e-06
+    ],
+    "process_gate_init": 0.05,
+    "trajectory_token_bottleneck": 64,
+    "trajectory_token_content": "encoded",
+    "trajectory_dense_channels": 32,
+    "trajectory_raster_sigma": 1.5,
+    "trajectory_gate_max": 1.0,
+    "trajectory_dropout": 0.0,
+    "use_trajectory": true,
+    "interaction_memory": "click_mask_trajectory",
+    "memory_size": 8,
+    "memory_layers": 1,
+    "memory_heads": 8,
+    "memory_ffn_dim": 512,
+    "memory_mask_channels": 32,
+    "memory_gate_init": 0.05,
+    "prompt_integration": "native",
+    "attention_integration": "none",
+    "prompt_residual_gate_init": 0.0,
+    "boundary_alpha": 0.0,
+    "boundary_width": 2,
+    "lambda_iou": 1.0,
+    "lambda_cognitive": 0.05,
+    "lambda_trajectory_cognitive": 0.05,
+    "freeze_image_encoder": true,
+    "freeze_prompt_encoder": true
+  },
+  "sampling": {
+    "strategy": "natural",
+    "train_source": "human",
+    "unit": "click_record",
+    "replacement": false,
+    "rotate_seed_each_epoch": true,
+    "max_train_samples": null,
+    "trajectory_mode": "real",
+    "shuffle_strata": null
+  },
+  "optimization": {
+    "decoder_warmup_epochs": 2,
+    "parameter_groups": [
+      {
+        "name": "modules",
+        "parameters": 1551049,
+        "initial_learning_rate": 0.0001,
+        "weight_decay": 0.0001
+      },
+      {
+        "name": "gates",
+        "parameters": 2,
+        "initial_learning_rate": 0.001,
+        "weight_decay": 0.0
+      },
+      {
+        "name": "decoder",
+        "parameters": 4058340,
+        "initial_learning_rate": 1e-05,
+        "weight_decay": 0.0001
+      }
+    ]
+  },
+  "trainable_parameters": 5609391,
+  "base_checkpoint": "assets\\checkpoints\\efficientvit_sam\\distilled_model\\efficientvit_sam_l0.pt"
+}

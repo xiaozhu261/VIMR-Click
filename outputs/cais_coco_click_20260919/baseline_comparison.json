@@ -1,0 +1,52 @@
+{
+  "protocol": {
+    "dataset": "G:\\USTB\\wisdomStore_project\\coco_click\\training_ready_coco_20260919",
+    "records": "alignment/modeling_clicks_strict.jsonl",
+    "prompt_state": "all recorded click history plus previous-mask prompt",
+    "multimask_output": false,
+    "mask_resolution": 256,
+    "threshold": 0.5
+  },
+  "baseline": {
+    "val": {
+      "mask_iou": 0.7249895137089949,
+      "iou_prediction_mae": 0.18780506895138668,
+      "samples": 65,
+      "tasks": 23
+    },
+    "test": {
+      "mask_iou": 0.737648710384275,
+      "iou_prediction_mae": 0.16925474780577202,
+      "samples": 54,
+      "tasks": 23
+    }
+  },
+  "cais": {
+    "val": {
+      "mask_iou": 0.559811026459703,
+      "samples": 65,
+      "tasks": 23
+    },
+    "test": {
+      "mask_iou": 0.5943004547583836,
+      "iou_prediction_mae": 0.22379286697617284,
+      "cognitive_mae": 0.19684045954986853,
+      "samples": 54,
+      "tasks": 23
+    }
+  },
+  "delta_cais_minus_baseline": {
+    "val": {
+      "mask_iou_absolute": -0.16517848724929185,
+      "mask_iou_relative_percent": -22.783569158711057
+    },
+    "test": {
+      "mask_iou_absolute": -0.14334825562589149,
+      "mask_iou_relative_percent": -19.43313309003344
+    }
+  },
+  "parameters": {
+    "baseline_total": 34792784,
+    "cais_total": 38777426
+  }
+}

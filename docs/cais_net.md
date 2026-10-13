@@ -11,7 +11,7 @@ image -> EfficientViT-SAM image encoder -> cached [B,256,64,64] feature --------
                                                                                 |
 click coordinate + label -> pretrained SAM point prompt ------------------------+
                                                                                 |
-pre-click trace -> 1-D CNN + pooling -> zero-gated trajectory residual ---------+
+round-wise click + pre-mask + trace -> interaction memory -> memory attention --+
                                                                                 v
                                                                         SAM mask decoder
                                                                                 |
@@ -27,18 +27,34 @@ pre-click trace -> 1-D CNN + pooling -> zero-gated trajectory residual ---------
 - `point_labels`: foreground/background labels `[B,N]`.
 - `click_trajectories`: `[B,N,T,3]` relative `(time,x,y)` samples.
 - `trajectory_valid_mask`: optional `[B,N,T]` padding mask.
+- `process_features`: optional normalized annotation-process summaries `[B,N,F]`.
+- `process_feature_valid`: validity mask for process summaries `[B,N]`.
 - `previous_mask`: optional probability mask used only as the next SAM mask prompt.
+- `interaction_masks`: per-round masks seen before each click `[B,N,1,256,256]`.
+- `interaction_mask_valid`: validity mask for the round-wise mask history `[B,N]`.
 
 The output contains `final_mask`, calibrated `iou_predictions`, the original
 `sam_iou_predictions`, `cognitive_friction`, and `cognitive_vector`. The
 stateful `CAISEfficientViTSamPredictor` accumulates new clicks and trajectories
 while caching image features.
 
-The recommended integration is `prompt_integration=native_residual` with
-`attention_integration=none`: it preserves the pretrained SAM point-prompt
-path and injects motion through a zero-initialized residual gate. Replacement
-tokens and gated two-way attention remain available for controlled ablations
-and legacy checkpoints.
+The MAIS-style experimental integration uses `prompt_integration=native`,
+`attention_integration=none`, and
+`interaction_memory=click_mask|click_mask_trajectory`. It preserves the
+pretrained SAM point-prompt path, encodes each `(click, pre-mask, trajectory)`
+round as a memory slot, and injects the attended memory only into image
+features through a small residual gate. Earlier replacement, residual-token,
+and dense-trajectory paths remain available for controlled ablations and
+legacy checkpoints.
+
+The `fixed_window_process_v2` trajectory path avoids stretching every recorded
+fragment to the same number of fully valid samples. It interpolates only inside
+the observed portion of a fixed 2-second pre-click clock, keeps a per-sample
+validity mask, and adds train-split-normalized event summaries such as active
+inter-click time, observed coverage, raw/unique point counts, path length,
+hover/press duration, speed, braking, and endpoint consistency. Missing motion
+is never fabricated; process summaries and paths are jointly removed by the
+Zero/Shuffle/Wrong-image controls.
 
 ## Loss
 
@@ -72,7 +88,9 @@ python tools\train_cais_coco_click.py `
   --dataset-root path\to\cais_training_ready `
   --output-dir outputs\cais_coco_click_20260919 `
   --epochs 20 --train-mask-decoder --accumulation-steps 4 `
-  --prompt-integration native_residual --attention-integration none
+  --prompt-integration native --attention-integration none `
+  --interaction-memory click_mask_trajectory --memory-size 8 `
+  --trajectory-processing fixed_window_process_v2 --trajectory-window-ms 2000
 ```
 
 Use `--trajectory-mode real|zero|shuffle` for trajectory controls. Shuffle

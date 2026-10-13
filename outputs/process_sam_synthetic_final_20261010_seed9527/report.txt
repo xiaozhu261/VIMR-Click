@@ -1,0 +1,11 @@
+Process-aware EfficientViT-SAM synthetic final experiment
+E3 trained once: 10 epochs; seed 9527; best epoch 4.
+Synthetic procedural user uses GT to choose clicks/focus. This does not establish benefit on real human interaction.
+Final/Frozen_L0 are adaptive closed-loop. Shuffled/Bypass replay Final's identical prompts and pre-logits.
+Variant | IoU@1 | IoU@3 | IoU@5 | NoC@90 | Boundary IoU | Cached latency ms
+Frozen_L0 | 0.5609 | 0.8373 | 0.8636 | 3.9533 | 0.6700 | 18.4142
+Final | 0.7206 | 0.8614 | 0.8831 | 4.0133 | 0.7276 | 31.4523
+Shuffled | 0.6857 | 0.8612 | 0.8830 | 4.0133 | 0.7227 | 30.9690
+Bypass | 0.6784 | 0.8593 | 0.8827 | 4.0600 | 0.7186 | 11.4146
+Final minus Shuffled: {"tasks": 150, "mean_task_iou_delta": 0.007579359131865203, "bootstrap_95ci": [0.001364693062993077, 0.013806217113020828]}
+Final minus Bypass: {"tasks": 150, "mean_task_iou_delta": 0.013146597153817613, "bootstrap_95ci": [0.007319172962941229, 0.019432587330198536]}

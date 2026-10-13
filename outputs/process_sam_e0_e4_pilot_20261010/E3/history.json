@@ -1,0 +1,31 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.23832148071312065,
+    "val": {
+      "IoU@1": 0.8346391907996602,
+      "IoU@3": 0.8650741095726306,
+      "IoU@5": 0.8702133026990023,
+      "click_coverage": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_prefix_tasks": 11,
+      "tasks": 99,
+      "samples": 240,
+      "mean_iou": 0.8477091747956972,
+      "Boundary IoU": 0.6288430307293311,
+      "latency_ms_mean": 29.69703499998862,
+      "latency_ms_p95": 34.57460499967054,
+      "IoU@1_complete_prefix": 0.7571986724029888,
+      "IoU@3_complete_prefix": 0.7909753891554746,
+      "IoU@5_complete_prefix": 0.8702133026990023,
+      "NoC@90": 4.363636363636363,
+      "NoC@90_failures": 7,
+      "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+    }
+  }
+]

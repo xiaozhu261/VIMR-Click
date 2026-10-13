@@ -1,0 +1,2054 @@
+[
+  {
+    "event_id": "b4d6e75afec44e96948ee95df758aac9",
+    "task_run_id": "06bafbcf64994b198d572a571b20c757",
+    "click_index": 1,
+    "iou": 0.1260378360748291,
+    "boundary_iou": 0.173821359872818,
+    "latency_ms": 27.78989999933401,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f00d39de33824b60a10391e26203b956",
+    "task_run_id": "06bafbcf64994b198d572a571b20c757",
+    "click_index": 2,
+    "iou": 0.15561290085315704,
+    "boundary_iou": 0.188913032412529,
+    "latency_ms": 27.852400000483613,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "125cf42b1175450e98741653aaeefaf7",
+    "task_run_id": "06bafbcf64994b198d572a571b20c757",
+    "click_index": 3,
+    "iou": 0.5167322158813477,
+    "boundary_iou": 0.45390230417251587,
+    "latency_ms": 26.977800000167917,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a8723b8e3be5470081b7914650d45176",
+    "task_run_id": "06bafbcf64994b198d572a571b20c757",
+    "click_index": 4,
+    "iou": 0.7509655952453613,
+    "boundary_iou": 0.6440467834472656,
+    "latency_ms": 27.026300000215997,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "cdf113f3ed2f4b70a2714241298ebf61",
+    "task_run_id": "0c6a72d125ad4e298ee7632f22daa003",
+    "click_index": 1,
+    "iou": 0.9156869053840637,
+    "boundary_iou": 0.821728527545929,
+    "latency_ms": 29.785299999275594,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "94317fecbe7c4f4a8325d1a3b494faa8",
+    "task_run_id": "0c6a72d125ad4e298ee7632f22daa003",
+    "click_index": 2,
+    "iou": 0.9085577726364136,
+    "boundary_iou": 0.8103026151657104,
+    "latency_ms": 28.71919999961392,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "11dcb8f703074db98d541583c8697759",
+    "task_run_id": "0d056c5d0d914b8491b64129a011a3c3",
+    "click_index": 1,
+    "iou": 0.7573719024658203,
+    "boundary_iou": 0.44465452432632446,
+    "latency_ms": 26.15239999977348,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1af2635d1ed74d6384632e16aa916c7d",
+    "task_run_id": "0f0c77270eca4e17a4f08234e888160c",
+    "click_index": 1,
+    "iou": 0.8909124135971069,
+    "boundary_iou": 0.7076881527900696,
+    "latency_ms": 30.144800000925898,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "510f8d6b58b24d40b0da671db1d77e76",
+    "task_run_id": "0f0c77270eca4e17a4f08234e888160c",
+    "click_index": 2,
+    "iou": 0.9217949509620667,
+    "boundary_iou": 0.7667889595031738,
+    "latency_ms": 29.832700000042678,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "aaa4ae9536ca43dcb526cccd2200ec9f",
+    "task_run_id": "10735b1e38a14b799c404de64cb8ab39",
+    "click_index": 1,
+    "iou": 0.9583442807197571,
+    "boundary_iou": 0.8504034280776978,
+    "latency_ms": 27.14209999976447,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ad0c8cf100b14fdcade52af4ab12d4ba",
+    "task_run_id": "1263159400834feca5d53c5dc6f20d7c",
+    "click_index": 1,
+    "iou": 0.3114202320575714,
+    "boundary_iou": 0.15790797770023346,
+    "latency_ms": 26.27820000088832,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "459ab436b4d04762bb7449b2f931fa54",
+    "task_run_id": "1263159400834feca5d53c5dc6f20d7c",
+    "click_index": 2,
+    "iou": 0.7140540480613708,
+    "boundary_iou": 0.4921184778213501,
+    "latency_ms": 35.79850000096485,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a5e20f508493467d839a84850625d1d5",
+    "task_run_id": "1263159400834feca5d53c5dc6f20d7c",
+    "click_index": 3,
+    "iou": 0.38563162088394165,
+    "boundary_iou": 0.3294111490249634,
+    "latency_ms": 30.546999998477986,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "620f323474f342fdbc26c6ed292804fe",
+    "task_run_id": "1263159400834feca5d53c5dc6f20d7c",
+    "click_index": 4,
+    "iou": 0.8889569640159607,
+    "boundary_iou": 0.6869522929191589,
+    "latency_ms": 32.170600001336425,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d0ad8e148462497dbe836a2b6aaaceff",
+    "task_run_id": "134ee040b49b4dc995f7a8672771fe8c",
+    "click_index": 1,
+    "iou": 0.9648645520210266,
+    "boundary_iou": 0.9074897170066833,
+    "latency_ms": 36.339600001156214,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "dc3350251acc467494bcd97ec7f0bdbf",
+    "task_run_id": "134ee040b49b4dc995f7a8672771fe8c",
+    "click_index": 2,
+    "iou": 0.9671006202697754,
+    "boundary_iou": 0.9128125905990601,
+    "latency_ms": 33.19779999947059,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "19867f6dc9b4415db7a4e2f501cdbcd7",
+    "task_run_id": "15f9cbc0e04e48f1bb50be2efd7f5d6a",
+    "click_index": 1,
+    "iou": 0.8983949422836304,
+    "boundary_iou": 0.7732160091400146,
+    "latency_ms": 34.483299999919836,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6dff4e9c395447688074749f369e83f3",
+    "task_run_id": "15f9cbc0e04e48f1bb50be2efd7f5d6a",
+    "click_index": 2,
+    "iou": 0.8996026515960693,
+    "boundary_iou": 0.7747949957847595,
+    "latency_ms": 34.333400000832626,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5ec9e2297966400a9b23b5e512b76770",
+    "task_run_id": "15f9cbc0e04e48f1bb50be2efd7f5d6a",
+    "click_index": 3,
+    "iou": 0.8928884267807007,
+    "boundary_iou": 0.7629212737083435,
+    "latency_ms": 35.88889999991807,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "14e0ee60eb6546178168d075e7590417",
+    "task_run_id": "15f9cbc0e04e48f1bb50be2efd7f5d6a",
+    "click_index": 4,
+    "iou": 0.8929158449172974,
+    "boundary_iou": 0.7631844878196716,
+    "latency_ms": 36.25629999987723,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f19a020876c84a69b41867b91ac6ddb8",
+    "task_run_id": "15f9cbc0e04e48f1bb50be2efd7f5d6a",
+    "click_index": 5,
+    "iou": 0.9421494007110596,
+    "boundary_iou": 0.8752667903900146,
+    "latency_ms": 35.57870000076946,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "317e54944c5d489885df4e7a92efb6a8",
+    "task_run_id": "174e139f699341f99edfa82e66634e6a",
+    "click_index": 1,
+    "iou": 0.18961331248283386,
+    "boundary_iou": 0.21240445971488953,
+    "latency_ms": 36.99149999920337,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "46abfdfbfaaa4bedad41e67fab4cef6e",
+    "task_run_id": "174e139f699341f99edfa82e66634e6a",
+    "click_index": 2,
+    "iou": 0.7478591203689575,
+    "boundary_iou": 0.35738497972488403,
+    "latency_ms": 37.66910000013013,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1dbc7d7b0e39479482e6f4b319bc1ad7",
+    "task_run_id": "174e139f699341f99edfa82e66634e6a",
+    "click_index": 3,
+    "iou": 0.8854708671569824,
+    "boundary_iou": 0.4792748689651489,
+    "latency_ms": 36.21770000063407,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e961900bb4804523b64117a39444a4b6",
+    "task_run_id": "17a66297e8eb4afeb0493df5a15d41a3",
+    "click_index": 1,
+    "iou": 0.8780145645141602,
+    "boundary_iou": 0.5644060373306274,
+    "latency_ms": 41.06870000032359,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5b958c95ea61474bb03a915d919a58ce",
+    "task_run_id": "19f81c7f143145059415237c04a79672",
+    "click_index": 1,
+    "iou": 0.8835230469703674,
+    "boundary_iou": 0.8363674879074097,
+    "latency_ms": 42.54899999978079,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2d7c7f43e78d403283cf33dc74e5e2db",
+    "task_run_id": "19f81c7f143145059415237c04a79672",
+    "click_index": 2,
+    "iou": 0.8805908560752869,
+    "boundary_iou": 0.8369866013526917,
+    "latency_ms": 41.17910000059055,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0852c453673344a9835ebd45a99a3fde",
+    "task_run_id": "1b36789743274ef08935e974f618e359",
+    "click_index": 1,
+    "iou": 0.9083606004714966,
+    "boundary_iou": 0.6169044375419617,
+    "latency_ms": 33.60719999909634,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "351fae0c64d54ba792ec243b7dbc1c1f",
+    "task_run_id": "20493d00d6ff4d959266e49ca408b063",
+    "click_index": 1,
+    "iou": 0.8201237916946411,
+    "boundary_iou": 0.3929712474346161,
+    "latency_ms": 39.48279999895021,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "138a85c44bbb4f4d8f40a2b6fdc708c2",
+    "task_run_id": "20493d00d6ff4d959266e49ca408b063",
+    "click_index": 2,
+    "iou": 0.9715309143066406,
+    "boundary_iou": 0.7539260387420654,
+    "latency_ms": 27.561000000787317,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "68d06f4cc3fd45eca106a440e965d71d",
+    "task_run_id": "278a7efa4d1c4329b79a0ea37c02dceb",
+    "click_index": 1,
+    "iou": 0.8682714700698853,
+    "boundary_iou": 0.6542117595672607,
+    "latency_ms": 31.59880000021076,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d516e551da6142aca2d4b8d0432e23fe",
+    "task_run_id": "278a7efa4d1c4329b79a0ea37c02dceb",
+    "click_index": 2,
+    "iou": 0.8908504247665405,
+    "boundary_iou": 0.6948391795158386,
+    "latency_ms": 35.901100000046426,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5856226023b340a0aab0db6329755650",
+    "task_run_id": "278a7efa4d1c4329b79a0ea37c02dceb",
+    "click_index": 3,
+    "iou": 0.9246252775192261,
+    "boundary_iou": 0.7512419819831848,
+    "latency_ms": 35.383899999942514,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "678165fa64e34d5e9df1d04e11a209eb",
+    "task_run_id": "278a7efa4d1c4329b79a0ea37c02dceb",
+    "click_index": 4,
+    "iou": 0.7813274264335632,
+    "boundary_iou": 0.5534366965293884,
+    "latency_ms": 31.403700000737444,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "dc35704af580456cbeced55e995810c3",
+    "task_run_id": "278a7efa4d1c4329b79a0ea37c02dceb",
+    "click_index": 5,
+    "iou": 0.9248735904693604,
+    "boundary_iou": 0.752648115158081,
+    "latency_ms": 29.58819999912521,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c60acb3ce4494673a280057e04ff0458",
+    "task_run_id": "28ba827db17f42fd8a0b40eebe16c3ef",
+    "click_index": 1,
+    "iou": 0.546294093132019,
+    "boundary_iou": 0.3441068232059479,
+    "latency_ms": 34.98029999900609,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1e153c206596457e81ee6c807227aade",
+    "task_run_id": "28ba827db17f42fd8a0b40eebe16c3ef",
+    "click_index": 2,
+    "iou": 0.9271696209907532,
+    "boundary_iou": 0.8051073551177979,
+    "latency_ms": 33.70549999999639,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "9fc4aa5e44274bf7aa86acea7ffc809f",
+    "task_run_id": "2c6e9577319140068620a224fe9c7d4e",
+    "click_index": 1,
+    "iou": 0.9702619314193726,
+    "boundary_iou": 0.8433935642242432,
+    "latency_ms": 32.04530000039085,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "48ce50473d2049a28a58e7d2733b4770",
+    "task_run_id": "2f79801525eb427bbb620c00968dcf5f",
+    "click_index": 1,
+    "iou": 0.9008021354675293,
+    "boundary_iou": 0.5883291959762573,
+    "latency_ms": 31.27180000046792,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "afcf5dac286d47c9b4710185169ef594",
+    "task_run_id": "2f79801525eb427bbb620c00968dcf5f",
+    "click_index": 2,
+    "iou": 0.7744743227958679,
+    "boundary_iou": 0.32657456398010254,
+    "latency_ms": 28.422400000636117,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bb2bf6e1395c4c6691d68512ccbacf62",
+    "task_run_id": "2f79801525eb427bbb620c00968dcf5f",
+    "click_index": 3,
+    "iou": 0.9164672493934631,
+    "boundary_iou": 0.6517217755317688,
+    "latency_ms": 35.25359999912325,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "8f710814153343419789754905fca0c4",
+    "task_run_id": "2f79801525eb427bbb620c00968dcf5f",
+    "click_index": 4,
+    "iou": 0.9114417433738708,
+    "boundary_iou": 0.6270780563354492,
+    "latency_ms": 31.50380000079167,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1142652fd80b4eae8c213b9cbf336eea",
+    "task_run_id": "310f42e8100d4a7ca6eb740e6c6d7b79",
+    "click_index": 1,
+    "iou": 0.8833333253860474,
+    "boundary_iou": 0.6793048977851868,
+    "latency_ms": 29.402500000287546,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "61285d92b09741b1ada00162dd60d33b",
+    "task_run_id": "310f42e8100d4a7ca6eb740e6c6d7b79",
+    "click_index": 2,
+    "iou": 0.8716968297958374,
+    "boundary_iou": 0.6557236313819885,
+    "latency_ms": 29.243700000733952,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bde30f9366294348993b62f6a98b90c7",
+    "task_run_id": "31d61c3d2a7142dba0e98a333bfc9e1f",
+    "click_index": 1,
+    "iou": 0.9285080432891846,
+    "boundary_iou": 0.5908403396606445,
+    "latency_ms": 33.56340000027558,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "aa721dd00c19409899b71c70edc3f121",
+    "task_run_id": "31d61c3d2a7142dba0e98a333bfc9e1f",
+    "click_index": 2,
+    "iou": 0.9287692308425903,
+    "boundary_iou": 0.5894121527671814,
+    "latency_ms": 28.522100001282524,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ab7bd16f23d14296a8370576e33e5fc7",
+    "task_run_id": "31ff5f25d8a64dd2820f19533889c63a",
+    "click_index": 1,
+    "iou": 0.9645248055458069,
+    "boundary_iou": 0.7861709594726562,
+    "latency_ms": 29.163799999878393,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a5dbf23893df403db2eeea5efa7210e5",
+    "task_run_id": "341797571d0149ff9723021f512134df",
+    "click_index": 1,
+    "iou": 0.9117962121963501,
+    "boundary_iou": 0.6194566488265991,
+    "latency_ms": 30.373300000064773,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1698114356854908a7ca0ef00c82d8bd",
+    "task_run_id": "37421ea80ded4b379df487d423cd321d",
+    "click_index": 1,
+    "iou": 0.9020325541496277,
+    "boundary_iou": 0.6767784357070923,
+    "latency_ms": 28.778500000044005,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d5121adccd12404bb6b2e258308600e3",
+    "task_run_id": "37421ea80ded4b379df487d423cd321d",
+    "click_index": 2,
+    "iou": 0.9009338617324829,
+    "boundary_iou": 0.6987563967704773,
+    "latency_ms": 29.387999999016756,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2c9b83ae578d4302b20dd7a1f8511f5e",
+    "task_run_id": "37421ea80ded4b379df487d423cd321d",
+    "click_index": 3,
+    "iou": 0.9068080186843872,
+    "boundary_iou": 0.7165677547454834,
+    "latency_ms": 30.651099999886355,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7f4c16b427ef4db2b09faf38c4c8c9fd",
+    "task_run_id": "3ab37af5cfe44b34986a75338bef0a83",
+    "click_index": 1,
+    "iou": 0.8445186018943787,
+    "boundary_iou": 0.5090603232383728,
+    "latency_ms": 32.088199999634526,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "155c9a3599e34c63968c2e8c71a465d3",
+    "task_run_id": "3ab37af5cfe44b34986a75338bef0a83",
+    "click_index": 2,
+    "iou": 0.8423612713813782,
+    "boundary_iou": 0.5015037059783936,
+    "latency_ms": 28.115999999499763,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "fa3c1ce41898451a874baf13e12e29d0",
+    "task_run_id": "3ab37af5cfe44b34986a75338bef0a83",
+    "click_index": 3,
+    "iou": 0.8819599747657776,
+    "boundary_iou": 0.5947876572608948,
+    "latency_ms": 30.053700000280514,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "9a134fd70482491f9c25e23c133476b8",
+    "task_run_id": "3ab37af5cfe44b34986a75338bef0a83",
+    "click_index": 4,
+    "iou": 0.8817933797836304,
+    "boundary_iou": 0.5915019512176514,
+    "latency_ms": 32.76689999984228,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f061d5c5fd0e4b5fa7312adac918684e",
+    "task_run_id": "3e9cc90eaa464a91ad617168633046ac",
+    "click_index": 1,
+    "iou": 0.702739417552948,
+    "boundary_iou": 0.4474185109138489,
+    "latency_ms": 31.725599999845144,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f8a7d15215ea41d9b64738c20adde6df",
+    "task_run_id": "3fbca614303a4ebc8d0c3e74cb0e7004",
+    "click_index": 1,
+    "iou": 0.9369028210639954,
+    "boundary_iou": 0.7213791608810425,
+    "latency_ms": 28.449000001273816,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e29d5a3a643e4e2c8cb61642612725fa",
+    "task_run_id": "416794b74c4c4b8abe0848529ee7faa6",
+    "click_index": 1,
+    "iou": 0.8461335301399231,
+    "boundary_iou": 0.6878740191459656,
+    "latency_ms": 24.90889999899082,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "3165b8ebaa744dd3ad20b1f239aa4d04",
+    "task_run_id": "416794b74c4c4b8abe0848529ee7faa6",
+    "click_index": 2,
+    "iou": 0.8688337802886963,
+    "boundary_iou": 0.7035915851593018,
+    "latency_ms": 25.892899999234942,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "8da69b2cb13a4f71b9e47ede8c9d7679",
+    "task_run_id": "416794b74c4c4b8abe0848529ee7faa6",
+    "click_index": 3,
+    "iou": 0.8031854033470154,
+    "boundary_iou": 0.6206217408180237,
+    "latency_ms": 27.329000000463566,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6586e385fd134c79b898bb7f07eee1c7",
+    "task_run_id": "416794b74c4c4b8abe0848529ee7faa6",
+    "click_index": 4,
+    "iou": 0.833638608455658,
+    "boundary_iou": 0.654883623123169,
+    "latency_ms": 29.594300000098883,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "dfbbef8892a145dea3a24f7c9ca8f578",
+    "task_run_id": "416794b74c4c4b8abe0848529ee7faa6",
+    "click_index": 5,
+    "iou": 0.9210991263389587,
+    "boundary_iou": 0.7933478951454163,
+    "latency_ms": 32.15160000036121,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7cd1c99bc26b44caa1e908a3ea09769f",
+    "task_run_id": "419373dde6e34c98b68b94c2ffd8271d",
+    "click_index": 1,
+    "iou": 0.8639312982559204,
+    "boundary_iou": 0.7293404936790466,
+    "latency_ms": 35.45339999982389,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "18288510a00e4856a258bc9ee72f9276",
+    "task_run_id": "419373dde6e34c98b68b94c2ffd8271d",
+    "click_index": 2,
+    "iou": 0.8742483854293823,
+    "boundary_iou": 0.7467272281646729,
+    "latency_ms": 28.831399999035057,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a17af9140969495a82232b82b8dc6925",
+    "task_run_id": "43483b1e7d5f4748874de3faad10c489",
+    "click_index": 1,
+    "iou": 0.6680703163146973,
+    "boundary_iou": 0.6031098961830139,
+    "latency_ms": 27.829399999973248,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c8a5e2ced8e54884b400f5a4b257013c",
+    "task_run_id": "43483b1e7d5f4748874de3faad10c489",
+    "click_index": 2,
+    "iou": 0.8113353848457336,
+    "boundary_iou": 0.7961471676826477,
+    "latency_ms": 33.176799999637296,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "cae3669f39934d818e424c6b4e7ebd11",
+    "task_run_id": "4720a93e801d4d91827a3702605b11e1",
+    "click_index": 1,
+    "iou": 0.9558134078979492,
+    "boundary_iou": 0.8443759679794312,
+    "latency_ms": 35.20140000000538,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2c66727e95c3436db90afc599fef1a03",
+    "task_run_id": "4720a93e801d4d91827a3702605b11e1",
+    "click_index": 2,
+    "iou": 0.954738974571228,
+    "boundary_iou": 0.8406859636306763,
+    "latency_ms": 29.704800001127296,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5a12cd9f73954b8d9e97f94862abac2f",
+    "task_run_id": "4720a93e801d4d91827a3702605b11e1",
+    "click_index": 3,
+    "iou": 0.9512989521026611,
+    "boundary_iou": 0.769475519657135,
+    "latency_ms": 29.187100000854116,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ac16015b43a34126b2371fcfd303f3e0",
+    "task_run_id": "4b09985820d54f7c8d62f6431ee25b09",
+    "click_index": 1,
+    "iou": 0.8410714268684387,
+    "boundary_iou": 0.6473997831344604,
+    "latency_ms": 32.09760000027018,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f2326aae9ee5475d90d3aa8f6c7408a5",
+    "task_run_id": "4b09985820d54f7c8d62f6431ee25b09",
+    "click_index": 2,
+    "iou": 0.8614192605018616,
+    "boundary_iou": 0.6744093894958496,
+    "latency_ms": 32.54419999939273,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "67d28f9a75cc435e903621c9e0ea8c51",
+    "task_run_id": "4b09985820d54f7c8d62f6431ee25b09",
+    "click_index": 3,
+    "iou": 0.8362092971801758,
+    "boundary_iou": 0.6290108561515808,
+    "latency_ms": 30.40760000112641,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d5dc9f7d09124ce4be7295c8fad275b0",
+    "task_run_id": "4b09985820d54f7c8d62f6431ee25b09",
+    "click_index": 4,
+    "iou": 0.8539702296257019,
+    "boundary_iou": 0.6559492945671082,
+    "latency_ms": 32.419799999843235,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "4dbdd816d07c4e118701dbef4567262f",
+    "task_run_id": "5247033311084e23a061d78bb80a65ff",
+    "click_index": 1,
+    "iou": 0.928676962852478,
+    "boundary_iou": 0.8523896932601929,
+    "latency_ms": 36.71029999895836,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "38c5cc97c16d4d098224bde62aa025ba",
+    "task_run_id": "545578fb0605405d851fbdb4dd75193e",
+    "click_index": 1,
+    "iou": 0.8381359577178955,
+    "boundary_iou": 0.6238396763801575,
+    "latency_ms": 39.2905000007886,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2dfd687babd24eb4b2d602068eff27d4",
+    "task_run_id": "545578fb0605405d851fbdb4dd75193e",
+    "click_index": 2,
+    "iou": 0.8729919195175171,
+    "boundary_iou": 0.6693229079246521,
+    "latency_ms": 34.1048000009323,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0867967a27b54eb8aea53d9f419f0c6a",
+    "task_run_id": "545578fb0605405d851fbdb4dd75193e",
+    "click_index": 3,
+    "iou": 0.8294593095779419,
+    "boundary_iou": 0.6098984479904175,
+    "latency_ms": 34.21180000077584,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "045c356424674498ac9a9c5a42b3906a",
+    "task_run_id": "566b16c795bf4022b448da929e502c17",
+    "click_index": 1,
+    "iou": 0.7867416143417358,
+    "boundary_iou": 0.6880235075950623,
+    "latency_ms": 33.2419000005757,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "04da86819e5343268e4dc40708aa6e66",
+    "task_run_id": "5a624b53e2a3467d9934601fdf6e2ec1",
+    "click_index": 1,
+    "iou": 0.8207142949104309,
+    "boundary_iou": 0.6239621043205261,
+    "latency_ms": 31.336499998360523,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "cefa49258bd84153be4bc97c0be429b8",
+    "task_run_id": "5cbd525ca3e84dd4b723091a1cec31e0",
+    "click_index": 1,
+    "iou": 0.9613755345344543,
+    "boundary_iou": 0.6623769998550415,
+    "latency_ms": 31.597000001056585,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bf199e4a3ba047ffba696d3a5c70e1bc",
+    "task_run_id": "5cbd525ca3e84dd4b723091a1cec31e0",
+    "click_index": 2,
+    "iou": 0.9608502388000488,
+    "boundary_iou": 0.6578109860420227,
+    "latency_ms": 32.037200000559096,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bd2c88ee9c6548639c4a9bfbac82bb4d",
+    "task_run_id": "5cbd525ca3e84dd4b723091a1cec31e0",
+    "click_index": 3,
+    "iou": 0.9602783918380737,
+    "boundary_iou": 0.6547650098800659,
+    "latency_ms": 30.649100001028273,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "33e3aef7c2c44d3ca3ee44d8e54e5926",
+    "task_run_id": "5cbd525ca3e84dd4b723091a1cec31e0",
+    "click_index": 4,
+    "iou": 0.9607401490211487,
+    "boundary_iou": 0.657511293888092,
+    "latency_ms": 33.863900000142166,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "fb3a87cc36584aa38f8f18cb26d2bd61",
+    "task_run_id": "5f615879f9544c2f9e16d1d3d72a3f64",
+    "click_index": 1,
+    "iou": 0.15760381519794464,
+    "boundary_iou": 0.10535222291946411,
+    "latency_ms": 29.739400000835303,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "533650c1ecfb4251907ed6ff050feae8",
+    "task_run_id": "5f615879f9544c2f9e16d1d3d72a3f64",
+    "click_index": 2,
+    "iou": 0.5645161271095276,
+    "boundary_iou": 0.3558535575866699,
+    "latency_ms": 33.19989999909012,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "eb961333e4d84f26a6d4d84cc354cf3d",
+    "task_run_id": "5f615879f9544c2f9e16d1d3d72a3f64",
+    "click_index": 3,
+    "iou": 0.6823534965515137,
+    "boundary_iou": 0.39940905570983887,
+    "latency_ms": 33.78499999962514,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bbe807daa28f4f759e747952b926d195",
+    "task_run_id": "5f615879f9544c2f9e16d1d3d72a3f64",
+    "click_index": 4,
+    "iou": 0.7822211980819702,
+    "boundary_iou": 0.48867470026016235,
+    "latency_ms": 37.481299999853945,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e6271882b69a498cb2eaa3fba7e147c1",
+    "task_run_id": "5f615879f9544c2f9e16d1d3d72a3f64",
+    "click_index": 5,
+    "iou": 0.8783363699913025,
+    "boundary_iou": 0.73360675573349,
+    "latency_ms": 34.01780000058352,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0af9ea44cbfc41c8af6cbcc765dc21e7",
+    "task_run_id": "5f6eaaeae9614c4c94562b79e301e65f",
+    "click_index": 1,
+    "iou": 0.8801811933517456,
+    "boundary_iou": 0.5585958361625671,
+    "latency_ms": 28.020599998853868,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b1ef0c921c4f4487a4dd91033dcfd480",
+    "task_run_id": "5f6eaaeae9614c4c94562b79e301e65f",
+    "click_index": 2,
+    "iou": 0.9278084635734558,
+    "boundary_iou": 0.7103574275970459,
+    "latency_ms": 31.268600001567393,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "72169b25b1d545ccbc792a1d243c058b",
+    "task_run_id": "5f6eaaeae9614c4c94562b79e301e65f",
+    "click_index": 3,
+    "iou": 0.9410380721092224,
+    "boundary_iou": 0.7697237133979797,
+    "latency_ms": 32.54759999981616,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "53fa80bf460f4fbab4c4225c6091027b",
+    "task_run_id": "5f6eaaeae9614c4c94562b79e301e65f",
+    "click_index": 4,
+    "iou": 0.9367154836654663,
+    "boundary_iou": 0.7588068246841431,
+    "latency_ms": 28.53260000119917,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "fe8ddb26f4e74098a8671b5293c12e50",
+    "task_run_id": "5f6eaaeae9614c4c94562b79e301e65f",
+    "click_index": 5,
+    "iou": 0.8723650574684143,
+    "boundary_iou": 0.6245325803756714,
+    "latency_ms": 37.176600000748294,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c5367c0a991d407284dc37e771506ff9",
+    "task_run_id": "62983f4374fa4245b2bfbd6a5e0c7508",
+    "click_index": 1,
+    "iou": 0.9409544467926025,
+    "boundary_iou": 0.7809926271438599,
+    "latency_ms": 33.62100000049395,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ba18528d7d40414f87157ae8f6ec320e",
+    "task_run_id": "64adf0d2d72a446b994e9b08f548eb03",
+    "click_index": 1,
+    "iou": 0.6236412525177002,
+    "boundary_iou": 0.3545950949192047,
+    "latency_ms": 37.5307000012981,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d9f3c514ad2446e394f3f3f010e02dcb",
+    "task_run_id": "64adf0d2d72a446b994e9b08f548eb03",
+    "click_index": 2,
+    "iou": 0.6448467373847961,
+    "boundary_iou": 0.35544565320014954,
+    "latency_ms": 35.13980000025185,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7db3c3930fca4d1796eded7259061a2f",
+    "task_run_id": "64adf0d2d72a446b994e9b08f548eb03",
+    "click_index": 3,
+    "iou": 0.8821525573730469,
+    "boundary_iou": 0.6364268660545349,
+    "latency_ms": 31.913499999063788,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c662aef40a9049568684c6d92720ac4d",
+    "task_run_id": "64adf0d2d72a446b994e9b08f548eb03",
+    "click_index": 4,
+    "iou": 0.8885330557823181,
+    "boundary_iou": 0.6547223329544067,
+    "latency_ms": 35.68300000006275,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5c324720c167454da5dc87025e05296c",
+    "task_run_id": "64adf0d2d72a446b994e9b08f548eb03",
+    "click_index": 5,
+    "iou": 0.880567193031311,
+    "boundary_iou": 0.6328504681587219,
+    "latency_ms": 26.809400000274763,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "73e819a57caa4d7ba62e64e5023d3c56",
+    "task_run_id": "6930b0846aa44ff3b175c3b5f325a14c",
+    "click_index": 1,
+    "iou": 0.7577782869338989,
+    "boundary_iou": 0.49091219902038574,
+    "latency_ms": 26.03149999958987,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d0ab42a06e774c3191d536fe266708b1",
+    "task_run_id": "6930b0846aa44ff3b175c3b5f325a14c",
+    "click_index": 2,
+    "iou": 0.824013352394104,
+    "boundary_iou": 0.5508943796157837,
+    "latency_ms": 37.140500000532484,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2c26b8b8f3c748a1a406d7a17cdb35fb",
+    "task_run_id": "6930b0846aa44ff3b175c3b5f325a14c",
+    "click_index": 3,
+    "iou": 0.7967770099639893,
+    "boundary_iou": 0.5004680752754211,
+    "latency_ms": 33.05270000055316,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "9c7ab40c71544d21b6343b7b2ba38460",
+    "task_run_id": "6930b0846aa44ff3b175c3b5f325a14c",
+    "click_index": 4,
+    "iou": 0.8148247003555298,
+    "boundary_iou": 0.5320520997047424,
+    "latency_ms": 32.1817000003648,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0367d19cf1c748648b777fad8d243f95",
+    "task_run_id": "69d8ffde1c6b4a5494331dc58ca3a672",
+    "click_index": 1,
+    "iou": 0.9041064977645874,
+    "boundary_iou": 0.8890960216522217,
+    "latency_ms": 31.118700000661192,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0b49958bd07a40e880404b633e4a50cb",
+    "task_run_id": "69d8ffde1c6b4a5494331dc58ca3a672",
+    "click_index": 2,
+    "iou": 0.926460325717926,
+    "boundary_iou": 0.913921594619751,
+    "latency_ms": 32.3939000008977,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bb9451d064c545b3815fb06fb3239a07",
+    "task_run_id": "69d8ffde1c6b4a5494331dc58ca3a672",
+    "click_index": 3,
+    "iou": 0.9263476133346558,
+    "boundary_iou": 0.9116234183311462,
+    "latency_ms": 32.56359999977576,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5c1021f890b046c0b97958bcdeec6c1a",
+    "task_run_id": "69d8ffde1c6b4a5494331dc58ca3a672",
+    "click_index": 4,
+    "iou": 0.919280469417572,
+    "boundary_iou": 0.9068382382392883,
+    "latency_ms": 34.44900000067719,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a5455dd70a1e4c6ab7d5325884af0585",
+    "task_run_id": "6dcc8cfbade84aa9985e103b06a2c80f",
+    "click_index": 1,
+    "iou": 0.9531778693199158,
+    "boundary_iou": 0.8308262228965759,
+    "latency_ms": 33.40179999941029,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6d4380500dbe4e6b9e3d586a2c58d1f7",
+    "task_run_id": "6dcc8cfbade84aa9985e103b06a2c80f",
+    "click_index": 2,
+    "iou": 0.952608585357666,
+    "boundary_iou": 0.8321353793144226,
+    "latency_ms": 34.618899999259156,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bf86c8b03ffd4584b81b957de471a3f3",
+    "task_run_id": "6dcc8cfbade84aa9985e103b06a2c80f",
+    "click_index": 3,
+    "iou": 0.9493464231491089,
+    "boundary_iou": 0.8207198977470398,
+    "latency_ms": 39.32340000028489,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b609e76a625b4534a0046a51b2308b76",
+    "task_run_id": "7414f68bccd941838cc0dc533901add2",
+    "click_index": 1,
+    "iou": 0.7989417910575867,
+    "boundary_iou": 0.7989417910575867,
+    "latency_ms": 30.50439999969967,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "427365052273409b8753a3e9566e9d12",
+    "task_run_id": "7414f68bccd941838cc0dc533901add2",
+    "click_index": 2,
+    "iou": 0.8048780560493469,
+    "boundary_iou": 0.8048780560493469,
+    "latency_ms": 32.448600000861916,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "99230427dd3e4c338e253928633cbfea",
+    "task_run_id": "7414f68bccd941838cc0dc533901add2",
+    "click_index": 3,
+    "iou": 0.8208748698234558,
+    "boundary_iou": 0.8208748698234558,
+    "latency_ms": 30.470200001218473,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "4506ebf6f8144f3784c24cc0652e4b5d",
+    "task_run_id": "749ca78e02974fe9b9f1f030f2f8b0b4",
+    "click_index": 1,
+    "iou": 0.9668589234352112,
+    "boundary_iou": 0.8943222761154175,
+    "latency_ms": 34.35580000041227,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "25818b5563f840faae7815e436cf77ef",
+    "task_run_id": "7627ac53c7704e1686462c50d65329df",
+    "click_index": 1,
+    "iou": 0.9661815762519836,
+    "boundary_iou": 0.7996717095375061,
+    "latency_ms": 34.11479999886069,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e14ef8050d0a421aa9c552abdc9ac79d",
+    "task_run_id": "7627ac53c7704e1686462c50d65329df",
+    "click_index": 2,
+    "iou": 0.9677934646606445,
+    "boundary_iou": 0.806800127029419,
+    "latency_ms": 32.7620999996725,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0c6f8fcf96104e319b550aa0253d789c",
+    "task_run_id": "7c6b6b9385b04ca6836e5e0e9271455f",
+    "click_index": 1,
+    "iou": 0.9047253727912903,
+    "boundary_iou": 0.8354184627532959,
+    "latency_ms": 34.6174999995128,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e974d3f937ff46b8b3bf6729b712b810",
+    "task_run_id": "7c6b6b9385b04ca6836e5e0e9271455f",
+    "click_index": 2,
+    "iou": 0.9245959520339966,
+    "boundary_iou": 0.8548840284347534,
+    "latency_ms": 32.57899999880465,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "aa8e15ce25f249bfac21d88706b07570",
+    "task_run_id": "7c6b6b9385b04ca6836e5e0e9271455f",
+    "click_index": 3,
+    "iou": 0.9140480756759644,
+    "boundary_iou": 0.8426076173782349,
+    "latency_ms": 33.520699998916825,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "024b67e0c5fb4f6ea78f2288823ad539",
+    "task_run_id": "7dc7cd0343d749a29f330e417b10f839",
+    "click_index": 1,
+    "iou": 0.9240585565567017,
+    "boundary_iou": 0.7425960898399353,
+    "latency_ms": 34.527100000559585,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0eba1272c0ef40198f4c78d95e74e923",
+    "task_run_id": "7dc7cd0343d749a29f330e417b10f839",
+    "click_index": 2,
+    "iou": 0.9180527329444885,
+    "boundary_iou": 0.7400094866752625,
+    "latency_ms": 32.25209999982326,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bf8545fe13cc4f74bc2ab6b7cba6723a",
+    "task_run_id": "7dc7cd0343d749a29f330e417b10f839",
+    "click_index": 3,
+    "iou": 0.913642168045044,
+    "boundary_iou": 0.7385452389717102,
+    "latency_ms": 29.0898000002926,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6c221c5e05214f06ba864239b2fe1c15",
+    "task_run_id": "7dc7cd0343d749a29f330e417b10f839",
+    "click_index": 4,
+    "iou": 0.9234168529510498,
+    "boundary_iou": 0.7490997910499573,
+    "latency_ms": 26.005800000348245,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "42f39cee4799451c8d5213d5a429aeda",
+    "task_run_id": "7dc7cd0343d749a29f330e417b10f839",
+    "click_index": 5,
+    "iou": 0.932348906993866,
+    "boundary_iou": 0.7583168745040894,
+    "latency_ms": 32.20999999939522,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "81a1b577443140818ed7b3f28d0a6398",
+    "task_run_id": "7ea874cce1a843a0b1dc1bd18fdcdb73",
+    "click_index": 1,
+    "iou": 0.8444244861602783,
+    "boundary_iou": 0.568648636341095,
+    "latency_ms": 30.994799999461975,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "405bf12fe83e4a0096543226bb3131df",
+    "task_run_id": "7ea874cce1a843a0b1dc1bd18fdcdb73",
+    "click_index": 2,
+    "iou": 0.8195669054985046,
+    "boundary_iou": 0.5373583436012268,
+    "latency_ms": 31.00310000081663,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f2055b6da2df44a0a04980de1441d0fa",
+    "task_run_id": "7ea874cce1a843a0b1dc1bd18fdcdb73",
+    "click_index": 3,
+    "iou": 0.8309044241905212,
+    "boundary_iou": 0.5847473740577698,
+    "latency_ms": 29.386399999566493,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1c8b119594a94f07a1e1fc93a16be174",
+    "task_run_id": "7ea874cce1a843a0b1dc1bd18fdcdb73",
+    "click_index": 4,
+    "iou": 0.946763813495636,
+    "boundary_iou": 0.7943512201309204,
+    "latency_ms": 33.01780000037979,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ceacae382e0141bdacdbd8848a182798",
+    "task_run_id": "7ea874cce1a843a0b1dc1bd18fdcdb73",
+    "click_index": 5,
+    "iou": 0.9484882354736328,
+    "boundary_iou": 0.803932249546051,
+    "latency_ms": 29.37449999990349,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a638de3c944745d9b11ee2df093bf81f",
+    "task_run_id": "7f48f891d0f34573bcb2fef85bbe7e26",
+    "click_index": 1,
+    "iou": 0.9070054292678833,
+    "boundary_iou": 0.7208719253540039,
+    "latency_ms": 31.745399999635993,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "86b0b4a69ae34bbea726f0265c255d8d",
+    "task_run_id": "81fd593e63264475a58c36ee42ae980d",
+    "click_index": 1,
+    "iou": 0.5431883931159973,
+    "boundary_iou": 0.2762252390384674,
+    "latency_ms": 26.480000000447035,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "948cec1bd58e4522823a2a624b62e1fe",
+    "task_run_id": "81fd593e63264475a58c36ee42ae980d",
+    "click_index": 2,
+    "iou": 0.8332880139350891,
+    "boundary_iou": 0.5665843486785889,
+    "latency_ms": 33.5056000003533,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "8e47a8a5b056459f9ecc10538da01056",
+    "task_run_id": "88d5b4ef504c47ca842b7ea05cf204ee",
+    "click_index": 1,
+    "iou": 0.5391323566436768,
+    "boundary_iou": 0.3337877690792084,
+    "latency_ms": 31.042900000102236,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2c756e1fc7084efda61adc76043e71e9",
+    "task_run_id": "88d5b4ef504c47ca842b7ea05cf204ee",
+    "click_index": 2,
+    "iou": 0.9035270810127258,
+    "boundary_iou": 0.7376750111579895,
+    "latency_ms": 31.51350000007369,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c90a96642de54bb3bd50288a9bf0d9b2",
+    "task_run_id": "8dd3ec43240d46a7b0a6e048d4a11887",
+    "click_index": 1,
+    "iou": 0.9488404989242554,
+    "boundary_iou": 0.8520822525024414,
+    "latency_ms": 30.046899999433663,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "42a8f20b45434a43b7c6389f9d3edd55",
+    "task_run_id": "8f4a866744e3461983883b40e3b8dc7f",
+    "click_index": 1,
+    "iou": 0.8630540370941162,
+    "boundary_iou": 0.644957959651947,
+    "latency_ms": 32.153999998627114,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "9606a015eb534a46a8bf8e1704184f8f",
+    "task_run_id": "90324be085f84e059482972acceac004",
+    "click_index": 1,
+    "iou": 0.8984293341636658,
+    "boundary_iou": 0.7234286069869995,
+    "latency_ms": 29.36310000040976,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "9f00522d8da8436fb0acc221c4c7b9d9",
+    "task_run_id": "90324be085f84e059482972acceac004",
+    "click_index": 2,
+    "iou": 0.8772538900375366,
+    "boundary_iou": 0.6770137548446655,
+    "latency_ms": 32.62159999940195,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "384ce524749f4b8c8f604d92293ab772",
+    "task_run_id": "90324be085f84e059482972acceac004",
+    "click_index": 3,
+    "iou": 0.846148669719696,
+    "boundary_iou": 0.6177216172218323,
+    "latency_ms": 31.408199998622877,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0e36aaad0401468588285a422dc4616e",
+    "task_run_id": "90324be085f84e059482972acceac004",
+    "click_index": 4,
+    "iou": 0.8236340284347534,
+    "boundary_iou": 0.6164453029632568,
+    "latency_ms": 33.90159999980824,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7a10005896f44fbdb1d40df573db460b",
+    "task_run_id": "90324be085f84e059482972acceac004",
+    "click_index": 5,
+    "iou": 0.8817435503005981,
+    "boundary_iou": 0.7026845812797546,
+    "latency_ms": 32.23029999935534,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e397e2545a6144cba10e752ed5202455",
+    "task_run_id": "90926df9cc294db4a9227709409ce9f5",
+    "click_index": 1,
+    "iou": 0.9095180034637451,
+    "boundary_iou": 0.43881165981292725,
+    "latency_ms": 31.5522000000783,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "351e0de6c2294864a93b2da2b1c3991a",
+    "task_run_id": "90926df9cc294db4a9227709409ce9f5",
+    "click_index": 2,
+    "iou": 0.9081675410270691,
+    "boundary_iou": 0.4367641508579254,
+    "latency_ms": 31.785400000444497,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bbd0361e95fd4a2f926e88328f4eb975",
+    "task_run_id": "90926df9cc294db4a9227709409ce9f5",
+    "click_index": 3,
+    "iou": 0.910322368144989,
+    "boundary_iou": 0.4409421682357788,
+    "latency_ms": 32.36049999941315,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ba479f56c91e4472a75fade2e5e4e8c1",
+    "task_run_id": "912650efde4b43539d692705dd9c4752",
+    "click_index": 1,
+    "iou": 0.8215593695640564,
+    "boundary_iou": 0.4528416693210602,
+    "latency_ms": 34.93940000043949,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "64a631afed6e4b119dc1cf63d22dd41e",
+    "task_run_id": "912650efde4b43539d692705dd9c4752",
+    "click_index": 2,
+    "iou": 0.9202951192855835,
+    "boundary_iou": 0.6934617757797241,
+    "latency_ms": 28.902000000016415,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0341b623ebbd4d38abb668302e7f1ad7",
+    "task_run_id": "912650efde4b43539d692705dd9c4752",
+    "click_index": 3,
+    "iou": 0.9208288788795471,
+    "boundary_iou": 0.6945425271987915,
+    "latency_ms": 31.87880000041332,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "4b49815e990745349744209a7a7cfd7c",
+    "task_run_id": "93e77f7309164531a7fb4ac0e547e07d",
+    "click_index": 1,
+    "iou": 0.91289222240448,
+    "boundary_iou": 0.5573384165763855,
+    "latency_ms": 37.1882999988884,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7b07da96f35d4eb09fbec0f04fe11056",
+    "task_run_id": "93e77f7309164531a7fb4ac0e547e07d",
+    "click_index": 2,
+    "iou": 0.9084616303443909,
+    "boundary_iou": 0.5141681432723999,
+    "latency_ms": 35.61059999992722,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1199a6504b4342759059511e700858bc",
+    "task_run_id": "93e77f7309164531a7fb4ac0e547e07d",
+    "click_index": 3,
+    "iou": 0.9166198968887329,
+    "boundary_iou": 0.5600235462188721,
+    "latency_ms": 33.66889999961131,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "973bfd271fab4e9581e8bae4d457b5e5",
+    "task_run_id": "93e77f7309164531a7fb4ac0e547e07d",
+    "click_index": 4,
+    "iou": 0.9349165558815002,
+    "boundary_iou": 0.6106194853782654,
+    "latency_ms": 39.310599999225815,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "dd95e27a5f6f4c838da9232063112357",
+    "task_run_id": "93e77f7309164531a7fb4ac0e547e07d",
+    "click_index": 5,
+    "iou": 0.9480722546577454,
+    "boundary_iou": 0.6323862075805664,
+    "latency_ms": 37.53010000036738,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "584413d4629d4a14a818006dec8c7937",
+    "task_run_id": "97dee7d4f3f64564b5687fabed08e0cd",
+    "click_index": 1,
+    "iou": 0.9260143041610718,
+    "boundary_iou": 0.5803472995758057,
+    "latency_ms": 31.54250000079628,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ac434ce1a9254d78bb6db65fb8108192",
+    "task_run_id": "97dee7d4f3f64564b5687fabed08e0cd",
+    "click_index": 2,
+    "iou": 0.9339001774787903,
+    "boundary_iou": 0.6023622155189514,
+    "latency_ms": 33.20189999976719,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "79226643c452486d93774390894735e3",
+    "task_run_id": "97dee7d4f3f64564b5687fabed08e0cd",
+    "click_index": 3,
+    "iou": 0.9347119927406311,
+    "boundary_iou": 0.5987849831581116,
+    "latency_ms": 37.29220000059286,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ceb0e9159d794369be726f9723552e59",
+    "task_run_id": "9aed032a68054bd7b768756ff9b8cbb8",
+    "click_index": 1,
+    "iou": 0.9168232679367065,
+    "boundary_iou": 0.77198725938797,
+    "latency_ms": 41.086000001087086,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6822ebc51aae4c7d9fb6a52b76914fe9",
+    "task_run_id": "9aed032a68054bd7b768756ff9b8cbb8",
+    "click_index": 2,
+    "iou": 0.9132680296897888,
+    "boundary_iou": 0.7634722590446472,
+    "latency_ms": 41.08470000028319,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d54f99b3ebe240cbb9f5bd1a04881f9c",
+    "task_run_id": "9aed032a68054bd7b768756ff9b8cbb8",
+    "click_index": 3,
+    "iou": 0.9156088829040527,
+    "boundary_iou": 0.7665349841117859,
+    "latency_ms": 42.65750000013213,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ab25c677f8a841bc843c5a45c5934733",
+    "task_run_id": "9aed032a68054bd7b768756ff9b8cbb8",
+    "click_index": 4,
+    "iou": 0.9117125868797302,
+    "boundary_iou": 0.7623533606529236,
+    "latency_ms": 38.23080000074697,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "166d3bdd2965455092e82770a909c372",
+    "task_run_id": "9c5d2ffeab6c484db2f4b9d9c29bd64d",
+    "click_index": 1,
+    "iou": 0.8123373985290527,
+    "boundary_iou": 0.7645849585533142,
+    "latency_ms": 33.40279999974882,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1087329b264d4154bccdd376829f1ca2",
+    "task_run_id": "9c5d2ffeab6c484db2f4b9d9c29bd64d",
+    "click_index": 2,
+    "iou": 0.8257784843444824,
+    "boundary_iou": 0.7875295877456665,
+    "latency_ms": 35.57179999916116,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c5e2ce7312b04626909ecf9e8f18fa66",
+    "task_run_id": "9c5d2ffeab6c484db2f4b9d9c29bd64d",
+    "click_index": 3,
+    "iou": 0.8292756676673889,
+    "boundary_iou": 0.7909263968467712,
+    "latency_ms": 37.90400000070804,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "cd1fd8581ba64c4289e58f7d0d66003b",
+    "task_run_id": "a6601f8df46045f8804173505a3e328f",
+    "click_index": 1,
+    "iou": 0.8905065059661865,
+    "boundary_iou": 0.8296950459480286,
+    "latency_ms": 36.92559999944933,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b80c35f5d24640d1a9903eac91b13b42",
+    "task_run_id": "a6601f8df46045f8804173505a3e328f",
+    "click_index": 2,
+    "iou": 0.9004194736480713,
+    "boundary_iou": 0.8550674915313721,
+    "latency_ms": 39.283899999645655,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d8ae08aa6a064bdb9314378465d3ca71",
+    "task_run_id": "a6601f8df46045f8804173505a3e328f",
+    "click_index": 3,
+    "iou": 0.9011901021003723,
+    "boundary_iou": 0.8523039817810059,
+    "latency_ms": 38.98760000083712,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bf60ca3562e34b84ae190e50f297619f",
+    "task_run_id": "a6601f8df46045f8804173505a3e328f",
+    "click_index": 4,
+    "iou": 0.8984874486923218,
+    "boundary_iou": 0.8512382507324219,
+    "latency_ms": 37.52890000032494,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "9ebc15f63d9a4fd58b81a216ad780479",
+    "task_run_id": "a8c0db04e21c4b89b88ad3cd841c4f7e",
+    "click_index": 1,
+    "iou": 0.8638995885848999,
+    "boundary_iou": 0.6559590101242065,
+    "latency_ms": 36.47799999998824,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "dde2b9361dad407591a672e7d446b419",
+    "task_run_id": "a8c0db04e21c4b89b88ad3cd841c4f7e",
+    "click_index": 2,
+    "iou": 0.871971070766449,
+    "boundary_iou": 0.651797890663147,
+    "latency_ms": 34.72400000100606,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a87f0e00bd5e464a88f84643bb46fc93",
+    "task_run_id": "a8c0db04e21c4b89b88ad3cd841c4f7e",
+    "click_index": 3,
+    "iou": 0.8768625855445862,
+    "boundary_iou": 0.6636473536491394,
+    "latency_ms": 35.30080000018643,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "4f5c2e0b234c408795cba96e1079880f",
+    "task_run_id": "af6c7942de4b4f5ea53f6f315703d37f",
+    "click_index": 1,
+    "iou": 0.5533323287963867,
+    "boundary_iou": 0.3497254550457001,
+    "latency_ms": 38.34660000029544,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "175b87a274bf41428cea25e8d343c358",
+    "task_run_id": "b11e290bf83f4f81be3222b5acb5feed",
+    "click_index": 1,
+    "iou": 0.783308744430542,
+    "boundary_iou": 0.5208292007446289,
+    "latency_ms": 35.507099999449565,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "25284f753c2f4f9da0a953e12c4604a3",
+    "task_run_id": "b11e290bf83f4f81be3222b5acb5feed",
+    "click_index": 2,
+    "iou": 0.8188490867614746,
+    "boundary_iou": 0.570421040058136,
+    "latency_ms": 39.26419999879727,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "77ef86847709456aab1f3fec321bf2f4",
+    "task_run_id": "b11e290bf83f4f81be3222b5acb5feed",
+    "click_index": 3,
+    "iou": 0.7567908763885498,
+    "boundary_iou": 0.4902985990047455,
+    "latency_ms": 40.00169999926584,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c36c96e3b563479d9310938bf0ae0ce6",
+    "task_run_id": "b4252738d6d84703877d41448c5f5013",
+    "click_index": 1,
+    "iou": 0.8930414319038391,
+    "boundary_iou": 0.7869019508361816,
+    "latency_ms": 37.73940000064613,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "48b416a53721416ba91b4cef6fe625cc",
+    "task_run_id": "b750a779046a466fa458fb88884cf8ee",
+    "click_index": 1,
+    "iou": 0.985822319984436,
+    "boundary_iou": 0.8599627017974854,
+    "latency_ms": 37.05839999929594,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6df3925df12644b885b347b19f5a39cd",
+    "task_run_id": "b750a779046a466fa458fb88884cf8ee",
+    "click_index": 2,
+    "iou": 0.9094393849372864,
+    "boundary_iou": 0.46297648549079895,
+    "latency_ms": 44.478899999376154,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0b23973e1fc54e12be9152d886b9ab4e",
+    "task_run_id": "b949bb4718cd4ad99ba64880ec9f018a",
+    "click_index": 1,
+    "iou": 0.851681649684906,
+    "boundary_iou": 0.6247862577438354,
+    "latency_ms": 43.59699999986333,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "f36291bb2959488682e564c8f3778c5c",
+    "task_run_id": "b949bb4718cd4ad99ba64880ec9f018a",
+    "click_index": 2,
+    "iou": 0.8593097925186157,
+    "boundary_iou": 0.6339061260223389,
+    "latency_ms": 38.37709999970684,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "ce011dcf8df24463bb5aa29e18eab644",
+    "task_run_id": "bb518b52c91e4c869ff39836f7a6bf4c",
+    "click_index": 1,
+    "iou": 0.9316162467002869,
+    "boundary_iou": 0.5841174125671387,
+    "latency_ms": 42.41750000073807,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7d89083bafef4e6c832c5c5751fbd5e3",
+    "task_run_id": "bb518b52c91e4c869ff39836f7a6bf4c",
+    "click_index": 2,
+    "iou": 0.937592089176178,
+    "boundary_iou": 0.6051889061927795,
+    "latency_ms": 37.31280000101833,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b33f50c62ebe48068605346415ce72f2",
+    "task_run_id": "bb9f56bc6f7b408f86bb16ca210f1bdc",
+    "click_index": 1,
+    "iou": 0.8911604881286621,
+    "boundary_iou": 0.7158553004264832,
+    "latency_ms": 32.981000000290805,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "42252637f02749eab25c969c6c250b8e",
+    "task_run_id": "bb9f56bc6f7b408f86bb16ca210f1bdc",
+    "click_index": 2,
+    "iou": 0.8889845609664917,
+    "boundary_iou": 0.7106745839118958,
+    "latency_ms": 37.628800000675255,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "53fc3d57943e43ad9b088a5dea98a47c",
+    "task_run_id": "bb9f56bc6f7b408f86bb16ca210f1bdc",
+    "click_index": 3,
+    "iou": 0.897787868976593,
+    "boundary_iou": 0.7294268608093262,
+    "latency_ms": 36.89219999978377,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "31854307ef7e4eec9b61477732f220d0",
+    "task_run_id": "bce2ff90a64a4be5bafdba6f1fc8121b",
+    "click_index": 1,
+    "iou": 0.08686280250549316,
+    "boundary_iou": 0.023798039183020592,
+    "latency_ms": 35.54710000025807,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "965278f6014b4cc1b7020a1d6f0ce2d2",
+    "task_run_id": "bce2ff90a64a4be5bafdba6f1fc8121b",
+    "click_index": 2,
+    "iou": 0.08269203454256058,
+    "boundary_iou": 0.0004500688228290528,
+    "latency_ms": 35.947500000474975,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "00d87724ab58441e8230473e0250e186",
+    "task_run_id": "bce2ff90a64a4be5bafdba6f1fc8121b",
+    "click_index": 3,
+    "iou": 0.4518594443798065,
+    "boundary_iou": 0.14745424687862396,
+    "latency_ms": 37.56739999880665,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2379726ce8bd4ccf8c6ea7aa4eb16c3e",
+    "task_run_id": "bfc98a9cece04214889e943ec1a347fb",
+    "click_index": 1,
+    "iou": 0.8333829641342163,
+    "boundary_iou": 0.6107718348503113,
+    "latency_ms": 36.19499999877007,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e1443fed5af3456ca72b029597f95674",
+    "task_run_id": "bfc98a9cece04214889e943ec1a347fb",
+    "click_index": 2,
+    "iou": 0.8429085612297058,
+    "boundary_iou": 0.6260891556739807,
+    "latency_ms": 33.278999999311054,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "dbc47e3441b143cf8c3063abb4731990",
+    "task_run_id": "c07f6e0a45dd47dfa58122e42d422def",
+    "click_index": 1,
+    "iou": 0.8350508213043213,
+    "boundary_iou": 0.6981278657913208,
+    "latency_ms": 35.07709999939834,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b4684e0420984377971050bf45449761",
+    "task_run_id": "c07f6e0a45dd47dfa58122e42d422def",
+    "click_index": 2,
+    "iou": 0.9098833799362183,
+    "boundary_iou": 0.7931802868843079,
+    "latency_ms": 36.57840000050783,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "4f11b2beb4ca4577856749d87a8f7f50",
+    "task_run_id": "c397ecc988724d9fa5436dafc42a5f01",
+    "click_index": 1,
+    "iou": 0.9199395179748535,
+    "boundary_iou": 0.4527106285095215,
+    "latency_ms": 33.8212000006024,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bc27ced487fe4f908657ca7ce6d62d80",
+    "task_run_id": "c397ecc988724d9fa5436dafc42a5f01",
+    "click_index": 2,
+    "iou": 0.9382005333900452,
+    "boundary_iou": 0.6149052977561951,
+    "latency_ms": 43.174100001124316,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "87404bf59eb1496484c12944e0c0f3d2",
+    "task_run_id": "c5436b790a424f0a80a49a7f79ce6808",
+    "click_index": 1,
+    "iou": 0.8101757168769836,
+    "boundary_iou": 0.36942219734191895,
+    "latency_ms": 41.335500000059255,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "57ddf811f81741858377c7b52fbc7b08",
+    "task_run_id": "c5436b790a424f0a80a49a7f79ce6808",
+    "click_index": 2,
+    "iou": 0.8843934535980225,
+    "boundary_iou": 0.4823683202266693,
+    "latency_ms": 41.71359999963897,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "bb919b9df06840c5a4c24d0585eac82e",
+    "task_run_id": "c5436b790a424f0a80a49a7f79ce6808",
+    "click_index": 3,
+    "iou": 0.8866125345230103,
+    "boundary_iou": 0.5144877433776855,
+    "latency_ms": 45.369199999186094,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "90ce8d12ba914915ae57e1323a23e6b7",
+    "task_run_id": "c5436b790a424f0a80a49a7f79ce6808",
+    "click_index": 4,
+    "iou": 0.8781325221061707,
+    "boundary_iou": 0.502342700958252,
+    "latency_ms": 41.352599999299855,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "28969134c09b42f29f4e8816c20d8399",
+    "task_run_id": "c5436b790a424f0a80a49a7f79ce6808",
+    "click_index": 5,
+    "iou": 0.8259867429733276,
+    "boundary_iou": 0.39978864789009094,
+    "latency_ms": 41.48939999868162,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "cf06faaa4b5446da88a983f34cfc3f68",
+    "task_run_id": "cbf2029e01fd4192a6122990bfd2e621",
+    "click_index": 1,
+    "iou": 0.5267627239227295,
+    "boundary_iou": 0.2717347741127014,
+    "latency_ms": 40.96420000132639,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "8a68f82dee1c4f88807be182670dbdb9",
+    "task_run_id": "cbf2029e01fd4192a6122990bfd2e621",
+    "click_index": 2,
+    "iou": 0.5098423361778259,
+    "boundary_iou": 0.2687855660915375,
+    "latency_ms": 38.00939999928232,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d4e0259edcf746babc38f3214c21d9e0",
+    "task_run_id": "cbf2029e01fd4192a6122990bfd2e621",
+    "click_index": 3,
+    "iou": 0.6864296793937683,
+    "boundary_iou": 0.5172209143638611,
+    "latency_ms": 40.86289999941073,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "1e9ec1bd13bb4383a0adb5a6d247b29a",
+    "task_run_id": "cd804ef5f4294139ada784f5f4541323",
+    "click_index": 1,
+    "iou": 0.9486052989959717,
+    "boundary_iou": 0.7809749841690063,
+    "latency_ms": 37.638400001014816,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5947b8a8603b40abbdc03099c017c773",
+    "task_run_id": "d4d46550afc64060afc34e9c09bf013b",
+    "click_index": 1,
+    "iou": 0.4251859188079834,
+    "boundary_iou": 0.3185168206691742,
+    "latency_ms": 37.26979999919422,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "65474104e839464b8cd09ffc2a091a21",
+    "task_run_id": "d622976d10544576b94f1372f6fd28b4",
+    "click_index": 1,
+    "iou": 0.8283383846282959,
+    "boundary_iou": 0.5150720477104187,
+    "latency_ms": 36.949200000890414,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c3a8878778f749608a7a489726be1ce0",
+    "task_run_id": "d622976d10544576b94f1372f6fd28b4",
+    "click_index": 2,
+    "iou": 0.9274885654449463,
+    "boundary_iou": 0.6808519959449768,
+    "latency_ms": 39.20780000044033,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "23cd7dffb5904d61b2209338656be1f7",
+    "task_run_id": "df44e46c390e4f6ea21a2401bb7431a1",
+    "click_index": 1,
+    "iou": 0.8738154768943787,
+    "boundary_iou": 0.6854436993598938,
+    "latency_ms": 36.322300000392715,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e8673ff935df40bf911c519b21425801",
+    "task_run_id": "df44e46c390e4f6ea21a2401bb7431a1",
+    "click_index": 2,
+    "iou": 0.8703305721282959,
+    "boundary_iou": 0.6820379495620728,
+    "latency_ms": 41.5763999990304,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "84bde746125e4d5b9dc29c8ac6f81b08",
+    "task_run_id": "df44e46c390e4f6ea21a2401bb7431a1",
+    "click_index": 3,
+    "iou": 0.8817088603973389,
+    "boundary_iou": 0.6874080896377563,
+    "latency_ms": 36.33839999929478,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2d76907814c741a8985e28c65b64d3ce",
+    "task_run_id": "e776034849ca4687b20d7ac16dedc52c",
+    "click_index": 1,
+    "iou": 0.9368759989738464,
+    "boundary_iou": 0.7320666909217834,
+    "latency_ms": 39.62159999900905,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6f07fbf2a1da4264ad11b8d707e658b1",
+    "task_run_id": "eaa490f7a99347a4ad2a55a1f72b25ec",
+    "click_index": 1,
+    "iou": 0.9206395745277405,
+    "boundary_iou": 0.7293891310691833,
+    "latency_ms": 38.978999999017105,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "3277c8f1651442139bf9ffa5cdf3fa2a",
+    "task_run_id": "ec66a2ac02954e8797d5fd1e2c37e385",
+    "click_index": 1,
+    "iou": 0.6491086483001709,
+    "boundary_iou": 0.5248854160308838,
+    "latency_ms": 40.16539999975066,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b4fc92efb69b4cb688956a1ff1bf3f81",
+    "task_run_id": "ec66a2ac02954e8797d5fd1e2c37e385",
+    "click_index": 2,
+    "iou": 0.7581573724746704,
+    "boundary_iou": 0.6542007923126221,
+    "latency_ms": 41.911100001016166,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "6959a9bb5be449dfa49efb130bb64d08",
+    "task_run_id": "ec66a2ac02954e8797d5fd1e2c37e385",
+    "click_index": 3,
+    "iou": 0.7700408697128296,
+    "boundary_iou": 0.69181889295578,
+    "latency_ms": 40.256100000988226,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "48b614e1b48c45728570adfe6b0e517d",
+    "task_run_id": "ec66a2ac02954e8797d5fd1e2c37e385",
+    "click_index": 4,
+    "iou": 0.7596504092216492,
+    "boundary_iou": 0.6654578447341919,
+    "latency_ms": 33.94349999871338,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "d6eae8d409494b619dbc4a419a903760",
+    "task_run_id": "ec66a2ac02954e8797d5fd1e2c37e385",
+    "click_index": 5,
+    "iou": 0.7753129005432129,
+    "boundary_iou": 0.7039735317230225,
+    "latency_ms": 33.90170000056969,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "4e75cc59aa6540a49ad97cdc46d6ec99",
+    "task_run_id": "ed05a85c818340b180623126a56f8770",
+    "click_index": 1,
+    "iou": 0.9386544227600098,
+    "boundary_iou": 0.8543639183044434,
+    "latency_ms": 39.869300000646035,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "5e02a4760d324a3193ae3dac7cf106d6",
+    "task_run_id": "ee2c6f3fdf5c4a9daf78d39af2307004",
+    "click_index": 1,
+    "iou": 0.9606951475143433,
+    "boundary_iou": 0.8038116097450256,
+    "latency_ms": 37.83020000082615,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "c5e37ce79ac043d3a5a635f26fe45f35",
+    "task_run_id": "eed883d29fda4adeab7735816d9c2c6d",
+    "click_index": 1,
+    "iou": 0.7180964350700378,
+    "boundary_iou": 0.4990265667438507,
+    "latency_ms": 37.67180000068038,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0fbfcc2ba8bf4f298ce48544734f9442",
+    "task_run_id": "f0005bca884446009a497565e71af866",
+    "click_index": 1,
+    "iou": 0.7694703936576843,
+    "boundary_iou": 0.526594877243042,
+    "latency_ms": 35.690700000486686,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "e8351a113f9c44db9a56e8bd19f69f02",
+    "task_run_id": "f0005bca884446009a497565e71af866",
+    "click_index": 2,
+    "iou": 0.7406120300292969,
+    "boundary_iou": 0.49980679154396057,
+    "latency_ms": 42.2947999995813,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "0571c44dee8b45a0bedd2c790ef6a3d9",
+    "task_run_id": "f02925289cc249749e63dbf757af7998",
+    "click_index": 1,
+    "iou": 0.9412941932678223,
+    "boundary_iou": 0.548498272895813,
+    "latency_ms": 37.56969999994908,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "24403d12a6904c988c62e5b25c91deb9",
+    "task_run_id": "f02925289cc249749e63dbf757af7998",
+    "click_index": 2,
+    "iou": 0.940173864364624,
+    "boundary_iou": 0.5339259505271912,
+    "latency_ms": 40.142899999409565,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "23eacbb8d87c4d488be1b1022879eb6f",
+    "task_run_id": "f095301bf2844452878b1fdcb66ecef5",
+    "click_index": 1,
+    "iou": 0.9025200605392456,
+    "boundary_iou": 0.6318183541297913,
+    "latency_ms": 40.888199999244534,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "93b56eb668ca412aa1eea526b09c3d08",
+    "task_run_id": "f5e1793b893d406dbf54a2d8464bf468",
+    "click_index": 1,
+    "iou": 0.9444049596786499,
+    "boundary_iou": 0.8457531332969666,
+    "latency_ms": 42.03270000107295,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "b6a1c92e01a1483284420eff256cae7c",
+    "task_run_id": "f5e1793b893d406dbf54a2d8464bf468",
+    "click_index": 2,
+    "iou": 0.949442446231842,
+    "boundary_iou": 0.8667246103286743,
+    "latency_ms": 38.2817999998224,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "2f84d6b959634212989da1aa9810c6ac",
+    "task_run_id": "fb8410434ca14631ab173c8ba35a9d6d",
+    "click_index": 1,
+    "iou": 0.7854424715042114,
+    "boundary_iou": 0.49148109555244446,
+    "latency_ms": 34.76239999872632,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "86021b23ecd34126a5f095d0b573bdcb",
+    "task_run_id": "fb8410434ca14631ab173c8ba35a9d6d",
+    "click_index": 2,
+    "iou": 0.8052509427070618,
+    "boundary_iou": 0.5500661730766296,
+    "latency_ms": 30.977999998867745,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "7387d4773a8c4f1baa6ef92ddf278192",
+    "task_run_id": "fec0e0533e48453c971db5dcef3c1c56",
+    "click_index": 1,
+    "iou": 0.9000263214111328,
+    "boundary_iou": 0.6452913880348206,
+    "latency_ms": 29.58780000153638,
+    "donor_event_id": null
+  },
+  {
+    "event_id": "a0726662b26e4fbda10ca030ad03a0e3",
+    "task_run_id": "ff26e85dea6947b887848d9654db37b1",
+    "click_index": 1,
+    "iou": 0.7830294370651245,
+    "boundary_iou": 0.4341539740562439,
+    "latency_ms": 36.99710000000778,
+    "donor_event_id": null
+  }
+]

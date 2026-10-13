@@ -36,16 +36,19 @@ def cais_multitask_loss(
     *,
     iou_prediction: Optional[torch.Tensor] = None,
     cognitive_prediction: Optional[torch.Tensor] = None,
+    trajectory_cognitive_prediction: Optional[torch.Tensor] = None,
     iou_target: Optional[torch.Tensor] = None,
     cognitive_target: Optional[torch.Tensor] = None,
     cognitive_supervision_mask: Optional[torch.Tensor] = None,
+    trajectory_cognitive_supervision_mask: Optional[torch.Tensor] = None,
     boundary_alpha: float = 2.0,
     boundary_width: int = 2,
     lambda_iou: float = 1.0,
     lambda_cognitive: float = 0.075,
+    lambda_trajectory_cognitive: float = 0.0,
 ) -> dict[str, torch.Tensor]:
     """Boundary-adaptive mask loss with independent IoU and cognition supervision."""
-    if lambda_iou < 0 or lambda_cognitive < 0:
+    if lambda_iou < 0 or lambda_cognitive < 0 or lambda_trajectory_cognitive < 0:
         raise ValueError("auxiliary loss weights must be non-negative")
     target = F.interpolate(target.float(), final_mask.shape[-2:], mode="nearest")
     if target.shape[1] == 1 and final_mask.shape[1] > 1:
@@ -94,7 +97,35 @@ def cais_multitask_loss(
         elif supervision_mask.any():
             cognitive_loss = per_sample_loss[supervision_mask].mean()
 
-    total = mask_loss + lambda_iou * iou_loss + lambda_cognitive * cognitive_loss
+    trajectory_cognitive_loss = zero
+    trajectory_supervision_mask = supervision_mask
+    if trajectory_cognitive_supervision_mask is not None:
+        trajectory_supervision_mask = trajectory_cognitive_supervision_mask.to(
+            device=probability.device, dtype=torch.bool
+        )
+        trajectory_supervision_mask = trajectory_supervision_mask.reshape(
+            trajectory_supervision_mask.shape[0], -1
+        ).any(dim=1)
+        if supervision_mask is not None:
+            trajectory_supervision_mask = trajectory_supervision_mask & supervision_mask
+    if trajectory_cognitive_prediction is not None and cognitive_target is not None:
+        prediction = trajectory_cognitive_prediction.reshape(
+            trajectory_cognitive_prediction.shape[0], -1
+        ).mean(dim=1)
+        cognition = cognitive_target.to(device=prediction.device, dtype=prediction.dtype)
+        cognition = cognition.reshape(cognition.shape[0], -1).mean(dim=1).clamp(0, 1)
+        per_sample_loss = F.smooth_l1_loss(prediction, cognition, reduction="none")
+        if trajectory_supervision_mask is None:
+            trajectory_cognitive_loss = per_sample_loss.mean()
+        elif trajectory_supervision_mask.any():
+            trajectory_cognitive_loss = per_sample_loss[trajectory_supervision_mask].mean()
+
+    total = (
+        mask_loss
+        + lambda_iou * iou_loss
+        + lambda_cognitive * cognitive_loss
+        + lambda_trajectory_cognitive * trajectory_cognitive_loss
+    )
     return {
         "loss": total,
         "loss_mask": mask_loss,
@@ -102,12 +133,18 @@ def cais_multitask_loss(
         "loss_dice": dice,
         "loss_iou": iou_loss,
         "loss_cognitive": cognitive_loss,
+        "loss_trajectory_cognitive": trajectory_cognitive_loss,
         "boundary_band": boundary.detach(),
         "boundary_weight": boundary_weight.detach(),
         "iou_target": resolved_iou_target.detach(),
         "cognitive_supervision_mask": (
             supervision_mask.detach()
             if supervision_mask is not None
+            else torch.ones(probability.shape[0], device=probability.device, dtype=torch.bool)
+        ),
+        "trajectory_cognitive_supervision_mask": (
+            trajectory_supervision_mask.detach()
+            if trajectory_supervision_mask is not None
             else torch.ones(probability.shape[0], device=probability.device, dtype=torch.bool)
         ),
     }

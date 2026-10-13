@@ -4,7 +4,15 @@
 
 > 当前状态：研究原型。仓库中的结论来自 COCO 2017 小规模固定子集，不代表完整 COCO benchmark 结果。
 
-## 方法概览
+## 当前研究主线：Process-aware EfficientViT-SAM
+
+保留原始 Image Encoder 和 Prompt Encoder，并行增加交互过程编码器：状态 MLP、历史 GRU、
+空间交互图。Process-aware Fusion 追加过程提示 token，并通过空间 gate 调制图像特征，
+沿原始 SAM 接口输入 Mask Decoder。设计、坐标约定和 E0–E4 匹配实验见
+[`docs/process_aware_sam.md`](docs/process_aware_sam.md)，独立实现位于
+[`efficientvit/models/process_sam`](efficientvit/models/process_sam)。
+
+## VIMR 方法概览
 
 原始 EfficientViT-SAM 的 Image Encoder、Prompt Encoder 和 Mask Decoder 在正式协议中保持冻结。标有 `NEW` 的部分是本项目新增模块：
 

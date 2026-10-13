@@ -1,0 +1,652 @@
+{
+  "run": "G:\\lab\\VIMR-Click\\outputs\\process_sam_e0_e4_full_20261010_seed9527",
+  "dataset_file": "G:\\lab\\VIMR-Click\\outputs\\cais_synthetic_click2_click3_300_20260921\\alignment\\modeling_clicks_strict.jsonl",
+  "dataset_hash_matches_training": true,
+  "all_file_sources": {
+    "human": 1590,
+    "synthetic": 1382
+  },
+  "selected_sources": {
+    "human": 1590
+  },
+  "selected_id_count": 1590,
+  "selected_record_count": 1590,
+  "duplicate_event_ids": 0,
+  "asset_and_alignment_issues": {},
+  "issue_examples": {},
+  "stored_mask_iou_max_error": {
+    "pre_mask_ref": 4.988556074891903e-07,
+    "post_mask_ref": 4.988556074891903e-07
+  },
+  "missing_history_slots": 0,
+  "prompt_coordinate_quantization_error_px": {
+    "median": 0.40116681498626433,
+    "max": 0.6972136563235054
+  },
+  "splits": {
+    "train": {
+      "clicks": 1122,
+      "tasks": 450,
+      "images": 450,
+      "click_index_counts": {
+        "1": 450,
+        "2": 361,
+        "3": 184,
+        "4": 87,
+        "5": 40
+      },
+      "complete_five_click_tasks": 40,
+      "unique_annotators": 1,
+      "categories": 57,
+      "quality_eligible_clicks": 668,
+      "tasks_with_zoom_change_between_clicks": 17,
+      "tasks_with_pan_change_between_clicks": 17
+    },
+    "val": {
+      "clicks": 240,
+      "tasks": 99,
+      "images": 99,
+      "click_index_counts": {
+        "1": 99,
+        "2": 75,
+        "3": 39,
+        "4": 16,
+        "5": 11
+      },
+      "complete_five_click_tasks": 11,
+      "unique_annotators": 1,
+      "categories": 43,
+      "quality_eligible_clicks": 155,
+      "tasks_with_zoom_change_between_clicks": 4,
+      "tasks_with_pan_change_between_clicks": 4
+    },
+    "test": {
+      "clicks": 228,
+      "tasks": 92,
+      "images": 92,
+      "click_index_counts": {
+        "1": 92,
+        "2": 63,
+        "3": 39,
+        "4": 22,
+        "5": 12
+      },
+      "complete_five_click_tasks": 12,
+      "unique_annotators": 1,
+      "categories": 36,
+      "quality_eligible_clicks": 128,
+      "tasks_with_zoom_change_between_clicks": 2,
+      "tasks_with_pan_change_between_clicks": 2
+    }
+  },
+  "image_split_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "raw_datasets": {
+    "coco_click2": {
+      "raw_point_records": 1025,
+      "raw_tasks": 411,
+      "raw_termination_counts": {
+        "image_changed": 40,
+        "accepted": 322,
+        "max_clicks": 49
+      },
+      "selected_clicks": 788,
+      "selected_tasks": 319,
+      "selected_missing_raw_event_ids": 0,
+      "selected_missing_task_summaries": 0,
+      "selected_termination_counts": {
+        "accepted": 289,
+        "max_clicks": 30
+      },
+      "selected_full_trajectory_nonempty_tasks": 319,
+      "selected_full_trajectory_points_median": 19.0,
+      "selected_action_counts": {
+        "target_preview_started": 319,
+        "encoder_started": 319,
+        "zoom": 796,
+        "encoder_ready": 319,
+        "target_preview_hidden": 319,
+        "click": 788,
+        "model_result": 788,
+        "pan": 21
+      },
+      "selected_tasks_with_nontrivial_zoom_actions": 251,
+      "selected_tasks_with_nontrivial_pan_actions": 9,
+      "raw_start_finish_counts": {
+        "interaction_task_started": 411,
+        "interaction_task_finished": 411
+      }
+    },
+    "coco_click3": {
+      "raw_point_records": 979,
+      "raw_tasks": 395,
+      "raw_termination_counts": {
+        "accepted": 326,
+        "max_clicks": 41,
+        "image_changed": 28
+      },
+      "selected_clicks": 802,
+      "selected_tasks": 322,
+      "selected_missing_raw_event_ids": 0,
+      "selected_missing_task_summaries": 0,
+      "selected_termination_counts": {
+        "accepted": 289,
+        "max_clicks": 33
+      },
+      "selected_full_trajectory_nonempty_tasks": 322,
+      "selected_full_trajectory_points_median": 16.0,
+      "selected_action_counts": {
+        "target_preview_started": 322,
+        "encoder_started": 322,
+        "zoom": 1047,
+        "encoder_ready": 322,
+        "target_preview_hidden": 322,
+        "click": 802,
+        "model_result": 802,
+        "pan": 17
+      },
+      "selected_tasks_with_nontrivial_zoom_actions": 265,
+      "selected_tasks_with_nontrivial_pan_actions": 6,
+      "raw_start_finish_counts": {
+        "interaction_task_started": 395,
+        "interaction_task_finished": 395
+      }
+    }
+  },
+  "collection_model_files": {
+    "l1.pt": 1590
+  },
+  "training_base_checkpoint": "assets\\checkpoints\\efficientvit_sam\\distilled_model\\efficientvit_sam_l0.pt",
+  "viewport_valid_clicks": 1590,
+  "viewport_partially_excludes_image_clicks": 1225,
+  "negative_clicks": 130,
+  "trajectory_quality_heuristic": {
+    "clicks": 1590,
+    "raw_point_count": {
+      "p10": 5.0,
+      "median": 10.0,
+      "p90": 27.0
+    },
+    "unique_xy_count": {
+      "p10": 3.0,
+      "median": 9.0,
+      "p90": 25.0
+    },
+    "observed_duration_ms": {
+      "p10": 277.25280000000004,
+      "median": 575.3015,
+      "p90": 1618.129800000001
+    },
+    "available_interval_ms": {
+      "p10": 834.1823999911546,
+      "median": 1328.6199999898672,
+      "p90": 2520.2380000084645
+    },
+    "coverage_ratio": {
+      "p10": 0.355417147659575,
+      "median": 0.5492213727399976,
+      "p90": 0.7469304902161156
+    },
+    "path_length_norm": {
+      "p10": 0.02453116437689352,
+      "median": 0.18066566539156179,
+      "p90": 0.5507151965830414
+    },
+    "previous_click_distance_norm": {
+      "p10": 0.06509478367574598,
+      "median": 0.1924360648319333,
+      "p90": 0.45098800088430385
+    },
+    "start_from_previous_error_norm": {
+      "p10": 0.03046819260155787,
+      "median": 0.10093817146154371,
+      "p90": 0.2382548609539243
+    },
+    "end_to_click_error_norm": {
+      "p10": 0.0,
+      "median": 0.0,
+      "p90": 0.0
+    },
+    "enough_points": {
+      "count": 1436,
+      "ratio": 0.9031446540880503
+    },
+    "enough_duration": {
+      "count": 1542,
+      "ratio": 0.969811320754717
+    },
+    "has_motion": {
+      "count": 1511,
+      "ratio": 0.950314465408805
+    },
+    "reaches_click": {
+      "count": 1590,
+      "ratio": 1.0
+    },
+    "adequate_coverage": {
+      "count": 1025,
+      "ratio": 0.6446540880503144
+    },
+    "missing_interclick_motion": {
+      "count": 516,
+      "ratio": 0.32452830188679244
+    },
+    "reliable": {
+      "count": 951,
+      "ratio": 0.5981132075471698
+    },
+    "three_or_fewer_points": {
+      "count": 61,
+      "ratio": 0.038364779874213835
+    },
+    "static_trajectory": {
+      "count": 42,
+      "ratio": 0.026415094339622643
+    }
+  },
+  "quality_is_heuristic_not_proof_of_data_loss": true,
+  "preclick_trajectory_point_count": 20635,
+  "fixed_window_valid_samples_median": 9.0,
+  "fixed_window_zero_valid_events": 0,
+  "process_feature_std": {
+    "has_previous_click": 0.4905298948287964,
+    "log_active_interval_ms": 3.434441089630127,
+    "log_observed_duration_ms": 0.7516851425170898,
+    "observed_active_coverage": 0.37431395053863525,
+    "log_raw_point_count": 0.5964822769165039,
+    "log_unique_xy_count": 0.6721584796905518,
+    "path_length_norm": 0.25580623745918274,
+    "displacement_norm": 0.14850617945194244,
+    "trajectory_inefficiency": 0.2511340379714966,
+    "previous_click_distance_norm": 0.1622442901134491,
+    "log_previous_to_click_speed_norm_per_s": 0.15059894323349,
+    "log_pre_click_hover_time_ms": 2.2449216842651367,
+    "log_press_duration_ms": 1.109024167060852,
+    "log_peak_speed_norm_per_s": 1.3310381174087524,
+    "log_mean_deceleration_norm_per_s2": 1.820671796798706,
+    "log_hard_brake_count": 0.609574019908905,
+    "log_direction_changes_last_500ms": 0.405408650636673,
+    "trajectory_end_error_norm": 0.0
+  },
+  "paired_test_comparisons": {
+    "E1_minus_E0": {
+      "tasks": 92,
+      "mean_task_delta": -0.0024036110635252965,
+      "bootstrap_95ci": [
+        -0.010050453999336215,
+        0.004484291975993824
+      ],
+      "mean_event_delta": -0.003789868042395826
+    },
+    "E2_minus_E0": {
+      "tasks": 92,
+      "mean_task_delta": -0.0018747940861984435,
+      "bootstrap_95ci": [
+        -0.010266484621831254,
+        0.006406338885291541
+      ],
+      "mean_event_delta": -0.0028918541706444926
+    },
+    "E3_minus_E0": {
+      "tasks": 92,
+      "mean_task_delta": -0.0032993089556154136,
+      "bootstrap_95ci": [
+        -0.015330382568215062,
+        0.006633819248021133
+      ],
+      "mean_event_delta": -0.004562236630080039
+    }
+  },
+  "test_quality_strata": {
+    "quality_eligible": {
+      "events": 128,
+      "mean_event_iou": {
+        "E0": 0.8516016475623474,
+        "E1": 0.8517671832232736,
+        "E2": 0.846882754820399,
+        "E3": 0.8471524866763502,
+        "E4": 0.8441767491749488
+      },
+      "E3_minus_E0": {
+        "tasks": 82,
+        "mean_task_delta": -0.0005542346223340775,
+        "bootstrap_95ci": [
+          -0.009121282578907847,
+          0.009548942377503079
+        ],
+        "mean_event_delta": -0.0044491608859971166
+      }
+    },
+    "other": {
+      "events": 100,
+      "mean_event_iou": {
+        "E0": 0.8465672101080418,
+        "E1": 0.8377144253253936,
+        "E2": 0.8460139653086662,
+        "E3": 0.8418602365255355,
+        "E4": 0.849480156749487
+      },
+      "E3_minus_E0": {
+        "tasks": 60,
+        "mean_task_delta": -0.0035090542750226125,
+        "bootstrap_95ci": [
+          -0.02470755032201608,
+          0.015227786813552179
+        ],
+        "mean_event_delta": -0.00470697358250618
+      }
+    }
+  },
+  "training_history": {
+    "E0": [
+      {
+        "epoch": 1,
+        "loss": 0.23873352483844587,
+        "val_iou": 0.850257967878133
+      },
+      {
+        "epoch": 2,
+        "loss": 0.18743874897446597,
+        "val_iou": 0.8540429473854602
+      },
+      {
+        "epoch": 3,
+        "loss": 0.17227547416221117,
+        "val_iou": 0.8552425282076002
+      },
+      {
+        "epoch": 4,
+        "loss": 0.16094756302043609,
+        "val_iou": 0.8567241001563768
+      },
+      {
+        "epoch": 5,
+        "loss": 0.15378679291456407,
+        "val_iou": 0.8581252510348956
+      },
+      {
+        "epoch": 6,
+        "loss": 0.14634025958823224,
+        "val_iou": 0.8586115647728244
+      },
+      {
+        "epoch": 7,
+        "loss": 0.14089239680053875,
+        "val_iou": 0.8586124938912689
+      },
+      {
+        "epoch": 8,
+        "loss": 0.13344417379109882,
+        "val_iou": 0.8585420082323253
+      },
+      {
+        "epoch": 9,
+        "loss": 0.12889194671303672,
+        "val_iou": 0.8599246352910995
+      },
+      {
+        "epoch": 10,
+        "loss": 0.12356478350532511,
+        "val_iou": 0.8554488989834984
+      }
+    ],
+    "E1": [
+      {
+        "epoch": 1,
+        "loss": 0.24108794030406364,
+        "val_iou": 0.8452303032390773
+      },
+      {
+        "epoch": 2,
+        "loss": 0.19063355166584572,
+        "val_iou": 0.8556018329225481
+      },
+      {
+        "epoch": 3,
+        "loss": 0.169319869835866,
+        "val_iou": 0.8593801372063656
+      },
+      {
+        "epoch": 4,
+        "loss": 0.15902986082807846,
+        "val_iou": 0.8596587259943287
+      },
+      {
+        "epoch": 5,
+        "loss": 0.1478590939223846,
+        "val_iou": 0.8618088317724566
+      },
+      {
+        "epoch": 6,
+        "loss": 0.1377125120939232,
+        "val_iou": 0.8607383782664935
+      },
+      {
+        "epoch": 7,
+        "loss": 0.13066627462552247,
+        "val_iou": 0.8593747329277297
+      },
+      {
+        "epoch": 8,
+        "loss": 0.12437469524343012,
+        "val_iou": 0.8586367459657291
+      },
+      {
+        "epoch": 9,
+        "loss": 0.11971342466346614,
+        "val_iou": 0.8598160093339781
+      },
+      {
+        "epoch": 10,
+        "loss": 0.11499857287787552,
+        "val_iou": 0.8582851950700084
+      }
+    ],
+    "E2": [
+      {
+        "epoch": 1,
+        "loss": 0.23845652423121713,
+        "val_iou": 0.8493162436100344
+      },
+      {
+        "epoch": 2,
+        "loss": 0.18730809003340476,
+        "val_iou": 0.8560454428816835
+      },
+      {
+        "epoch": 3,
+        "loss": 0.16782212902504598,
+        "val_iou": 0.8607752114534378
+      },
+      {
+        "epoch": 4,
+        "loss": 0.15553133417113474,
+        "val_iou": 0.8592612763866783
+      },
+      {
+        "epoch": 5,
+        "loss": 0.14618151680750643,
+        "val_iou": 0.8582842105378707
+      },
+      {
+        "epoch": 6,
+        "loss": 0.13691299216599334,
+        "val_iou": 0.8588573050374786
+      },
+      {
+        "epoch": 7,
+        "loss": 0.12709272954506723,
+        "val_iou": 0.8592951888528962
+      },
+      {
+        "epoch": 8,
+        "loss": 0.120686008830666,
+        "val_iou": 0.8583489269328614
+      },
+      {
+        "epoch": 9,
+        "loss": 0.11709899204964094,
+        "val_iou": 0.8593827970015506
+      },
+      {
+        "epoch": 10,
+        "loss": 0.11176186049964658,
+        "val_iou": 0.8579866974614561
+      }
+    ],
+    "E3": [
+      {
+        "epoch": 1,
+        "loss": 0.23832148071312065,
+        "val_iou": 0.8477091747956972
+      },
+      {
+        "epoch": 2,
+        "loss": 0.18944988560608841,
+        "val_iou": 0.8584203365569313
+      },
+      {
+        "epoch": 3,
+        "loss": 0.16828389482243972,
+        "val_iou": 0.8617419867465893
+      },
+      {
+        "epoch": 4,
+        "loss": 0.15611782655744097,
+        "val_iou": 0.8585237096374233
+      },
+      {
+        "epoch": 5,
+        "loss": 0.14576480782685433,
+        "val_iou": 0.8576932955843707
+      },
+      {
+        "epoch": 6,
+        "loss": 0.13603508208982926,
+        "val_iou": 0.8589663709513843
+      },
+      {
+        "epoch": 7,
+        "loss": 0.12875117472773037,
+        "val_iou": 0.858407805270205
+      },
+      {
+        "epoch": 8,
+        "loss": 0.12213690806538822,
+        "val_iou": 0.8588033828884363
+      },
+      {
+        "epoch": 9,
+        "loss": 0.11767575129826757,
+        "val_iou": 0.8584794422922035
+      },
+      {
+        "epoch": 10,
+        "loss": 0.1124351713989003,
+        "val_iou": 0.857354415114969
+      }
+    ]
+  },
+  "adapter_omissions": [
+    "task-level full_trajectory",
+    "timestamped zoom/pan actions between clicks",
+    "task-level encoder wait / reset / preview events"
+  ],
+  "limitations": [
+    "raw full trajectories are sampled motion observations, not continuous time coverage",
+    "quality thresholds do not establish causal reasons for performance",
+    "single training seed; evaluation has only 12 complete five-click tasks",
+    "recorded L1 pre-masks / click policy are replayed into L0, not a closed-loop L0 interaction run"
+  ],
+  "official_gt_check": {
+    "unique_annotation_ids": 641,
+    "official_annotation_ids_found": 641,
+    "verified_click_records": 1590,
+    "missing_annotation_ids": [],
+    "pixel_difference_max": 0,
+    "issues": []
+  },
+  "view_actions_after_first_click": {
+    "coco_click2": {
+      "selected_tasks": 319,
+      "tasks_with_zoom_after_first_click": 14,
+      "zoom_actions_after_first_click": 100,
+      "tasks_with_pan_after_first_click": 6,
+      "pan_actions_after_first_click": 12,
+      "examples": [
+        {
+          "first_click_action": {
+            "relative_ms": 5873.632,
+            "type": "click",
+            "details": {
+              "event_id": "3cb2d0ff073e4a0988fc285ea4dad8d2",
+              "step_index": 1,
+              "prompt_type": "positive",
+              "x_norm": 0.355283,
+              "y_norm": 0.671771
+            },
+            "viewport": {
+              "center_x_norm": 0.499234,
+              "center_y_norm": 0.492088,
+              "log_zoom": 0.020109,
+              "zoom_scale": 1.020312,
+              "viewport_width_px": 560,
+              "viewport_height_px": 515,
+              "canvas_render_width_logical_px": 653.0,
+              "canvas_render_height_logical_px": 489.75,
+              "canvas_render_width_px": 653.0,
+              "canvas_render_height_px": 489.75,
+              "device_pixel_ratio": 1.0,
+              "delta_center_x_norm": 0.0,
+              "delta_center_y_norm": 0.0,
+              "delta_log_zoom": 0.0
+            }
+          },
+          "full_path_points": 35
+        }
+      ]
+    },
+    "coco_click3": {
+      "selected_tasks": 322,
+      "tasks_with_zoom_after_first_click": 15,
+      "zoom_actions_after_first_click": 77,
+      "tasks_with_pan_after_first_click": 2,
+      "pan_actions_after_first_click": 5,
+      "examples": [
+        {
+          "first_click_action": {
+            "relative_ms": 3641.952,
+            "type": "click",
+            "details": {
+              "event_id": "558ef0fb0f094b989061cf7b0befe023",
+              "step_index": 1,
+              "prompt_type": "positive",
+              "x_norm": 0.593318,
+              "y_norm": 0.335274
+            },
+            "viewport": {
+              "center_x_norm": 0.499944,
+              "center_y_norm": 0.500582,
+              "log_zoom": 0.294301,
+              "zoom_scale": 1.342188,
+              "viewport_width_px": 1920,
+              "viewport_height_px": 1165,
+              "canvas_render_width_logical_px": 514.058,
+              "canvas_render_height_logical_px": 859.0,
+              "canvas_render_width_px": 514.058,
+              "canvas_render_height_px": 859.0,
+              "device_pixel_ratio": 1.0,
+              "delta_center_x_norm": 0.000312,
+              "delta_center_y_norm": -0.000133,
+              "delta_log_zoom": 0.206118
+            }
+          },
+          "full_path_points": 33
+        }
+      ]
+    }
+  }
+}

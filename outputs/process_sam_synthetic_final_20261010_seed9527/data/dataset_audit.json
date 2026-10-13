@@ -1,0 +1,22 @@
+{
+  "clicks": {
+    "train": 3500,
+    "val": 750,
+    "test": 750
+  },
+  "tasks": 1000,
+  "complete_five_click_tasks": 1000,
+  "sources": {
+    "synthetic": 5000
+  },
+  "profiles_clicks": {
+    "0": 1720,
+    "2": 1655,
+    "1": 1625
+  },
+  "unique_images": 1000,
+  "image_split_conflicts": 0,
+  "human_image_overlap": 0,
+  "tasks_with_zoom_change": 990,
+  "issues": {}
+}

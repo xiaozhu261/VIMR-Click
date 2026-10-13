@@ -1,0 +1,270 @@
+{
+  "config": {
+    "dataset_root": "outputs\\cais_synthetic_click2_click3_300_20260921",
+    "oracle_results": "outputs\\cais_oracle_click_refinement_20261006\\per_click_results.jsonl",
+    "checkpoint": "assets\\checkpoints\\efficientvit_sam\\distilled_model\\efficientvit_sam_l0.pt",
+    "radius_ratios": [
+      0.00625,
+      0.0125,
+      0.025,
+      0.05
+    ],
+    "directions": 8,
+    "gate_fraction": 0.2,
+    "trajectory_window_ms": 500.0,
+    "folds": 5,
+    "seeds": [
+      9527,
+      1337,
+      2026
+    ],
+    "amp": true,
+    "smoke_test": false
+  },
+  "dataset": {
+    "records": 142,
+    "tasks": 126,
+    "mean_candidates": 33.0,
+    "valid_trajectory_fraction": 0.9859154929577465
+  },
+  "fit_parameters": [
+    {
+      "seed": 9527,
+      "fold": 0,
+      "gate_threshold": 0.955078125,
+      "quality_distance_penalty": 0.005,
+      "quality_no_op_margin": 0.04,
+      "trajectory_distance_penalty": 0.005,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.04
+    },
+    {
+      "seed": 9527,
+      "fold": 1,
+      "gate_threshold": 0.9546875,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.005,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.005
+    },
+    {
+      "seed": 9527,
+      "fold": 2,
+      "gate_threshold": 0.96533203125,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.005,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 9527,
+      "fold": 3,
+      "gate_threshold": 0.9625,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 9527,
+      "fold": 4,
+      "gate_threshold": 0.95986328125,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 1337,
+      "fold": 0,
+      "gate_threshold": 0.95771484375,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 1337,
+      "fold": 1,
+      "gate_threshold": 0.95927734375,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 1337,
+      "fold": 2,
+      "gate_threshold": 0.95625,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 1337,
+      "fold": 3,
+      "gate_threshold": 0.95966796875,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.01,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 1337,
+      "fold": 4,
+      "gate_threshold": 0.96015625,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.005,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 2026,
+      "fold": 0,
+      "gate_threshold": 0.95771484375,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 2026,
+      "fold": 1,
+      "gate_threshold": 0.96572265625,
+      "quality_distance_penalty": 0.005,
+      "quality_no_op_margin": 0.04,
+      "trajectory_distance_penalty": 0.005,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.04
+    },
+    {
+      "seed": 2026,
+      "fold": 2,
+      "gate_threshold": 0.95966796875,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.02
+    },
+    {
+      "seed": 2026,
+      "fold": 3,
+      "gate_threshold": 0.95634765625,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.005,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.0,
+      "trajectory_no_op_margin": 0.005
+    },
+    {
+      "seed": 2026,
+      "fold": 4,
+      "gate_threshold": 0.95390625,
+      "quality_distance_penalty": 0.04,
+      "quality_no_op_margin": 0.02,
+      "trajectory_distance_penalty": 0.04,
+      "trajectory_alignment_weight": 0.01,
+      "trajectory_no_op_margin": 0.02
+    }
+  ],
+  "results": {
+    "quality_raw": {
+      "records": 142,
+      "selected": 31.0,
+      "selected_fraction": 0.21830985915492956,
+      "selected_mean_delta_iou": -0.037709461560132364,
+      "all_record_policy_delta_iou": -0.008232347242000728,
+      "selected_win_rate": 0.5698924731182796,
+      "selected_harm_rate": 0.43010752688172044
+    },
+    "quality_distance": {
+      "records": 142,
+      "selected": 31.0,
+      "selected_fraction": 0.21830985915492956,
+      "selected_mean_delta_iou": 0.00797316606246656,
+      "all_record_policy_delta_iou": 0.0017406207601159392,
+      "selected_win_rate": 0.3978494623655914,
+      "selected_harm_rate": 0.2903225806451613
+    },
+    "trajectory_real": {
+      "records": 142,
+      "selected": 31.0,
+      "selected_fraction": 0.21830985915492956,
+      "selected_mean_delta_iou": 0.004237445592079112,
+      "all_record_policy_delta_iou": 0.000925076150383468,
+      "selected_win_rate": 0.40860215053763443,
+      "selected_harm_rate": 0.25806451612903225
+    },
+    "trajectory_shuffle": {
+      "records": 142,
+      "selected": 31.0,
+      "selected_fraction": 0.21830985915492956,
+      "selected_mean_delta_iou": 0.008802870408661904,
+      "all_record_policy_delta_iou": 0.0019217533990740776,
+      "selected_win_rate": 0.40860215053763443,
+      "selected_harm_rate": 0.26881720430107525
+    },
+    "trajectory_null": {
+      "records": 142,
+      "selected": 31.0,
+      "selected_fraction": 0.21830985915492956,
+      "selected_mean_delta_iou": 0.008519182422308511,
+      "all_record_policy_delta_iou": 0.001859821514729323,
+      "selected_win_rate": 0.3978494623655914,
+      "selected_harm_rate": 0.25806451612903225
+    },
+    "grid_oracle": {
+      "records": 142,
+      "selected": 31.0,
+      "selected_fraction": 0.21830985915492956,
+      "selected_mean_delta_iou": 0.09957780889285509,
+      "all_record_policy_delta_iou": 0.021738817434355687,
+      "selected_win_rate": 1.0,
+      "selected_harm_rate": 0.0
+    }
+  },
+  "paired_bootstrap": {
+    "quality_distance_vs_original": {
+      "mean": 0.0017406207601159392,
+      "ci95_low": -0.011332355312001852,
+      "ci95_high": 0.013197259055271202,
+      "bootstrap_samples": 5000
+    },
+    "real_vs_quality_distance": {
+      "mean": -0.0008155446097324712,
+      "ci95_low": -0.0029306836822652464,
+      "ci95_high": 0.00033088340711590286,
+      "bootstrap_samples": 5000
+    },
+    "real_vs_shuffle": {
+      "mean": -0.0009966772486906098,
+      "ci95_low": -0.0031338137451765885,
+      "ci95_high": 0.00045995549321615196,
+      "bootstrap_samples": 5000
+    },
+    "real_vs_null": {
+      "mean": -0.0009347453643458549,
+      "ci95_low": -0.003039065227419555,
+      "ci95_high": 0.00011060171408163293,
+      "bootstrap_samples": 5000
+    }
+  },
+  "decision": {
+    "quality_search_feasible": false,
+    "real_beats_shuffle": false,
+    "real_beats_null": false,
+    "proceed_to_trajectory_ranker": false
+  }
+}

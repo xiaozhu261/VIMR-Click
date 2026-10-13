@@ -1,0 +1,76 @@
+{
+  "method": "same-seed replay from original base; no legacy optimizer state",
+  "archive": "G:\\lab\\VIMR-Click\\outputs\\process_sam_validation_20261011\\seed_9527\\B1\\interrupted_20261011T074821269892Z",
+  "previous_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.20299977760229793,
+      "val": {
+        "IoU@1": 0.6987814778710405,
+        "IoU@3": 0.8393899906675021,
+        "IoU@5": 0.8679350763559341,
+        "click_coverage": {
+          "1": 150,
+          "2": 150,
+          "3": 150,
+          "4": 150,
+          "5": 150
+        },
+        "complete_prefix_tasks": 150,
+        "tasks": 150,
+        "samples": 750,
+        "mean_iou": 0.8108652152344584,
+        "Boundary IoU": 0.7323694353296111,
+        "latency_ms_mean": 25.86581573301616,
+        "latency_ms_p95": 35.77580499550093,
+        "IoU@1_complete_prefix": 0.6987814778710405,
+        "IoU@3_complete_prefix": 0.8393899906675021,
+        "IoU@5_complete_prefix": 0.8679350763559341,
+        "NoC@90": 4.14,
+        "NoC@90_failures": 80,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.16579260838537344,
+      "val": {
+        "IoU@1": 0.6980103597293298,
+        "IoU@3": 0.8345842053492863,
+        "IoU@5": 0.8639767388502757,
+        "click_coverage": {
+          "1": 150,
+          "2": 150,
+          "3": 150,
+          "4": 150,
+          "5": 150
+        },
+        "complete_prefix_tasks": 150,
+        "tasks": 150,
+        "samples": 750,
+        "mean_iou": 0.8071270049313705,
+        "Boundary IoU": 0.7269219900853932,
+        "latency_ms_mean": 30.227511199967314,
+        "latency_ms_p95": 42.10302999345003,
+        "IoU@1_complete_prefix": 0.6980103597293298,
+        "IoU@3_complete_prefix": 0.8345842053492863,
+        "IoU@5_complete_prefix": 0.8639767388502757,
+        "NoC@90": 4.24,
+        "NoC@90_failures": 82,
+        "NoC_protocol": "recorded pre-mask replay; complete 1..5 only; failure=6"
+      }
+    }
+  ],
+  "replayed_epoch_deltas": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0,
+      "val_mean_iou": 0.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0,
+      "val_mean_iou": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1781 @@
+{
+  "dataset_root": "G:\\lab\\VIMR-Click\\outputs\\cais_synthetic_click2_click3_300_20260921",
+  "definitions": {
+    "reliable": "points>=5, duration>=150ms, unique_xy>=3, path>=0.005, end_error<=0.01; later clicks also require coverage>=0.25 and start consistency with prior click",
+    "missing_interclick_motion": "prior-to-current click distance>=0.03 but observed path has no motion or its start is inconsistent with the prior click"
+  },
+  "overall": {
+    "clicks": 1590,
+    "raw_point_count": {
+      "p10": 5.0,
+      "median": 10.0,
+      "p90": 27.0
+    },
+    "unique_xy_count": {
+      "p10": 3.0,
+      "median": 9.0,
+      "p90": 25.0
+    },
+    "observed_duration_ms": {
+      "p10": 277.25280000000004,
+      "median": 575.3015,
+      "p90": 1618.129800000001
+    },
+    "available_interval_ms": {
+      "p10": 834.1823999911546,
+      "median": 1328.6199999898672,
+      "p90": 2520.2380000084645
+    },
+    "coverage_ratio": {
+      "p10": 0.355417147659575,
+      "median": 0.5492213727399976,
+      "p90": 0.7469304902161156
+    },
+    "path_length_norm": {
+      "p10": 0.02453116437689352,
+      "median": 0.18066566539156179,
+      "p90": 0.5507151965830414
+    },
+    "previous_click_distance_norm": {
+      "p10": 0.06509478367574598,
+      "median": 0.1924360648319333,
+      "p90": 0.45098800088430385
+    },
+    "start_from_previous_error_norm": {
+      "p10": 0.03046819260155787,
+      "median": 0.10093817146154371,
+      "p90": 0.2382548609539243
+    },
+    "end_to_click_error_norm": {
+      "p10": 0.0,
+      "median": 0.0,
+      "p90": 0.0
+    },
+    "enough_points": {
+      "count": 1436,
+      "ratio": 0.9031446540880503
+    },
+    "enough_duration": {
+      "count": 1542,
+      "ratio": 0.969811320754717
+    },
+    "has_motion": {
+      "count": 1511,
+      "ratio": 0.950314465408805
+    },
+    "reaches_click": {
+      "count": 1590,
+      "ratio": 1.0
+    },
+    "adequate_coverage": {
+      "count": 1025,
+      "ratio": 0.6446540880503144
+    },
+    "missing_interclick_motion": {
+      "count": 516,
+      "ratio": 0.32452830188679244
+    },
+    "reliable": {
+      "count": 951,
+      "ratio": 0.5981132075471698
+    },
+    "three_or_fewer_points": {
+      "count": 61,
+      "ratio": 0.038364779874213835
+    },
+    "static_trajectory": {
+      "count": 42,
+      "ratio": 0.026415094339622643
+    }
+  },
+  "groups": {
+    "human_dataset": {
+      "coco_click2": {
+        "clicks": 788,
+        "raw_point_count": {
+          "p10": 5.0,
+          "median": 11.0,
+          "p90": 27.0
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 10.0,
+          "p90": 25.0
+        },
+        "observed_duration_ms": {
+          "p10": 264.2704,
+          "median": 608.6804999999999,
+          "p90": 1731.8132000000003
+        },
+        "available_interval_ms": {
+          "p10": 876.1169999957085,
+          "median": 1346.6079999953508,
+          "p90": 2736.9306000024076
+        },
+        "coverage_ratio": {
+          "p10": 0.36514927952525517,
+          "median": 0.5600487153099147,
+          "p90": 0.7424756629749554
+        },
+        "path_length_norm": {
+          "p10": 0.020794579898754,
+          "median": 0.16846913169579414,
+          "p90": 0.5576699374582175
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.06767166491090201,
+          "median": 0.18721585899704116,
+          "p90": 0.4577785750825379
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.02977612573701794,
+          "median": 0.09273222639945622,
+          "p90": 0.20889200431917934
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 714,
+          "ratio": 0.9060913705583756
+        },
+        "enough_duration": {
+          "count": 757,
+          "ratio": 0.9606598984771574
+        },
+        "has_motion": {
+          "count": 739,
+          "ratio": 0.9378172588832487
+        },
+        "reaches_click": {
+          "count": 788,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 526,
+          "ratio": 0.6675126903553299
+        },
+        "missing_interclick_motion": {
+          "count": 232,
+          "ratio": 0.29441624365482233
+        },
+        "reliable": {
+          "count": 490,
+          "ratio": 0.6218274111675127
+        },
+        "three_or_fewer_points": {
+          "count": 38,
+          "ratio": 0.048223350253807105
+        },
+        "static_trajectory": {
+          "count": 29,
+          "ratio": 0.03680203045685279
+        }
+      },
+      "coco_click3": {
+        "clicks": 802,
+        "raw_point_count": {
+          "p10": 5.0,
+          "median": 10.0,
+          "p90": 25.0
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 9.0,
+          "p90": 23.0
+        },
+        "observed_duration_ms": {
+          "p10": 283.9337,
+          "median": 555.037,
+          "p90": 1488.3355
+        },
+        "available_interval_ms": {
+          "p10": 793.9271000000183,
+          "median": 1279.154999999795,
+          "p90": 2327.22790000001
+        },
+        "coverage_ratio": {
+          "p10": 0.3480008825781662,
+          "median": 0.5191331440367524,
+          "p90": 0.7581722153079336
+        },
+        "path_length_norm": {
+          "p10": 0.03132019610849744,
+          "median": 0.1886981112546251,
+          "p90": 0.5336137111694705
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.05953098528967277,
+          "median": 0.19905125875381663,
+          "p90": 0.43756269192619673
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.031366087655454455,
+          "median": 0.11021280546811905,
+          "p90": 0.24509949104524997
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 722,
+          "ratio": 0.9002493765586035
+        },
+        "enough_duration": {
+          "count": 785,
+          "ratio": 0.9788029925187033
+        },
+        "has_motion": {
+          "count": 772,
+          "ratio": 0.9625935162094763
+        },
+        "reaches_click": {
+          "count": 802,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 499,
+          "ratio": 0.6221945137157108
+        },
+        "missing_interclick_motion": {
+          "count": 284,
+          "ratio": 0.3541147132169576
+        },
+        "reliable": {
+          "count": 461,
+          "ratio": 0.5748129675810474
+        },
+        "three_or_fewer_points": {
+          "count": 23,
+          "ratio": 0.028678304239401497
+        },
+        "static_trajectory": {
+          "count": 13,
+          "ratio": 0.016209476309226933
+        }
+      }
+    },
+    "split": {
+      "test": {
+        "clicks": 228,
+        "raw_point_count": {
+          "p10": 4.0,
+          "median": 9.0,
+          "p90": 28.0
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 8.0,
+          "p90": 27.0
+        },
+        "observed_duration_ms": {
+          "p10": 268.701,
+          "median": 630.9875,
+          "p90": 1717.127
+        },
+        "available_interval_ms": {
+          "p10": 866.6479999944568,
+          "median": 1475.2140000029467,
+          "p90": 2648.1775000033667
+        },
+        "coverage_ratio": {
+          "p10": 0.35076701570163504,
+          "median": 0.5477716478093475,
+          "p90": 0.7594995236014467
+        },
+        "path_length_norm": {
+          "p10": 0.02063446360694722,
+          "median": 0.17662883511770996,
+          "p90": 0.6259714991045102
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.060284818400402986,
+          "median": 0.18145144170436778,
+          "p90": 0.40979147036322106
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.03113485140167834,
+          "median": 0.10441749921254195,
+          "p90": 0.2207717851670284
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 197,
+          "ratio": 0.8640350877192983
+        },
+        "enough_duration": {
+          "count": 222,
+          "ratio": 0.9736842105263158
+        },
+        "has_motion": {
+          "count": 215,
+          "ratio": 0.9429824561403509
+        },
+        "reaches_click": {
+          "count": 228,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 144,
+          "ratio": 0.631578947368421
+        },
+        "missing_interclick_motion": {
+          "count": 76,
+          "ratio": 0.3333333333333333
+        },
+        "reliable": {
+          "count": 128,
+          "ratio": 0.5614035087719298
+        },
+        "three_or_fewer_points": {
+          "count": 9,
+          "ratio": 0.039473684210526314
+        },
+        "static_trajectory": {
+          "count": 6,
+          "ratio": 0.02631578947368421
+        }
+      },
+      "train": {
+        "clicks": 1122,
+        "raw_point_count": {
+          "p10": 5.0,
+          "median": 11.0,
+          "p90": 25.0
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 9.0,
+          "p90": 24.0
+        },
+        "observed_duration_ms": {
+          "p10": 279.32460000000003,
+          "median": 573.7429999999999,
+          "p90": 1607.5474
+        },
+        "available_interval_ms": {
+          "p10": 832.456999998726,
+          "median": 1311.4134999980452,
+          "p90": 2441.3493999999014
+        },
+        "coverage_ratio": {
+          "p10": 0.3584744540048841,
+          "median": 0.5473995738741351,
+          "p90": 0.7441956297942026
+        },
+        "path_length_norm": {
+          "p10": 0.02537806961031369,
+          "median": 0.17970204844632812,
+          "p90": 0.5242550251821256
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.06246518448423717,
+          "median": 0.18583273526734617,
+          "p90": 0.45328850710016805
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.031899179647877564,
+          "median": 0.09982094673901232,
+          "p90": 0.23826348000673447
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 1017,
+          "ratio": 0.9064171122994652
+        },
+        "enough_duration": {
+          "count": 1083,
+          "ratio": 0.9652406417112299
+        },
+        "has_motion": {
+          "count": 1061,
+          "ratio": 0.9456327985739751
+        },
+        "reaches_click": {
+          "count": 1122,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 715,
+          "ratio": 0.6372549019607843
+        },
+        "missing_interclick_motion": {
+          "count": 369,
+          "ratio": 0.32887700534759357
+        },
+        "reliable": {
+          "count": 668,
+          "ratio": 0.5953654188948306
+        },
+        "three_or_fewer_points": {
+          "count": 47,
+          "ratio": 0.04188948306595366
+        },
+        "static_trajectory": {
+          "count": 35,
+          "ratio": 0.031194295900178252
+        }
+      },
+      "val": {
+        "clicks": 240,
+        "raw_point_count": {
+          "p10": 5.0,
+          "median": 10.0,
+          "p90": 27.099999999999994
+        },
+        "unique_xy_count": {
+          "p10": 4.0,
+          "median": 9.0,
+          "p90": 26.0
+        },
+        "observed_duration_ms": {
+          "p10": 275.816,
+          "median": 542.896,
+          "p90": 1603.2808
+        },
+        "available_interval_ms": {
+          "p10": 833.9919999986887,
+          "median": 1279.194000000134,
+          "p90": 2595.8409999907017
+        },
+        "coverage_ratio": {
+          "p10": 0.35150901104298143,
+          "median": 0.5517159694722223,
+          "p90": 0.7548409196907531
+        },
+        "path_length_norm": {
+          "p10": 0.028970793332059118,
+          "median": 0.21602727881694941,
+          "p90": 0.5626271461665948
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.08204911943464108,
+          "median": 0.22407828764518892,
+          "p90": 0.4744228548088719
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.020979540700406186,
+          "median": 0.09611650863405305,
+          "p90": 0.2428601686897215
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 222,
+          "ratio": 0.925
+        },
+        "enough_duration": {
+          "count": 237,
+          "ratio": 0.9875
+        },
+        "has_motion": {
+          "count": 235,
+          "ratio": 0.9791666666666666
+        },
+        "reaches_click": {
+          "count": 240,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 166,
+          "ratio": 0.6916666666666667
+        },
+        "missing_interclick_motion": {
+          "count": 71,
+          "ratio": 0.29583333333333334
+        },
+        "reliable": {
+          "count": 155,
+          "ratio": 0.6458333333333334
+        },
+        "three_or_fewer_points": {
+          "count": 5,
+          "ratio": 0.020833333333333332
+        },
+        "static_trajectory": {
+          "count": 1,
+          "ratio": 0.004166666666666667
+        }
+      }
+    },
+    "click_index": {
+      "1": {
+        "clicks": 641,
+        "raw_point_count": {
+          "p10": 4.0,
+          "median": 8.0,
+          "p90": 15.0
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 7.0,
+          "p90": 14.0
+        },
+        "observed_duration_ms": {
+          "p10": 210.873,
+          "median": 412.739,
+          "p90": 1057.374
+        },
+        "available_interval_ms": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "coverage_ratio": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "path_length_norm": {
+          "p10": 0.0071550000000000225,
+          "median": 0.1441990974554058,
+          "p90": 0.5017410310120705
+        },
+        "previous_click_distance_norm": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "start_from_previous_error_norm": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 540,
+          "ratio": 0.8424336973478939
+        },
+        "enough_duration": {
+          "count": 598,
+          "ratio": 0.9329173166926678
+        },
+        "has_motion": {
+          "count": 577,
+          "ratio": 0.9001560062402496
+        },
+        "reaches_click": {
+          "count": 641,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 598,
+          "ratio": 0.9329173166926678
+        },
+        "missing_interclick_motion": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "reliable": {
+          "count": 529,
+          "ratio": 0.8252730109204368
+        },
+        "three_or_fewer_points": {
+          "count": 48,
+          "ratio": 0.0748829953198128
+        },
+        "static_trajectory": {
+          "count": 35,
+          "ratio": 0.054602184087363496
+        }
+      },
+      "2": {
+        "clicks": 499,
+        "raw_point_count": {
+          "p10": 5.0,
+          "median": 10.0,
+          "p90": 23.0
+        },
+        "unique_xy_count": {
+          "p10": 4.0,
+          "median": 9.0,
+          "p90": 22.0
+        },
+        "observed_duration_ms": {
+          "p10": 292.372,
+          "median": 510.304,
+          "p90": 1188.9794
+        },
+        "available_interval_ms": {
+          "p10": 787.6115999998525,
+          "median": 1079.3270000000484,
+          "p90": 1920.9008000005038
+        },
+        "coverage_ratio": {
+          "p10": 0.3436276237094146,
+          "median": 0.47620305850735134,
+          "p90": 0.6652668048993572
+        },
+        "path_length_norm": {
+          "p10": 0.03722621997004376,
+          "median": 0.16662641852187296,
+          "p90": 0.4051877943666485
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.07682583857566645,
+          "median": 0.18883172458302652,
+          "p90": 0.3877358650008185
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.033393242208117895,
+          "median": 0.1086223131083112,
+          "p90": 0.2414027268059858
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 459,
+          "ratio": 0.9198396793587175
+        },
+        "enough_duration": {
+          "count": 496,
+          "ratio": 0.9939879759519038
+        },
+        "has_motion": {
+          "count": 488,
+          "ratio": 0.9779559118236473
+        },
+        "reaches_click": {
+          "count": 499,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 179,
+          "ratio": 0.3587174348697395
+        },
+        "missing_interclick_motion": {
+          "count": 316,
+          "ratio": 0.6332665330661322
+        },
+        "reliable": {
+          "count": 176,
+          "ratio": 0.3527054108216433
+        },
+        "three_or_fewer_points": {
+          "count": 10,
+          "ratio": 0.02004008016032064
+        },
+        "static_trajectory": {
+          "count": 5,
+          "ratio": 0.01002004008016032
+        }
+      },
+      "3": {
+        "clicks": 262,
+        "raw_point_count": {
+          "p10": 6.0,
+          "median": 16.0,
+          "p90": 31.900000000000006
+        },
+        "unique_xy_count": {
+          "p10": 5.0,
+          "median": 15.0,
+          "p90": 29.900000000000006
+        },
+        "observed_duration_ms": {
+          "p10": 442.32460000000003,
+          "median": 958.519,
+          "p90": 1896.6698000000001
+        },
+        "available_interval_ms": {
+          "p10": 946.6635999962688,
+          "median": 1552.374499995727,
+          "p90": 2652.1623999998906
+        },
+        "coverage_ratio": {
+          "p10": 0.40637832985928224,
+          "median": 0.6202045898571413,
+          "p90": 0.7660945754842585
+        },
+        "path_length_norm": {
+          "p10": 0.07019079922080831,
+          "median": 0.29052683892102704,
+          "p90": 0.6969621827782334
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.06246518448423717,
+          "median": 0.21361016448328063,
+          "p90": 0.48980995728321036
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.026332445665016906,
+          "median": 0.0895053729292613,
+          "p90": 0.2255690343149908
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 255,
+          "ratio": 0.9732824427480916
+        },
+        "enough_duration": {
+          "count": 261,
+          "ratio": 0.9961832061068703
+        },
+        "has_motion": {
+          "count": 259,
+          "ratio": 0.9885496183206107
+        },
+        "reaches_click": {
+          "count": 262,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 153,
+          "ratio": 0.583969465648855
+        },
+        "missing_interclick_motion": {
+          "count": 108,
+          "ratio": 0.4122137404580153
+        },
+        "reliable": {
+          "count": 152,
+          "ratio": 0.5801526717557252
+        },
+        "three_or_fewer_points": {
+          "count": 2,
+          "ratio": 0.007633587786259542
+        },
+        "static_trajectory": {
+          "count": 1,
+          "ratio": 0.003816793893129771
+        }
+      },
+      "4": {
+        "clicks": 125,
+        "raw_point_count": {
+          "p10": 7.0,
+          "median": 20.0,
+          "p90": 34.0
+        },
+        "unique_xy_count": {
+          "p10": 6.0,
+          "median": 18.0,
+          "p90": 32.60000000000001
+        },
+        "observed_duration_ms": {
+          "p10": 647.9485999999999,
+          "median": 1127.457,
+          "p90": 1935.7718000000002
+        },
+        "available_interval_ms": {
+          "p10": 1177.9671999994666,
+          "median": 1731.3269999921322,
+          "p90": 3610.2540000081067
+        },
+        "coverage_ratio": {
+          "p10": 0.40587632070605867,
+          "median": 0.6318218378575253,
+          "p90": 0.7652165686787321
+        },
+        "path_length_norm": {
+          "p10": 0.07883281575042587,
+          "median": 0.24022635492343725,
+          "p90": 0.7854726444585071
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.041600841597078955,
+          "median": 0.18000030405529874,
+          "p90": 0.4745800829170436
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.03170693384528533,
+          "median": 0.09525079647436017,
+          "p90": 0.23561427072644994
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 121,
+          "ratio": 0.968
+        },
+        "enough_duration": {
+          "count": 124,
+          "ratio": 0.992
+        },
+        "has_motion": {
+          "count": 124,
+          "ratio": 0.992
+        },
+        "reaches_click": {
+          "count": 125,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 64,
+          "ratio": 0.512
+        },
+        "missing_interclick_motion": {
+          "count": 61,
+          "ratio": 0.488
+        },
+        "reliable": {
+          "count": 63,
+          "ratio": 0.504
+        },
+        "three_or_fewer_points": {
+          "count": 1,
+          "ratio": 0.008
+        },
+        "static_trajectory": {
+          "count": 1,
+          "ratio": 0.008
+        }
+      },
+      "5": {
+        "clicks": 63,
+        "raw_point_count": {
+          "p10": 8.0,
+          "median": 21.0,
+          "p90": 32.0
+        },
+        "unique_xy_count": {
+          "p10": 6.2,
+          "median": 20.0,
+          "p90": 30.0
+        },
+        "observed_duration_ms": {
+          "p10": 631.4514,
+          "median": 1361.973,
+          "p90": 1950.9826
+        },
+        "available_interval_ms": {
+          "p10": 1235.7697999991476,
+          "median": 1867.1310000000522,
+          "p90": 3030.9549999999817
+        },
+        "coverage_ratio": {
+          "p10": 0.3798577911505682,
+          "median": 0.661502478260138,
+          "p90": 0.8025593092005421
+        },
+        "path_length_norm": {
+          "p10": 0.06683694003899018,
+          "median": 0.22664591508349252,
+          "p90": 0.683723340667645
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.04078000469046224,
+          "median": 0.16290648779284392,
+          "p90": 0.4901692861697224
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.03203645171528239,
+          "median": 0.08739921850909202,
+          "p90": 0.1936838885828242
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 61,
+          "ratio": 0.9682539682539683
+        },
+        "enough_duration": {
+          "count": 63,
+          "ratio": 1.0
+        },
+        "has_motion": {
+          "count": 63,
+          "ratio": 1.0
+        },
+        "reaches_click": {
+          "count": 63,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 31,
+          "ratio": 0.49206349206349204
+        },
+        "missing_interclick_motion": {
+          "count": 31,
+          "ratio": 0.49206349206349204
+        },
+        "reliable": {
+          "count": 31,
+          "ratio": 0.49206349206349204
+        },
+        "three_or_fewer_points": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "static_trajectory": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      }
+    },
+    "human_dataset_click_index": {
+      "coco_click2:click_1": {
+        "clicks": 319,
+        "raw_point_count": {
+          "p10": 3.8000000000000007,
+          "median": 8.0,
+          "p90": 16.0
+        },
+        "unique_xy_count": {
+          "p10": 2.0,
+          "median": 7.0,
+          "p90": 14.0
+        },
+        "observed_duration_ms": {
+          "p10": 185.97979999999998,
+          "median": 409.877,
+          "p90": 1237.7856
+        },
+        "available_interval_ms": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "coverage_ratio": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "path_length_norm": {
+          "p10": 0.0031123999999999818,
+          "median": 0.09816118154099693,
+          "p90": 0.5020511201113602
+        },
+        "previous_click_distance_norm": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "start_from_previous_error_norm": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 265,
+          "ratio": 0.8307210031347962
+        },
+        "enough_duration": {
+          "count": 291,
+          "ratio": 0.9122257053291536
+        },
+        "has_motion": {
+          "count": 277,
+          "ratio": 0.8683385579937304
+        },
+        "reaches_click": {
+          "count": 319,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 291,
+          "ratio": 0.9122257053291536
+        },
+        "missing_interclick_motion": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "reliable": {
+          "count": 258,
+          "ratio": 0.8087774294670846
+        },
+        "three_or_fewer_points": {
+          "count": 32,
+          "ratio": 0.10031347962382445
+        },
+        "static_trajectory": {
+          "count": 25,
+          "ratio": 0.07836990595611286
+        }
+      },
+      "coco_click2:click_2": {
+        "clicks": 252,
+        "raw_point_count": {
+          "p10": 5.0,
+          "median": 11.0,
+          "p90": 24.0
+        },
+        "unique_xy_count": {
+          "p10": 4.0,
+          "median": 10.0,
+          "p90": 22.900000000000006
+        },
+        "observed_duration_ms": {
+          "p10": 322.07529999999997,
+          "median": 552.7004999999999,
+          "p90": 1266.0356000000002
+        },
+        "available_interval_ms": {
+          "p10": 834.015799997747,
+          "median": 1138.445000000298,
+          "p90": 1920.6673999994996
+        },
+        "coverage_ratio": {
+          "p10": 0.34869368859736305,
+          "median": 0.49405933748769815,
+          "p90": 0.6683979081519895
+        },
+        "path_length_norm": {
+          "p10": 0.042707631804124506,
+          "median": 0.1678651291660606,
+          "p90": 0.3636016102882248
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.07740570785966616,
+          "median": 0.1705020396803557,
+          "p90": 0.35399795576345966
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.026940250952410608,
+          "median": 0.08870602261437475,
+          "p90": 0.20828844499918295
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 237,
+          "ratio": 0.9404761904761905
+        },
+        "enough_duration": {
+          "count": 250,
+          "ratio": 0.9920634920634921
+        },
+        "has_motion": {
+          "count": 248,
+          "ratio": 0.9841269841269841
+        },
+        "reaches_click": {
+          "count": 252,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 107,
+          "ratio": 0.4246031746031746
+        },
+        "missing_interclick_motion": {
+          "count": 143,
+          "ratio": 0.5674603174603174
+        },
+        "reliable": {
+          "count": 105,
+          "ratio": 0.4166666666666667
+        },
+        "three_or_fewer_points": {
+          "count": 4,
+          "ratio": 0.015873015873015872
+        },
+        "static_trajectory": {
+          "count": 3,
+          "ratio": 0.011904761904761904
+        }
+      },
+      "coco_click2:click_3": {
+        "clicks": 129,
+        "raw_point_count": {
+          "p10": 7.0,
+          "median": 18.0,
+          "p90": 32.80000000000001
+        },
+        "unique_xy_count": {
+          "p10": 6.0,
+          "median": 16.0,
+          "p90": 31.000000000000014
+        },
+        "observed_duration_ms": {
+          "p10": 490.762,
+          "median": 1038.868,
+          "p90": 1923.1936
+        },
+        "available_interval_ms": {
+          "p10": 1023.2045999974013,
+          "median": 1596.554000005126,
+          "p90": 3036.4627999901772
+        },
+        "coverage_ratio": {
+          "p10": 0.4162412857740841,
+          "median": 0.6200939061142678,
+          "p90": 0.7608815646635603
+        },
+        "path_length_norm": {
+          "p10": 0.10228102072945575,
+          "median": 0.3075077703768986,
+          "p90": 0.6991547643734574
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.05695324203962581,
+          "median": 0.21473155226933932,
+          "p90": 0.5251154203367536
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.031098712664479798,
+          "median": 0.09731838698313901,
+          "p90": 0.20470743930328977
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 126,
+          "ratio": 0.9767441860465116
+        },
+        "enough_duration": {
+          "count": 129,
+          "ratio": 1.0
+        },
+        "has_motion": {
+          "count": 127,
+          "ratio": 0.9844961240310077
+        },
+        "reaches_click": {
+          "count": 129,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 77,
+          "ratio": 0.5968992248062015
+        },
+        "missing_interclick_motion": {
+          "count": 52,
+          "ratio": 0.40310077519379844
+        },
+        "reliable": {
+          "count": 77,
+          "ratio": 0.5968992248062015
+        },
+        "three_or_fewer_points": {
+          "count": 1,
+          "ratio": 0.007751937984496124
+        },
+        "static_trajectory": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "coco_click2:click_4": {
+        "clicks": 58,
+        "raw_point_count": {
+          "p10": 8.0,
+          "median": 22.0,
+          "p90": 34.300000000000004
+        },
+        "unique_xy_count": {
+          "p10": 7.0,
+          "median": 20.0,
+          "p90": 33.300000000000004
+        },
+        "observed_duration_ms": {
+          "p10": 696.4547,
+          "median": 1209.6485,
+          "p90": 1949.6904000000002
+        },
+        "available_interval_ms": {
+          "p10": 1203.7626000016928,
+          "median": 1799.2875000089407,
+          "p90": 3859.0638000026347
+        },
+        "coverage_ratio": {
+          "p10": 0.46396709357463595,
+          "median": 0.6265356529430841,
+          "p90": 0.7566414249389739
+        },
+        "path_length_norm": {
+          "p10": 0.07657239792881021,
+          "median": 0.2665464434652419,
+          "p90": 0.8081386422008227
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.04704749478112142,
+          "median": 0.20884632942310408,
+          "p90": 0.55805884400289
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.03530289263396498,
+          "median": 0.10429189639544652,
+          "p90": 0.23800055774423243
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 56,
+          "ratio": 0.9655172413793104
+        },
+        "enough_duration": {
+          "count": 57,
+          "ratio": 0.9827586206896551
+        },
+        "has_motion": {
+          "count": 57,
+          "ratio": 0.9827586206896551
+        },
+        "reaches_click": {
+          "count": 58,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 32,
+          "ratio": 0.5517241379310345
+        },
+        "missing_interclick_motion": {
+          "count": 26,
+          "ratio": 0.4482758620689655
+        },
+        "reliable": {
+          "count": 31,
+          "ratio": 0.5344827586206896
+        },
+        "three_or_fewer_points": {
+          "count": 1,
+          "ratio": 0.017241379310344827
+        },
+        "static_trajectory": {
+          "count": 1,
+          "ratio": 0.017241379310344827
+        }
+      },
+      "coco_click2:click_5": {
+        "clicks": 30,
+        "raw_point_count": {
+          "p10": 10.700000000000001,
+          "median": 22.0,
+          "p90": 32.1
+        },
+        "unique_xy_count": {
+          "p10": 8.8,
+          "median": 20.5,
+          "p90": 30.1
+        },
+        "observed_duration_ms": {
+          "p10": 807.5757,
+          "median": 1402.696,
+          "p90": 1971.605
+        },
+        "available_interval_ms": {
+          "p10": 1270.9813000097872,
+          "median": 1981.4340000078082,
+          "p90": 3203.626799997689
+        },
+        "coverage_ratio": {
+          "p10": 0.4624525539138031,
+          "median": 0.6815659618372547,
+          "p90": 0.8054912285817243
+        },
+        "path_length_norm": {
+          "p10": 0.07196828829453866,
+          "median": 0.28193830492344163,
+          "p90": 0.6890635836033391
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.04519532941706245,
+          "median": 0.17845655353034967,
+          "p90": 0.47168750156699807
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.033834843231841466,
+          "median": 0.08874589829222235,
+          "p90": 0.14690916929166034
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 30,
+          "ratio": 1.0
+        },
+        "enough_duration": {
+          "count": 30,
+          "ratio": 1.0
+        },
+        "has_motion": {
+          "count": 30,
+          "ratio": 1.0
+        },
+        "reaches_click": {
+          "count": 30,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 19,
+          "ratio": 0.6333333333333333
+        },
+        "missing_interclick_motion": {
+          "count": 11,
+          "ratio": 0.36666666666666664
+        },
+        "reliable": {
+          "count": 19,
+          "ratio": 0.6333333333333333
+        },
+        "three_or_fewer_points": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "static_trajectory": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "coco_click3:click_1": {
+        "clicks": 322,
+        "raw_point_count": {
+          "p10": 4.0,
+          "median": 8.0,
+          "p90": 14.0
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 7.0,
+          "p90": 13.0
+        },
+        "observed_duration_ms": {
+          "p10": 251.1057,
+          "median": 420.342,
+          "p90": 911.9596
+        },
+        "available_interval_ms": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "coverage_ratio": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "path_length_norm": {
+          "p10": 0.017706646858067932,
+          "median": 0.1918995867764855,
+          "p90": 0.4987337763419807
+        },
+        "previous_click_distance_norm": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "start_from_previous_error_norm": {
+          "p10": null,
+          "median": null,
+          "p90": null
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 275,
+          "ratio": 0.8540372670807453
+        },
+        "enough_duration": {
+          "count": 307,
+          "ratio": 0.953416149068323
+        },
+        "has_motion": {
+          "count": 300,
+          "ratio": 0.9316770186335404
+        },
+        "reaches_click": {
+          "count": 322,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 307,
+          "ratio": 0.953416149068323
+        },
+        "missing_interclick_motion": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "reliable": {
+          "count": 271,
+          "ratio": 0.8416149068322981
+        },
+        "three_or_fewer_points": {
+          "count": 16,
+          "ratio": 0.049689440993788817
+        },
+        "static_trajectory": {
+          "count": 10,
+          "ratio": 0.031055900621118012
+        }
+      },
+      "coco_click3:click_2": {
+        "clicks": 247,
+        "raw_point_count": {
+          "p10": 4.600000000000001,
+          "median": 9.0,
+          "p90": 20.400000000000006
+        },
+        "unique_xy_count": {
+          "p10": 3.0,
+          "median": 8.0,
+          "p90": 19.0
+        },
+        "observed_duration_ms": {
+          "p10": 270.9246,
+          "median": 456.004,
+          "p90": 1054.9240000000002
+        },
+        "available_interval_ms": {
+          "p10": 749.848999999743,
+          "median": 1014.0999999996275,
+          "p90": 1913.7628000000493
+        },
+        "coverage_ratio": {
+          "p10": 0.33231670323378004,
+          "median": 0.46218351463737695,
+          "p90": 0.6633768035802481
+        },
+        "path_length_norm": {
+          "p10": 0.028358611645885906,
+          "median": 0.164992180773608,
+          "p90": 0.4376201812375957
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.07667335942328753,
+          "median": 0.21143782258621566,
+          "p90": 0.4053345678835182
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.049873588535205536,
+          "median": 0.1371385229211691,
+          "p90": 0.24835476545470486
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 222,
+          "ratio": 0.8987854251012146
+        },
+        "enough_duration": {
+          "count": 246,
+          "ratio": 0.9959514170040485
+        },
+        "has_motion": {
+          "count": 240,
+          "ratio": 0.97165991902834
+        },
+        "reaches_click": {
+          "count": 247,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 72,
+          "ratio": 0.291497975708502
+        },
+        "missing_interclick_motion": {
+          "count": 173,
+          "ratio": 0.7004048582995951
+        },
+        "reliable": {
+          "count": 71,
+          "ratio": 0.2874493927125506
+        },
+        "three_or_fewer_points": {
+          "count": 6,
+          "ratio": 0.024291497975708502
+        },
+        "static_trajectory": {
+          "count": 2,
+          "ratio": 0.008097165991902834
+        }
+      },
+      "coco_click3:click_3": {
+        "clicks": 133,
+        "raw_point_count": {
+          "p10": 5.200000000000001,
+          "median": 16.0,
+          "p90": 30.0
+        },
+        "unique_xy_count": {
+          "p10": 4.200000000000001,
+          "median": 14.0,
+          "p90": 29.0
+        },
+        "observed_duration_ms": {
+          "p10": 407.55559999999997,
+          "median": 893.54,
+          "p90": 1858.0167999999999
+        },
+        "available_interval_ms": {
+          "p10": 912.1140000004322,
+          "median": 1472.7669999999925,
+          "p90": 2534.1586000001057
+        },
+        "coverage_ratio": {
+          "p10": 0.4053528276564438,
+          "median": 0.6216088189821148,
+          "p90": 0.7737266808894548
+        },
+        "path_length_norm": {
+          "p10": 0.05803567471224862,
+          "median": 0.2377457735550379,
+          "p90": 0.6419805014144675
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.06634891467060695,
+          "median": 0.205884982951647,
+          "p90": 0.47729920169290874
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.023708720962599465,
+          "median": 0.07697235938309287,
+          "p90": 0.23578750462522458
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 129,
+          "ratio": 0.9699248120300752
+        },
+        "enough_duration": {
+          "count": 132,
+          "ratio": 0.9924812030075187
+        },
+        "has_motion": {
+          "count": 132,
+          "ratio": 0.9924812030075187
+        },
+        "reaches_click": {
+          "count": 133,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 76,
+          "ratio": 0.5714285714285714
+        },
+        "missing_interclick_motion": {
+          "count": 56,
+          "ratio": 0.42105263157894735
+        },
+        "reliable": {
+          "count": 75,
+          "ratio": 0.5639097744360902
+        },
+        "three_or_fewer_points": {
+          "count": 1,
+          "ratio": 0.007518796992481203
+        },
+        "static_trajectory": {
+          "count": 1,
+          "ratio": 0.007518796992481203
+        }
+      },
+      "coco_click3:click_4": {
+        "clicks": 67,
+        "raw_point_count": {
+          "p10": 7.0,
+          "median": 19.0,
+          "p90": 33.4
+        },
+        "unique_xy_count": {
+          "p10": 5.0,
+          "median": 17.0,
+          "p90": 32.0
+        },
+        "observed_duration_ms": {
+          "p10": 619.9534,
+          "median": 1096.275,
+          "p90": 1892.294
+        },
+        "available_interval_ms": {
+          "p10": 1115.1773999992758,
+          "median": 1658.7050000000745,
+          "p90": 2855.7145999998784
+        },
+        "coverage_ratio": {
+          "p10": 0.4001941921439805,
+          "median": 0.6482591666450223,
+          "p90": 0.7876194090223552
+        },
+        "path_length_norm": {
+          "p10": 0.08313628318775677,
+          "median": 0.22554497231027462,
+          "p90": 0.7331261823752704
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.03952381364478093,
+          "median": 0.14558965109512415,
+          "p90": 0.3726042189414143
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.02409174757600362,
+          "median": 0.08552117455928678,
+          "p90": 0.22094406082515144
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 65,
+          "ratio": 0.9701492537313433
+        },
+        "enough_duration": {
+          "count": 67,
+          "ratio": 1.0
+        },
+        "has_motion": {
+          "count": 67,
+          "ratio": 1.0
+        },
+        "reaches_click": {
+          "count": 67,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 32,
+          "ratio": 0.47761194029850745
+        },
+        "missing_interclick_motion": {
+          "count": 35,
+          "ratio": 0.5223880597014925
+        },
+        "reliable": {
+          "count": 32,
+          "ratio": 0.47761194029850745
+        },
+        "three_or_fewer_points": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "static_trajectory": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "coco_click3:click_5": {
+        "clicks": 33,
+        "raw_point_count": {
+          "p10": 7.2,
+          "median": 20.0,
+          "p90": 31.6
+        },
+        "unique_xy_count": {
+          "p10": 6.0,
+          "median": 19.0,
+          "p90": 28.8
+        },
+        "observed_duration_ms": {
+          "p10": 535.9436000000001,
+          "median": 1085.172,
+          "p90": 1753.6552000000001
+        },
+        "available_interval_ms": {
+          "p10": 1235.7697999991476,
+          "median": 1784.269999999553,
+          "p90": 2972.631199999899
+        },
+        "coverage_ratio": {
+          "p10": 0.33756975660954675,
+          "median": 0.6559467105104606,
+          "p90": 0.7909986579361225
+        },
+        "path_length_norm": {
+          "p10": 0.06683694003899018,
+          "median": 0.17314695976451172,
+          "p90": 0.6577306744224535
+        },
+        "previous_click_distance_norm": {
+          "p10": 0.0411667788910692,
+          "median": 0.16098649839349882,
+          "p90": 0.47257373610525477
+        },
+        "start_from_previous_error_norm": {
+          "p10": 0.0320953531991834,
+          "median": 0.08566920000210111,
+          "p90": 0.24019322443408417
+        },
+        "end_to_click_error_norm": {
+          "p10": 0.0,
+          "median": 0.0,
+          "p90": 0.0
+        },
+        "enough_points": {
+          "count": 31,
+          "ratio": 0.9393939393939394
+        },
+        "enough_duration": {
+          "count": 33,
+          "ratio": 1.0
+        },
+        "has_motion": {
+          "count": 33,
+          "ratio": 1.0
+        },
+        "reaches_click": {
+          "count": 33,
+          "ratio": 1.0
+        },
+        "adequate_coverage": {
+          "count": 12,
+          "ratio": 0.36363636363636365
+        },
+        "missing_interclick_motion": {
+          "count": 20,
+          "ratio": 0.6060606060606061
+        },
+        "reliable": {
+          "count": 12,
+          "ratio": 0.36363636363636365
+        },
+        "three_or_fewer_points": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "static_trajectory": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      }
+    }
+  }
+}

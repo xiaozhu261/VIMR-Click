@@ -28,6 +28,29 @@ assets/export_models/
 /outputs/**/split_manifest.json
 /outputs/**/per_instance.csv
 
+# Generated training data and local run state stay on the training machine.
+# Keep experiment reports, metrics, manifests, and report figures in Git.
+/outputs/**/masks/
+/outputs/**/*.npy
+/outputs/**/modeling_clicks*.jsonl
+/outputs/**/difficulty_targets*.jsonl
+/outputs/**/raw_export/
+/outputs/**/full_process.json
+/outputs/**/data/targets.json
+/outputs/**/process_closed_loop_*.jsonl
+/outputs/**/demo_check/mask_*.png
+/outputs/**/runtime_tmp/
+/outputs/tmp*/
+/outputs/process_sam_resume_tests/
+/outputs/process_sam_latest_run.json
+/outputs/**/launch*.json
+/outputs/**/progress.json
+/outputs/**/pause.json
+/outputs/github_push_tests_*.txt
+/outputs/*smoke*/
+/outputs/**/smoke*/
+/outputs/*_prepare_*/
+
 applications/efficientvit_gazesam/models/pytorch
 applications/efficientvit_gazesam/models/onnx
 applications/efficientvit_gazesam/models/tensorrt

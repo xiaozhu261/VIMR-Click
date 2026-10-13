@@ -1,0 +1,52 @@
+{
+  "protocol": {
+    "dataset": "outputs\\coco_click2_click3_combined_20260921",
+    "records": "alignment/modeling_clicks_strict.jsonl",
+    "prompt_state": "all recorded click history plus previous-mask prompt",
+    "multimask_output": false,
+    "mask_resolution": 256,
+    "threshold": 0.5
+  },
+  "baseline": {
+    "val": {
+      "mask_iou": 0.6777678068521102,
+      "iou_prediction_mae": 0.20586118592570227,
+      "samples": 240,
+      "tasks": 99
+    },
+    "test": {
+      "mask_iou": 0.6977537186880669,
+      "iou_prediction_mae": 0.19992885555614504,
+      "samples": 228,
+      "tasks": 92
+    }
+  },
+  "cais": {
+    "val": {
+      "mask_iou": 0.6689907924859502,
+      "samples": 240,
+      "tasks": 99
+    },
+    "test": {
+      "mask_iou": 0.6893625609242934,
+      "iou_prediction_mae": 0.20620162654341312,
+      "cognitive_mae": 0.15418266204365513,
+      "samples": 228,
+      "tasks": 92
+    }
+  },
+  "delta_cais_minus_baseline": {
+    "val": {
+      "mask_iou_absolute": -0.008777014366160074,
+      "mask_iou_relative_percent": -1.294988383547587
+    },
+    "test": {
+      "mask_iou_absolute": -0.008391157763773527,
+      "mask_iou_relative_percent": -1.202595921602651
+    }
+  },
+  "parameters": {
+    "baseline_total": 34792784,
+    "cais_total": 38777426
+  }
+}

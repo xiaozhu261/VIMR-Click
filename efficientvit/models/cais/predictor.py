@@ -39,6 +39,7 @@ class CAISEfficientViTSamPredictor:
         self.prompt_labels: list[torch.Tensor] = []
         self.trajectory_history: list[Optional[torch.Tensor]] = []
         self.trajectory_mask_history: list[Optional[torch.Tensor]] = []
+        self.interaction_mask_history: list[Optional[torch.Tensor]] = []
         self.previous_mask: Optional[torch.Tensor] = None
 
     @staticmethod
@@ -117,7 +118,26 @@ class CAISEfficientViTSamPredictor:
         for index in range(len(clicks_tensor)):
             self.trajectory_history.append(None if trajectories is None else trajectories[index])
             self.trajectory_mask_history.append(None if valid_mask is None else valid_mask[index])
+            self.interaction_mask_history.append(
+                None if self.previous_mask is None else self.previous_mask[0].detach().clone()
+            )
         trajectory_batch, trajectory_mask_batch = self._trajectory_batch(device, dtype)
+        interaction_masks = torch.zeros(
+            1,
+            len(self.interaction_mask_history),
+            1,
+            256,
+            256,
+            device=device,
+            dtype=dtype,
+        )
+        interaction_mask_valid = torch.zeros(
+            1, len(self.interaction_mask_history), device=device, dtype=torch.bool
+        )
+        for index, mask in enumerate(self.interaction_mask_history):
+            if mask is not None:
+                interaction_masks[0, index] = mask.to(device=device, dtype=dtype)
+                interaction_mask_valid[0, index] = True
 
         output = self.model(
             image_embeddings=self.features,
@@ -125,7 +145,12 @@ class CAISEfficientViTSamPredictor:
             point_labels=torch.cat(self.prompt_labels, dim=0).unsqueeze(0),
             click_trajectories=trajectory_batch,
             trajectory_valid_mask=trajectory_mask_batch,
+            trajectory_coordinate_scale=self.features.new_tensor(
+                (self.base_predictor.input_size[1], self.base_predictor.input_size[0])
+            ).unsqueeze(0),
             previous_mask=self.previous_mask,
+            interaction_masks=interaction_masks,
+            interaction_mask_valid=interaction_mask_valid,
             multimask_output=multimask_output,
         )
         candidate = (

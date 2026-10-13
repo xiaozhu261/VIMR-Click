@@ -2,7 +2,15 @@ from .config import CAISConfig
 from .coco_click_dataset import COCOClickCAISDataset, CognitiveTargetNormalizer, load_rgb_image
 from .losses import cais_multitask_loss, hard_iou_score, mask_boundary_band, soft_dice_score
 from .model import CAISEfficientViTSam, CAISInteractionState, build_cais_efficientvit_sam
-from .modules import CAISMultiTaskHeads, CognitivePromptEncoder, CognitiveTwoWayAttention
+from .modules import (
+    CAISMultiTaskHeads,
+    CognitivePromptEncoder,
+    CognitiveTwoWayAttention,
+    InteractionMemoryAttention,
+    TrajectoryCognitiveHead,
+    TrajectoryDensePromptEncoder,
+    TrajectoryTokenAdapter,
+)
 from .predictor import CAISEfficientViTSamPredictor
 
 __all__ = [
@@ -12,7 +20,11 @@ __all__ = [
     "load_rgb_image",
     "CognitivePromptEncoder",
     "CognitiveTwoWayAttention",
+    "InteractionMemoryAttention",
     "CAISMultiTaskHeads",
+    "TrajectoryTokenAdapter",
+    "TrajectoryDensePromptEncoder",
+    "TrajectoryCognitiveHead",
     "CAISInteractionState",
     "CAISEfficientViTSam",
     "build_cais_efficientvit_sam",

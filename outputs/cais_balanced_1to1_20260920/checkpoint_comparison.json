@@ -1,0 +1,198 @@
+{
+  "dataset": "outputs\\cais_synthetic_pilot_200_20260920",
+  "split_samples": {
+    "val": 124,
+    "test": 112
+  },
+  "results": {
+    "human_only": {
+      "checkpoint": "outputs\\cais_coco_click2_20260920\\best.pt",
+      "training_best_epoch": 8,
+      "training_best_val_iou": 0.6223344305406264,
+      "evaluation": {
+        "val": {
+          "loss": 0.9573520744339593,
+          "loss_mask": 0.8191065882603007,
+          "loss_bce": 0.5130925741377136,
+          "loss_dice": 0.30601401482858964,
+          "loss_iou": 0.13704882164359977,
+          "loss_cognitive": 0.015955437815958453,
+          "mask_iou": 0.6225674591194312,
+          "iou_mae": 0.24816709155997924,
+          "cognitive_mae": 0.14995175984597975,
+          "samples": 124,
+          "cognitive_samples": 124
+        },
+        "test": {
+          "loss": 0.8202411375407662,
+          "loss_mask": 0.6885828494726282,
+          "loss_bce": 0.36017311901170096,
+          "loss_dice": 0.3284097265984331,
+          "loss_iou": 0.13021630901356016,
+          "loss_cognitive": 0.01922634057700634,
+          "mask_iou": 0.6056071904518571,
+          "iou_mae": 0.24774254938321455,
+          "cognitive_mae": 0.15873178081320866,
+          "samples": 112,
+          "cognitive_samples": 112
+        }
+      },
+      "test_subgroups": {
+        "click_1": {
+          "mask_iou": 0.5059141394971944,
+          "samples": 44
+        },
+        "click_2": {
+          "mask_iou": 0.6380715675261472,
+          "samples": 31
+        },
+        "click_3": {
+          "mask_iou": 0.7177408631070561,
+          "samples": 21
+        },
+        "click_4": {
+          "mask_iou": 0.6819987400434911,
+          "samples": 10
+        },
+        "click_5": {
+          "mask_iou": 0.6491698456229642,
+          "samples": 6
+        },
+        "negative": {
+          "mask_iou": 0.6105173586402088,
+          "samples": 11
+        },
+        "positive": {
+          "mask_iou": 0.6050724196590663,
+          "samples": 101
+        }
+      }
+    },
+    "natural_mix": {
+      "checkpoint": "outputs\\cais_mixed_pilot_200_20260920\\best.pt",
+      "training_best_epoch": 7,
+      "training_best_val_iou": 0.6763682275535933,
+      "evaluation": {
+        "val": {
+          "loss": 0.7181110357445094,
+          "loss_mask": 0.6195675782078216,
+          "loss_bce": 0.36045267407391823,
+          "loss_dice": 0.2591149052304606,
+          "loss_iou": 0.09730636275096935,
+          "loss_cognitive": 0.01649450606876804,
+          "mask_iou": 0.6762083475292574,
+          "iou_mae": 0.19900964657145162,
+          "cognitive_mae": 0.1531672078755594,
+          "samples": 124,
+          "cognitive_samples": 124
+        },
+        "test": {
+          "loss": 0.6989279032152679,
+          "loss_mask": 0.5973837797396949,
+          "loss_bce": 0.3228447685749935,
+          "loss_dice": 0.2745390124619007,
+          "loss_iou": 0.10004385935679291,
+          "loss_cognitive": 0.02000358620924609,
+          "mask_iou": 0.664858726377653,
+          "iou_mae": 0.19228276330977678,
+          "cognitive_mae": 0.1622238638145583,
+          "samples": 112,
+          "cognitive_samples": 112
+        }
+      },
+      "test_subgroups": {
+        "click_1": {
+          "mask_iou": 0.5851557283590823,
+          "samples": 44
+        },
+        "click_2": {
+          "mask_iou": 0.6878346115681192,
+          "samples": 31
+        },
+        "click_3": {
+          "mask_iou": 0.7620827146761474,
+          "samples": 21
+        },
+        "click_4": {
+          "mask_iou": 0.7259251311421394,
+          "samples": 10
+        },
+        "click_5": {
+          "mask_iou": 0.6885773380442212,
+          "samples": 6
+        },
+        "negative": {
+          "mask_iou": 0.6608698955652389,
+          "samples": 11
+        },
+        "positive": {
+          "mask_iou": 0.6652931534958367,
+          "samples": 101
+        }
+      }
+    },
+    "balanced_1to1": {
+      "checkpoint": "outputs\\cais_balanced_1to1_20260920\\best.pt",
+      "training_best_epoch": 9,
+      "training_best_val_iou": 0.6531436922115034,
+      "evaluation": {
+        "val": {
+          "loss": 0.7617044279111489,
+          "loss_mask": 0.6676726110519902,
+          "loss_bce": 0.3936318322760804,
+          "loss_dice": 0.2740407749529808,
+          "loss_iou": 0.09279805191755577,
+          "loss_cognitive": 0.016450196504592896,
+          "mask_iou": 0.653213445863296,
+          "iou_mae": 0.20439582173862764,
+          "cognitive_mae": 0.15253918978475756,
+          "samples": 124,
+          "cognitive_samples": 124
+        },
+        "test": {
+          "loss": 0.7907909056437867,
+          "loss_mask": 0.6748737582072083,
+          "loss_bce": 0.35663177381086697,
+          "loss_dice": 0.31824198365211487,
+          "loss_iou": 0.11446601354281379,
+          "loss_cognitive": 0.019348503489579474,
+          "mask_iou": 0.6039250120364679,
+          "iou_mae": 0.23709364421665668,
+          "cognitive_mae": 0.15883210115134716,
+          "samples": 112,
+          "cognitive_samples": 112
+        }
+      },
+      "test_subgroups": {
+        "click_1": {
+          "mask_iou": 0.5044713674922771,
+          "samples": 44
+        },
+        "click_2": {
+          "mask_iou": 0.6444511688765018,
+          "samples": 31
+        },
+        "click_3": {
+          "mask_iou": 0.7045703766024893,
+          "samples": 21
+        },
+        "click_4": {
+          "mask_iou": 0.6673114149365574,
+          "samples": 10
+        },
+        "click_5": {
+          "mask_iou": 0.6659638142058005,
+          "samples": 6
+        },
+        "negative": {
+          "mask_iou": 0.5930228803984143,
+          "samples": 11
+        },
+        "positive": {
+          "mask_iou": 0.605112372907939,
+          "samples": 101
+        }
+      }
+    }
+  }
+}

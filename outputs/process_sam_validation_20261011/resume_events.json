@@ -1,0 +1,86 @@
+[
+  {
+    "resumed_at_utc": "2026-10-11T07:48:20.775996+00:00",
+    "previous_status": "paused",
+    "previous_progress": {
+      "status": "paused",
+      "updated_at_utc": "2026-10-11T05:46:55.3604478Z",
+      "phase": "training",
+      "group": "B1",
+      "seed": 9527,
+      "epoch": 3,
+      "total_epochs": 10,
+      "step": 200,
+      "total_steps": 3500,
+      "loss": 0.13091394076123833,
+      "pause_method": "NtSuspendProcess; training memory and CUDA context retained",
+      "process_id": 20080
+    },
+    "code_hashes": {
+      "tools\\run_process_sam_validation.py": "4c152dabf71b92af4cfa1421caebe3125f0047993e11a97bd5792b55eedd870b",
+      "efficientvit\\models\\process_sam\\config.py": "b017df39459c664660ab34f84d72b9152a939ea0db862ad2edf58154f9590277",
+      "efficientvit\\models\\process_sam\\modules.py": "6e5bf083d11e1ee15514419462242561809270091857b00399bc0cf74106e4cc",
+      "efficientvit\\models\\process_sam\\model.py": "0a62afa856d32db2bb5484810cb9482542e6868a3caf029837b92ac07bfe0254",
+      "efficientvit\\models\\process_sam\\simulation.py": "2eeef39b36327dbc1626cf9ea624c156f7d8ba5a73c38122dd80842949be1e0e",
+      "efficientvit\\models\\process_sam\\validation.py": "6ac0a93df48b715da83db5208e5b387db6faaecdeda7d13072647b9593bf982e",
+      "tools\\run_process_sam_experiments.py": "e69088cabc6614b3b3f101ba9e244395db2b898043ba8903f5da8116ba4d0090"
+    },
+    "checkpoint_policy": "Full model, optimizer, AMP, best model and RNG state at each completed epoch"
+  },
+  {
+    "resumed_at_utc": "2026-10-13T03:26:09.808365+00:00",
+    "previous_status": "running",
+    "previous_progress": {
+      "status": "paused",
+      "updated_at_utc": "2026-10-11T05:46:55.3604478Z",
+      "phase": "training",
+      "group": "B1",
+      "seed": 9527,
+      "epoch": 3,
+      "total_epochs": 10,
+      "step": 200,
+      "total_steps": 3500,
+      "loss": 0.13091394076123833,
+      "pause_method": "NtSuspendProcess; training memory and CUDA context retained",
+      "process_id": 20080
+    },
+    "code_hashes": {
+      "tools\\run_process_sam_validation.py": "4c152dabf71b92af4cfa1421caebe3125f0047993e11a97bd5792b55eedd870b",
+      "efficientvit\\models\\process_sam\\config.py": "b017df39459c664660ab34f84d72b9152a939ea0db862ad2edf58154f9590277",
+      "efficientvit\\models\\process_sam\\modules.py": "6e5bf083d11e1ee15514419462242561809270091857b00399bc0cf74106e4cc",
+      "efficientvit\\models\\process_sam\\model.py": "0a62afa856d32db2bb5484810cb9482542e6868a3caf029837b92ac07bfe0254",
+      "efficientvit\\models\\process_sam\\simulation.py": "2eeef39b36327dbc1626cf9ea624c156f7d8ba5a73c38122dd80842949be1e0e",
+      "efficientvit\\models\\process_sam\\validation.py": "6ac0a93df48b715da83db5208e5b387db6faaecdeda7d13072647b9593bf982e",
+      "tools\\run_process_sam_experiments.py": "e69088cabc6614b3b3f101ba9e244395db2b898043ba8903f5da8116ba4d0090"
+    },
+    "checkpoint_policy": "Full model, optimizer, AMP, best model and RNG state at each completed epoch"
+  },
+  {
+    "resumed_at_utc": "2026-10-13T10:26:13.716047+00:00",
+    "previous_status": "running",
+    "previous_progress": {
+      "status": "paused",
+      "updated_at_utc": "2026-10-11T05:46:55.3604478Z",
+      "phase": "training",
+      "group": "B1",
+      "seed": 9527,
+      "epoch": 3,
+      "total_epochs": 10,
+      "step": 200,
+      "total_steps": 3500,
+      "loss": 0.13091394076123833,
+      "pause_method": "NtSuspendProcess; training memory and CUDA context retained",
+      "process_id": 20080
+    },
+    "code_hashes": {
+      "tools\\run_process_sam_validation.py": "4c152dabf71b92af4cfa1421caebe3125f0047993e11a97bd5792b55eedd870b",
+      "efficientvit\\models\\process_sam\\config.py": "b017df39459c664660ab34f84d72b9152a939ea0db862ad2edf58154f9590277",
+      "efficientvit\\models\\process_sam\\modules.py": "6e5bf083d11e1ee15514419462242561809270091857b00399bc0cf74106e4cc",
+      "efficientvit\\models\\process_sam\\model.py": "0a62afa856d32db2bb5484810cb9482542e6868a3caf029837b92ac07bfe0254",
+      "efficientvit\\models\\process_sam\\simulation.py": "2eeef39b36327dbc1626cf9ea624c156f7d8ba5a73c38122dd80842949be1e0e",
+      "efficientvit\\models\\process_sam\\validation.py": "6ac0a93df48b715da83db5208e5b387db6faaecdeda7d13072647b9593bf982e",
+      "tools\\run_process_sam_experiments.py": "e69088cabc6614b3b3f101ba9e244395db2b898043ba8903f5da8116ba4d0090"
+    },
+    "checkpoint_policy": "Full model, optimizer, AMP, best model and RNG state at each completed epoch"
+  }
+]

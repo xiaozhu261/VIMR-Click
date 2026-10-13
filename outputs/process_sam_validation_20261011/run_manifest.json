@@ -1,0 +1,135 @@
+{
+  "args": {
+    "source_run": "G:\\lab\\VIMR-Click\\outputs\\process_sam_synthetic_final_20261010_seed9527",
+    "human_dataset": "G:\\lab\\VIMR-Click\\outputs\\cais_synthetic_click2_click3_300_20260921",
+    "output_dir": "G:\\lab\\VIMR-Click\\outputs\\process_sam_validation_20261011",
+    "seeds": [
+      9527,
+      9528,
+      9529
+    ],
+    "epochs": 10,
+    "device": "cuda",
+    "smoke_test": false,
+    "prepare_only": false
+  },
+  "source_run": "G:\\lab\\VIMR-Click\\outputs\\process_sam_synthetic_final_20261010_seed9527",
+  "dataset_sha256": "1353e0a676e369f6038b5950d32a0b365e6126ab1d1f59e655deaba4121c9b23",
+  "base_checkpoint_sha256": "3450127f9080533be10bb5133abf508510120814fedc8d2069cb27e0721c9a6f",
+  "data_and_user_seeds_fixed": true,
+  "training_seeds": [
+    9527,
+    9528,
+    9529
+  ],
+  "extension_gate": "Both paired validation task-mean IoU deltas B2-B0 and B2-B1 > 0; test never selects extension",
+  "training": {
+    "epochs": 10,
+    "process_lr": 0.0001,
+    "decoder_lr": 1e-05,
+    "weight_decay": 0.0001,
+    "accumulation": 4,
+    "loss": "BCE + Dice + IoU MSE",
+    "selection": "maximum validation event-mean IoU"
+  },
+  "controls": {
+    "B0": "Decoder fine tuning only",
+    "B1": "No summaries/time/order; almost parameter-matched mean-pool MLP",
+    "B2": "Full E3, first seed reused without retraining"
+  },
+  "policies": {
+    "oracle": {},
+    "click_focus": {
+      "focus_policy": "click"
+    },
+    "click_focus_slow": {
+      "focus_policy": "click",
+      "timing_scale": 1.8
+    },
+    "click_focus_sparse": {
+      "focus_policy": "click",
+      "motion_points": 9
+    }
+  },
+  "interventions": [
+    "history_order",
+    "history_fast",
+    "history_slow",
+    "state_timing_neutral"
+  ],
+  "human_audit": {
+    "source_hash": "65012329bdf028060541a41a0ac3d9267527f72df16bc092827e5026e978fda7",
+    "raw_task_hashes": {
+      "G:\\USTB\\wisdomStore_project\\coco_click2\\interaction_data\\interaction_tasks.jsonl": "77a62a8d87e46d13ea076b3a1f5a2e326bcbc8571742bc81ec8e5a3b6f609d1e",
+      "G:\\USTB\\wisdomStore_project\\coco_click3\\interaction_data\\interaction_tasks.jsonl": "1190459e4f484733f5794a94259f6ae6645fa37a2d2c2718d5a6d54fa939baf5"
+    },
+    "original_tasks": 641,
+    "retained_tasks": 641,
+    "quarantined_tasks": {},
+    "records_by_split": {
+      "train": 1122,
+      "val": 240,
+      "test": 228
+    },
+    "synthetic_image_overlap": 0,
+    "protocol": "Linked current-click task-log marker defines cutoff; locally anchored telemetry; recorded L1 binary masks on later clicks",
+    "clock_caveat": "Task and click clocks have variable offsets; task-log cutoff is not claimed to be millisecond-exact release-time alignment",
+    "caveat": "Existing strict cohort has final-quality selection and one annotator; no real-user closed-loop claim"
+  },
+  "spatial_control": "Identical current viewport/click maps and last-two-second trajectory density; B1 lacks explicit timing/order",
+  "metrics": "IoU@1/3/5, task-mean IoU, Boundary IoU, NoC@90 failures=6, cached-embedding mean/p95 latency",
+  "protocols": "Matched original L0-logit replay; separate per-model adaptive five-click loops; human recorded L1 binary-mask replay",
+  "result_type": "supplementary_validation",
+  "selected_coverage": {
+    "train": {
+      "clicks": 3500,
+      "tasks": 700
+    },
+    "val": {
+      "clicks": 750,
+      "tasks": 150
+    },
+    "test": {
+      "clicks": 750,
+      "tasks": 150
+    }
+  },
+  "human_test_coverage": {
+    "clicks": 228,
+    "tasks": 92
+  },
+  "human_feature_shift": {
+    "fraction_events_abs_z_gt10": 0.9956140518188477,
+    "max_abs_z": 1945.90966796875,
+    "mean_abs_z_by_feature": {
+      "has_previous_click": 1.105263113975525,
+      "log_active_interval_ms": 1.0492675304412842,
+      "log_observed_duration_ms": 2.233546495437622,
+      "observed_active_coverage": 1.3654011487960815,
+      "log_raw_point_count": 602.9557495117188,
+      "log_unique_xy_count": 20.33316993713379,
+      "path_length_norm": 1.152678370475769,
+      "displacement_norm": 0.6268846988677979,
+      "trajectory_inefficiency": 0.9648061990737915,
+      "previous_click_distance_norm": 0.8427665829658508,
+      "log_previous_to_click_speed_norm_per_s": 1.1825132369995117,
+      "log_pre_click_hover_time_ms": 4.838306427001953,
+      "log_press_duration_ms": 2.377635955810547,
+      "log_peak_speed_norm_per_s": 4.923270225524902,
+      "log_mean_deceleration_norm_per_s2": 5.5958027839660645,
+      "log_hard_brake_count": 1.0889806747436523,
+      "log_direction_changes_last_500ms": 265.07135009765625,
+      "trajectory_end_error_norm": 0.0
+    },
+    "normalization": "Unchanged synthetic TRAIN statistics; constant training fields have a 1e-3 std floor"
+  },
+  "code_hashes": {
+    "tools\\run_process_sam_validation.py": "639223403b90bf9ae44ee393b46e8e34c11d350cf2de62e365072d0fb8dd7399",
+    "efficientvit\\models\\process_sam\\config.py": "b017df39459c664660ab34f84d72b9152a939ea0db862ad2edf58154f9590277",
+    "efficientvit\\models\\process_sam\\modules.py": "6e5bf083d11e1ee15514419462242561809270091857b00399bc0cf74106e4cc",
+    "efficientvit\\models\\process_sam\\model.py": "0a62afa856d32db2bb5484810cb9482542e6868a3caf029837b92ac07bfe0254",
+    "efficientvit\\models\\process_sam\\simulation.py": "2eeef39b36327dbc1626cf9ea624c156f7d8ba5a73c38122dd80842949be1e0e",
+    "efficientvit\\models\\process_sam\\validation.py": "6ac0a93df48b715da83db5208e5b387db6faaecdeda7d13072647b9593bf982e",
+    "tools\\run_process_sam_experiments.py": "e69088cabc6614b3b3f101ba9e244395db2b898043ba8903f5da8116ba4d0090"
+  }
+}

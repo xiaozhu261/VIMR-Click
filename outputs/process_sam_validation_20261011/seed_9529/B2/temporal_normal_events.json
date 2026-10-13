@@ -1,0 +1,6002 @@
+[
+  {
+    "event_id": "sim-process-9527-172013:click1",
+    "task_run_id": "sim-process-9527-172013",
+    "click_index": 1,
+    "iou": 0.8525396585464478,
+    "boundary_iou": 0.5993925333023071,
+    "latency_ms": 47.42660000010801
+  },
+  {
+    "event_id": "sim-process-9527-172013:click2",
+    "task_run_id": "sim-process-9527-172013",
+    "click_index": 2,
+    "iou": 0.9010106325149536,
+    "boundary_iou": 0.7192668914794922,
+    "latency_ms": 39.80839999985619
+  },
+  {
+    "event_id": "sim-process-9527-172013:click3",
+    "task_run_id": "sim-process-9527-172013",
+    "click_index": 3,
+    "iou": 0.9076722264289856,
+    "boundary_iou": 0.7411924004554749,
+    "latency_ms": 42.99540000010893
+  },
+  {
+    "event_id": "sim-process-9527-172013:click4",
+    "task_run_id": "sim-process-9527-172013",
+    "click_index": 4,
+    "iou": 0.9124768376350403,
+    "boundary_iou": 0.7497463822364807,
+    "latency_ms": 49.88530000036917
+  },
+  {
+    "event_id": "sim-process-9527-172013:click5",
+    "task_run_id": "sim-process-9527-172013",
+    "click_index": 5,
+    "iou": 0.92775559425354,
+    "boundary_iou": 0.7892922759056091,
+    "latency_ms": 42.64790000024732
+  },
+  {
+    "event_id": "sim-process-9527-395799:click1",
+    "task_run_id": "sim-process-9527-395799",
+    "click_index": 1,
+    "iou": 0.8684822916984558,
+    "boundary_iou": 0.7964903116226196,
+    "latency_ms": 43.75449999997727
+  },
+  {
+    "event_id": "sim-process-9527-395799:click2",
+    "task_run_id": "sim-process-9527-395799",
+    "click_index": 2,
+    "iou": 0.840474009513855,
+    "boundary_iou": 0.7583482265472412,
+    "latency_ms": 43.0940000001101
+  },
+  {
+    "event_id": "sim-process-9527-395799:click3",
+    "task_run_id": "sim-process-9527-395799",
+    "click_index": 3,
+    "iou": 0.866035521030426,
+    "boundary_iou": 0.794000506401062,
+    "latency_ms": 43.7898000000132
+  },
+  {
+    "event_id": "sim-process-9527-395799:click4",
+    "task_run_id": "sim-process-9527-395799",
+    "click_index": 4,
+    "iou": 0.873516857624054,
+    "boundary_iou": 0.800266683101654,
+    "latency_ms": 41.336499999943044
+  },
+  {
+    "event_id": "sim-process-9527-395799:click5",
+    "task_run_id": "sim-process-9527-395799",
+    "click_index": 5,
+    "iou": 0.8721604347229004,
+    "boundary_iou": 0.7855831980705261,
+    "latency_ms": 36.13649999988411
+  },
+  {
+    "event_id": "sim-process-9527-1802866:click1",
+    "task_run_id": "sim-process-9527-1802866",
+    "click_index": 1,
+    "iou": 0.8400223255157471,
+    "boundary_iou": 0.8338907361030579,
+    "latency_ms": 35.60010000001057
+  },
+  {
+    "event_id": "sim-process-9527-1802866:click2",
+    "task_run_id": "sim-process-9527-1802866",
+    "click_index": 2,
+    "iou": 0.8057871460914612,
+    "boundary_iou": 0.780721127986908,
+    "latency_ms": 39.38940000034563
+  },
+  {
+    "event_id": "sim-process-9527-1802866:click3",
+    "task_run_id": "sim-process-9527-1802866",
+    "click_index": 3,
+    "iou": 0.8599462509155273,
+    "boundary_iou": 0.8446236848831177,
+    "latency_ms": 49.10210000025472
+  },
+  {
+    "event_id": "sim-process-9527-1802866:click4",
+    "task_run_id": "sim-process-9527-1802866",
+    "click_index": 4,
+    "iou": 0.8620318174362183,
+    "boundary_iou": 0.8517919778823853,
+    "latency_ms": 43.50360000034925
+  },
+  {
+    "event_id": "sim-process-9527-1802866:click5",
+    "task_run_id": "sim-process-9527-1802866",
+    "click_index": 5,
+    "iou": 0.8727867007255554,
+    "boundary_iou": 0.8621628880500793,
+    "latency_ms": 44.529400000101305
+  },
+  {
+    "event_id": "sim-process-9527-1808816:click1",
+    "task_run_id": "sim-process-9527-1808816",
+    "click_index": 1,
+    "iou": 0.9247507452964783,
+    "boundary_iou": 0.6896487474441528,
+    "latency_ms": 46.354799999789975
+  },
+  {
+    "event_id": "sim-process-9527-1808816:click2",
+    "task_run_id": "sim-process-9527-1808816",
+    "click_index": 2,
+    "iou": 0.9383402466773987,
+    "boundary_iou": 0.7508423924446106,
+    "latency_ms": 54.08870000019306
+  },
+  {
+    "event_id": "sim-process-9527-1808816:click3",
+    "task_run_id": "sim-process-9527-1808816",
+    "click_index": 3,
+    "iou": 0.9524967670440674,
+    "boundary_iou": 0.775546133518219,
+    "latency_ms": 51.65500000020984
+  },
+  {
+    "event_id": "sim-process-9527-1808816:click4",
+    "task_run_id": "sim-process-9527-1808816",
+    "click_index": 4,
+    "iou": 0.948516845703125,
+    "boundary_iou": 0.7730057239532471,
+    "latency_ms": 56.59770000011122
+  },
+  {
+    "event_id": "sim-process-9527-1808816:click5",
+    "task_run_id": "sim-process-9527-1808816",
+    "click_index": 5,
+    "iou": 0.9712395668029785,
+    "boundary_iou": 0.7807350754737854,
+    "latency_ms": 67.42410000015298
+  },
+  {
+    "event_id": "sim-process-9527-2209740:click1",
+    "task_run_id": "sim-process-9527-2209740",
+    "click_index": 1,
+    "iou": 0.8619397282600403,
+    "boundary_iou": 0.5677587389945984,
+    "latency_ms": 44.193600000198785
+  },
+  {
+    "event_id": "sim-process-9527-2209740:click2",
+    "task_run_id": "sim-process-9527-2209740",
+    "click_index": 2,
+    "iou": 0.9613600373268127,
+    "boundary_iou": 0.8814558386802673,
+    "latency_ms": 39.440400000330555
+  },
+  {
+    "event_id": "sim-process-9527-2209740:click3",
+    "task_run_id": "sim-process-9527-2209740",
+    "click_index": 3,
+    "iou": 0.9628134965896606,
+    "boundary_iou": 0.8877066969871521,
+    "latency_ms": 40.477500000179134
+  },
+  {
+    "event_id": "sim-process-9527-2209740:click4",
+    "task_run_id": "sim-process-9527-2209740",
+    "click_index": 4,
+    "iou": 0.9631342887878418,
+    "boundary_iou": 0.8927193284034729,
+    "latency_ms": 35.4671000000053
+  },
+  {
+    "event_id": "sim-process-9527-2209740:click5",
+    "task_run_id": "sim-process-9527-2209740",
+    "click_index": 5,
+    "iou": 0.9651432037353516,
+    "boundary_iou": 0.8985806703567505,
+    "latency_ms": 42.31930000014472
+  },
+  {
+    "event_id": "sim-process-9527-572900:click1",
+    "task_run_id": "sim-process-9527-572900",
+    "click_index": 1,
+    "iou": 0.7959856986999512,
+    "boundary_iou": 0.3428657054901123,
+    "latency_ms": 43.33059999999023
+  },
+  {
+    "event_id": "sim-process-9527-572900:click2",
+    "task_run_id": "sim-process-9527-572900",
+    "click_index": 2,
+    "iou": 0.44623130559921265,
+    "boundary_iou": 0.21047694981098175,
+    "latency_ms": 57.62129999993704
+  },
+  {
+    "event_id": "sim-process-9527-572900:click3",
+    "task_run_id": "sim-process-9527-572900",
+    "click_index": 3,
+    "iou": 0.8144240379333496,
+    "boundary_iou": 0.4225866496562958,
+    "latency_ms": 51.12220000000889
+  },
+  {
+    "event_id": "sim-process-9527-572900:click4",
+    "task_run_id": "sim-process-9527-572900",
+    "click_index": 4,
+    "iou": 0.8025878071784973,
+    "boundary_iou": 0.3624957799911499,
+    "latency_ms": 45.91440000012881
+  },
+  {
+    "event_id": "sim-process-9527-572900:click5",
+    "task_run_id": "sim-process-9527-572900",
+    "click_index": 5,
+    "iou": 0.822086751461029,
+    "boundary_iou": 0.43629029393196106,
+    "latency_ms": 54.803699999865785
+  },
+  {
+    "event_id": "sim-process-9527-588085:click1",
+    "task_run_id": "sim-process-9527-588085",
+    "click_index": 1,
+    "iou": 0.9537066221237183,
+    "boundary_iou": 0.6418028473854065,
+    "latency_ms": 42.97249999990527
+  },
+  {
+    "event_id": "sim-process-9527-588085:click2",
+    "task_run_id": "sim-process-9527-588085",
+    "click_index": 2,
+    "iou": 0.9581549167633057,
+    "boundary_iou": 0.6620351076126099,
+    "latency_ms": 40.97749999982625
+  },
+  {
+    "event_id": "sim-process-9527-588085:click3",
+    "task_run_id": "sim-process-9527-588085",
+    "click_index": 3,
+    "iou": 0.9551066756248474,
+    "boundary_iou": 0.6423976421356201,
+    "latency_ms": 39.261399999759306
+  },
+  {
+    "event_id": "sim-process-9527-588085:click4",
+    "task_run_id": "sim-process-9527-588085",
+    "click_index": 4,
+    "iou": 0.9572544693946838,
+    "boundary_iou": 0.6535531878471375,
+    "latency_ms": 39.41020000002027
+  },
+  {
+    "event_id": "sim-process-9527-588085:click5",
+    "task_run_id": "sim-process-9527-588085",
+    "click_index": 5,
+    "iou": 0.9584735631942749,
+    "boundary_iou": 0.6639052033424377,
+    "latency_ms": 40.37090000019816
+  },
+  {
+    "event_id": "sim-process-9527-1424607:click1",
+    "task_run_id": "sim-process-9527-1424607",
+    "click_index": 1,
+    "iou": 0.9473960399627686,
+    "boundary_iou": 0.8855088353157043,
+    "latency_ms": 37.591100000099686
+  },
+  {
+    "event_id": "sim-process-9527-1424607:click2",
+    "task_run_id": "sim-process-9527-1424607",
+    "click_index": 2,
+    "iou": 0.9477670192718506,
+    "boundary_iou": 0.8873550295829773,
+    "latency_ms": 36.46209999988059
+  },
+  {
+    "event_id": "sim-process-9527-1424607:click3",
+    "task_run_id": "sim-process-9527-1424607",
+    "click_index": 3,
+    "iou": 0.951043426990509,
+    "boundary_iou": 0.8932937979698181,
+    "latency_ms": 42.700800000147865
+  },
+  {
+    "event_id": "sim-process-9527-1424607:click4",
+    "task_run_id": "sim-process-9527-1424607",
+    "click_index": 4,
+    "iou": 0.9533447027206421,
+    "boundary_iou": 0.8959376811981201,
+    "latency_ms": 37.780799999836745
+  },
+  {
+    "event_id": "sim-process-9527-1424607:click5",
+    "task_run_id": "sim-process-9527-1424607",
+    "click_index": 5,
+    "iou": 0.9529936909675598,
+    "boundary_iou": 0.895995557308197,
+    "latency_ms": 40.571300000010524
+  },
+  {
+    "event_id": "sim-process-9527-602350:click1",
+    "task_run_id": "sim-process-9527-602350",
+    "click_index": 1,
+    "iou": 0.9178707003593445,
+    "boundary_iou": 0.9178707003593445,
+    "latency_ms": 35.89890000012019
+  },
+  {
+    "event_id": "sim-process-9527-602350:click2",
+    "task_run_id": "sim-process-9527-602350",
+    "click_index": 2,
+    "iou": 0.8823975920677185,
+    "boundary_iou": 0.8823975920677185,
+    "latency_ms": 35.24359999983062
+  },
+  {
+    "event_id": "sim-process-9527-602350:click3",
+    "task_run_id": "sim-process-9527-602350",
+    "click_index": 3,
+    "iou": 0.8827534317970276,
+    "boundary_iou": 0.8827534317970276,
+    "latency_ms": 34.497799999826384
+  },
+  {
+    "event_id": "sim-process-9527-602350:click4",
+    "task_run_id": "sim-process-9527-602350",
+    "click_index": 4,
+    "iou": 0.891640841960907,
+    "boundary_iou": 0.891640841960907,
+    "latency_ms": 36.290699999881326
+  },
+  {
+    "event_id": "sim-process-9527-602350:click5",
+    "task_run_id": "sim-process-9527-602350",
+    "click_index": 5,
+    "iou": 0.9090202450752258,
+    "boundary_iou": 0.9090202450752258,
+    "latency_ms": 35.66339999997581
+  },
+  {
+    "event_id": "sim-process-9527-688168:click1",
+    "task_run_id": "sim-process-9527-688168",
+    "click_index": 1,
+    "iou": 0.8018628358840942,
+    "boundary_iou": 0.8018628358840942,
+    "latency_ms": 35.17220000003363
+  },
+  {
+    "event_id": "sim-process-9527-688168:click2",
+    "task_run_id": "sim-process-9527-688168",
+    "click_index": 2,
+    "iou": 0.8172991871833801,
+    "boundary_iou": 0.8172991871833801,
+    "latency_ms": 37.07960000019739
+  },
+  {
+    "event_id": "sim-process-9527-688168:click3",
+    "task_run_id": "sim-process-9527-688168",
+    "click_index": 3,
+    "iou": 0.8279476165771484,
+    "boundary_iou": 0.8279476165771484,
+    "latency_ms": 37.72690000005241
+  },
+  {
+    "event_id": "sim-process-9527-688168:click4",
+    "task_run_id": "sim-process-9527-688168",
+    "click_index": 4,
+    "iou": 0.8191304206848145,
+    "boundary_iou": 0.8191304206848145,
+    "latency_ms": 42.55890000013096
+  },
+  {
+    "event_id": "sim-process-9527-688168:click5",
+    "task_run_id": "sim-process-9527-688168",
+    "click_index": 5,
+    "iou": 0.819298267364502,
+    "boundary_iou": 0.819298267364502,
+    "latency_ms": 43.05910000039148
+  },
+  {
+    "event_id": "sim-process-9527-1540200:click1",
+    "task_run_id": "sim-process-9527-1540200",
+    "click_index": 1,
+    "iou": 0.12253816425800323,
+    "boundary_iou": 0.0,
+    "latency_ms": 36.62389999999505
+  },
+  {
+    "event_id": "sim-process-9527-1540200:click2",
+    "task_run_id": "sim-process-9527-1540200",
+    "click_index": 2,
+    "iou": 0.30878955125808716,
+    "boundary_iou": 0.0013152125757187605,
+    "latency_ms": 41.023999999652005
+  },
+  {
+    "event_id": "sim-process-9527-1540200:click3",
+    "task_run_id": "sim-process-9527-1540200",
+    "click_index": 3,
+    "iou": 0.910201370716095,
+    "boundary_iou": 0.5332532525062561,
+    "latency_ms": 35.16870000021299
+  },
+  {
+    "event_id": "sim-process-9527-1540200:click4",
+    "task_run_id": "sim-process-9527-1540200",
+    "click_index": 4,
+    "iou": 0.94902503490448,
+    "boundary_iou": 0.6066350936889648,
+    "latency_ms": 36.03530000009414
+  },
+  {
+    "event_id": "sim-process-9527-1540200:click5",
+    "task_run_id": "sim-process-9527-1540200",
+    "click_index": 5,
+    "iou": 0.9522953629493713,
+    "boundary_iou": 0.7270917296409607,
+    "latency_ms": 37.82809999984238
+  },
+  {
+    "event_id": "sim-process-9527-1907513:click1",
+    "task_run_id": "sim-process-9527-1907513",
+    "click_index": 1,
+    "iou": 0.955376923084259,
+    "boundary_iou": 0.9234374761581421,
+    "latency_ms": 34.28239999993821
+  },
+  {
+    "event_id": "sim-process-9527-1907513:click2",
+    "task_run_id": "sim-process-9527-1907513",
+    "click_index": 2,
+    "iou": 0.9540324807167053,
+    "boundary_iou": 0.9238926768302917,
+    "latency_ms": 36.89429999985805
+  },
+  {
+    "event_id": "sim-process-9527-1907513:click3",
+    "task_run_id": "sim-process-9527-1907513",
+    "click_index": 3,
+    "iou": 0.9496006369590759,
+    "boundary_iou": 0.9143389463424683,
+    "latency_ms": 39.33359999973618
+  },
+  {
+    "event_id": "sim-process-9527-1907513:click4",
+    "task_run_id": "sim-process-9527-1907513",
+    "click_index": 4,
+    "iou": 0.9543830752372742,
+    "boundary_iou": 0.9237235188484192,
+    "latency_ms": 37.31070000003456
+  },
+  {
+    "event_id": "sim-process-9527-1907513:click5",
+    "task_run_id": "sim-process-9527-1907513",
+    "click_index": 5,
+    "iou": 0.9557692408561707,
+    "boundary_iou": 0.9267456531524658,
+    "latency_ms": 37.90870000011637
+  },
+  {
+    "event_id": "sim-process-9527-1128838:click1",
+    "task_run_id": "sim-process-9527-1128838",
+    "click_index": 1,
+    "iou": 0.893262505531311,
+    "boundary_iou": 0.8461335897445679,
+    "latency_ms": 37.34339999982694
+  },
+  {
+    "event_id": "sim-process-9527-1128838:click2",
+    "task_run_id": "sim-process-9527-1128838",
+    "click_index": 2,
+    "iou": 0.9015963673591614,
+    "boundary_iou": 0.8597689270973206,
+    "latency_ms": 38.79229999984091
+  },
+  {
+    "event_id": "sim-process-9527-1128838:click3",
+    "task_run_id": "sim-process-9527-1128838",
+    "click_index": 3,
+    "iou": 0.9027940630912781,
+    "boundary_iou": 0.8589147329330444,
+    "latency_ms": 41.48369999984425
+  },
+  {
+    "event_id": "sim-process-9527-1128838:click4",
+    "task_run_id": "sim-process-9527-1128838",
+    "click_index": 4,
+    "iou": 0.9145059585571289,
+    "boundary_iou": 0.8737438917160034,
+    "latency_ms": 45.278699999926175
+  },
+  {
+    "event_id": "sim-process-9527-1128838:click5",
+    "task_run_id": "sim-process-9527-1128838",
+    "click_index": 5,
+    "iou": 0.9144049882888794,
+    "boundary_iou": 0.8742315769195557,
+    "latency_ms": 41.214599999875645
+  },
+  {
+    "event_id": "sim-process-9527-1649215:click1",
+    "task_run_id": "sim-process-9527-1649215",
+    "click_index": 1,
+    "iou": 0.8879286050796509,
+    "boundary_iou": 0.8728291392326355,
+    "latency_ms": 39.92710000011357
+  },
+  {
+    "event_id": "sim-process-9527-1649215:click2",
+    "task_run_id": "sim-process-9527-1649215",
+    "click_index": 2,
+    "iou": 0.8933183550834656,
+    "boundary_iou": 0.8801804184913635,
+    "latency_ms": 37.62490000008256
+  },
+  {
+    "event_id": "sim-process-9527-1649215:click3",
+    "task_run_id": "sim-process-9527-1649215",
+    "click_index": 3,
+    "iou": 0.901955246925354,
+    "boundary_iou": 0.8895845413208008,
+    "latency_ms": 36.003900000196154
+  },
+  {
+    "event_id": "sim-process-9527-1649215:click4",
+    "task_run_id": "sim-process-9527-1649215",
+    "click_index": 4,
+    "iou": 0.9047212600708008,
+    "boundary_iou": 0.8920616507530212,
+    "latency_ms": 39.69550000010713
+  },
+  {
+    "event_id": "sim-process-9527-1649215:click5",
+    "task_run_id": "sim-process-9527-1649215",
+    "click_index": 5,
+    "iou": 0.9070031046867371,
+    "boundary_iou": 0.8957858681678772,
+    "latency_ms": 36.86139999990701
+  },
+  {
+    "event_id": "sim-process-9527-1998063:click1",
+    "task_run_id": "sim-process-9527-1998063",
+    "click_index": 1,
+    "iou": 0.21327710151672363,
+    "boundary_iou": 0.21054628491401672,
+    "latency_ms": 33.868600000005245
+  },
+  {
+    "event_id": "sim-process-9527-1998063:click2",
+    "task_run_id": "sim-process-9527-1998063",
+    "click_index": 2,
+    "iou": 0.5007849335670471,
+    "boundary_iou": 0.5007849335670471,
+    "latency_ms": 40.20380000019941
+  },
+  {
+    "event_id": "sim-process-9527-1998063:click3",
+    "task_run_id": "sim-process-9527-1998063",
+    "click_index": 3,
+    "iou": 0.2675250470638275,
+    "boundary_iou": 0.2633587718009949,
+    "latency_ms": 35.52330000002257
+  },
+  {
+    "event_id": "sim-process-9527-1998063:click4",
+    "task_run_id": "sim-process-9527-1998063",
+    "click_index": 4,
+    "iou": 0.49605679512023926,
+    "boundary_iou": 0.49605679512023926,
+    "latency_ms": 38.11859999996159
+  },
+  {
+    "event_id": "sim-process-9527-1998063:click5",
+    "task_run_id": "sim-process-9527-1998063",
+    "click_index": 5,
+    "iou": 0.5133689641952515,
+    "boundary_iou": 0.5133689641952515,
+    "latency_ms": 37.57659999973839
+  },
+  {
+    "event_id": "sim-process-9527-512152:click1",
+    "task_run_id": "sim-process-9527-512152",
+    "click_index": 1,
+    "iou": 0.9274054765701294,
+    "boundary_iou": 0.8280245065689087,
+    "latency_ms": 36.59049999987474
+  },
+  {
+    "event_id": "sim-process-9527-512152:click2",
+    "task_run_id": "sim-process-9527-512152",
+    "click_index": 2,
+    "iou": 0.929958164691925,
+    "boundary_iou": 0.8346810340881348,
+    "latency_ms": 37.645899999915855
+  },
+  {
+    "event_id": "sim-process-9527-512152:click3",
+    "task_run_id": "sim-process-9527-512152",
+    "click_index": 3,
+    "iou": 0.9287405610084534,
+    "boundary_iou": 0.8342607617378235,
+    "latency_ms": 37.60039999997389
+  },
+  {
+    "event_id": "sim-process-9527-512152:click4",
+    "task_run_id": "sim-process-9527-512152",
+    "click_index": 4,
+    "iou": 0.9393211603164673,
+    "boundary_iou": 0.8559963703155518,
+    "latency_ms": 44.06430000017281
+  },
+  {
+    "event_id": "sim-process-9527-512152:click5",
+    "task_run_id": "sim-process-9527-512152",
+    "click_index": 5,
+    "iou": 0.9281967282295227,
+    "boundary_iou": 0.8243945837020874,
+    "latency_ms": 34.96140000015657
+  },
+  {
+    "event_id": "sim-process-9527-1405501:click1",
+    "task_run_id": "sim-process-9527-1405501",
+    "click_index": 1,
+    "iou": 0.7910365462303162,
+    "boundary_iou": 0.7736579775810242,
+    "latency_ms": 39.395799999965675
+  },
+  {
+    "event_id": "sim-process-9527-1405501:click2",
+    "task_run_id": "sim-process-9527-1405501",
+    "click_index": 2,
+    "iou": 0.8386922478675842,
+    "boundary_iou": 0.8177862167358398,
+    "latency_ms": 35.77549999999974
+  },
+  {
+    "event_id": "sim-process-9527-1405501:click3",
+    "task_run_id": "sim-process-9527-1405501",
+    "click_index": 3,
+    "iou": 0.8131839632987976,
+    "boundary_iou": 0.7861453890800476,
+    "latency_ms": 37.529799999902025
+  },
+  {
+    "event_id": "sim-process-9527-1405501:click4",
+    "task_run_id": "sim-process-9527-1405501",
+    "click_index": 4,
+    "iou": 0.8136117458343506,
+    "boundary_iou": 0.7832640409469604,
+    "latency_ms": 43.46579999992173
+  },
+  {
+    "event_id": "sim-process-9527-1405501:click5",
+    "task_run_id": "sim-process-9527-1405501",
+    "click_index": 5,
+    "iou": 0.8255987763404846,
+    "boundary_iou": 0.7825977206230164,
+    "latency_ms": 35.57520000003933
+  },
+  {
+    "event_id": "sim-process-9527-76373:click1",
+    "task_run_id": "sim-process-9527-76373",
+    "click_index": 1,
+    "iou": 0.638642430305481,
+    "boundary_iou": 0.5972627401351929,
+    "latency_ms": 37.383699999736564
+  },
+  {
+    "event_id": "sim-process-9527-76373:click2",
+    "task_run_id": "sim-process-9527-76373",
+    "click_index": 2,
+    "iou": 0.8597394824028015,
+    "boundary_iou": 0.8506513237953186,
+    "latency_ms": 36.90999999980704
+  },
+  {
+    "event_id": "sim-process-9527-76373:click3",
+    "task_run_id": "sim-process-9527-76373",
+    "click_index": 3,
+    "iou": 0.8797506093978882,
+    "boundary_iou": 0.8652018904685974,
+    "latency_ms": 37.28339999997843
+  },
+  {
+    "event_id": "sim-process-9527-76373:click4",
+    "task_run_id": "sim-process-9527-76373",
+    "click_index": 4,
+    "iou": 0.876335859298706,
+    "boundary_iou": 0.8677862882614136,
+    "latency_ms": 38.636400000086724
+  },
+  {
+    "event_id": "sim-process-9527-76373:click5",
+    "task_run_id": "sim-process-9527-76373",
+    "click_index": 5,
+    "iou": 0.8908256888389587,
+    "boundary_iou": 0.8792048692703247,
+    "latency_ms": 40.75540000030742
+  },
+  {
+    "event_id": "sim-process-9527-1482511:click1",
+    "task_run_id": "sim-process-9527-1482511",
+    "click_index": 1,
+    "iou": 0.8836309909820557,
+    "boundary_iou": 0.765224277973175,
+    "latency_ms": 35.49550000025192
+  },
+  {
+    "event_id": "sim-process-9527-1482511:click2",
+    "task_run_id": "sim-process-9527-1482511",
+    "click_index": 2,
+    "iou": 0.8838210105895996,
+    "boundary_iou": 0.7696362733840942,
+    "latency_ms": 38.1507000001875
+  },
+  {
+    "event_id": "sim-process-9527-1482511:click3",
+    "task_run_id": "sim-process-9527-1482511",
+    "click_index": 3,
+    "iou": 0.9020423293113708,
+    "boundary_iou": 0.8024536371231079,
+    "latency_ms": 35.88100000024497
+  },
+  {
+    "event_id": "sim-process-9527-1482511:click4",
+    "task_run_id": "sim-process-9527-1482511",
+    "click_index": 4,
+    "iou": 0.9058816432952881,
+    "boundary_iou": 0.8124437928199768,
+    "latency_ms": 43.37230000010095
+  },
+  {
+    "event_id": "sim-process-9527-1482511:click5",
+    "task_run_id": "sim-process-9527-1482511",
+    "click_index": 5,
+    "iou": 0.9040084481239319,
+    "boundary_iou": 0.8070112466812134,
+    "latency_ms": 37.17109999979584
+  },
+  {
+    "event_id": "sim-process-9527-705520:click1",
+    "task_run_id": "sim-process-9527-705520",
+    "click_index": 1,
+    "iou": 0.6592551469802856,
+    "boundary_iou": 0.6592551469802856,
+    "latency_ms": 33.0840999999964
+  },
+  {
+    "event_id": "sim-process-9527-705520:click2",
+    "task_run_id": "sim-process-9527-705520",
+    "click_index": 2,
+    "iou": 0.7978436946868896,
+    "boundary_iou": 0.7978436946868896,
+    "latency_ms": 37.8195000002961
+  },
+  {
+    "event_id": "sim-process-9527-705520:click3",
+    "task_run_id": "sim-process-9527-705520",
+    "click_index": 3,
+    "iou": 0.8313577771186829,
+    "boundary_iou": 0.8313577771186829,
+    "latency_ms": 47.237199999926816
+  },
+  {
+    "event_id": "sim-process-9527-705520:click4",
+    "task_run_id": "sim-process-9527-705520",
+    "click_index": 4,
+    "iou": 0.8340425491333008,
+    "boundary_iou": 0.8340425491333008,
+    "latency_ms": 40.77899999992951
+  },
+  {
+    "event_id": "sim-process-9527-705520:click5",
+    "task_run_id": "sim-process-9527-705520",
+    "click_index": 5,
+    "iou": 0.8513585329055786,
+    "boundary_iou": 0.8513585329055786,
+    "latency_ms": 43.60059999999066
+  },
+  {
+    "event_id": "sim-process-9527-1068383:click1",
+    "task_run_id": "sim-process-9527-1068383",
+    "click_index": 1,
+    "iou": 0.9593981504440308,
+    "boundary_iou": 0.7622547745704651,
+    "latency_ms": 36.58849999965241
+  },
+  {
+    "event_id": "sim-process-9527-1068383:click2",
+    "task_run_id": "sim-process-9527-1068383",
+    "click_index": 2,
+    "iou": 0.9716768860816956,
+    "boundary_iou": 0.8860023021697998,
+    "latency_ms": 52.177000000028784
+  },
+  {
+    "event_id": "sim-process-9527-1068383:click3",
+    "task_run_id": "sim-process-9527-1068383",
+    "click_index": 3,
+    "iou": 0.9700672030448914,
+    "boundary_iou": 0.8843050003051758,
+    "latency_ms": 41.90909999988435
+  },
+  {
+    "event_id": "sim-process-9527-1068383:click4",
+    "task_run_id": "sim-process-9527-1068383",
+    "click_index": 4,
+    "iou": 0.9724711775779724,
+    "boundary_iou": 0.889754593372345,
+    "latency_ms": 37.98560000041107
+  },
+  {
+    "event_id": "sim-process-9527-1068383:click5",
+    "task_run_id": "sim-process-9527-1068383",
+    "click_index": 5,
+    "iou": 0.9744496941566467,
+    "boundary_iou": 0.9001695513725281,
+    "latency_ms": 38.677000000006956
+  },
+  {
+    "event_id": "sim-process-9527-339180:click1",
+    "task_run_id": "sim-process-9527-339180",
+    "click_index": 1,
+    "iou": 0.9657831788063049,
+    "boundary_iou": 0.8694062829017639,
+    "latency_ms": 37.67610000022614
+  },
+  {
+    "event_id": "sim-process-9527-339180:click2",
+    "task_run_id": "sim-process-9527-339180",
+    "click_index": 2,
+    "iou": 0.9692444801330566,
+    "boundary_iou": 0.8795929551124573,
+    "latency_ms": 42.627899999843066
+  },
+  {
+    "event_id": "sim-process-9527-339180:click3",
+    "task_run_id": "sim-process-9527-339180",
+    "click_index": 3,
+    "iou": 0.9659105539321899,
+    "boundary_iou": 0.8662369251251221,
+    "latency_ms": 39.78170000027603
+  },
+  {
+    "event_id": "sim-process-9527-339180:click4",
+    "task_run_id": "sim-process-9527-339180",
+    "click_index": 4,
+    "iou": 0.9647103548049927,
+    "boundary_iou": 0.8616043329238892,
+    "latency_ms": 48.006399999849236
+  },
+  {
+    "event_id": "sim-process-9527-339180:click5",
+    "task_run_id": "sim-process-9527-339180",
+    "click_index": 5,
+    "iou": 0.9648232460021973,
+    "boundary_iou": 0.8615919947624207,
+    "latency_ms": 40.30360000024302
+  },
+  {
+    "event_id": "sim-process-9527-1158467:click1",
+    "task_run_id": "sim-process-9527-1158467",
+    "click_index": 1,
+    "iou": 0.837837815284729,
+    "boundary_iou": 0.8077663779258728,
+    "latency_ms": 41.02259999990565
+  },
+  {
+    "event_id": "sim-process-9527-1158467:click2",
+    "task_run_id": "sim-process-9527-1158467",
+    "click_index": 2,
+    "iou": 0.8357771039009094,
+    "boundary_iou": 0.8005223870277405,
+    "latency_ms": 41.31229999984498
+  },
+  {
+    "event_id": "sim-process-9527-1158467:click3",
+    "task_run_id": "sim-process-9527-1158467",
+    "click_index": 3,
+    "iou": 0.8282861709594727,
+    "boundary_iou": 0.7990591526031494,
+    "latency_ms": 40.99059999998644
+  },
+  {
+    "event_id": "sim-process-9527-1158467:click4",
+    "task_run_id": "sim-process-9527-1158467",
+    "click_index": 4,
+    "iou": 0.8506857752799988,
+    "boundary_iou": 0.8246835470199585,
+    "latency_ms": 39.258499999959895
+  },
+  {
+    "event_id": "sim-process-9527-1158467:click5",
+    "task_run_id": "sim-process-9527-1158467",
+    "click_index": 5,
+    "iou": 0.8584212064743042,
+    "boundary_iou": 0.8244714736938477,
+    "latency_ms": 42.64100000000326
+  },
+  {
+    "event_id": "sim-process-9527-2048703:click1",
+    "task_run_id": "sim-process-9527-2048703",
+    "click_index": 1,
+    "iou": 0.7912517786026001,
+    "boundary_iou": 0.7912517786026001,
+    "latency_ms": 39.76809999994657
+  },
+  {
+    "event_id": "sim-process-9527-2048703:click2",
+    "task_run_id": "sim-process-9527-2048703",
+    "click_index": 2,
+    "iou": 0.6552574038505554,
+    "boundary_iou": 0.6552574038505554,
+    "latency_ms": 44.99489999989237
+  },
+  {
+    "event_id": "sim-process-9527-2048703:click3",
+    "task_run_id": "sim-process-9527-2048703",
+    "click_index": 3,
+    "iou": 0.6664876341819763,
+    "boundary_iou": 0.66595059633255,
+    "latency_ms": 41.2994999996954
+  },
+  {
+    "event_id": "sim-process-9527-2048703:click4",
+    "task_run_id": "sim-process-9527-2048703",
+    "click_index": 4,
+    "iou": 0.8127328157424927,
+    "boundary_iou": 0.8127328157424927,
+    "latency_ms": 41.02340000008553
+  },
+  {
+    "event_id": "sim-process-9527-2048703:click5",
+    "task_run_id": "sim-process-9527-2048703",
+    "click_index": 5,
+    "iou": 0.8720378875732422,
+    "boundary_iou": 0.8720378875732422,
+    "latency_ms": 40.18260000020746
+  },
+  {
+    "event_id": "sim-process-9527-402931:click1",
+    "task_run_id": "sim-process-9527-402931",
+    "click_index": 1,
+    "iou": 0.843273401260376,
+    "boundary_iou": 0.5994709134101868,
+    "latency_ms": 41.888100000051054
+  },
+  {
+    "event_id": "sim-process-9527-402931:click2",
+    "task_run_id": "sim-process-9527-402931",
+    "click_index": 2,
+    "iou": 0.8494360446929932,
+    "boundary_iou": 0.6099785566329956,
+    "latency_ms": 38.36730000011812
+  },
+  {
+    "event_id": "sim-process-9527-402931:click3",
+    "task_run_id": "sim-process-9527-402931",
+    "click_index": 3,
+    "iou": 0.8639684319496155,
+    "boundary_iou": 0.6453048586845398,
+    "latency_ms": 52.995000000009895
+  },
+  {
+    "event_id": "sim-process-9527-402931:click4",
+    "task_run_id": "sim-process-9527-402931",
+    "click_index": 4,
+    "iou": 0.8536472320556641,
+    "boundary_iou": 0.6378316879272461,
+    "latency_ms": 37.63319999961823
+  },
+  {
+    "event_id": "sim-process-9527-402931:click5",
+    "task_run_id": "sim-process-9527-402931",
+    "click_index": 5,
+    "iou": 0.8538362383842468,
+    "boundary_iou": 0.6274889707565308,
+    "latency_ms": 42.107100000066566
+  },
+  {
+    "event_id": "sim-process-9527-663604:click1",
+    "task_run_id": "sim-process-9527-663604",
+    "click_index": 1,
+    "iou": 0.8396211862564087,
+    "boundary_iou": 0.7514168620109558,
+    "latency_ms": 34.44150000041191
+  },
+  {
+    "event_id": "sim-process-9527-663604:click2",
+    "task_run_id": "sim-process-9527-663604",
+    "click_index": 2,
+    "iou": 0.8741752505302429,
+    "boundary_iou": 0.7925968766212463,
+    "latency_ms": 39.43939999999202
+  },
+  {
+    "event_id": "sim-process-9527-663604:click3",
+    "task_run_id": "sim-process-9527-663604",
+    "click_index": 3,
+    "iou": 0.9123679399490356,
+    "boundary_iou": 0.8429400324821472,
+    "latency_ms": 35.36000000030981
+  },
+  {
+    "event_id": "sim-process-9527-663604:click4",
+    "task_run_id": "sim-process-9527-663604",
+    "click_index": 4,
+    "iou": 0.9161089658737183,
+    "boundary_iou": 0.853253960609436,
+    "latency_ms": 35.95660000019052
+  },
+  {
+    "event_id": "sim-process-9527-663604:click5",
+    "task_run_id": "sim-process-9527-663604",
+    "click_index": 5,
+    "iou": 0.9191210865974426,
+    "boundary_iou": 0.8575336933135986,
+    "latency_ms": 37.88540000005014
+  },
+  {
+    "event_id": "sim-process-9527-687592:click1",
+    "task_run_id": "sim-process-9527-687592",
+    "click_index": 1,
+    "iou": 0.20640596747398376,
+    "boundary_iou": 0.1860104501247406,
+    "latency_ms": 37.8259999997681
+  },
+  {
+    "event_id": "sim-process-9527-687592:click2",
+    "task_run_id": "sim-process-9527-687592",
+    "click_index": 2,
+    "iou": 0.4367360472679138,
+    "boundary_iou": 0.4367360472679138,
+    "latency_ms": 45.36890000008498
+  },
+  {
+    "event_id": "sim-process-9527-687592:click3",
+    "task_run_id": "sim-process-9527-687592",
+    "click_index": 3,
+    "iou": 0.4352583587169647,
+    "boundary_iou": 0.4352583587169647,
+    "latency_ms": 40.174600000227656
+  },
+  {
+    "event_id": "sim-process-9527-687592:click4",
+    "task_run_id": "sim-process-9527-687592",
+    "click_index": 4,
+    "iou": 0.5350664854049683,
+    "boundary_iou": 0.5350664854049683,
+    "latency_ms": 40.75710000006438
+  },
+  {
+    "event_id": "sim-process-9527-687592:click5",
+    "task_run_id": "sim-process-9527-687592",
+    "click_index": 5,
+    "iou": 0.6545317769050598,
+    "boundary_iou": 0.6545317769050598,
+    "latency_ms": 38.72259999980088
+  },
+  {
+    "event_id": "sim-process-9527-1900582:click1",
+    "task_run_id": "sim-process-9527-1900582",
+    "click_index": 1,
+    "iou": 0.7430069446563721,
+    "boundary_iou": 0.2688800096511841,
+    "latency_ms": 39.12839999975404
+  },
+  {
+    "event_id": "sim-process-9527-1900582:click2",
+    "task_run_id": "sim-process-9527-1900582",
+    "click_index": 2,
+    "iou": 0.7896896600723267,
+    "boundary_iou": 0.3438141345977783,
+    "latency_ms": 39.486500000293745
+  },
+  {
+    "event_id": "sim-process-9527-1900582:click3",
+    "task_run_id": "sim-process-9527-1900582",
+    "click_index": 3,
+    "iou": 0.9653640389442444,
+    "boundary_iou": 0.8509548902511597,
+    "latency_ms": 38.01999999996042
+  },
+  {
+    "event_id": "sim-process-9527-1900582:click4",
+    "task_run_id": "sim-process-9527-1900582",
+    "click_index": 4,
+    "iou": 0.9754214286804199,
+    "boundary_iou": 0.8964335918426514,
+    "latency_ms": 45.654000000013184
+  },
+  {
+    "event_id": "sim-process-9527-1900582:click5",
+    "task_run_id": "sim-process-9527-1900582",
+    "click_index": 5,
+    "iou": 0.9742865562438965,
+    "boundary_iou": 0.8915820121765137,
+    "latency_ms": 46.03709999992134
+  },
+  {
+    "event_id": "sim-process-9527-1544469:click1",
+    "task_run_id": "sim-process-9527-1544469",
+    "click_index": 1,
+    "iou": 0.5781164765357971,
+    "boundary_iou": 0.5781164765357971,
+    "latency_ms": 37.01809999984107
+  },
+  {
+    "event_id": "sim-process-9527-1544469:click2",
+    "task_run_id": "sim-process-9527-1544469",
+    "click_index": 2,
+    "iou": 0.8815450668334961,
+    "boundary_iou": 0.8815450668334961,
+    "latency_ms": 42.193399999632675
+  },
+  {
+    "event_id": "sim-process-9527-1544469:click3",
+    "task_run_id": "sim-process-9527-1544469",
+    "click_index": 3,
+    "iou": 0.8738033175468445,
+    "boundary_iou": 0.8738033175468445,
+    "latency_ms": 41.57840000016222
+  },
+  {
+    "event_id": "sim-process-9527-1544469:click4",
+    "task_run_id": "sim-process-9527-1544469",
+    "click_index": 4,
+    "iou": 0.868189811706543,
+    "boundary_iou": 0.868189811706543,
+    "latency_ms": 36.08040000017354
+  },
+  {
+    "event_id": "sim-process-9527-1544469:click5",
+    "task_run_id": "sim-process-9527-1544469",
+    "click_index": 5,
+    "iou": 0.8835979104042053,
+    "boundary_iou": 0.8835979104042053,
+    "latency_ms": 34.976800000094954
+  },
+  {
+    "event_id": "sim-process-9527-1915102:click1",
+    "task_run_id": "sim-process-9527-1915102",
+    "click_index": 1,
+    "iou": 0.9412782788276672,
+    "boundary_iou": 0.7024392485618591,
+    "latency_ms": 35.61050000007526
+  },
+  {
+    "event_id": "sim-process-9527-1915102:click2",
+    "task_run_id": "sim-process-9527-1915102",
+    "click_index": 2,
+    "iou": 0.942069411277771,
+    "boundary_iou": 0.7057101726531982,
+    "latency_ms": 35.81739999981437
+  },
+  {
+    "event_id": "sim-process-9527-1915102:click3",
+    "task_run_id": "sim-process-9527-1915102",
+    "click_index": 3,
+    "iou": 0.945046603679657,
+    "boundary_iou": 0.7173072695732117,
+    "latency_ms": 38.64879999991899
+  },
+  {
+    "event_id": "sim-process-9527-1915102:click4",
+    "task_run_id": "sim-process-9527-1915102",
+    "click_index": 4,
+    "iou": 0.9440110325813293,
+    "boundary_iou": 0.7129287719726562,
+    "latency_ms": 37.20049999992625
+  },
+  {
+    "event_id": "sim-process-9527-1915102:click5",
+    "task_run_id": "sim-process-9527-1915102",
+    "click_index": 5,
+    "iou": 0.9454457759857178,
+    "boundary_iou": 0.7187343835830688,
+    "latency_ms": 38.1200999995599
+  },
+  {
+    "event_id": "sim-process-9527-1073483:click1",
+    "task_run_id": "sim-process-9527-1073483",
+    "click_index": 1,
+    "iou": 0.9501801133155823,
+    "boundary_iou": 0.5300001502037048,
+    "latency_ms": 43.13210000009349
+  },
+  {
+    "event_id": "sim-process-9527-1073483:click2",
+    "task_run_id": "sim-process-9527-1073483",
+    "click_index": 2,
+    "iou": 0.951732873916626,
+    "boundary_iou": 0.5584284067153931,
+    "latency_ms": 37.64530000034938
+  },
+  {
+    "event_id": "sim-process-9527-1073483:click3",
+    "task_run_id": "sim-process-9527-1073483",
+    "click_index": 3,
+    "iou": 0.9570122361183167,
+    "boundary_iou": 0.6131154298782349,
+    "latency_ms": 41.83740000007674
+  },
+  {
+    "event_id": "sim-process-9527-1073483:click4",
+    "task_run_id": "sim-process-9527-1073483",
+    "click_index": 4,
+    "iou": 0.9584025144577026,
+    "boundary_iou": 0.6144016981124878,
+    "latency_ms": 40.374400000018795
+  },
+  {
+    "event_id": "sim-process-9527-1073483:click5",
+    "task_run_id": "sim-process-9527-1073483",
+    "click_index": 5,
+    "iou": 0.9569097757339478,
+    "boundary_iou": 0.6102220416069031,
+    "latency_ms": 43.11269999971046
+  },
+  {
+    "event_id": "sim-process-9527-328880:click1",
+    "task_run_id": "sim-process-9527-328880",
+    "click_index": 1,
+    "iou": 0.5093296766281128,
+    "boundary_iou": 0.37849161028862,
+    "latency_ms": 47.97809999990932
+  },
+  {
+    "event_id": "sim-process-9527-328880:click2",
+    "task_run_id": "sim-process-9527-328880",
+    "click_index": 2,
+    "iou": 0.5936367511749268,
+    "boundary_iou": 0.4886639714241028,
+    "latency_ms": 42.41909999973359
+  },
+  {
+    "event_id": "sim-process-9527-328880:click3",
+    "task_run_id": "sim-process-9527-328880",
+    "click_index": 3,
+    "iou": 0.9119788408279419,
+    "boundary_iou": 0.8993377685546875,
+    "latency_ms": 43.65529999995488
+  },
+  {
+    "event_id": "sim-process-9527-328880:click4",
+    "task_run_id": "sim-process-9527-328880",
+    "click_index": 4,
+    "iou": 0.9282452464103699,
+    "boundary_iou": 0.9149771332740784,
+    "latency_ms": 41.01919999993697
+  },
+  {
+    "event_id": "sim-process-9527-328880:click5",
+    "task_run_id": "sim-process-9527-328880",
+    "click_index": 5,
+    "iou": 0.9246264100074768,
+    "boundary_iou": 0.9120520949363708,
+    "latency_ms": 41.6667000004054
+  },
+  {
+    "event_id": "sim-process-9527-1997047:click1",
+    "task_run_id": "sim-process-9527-1997047",
+    "click_index": 1,
+    "iou": 0.8140809535980225,
+    "boundary_iou": 0.6794326305389404,
+    "latency_ms": 38.42389999999796
+  },
+  {
+    "event_id": "sim-process-9527-1997047:click2",
+    "task_run_id": "sim-process-9527-1997047",
+    "click_index": 2,
+    "iou": 0.9227961897850037,
+    "boundary_iou": 0.8087764382362366,
+    "latency_ms": 39.58180000017819
+  },
+  {
+    "event_id": "sim-process-9527-1997047:click3",
+    "task_run_id": "sim-process-9527-1997047",
+    "click_index": 3,
+    "iou": 0.916562557220459,
+    "boundary_iou": 0.7985532283782959,
+    "latency_ms": 39.70069999968473
+  },
+  {
+    "event_id": "sim-process-9527-1997047:click4",
+    "task_run_id": "sim-process-9527-1997047",
+    "click_index": 4,
+    "iou": 0.9409794807434082,
+    "boundary_iou": 0.8829715251922607,
+    "latency_ms": 40.071200000056706
+  },
+  {
+    "event_id": "sim-process-9527-1997047:click5",
+    "task_run_id": "sim-process-9527-1997047",
+    "click_index": 5,
+    "iou": 0.9451788067817688,
+    "boundary_iou": 0.9083376526832581,
+    "latency_ms": 37.801199999648816
+  },
+  {
+    "event_id": "sim-process-9527-473709:click1",
+    "task_run_id": "sim-process-9527-473709",
+    "click_index": 1,
+    "iou": 0.867353618144989,
+    "boundary_iou": 0.7478742599487305,
+    "latency_ms": 42.04210000034436
+  },
+  {
+    "event_id": "sim-process-9527-473709:click2",
+    "task_run_id": "sim-process-9527-473709",
+    "click_index": 2,
+    "iou": 0.8568832874298096,
+    "boundary_iou": 0.7233407497406006,
+    "latency_ms": 38.967200000115554
+  },
+  {
+    "event_id": "sim-process-9527-473709:click3",
+    "task_run_id": "sim-process-9527-473709",
+    "click_index": 3,
+    "iou": 0.8705200552940369,
+    "boundary_iou": 0.7678610682487488,
+    "latency_ms": 38.001899999926536
+  },
+  {
+    "event_id": "sim-process-9527-473709:click4",
+    "task_run_id": "sim-process-9527-473709",
+    "click_index": 4,
+    "iou": 0.8709129691123962,
+    "boundary_iou": 0.7696660757064819,
+    "latency_ms": 41.477999999642634
+  },
+  {
+    "event_id": "sim-process-9527-473709:click5",
+    "task_run_id": "sim-process-9527-473709",
+    "click_index": 5,
+    "iou": 0.8794602155685425,
+    "boundary_iou": 0.778411328792572,
+    "latency_ms": 37.60710000005929
+  },
+  {
+    "event_id": "sim-process-9527-401244:click1",
+    "task_run_id": "sim-process-9527-401244",
+    "click_index": 1,
+    "iou": 0.8754886984825134,
+    "boundary_iou": 0.7752695679664612,
+    "latency_ms": 38.45039999987421
+  },
+  {
+    "event_id": "sim-process-9527-401244:click2",
+    "task_run_id": "sim-process-9527-401244",
+    "click_index": 2,
+    "iou": 0.883405327796936,
+    "boundary_iou": 0.7820425033569336,
+    "latency_ms": 39.60820000020249
+  },
+  {
+    "event_id": "sim-process-9527-401244:click3",
+    "task_run_id": "sim-process-9527-401244",
+    "click_index": 3,
+    "iou": 0.923215925693512,
+    "boundary_iou": 0.8607370853424072,
+    "latency_ms": 38.895299999694544
+  },
+  {
+    "event_id": "sim-process-9527-401244:click4",
+    "task_run_id": "sim-process-9527-401244",
+    "click_index": 4,
+    "iou": 0.9304729104042053,
+    "boundary_iou": 0.8768616318702698,
+    "latency_ms": 38.67369999989023
+  },
+  {
+    "event_id": "sim-process-9527-401244:click5",
+    "task_run_id": "sim-process-9527-401244",
+    "click_index": 5,
+    "iou": 0.9269592761993408,
+    "boundary_iou": 0.8675568103790283,
+    "latency_ms": 35.024799999973766
+  },
+  {
+    "event_id": "sim-process-9527-54197:click1",
+    "task_run_id": "sim-process-9527-54197",
+    "click_index": 1,
+    "iou": 0.9124931693077087,
+    "boundary_iou": 0.8244296312332153,
+    "latency_ms": 33.658700000160025
+  },
+  {
+    "event_id": "sim-process-9527-54197:click2",
+    "task_run_id": "sim-process-9527-54197",
+    "click_index": 2,
+    "iou": 0.9195445775985718,
+    "boundary_iou": 0.8362610340118408,
+    "latency_ms": 35.93319999981759
+  },
+  {
+    "event_id": "sim-process-9527-54197:click3",
+    "task_run_id": "sim-process-9527-54197",
+    "click_index": 3,
+    "iou": 0.9175240993499756,
+    "boundary_iou": 0.8354385495185852,
+    "latency_ms": 39.38509999989037
+  },
+  {
+    "event_id": "sim-process-9527-54197:click4",
+    "task_run_id": "sim-process-9527-54197",
+    "click_index": 4,
+    "iou": 0.9111484885215759,
+    "boundary_iou": 0.8211125135421753,
+    "latency_ms": 40.330599999833794
+  },
+  {
+    "event_id": "sim-process-9527-54197:click5",
+    "task_run_id": "sim-process-9527-54197",
+    "click_index": 5,
+    "iou": 0.9187146425247192,
+    "boundary_iou": 0.8366073369979858,
+    "latency_ms": 38.65659999974014
+  },
+  {
+    "event_id": "sim-process-9527-1821270:click1",
+    "task_run_id": "sim-process-9527-1821270",
+    "click_index": 1,
+    "iou": 0.4504583179950714,
+    "boundary_iou": 0.4281949996948242,
+    "latency_ms": 39.60639999968407
+  },
+  {
+    "event_id": "sim-process-9527-1821270:click2",
+    "task_run_id": "sim-process-9527-1821270",
+    "click_index": 2,
+    "iou": 0.8231954574584961,
+    "boundary_iou": 0.8231954574584961,
+    "latency_ms": 41.08110000015586
+  },
+  {
+    "event_id": "sim-process-9527-1821270:click3",
+    "task_run_id": "sim-process-9527-1821270",
+    "click_index": 3,
+    "iou": 0.7280265092849731,
+    "boundary_iou": 0.7280265092849731,
+    "latency_ms": 39.253399999779504
+  },
+  {
+    "event_id": "sim-process-9527-1821270:click4",
+    "task_run_id": "sim-process-9527-1821270",
+    "click_index": 4,
+    "iou": 0.8426870703697205,
+    "boundary_iou": 0.8426870703697205,
+    "latency_ms": 38.39540000035413
+  },
+  {
+    "event_id": "sim-process-9527-1821270:click5",
+    "task_run_id": "sim-process-9527-1821270",
+    "click_index": 5,
+    "iou": 0.9001831412315369,
+    "boundary_iou": 0.9001831412315369,
+    "latency_ms": 35.97799999988638
+  },
+  {
+    "event_id": "sim-process-9527-596388:click1",
+    "task_run_id": "sim-process-9527-596388",
+    "click_index": 1,
+    "iou": 0.879719078540802,
+    "boundary_iou": 0.6627034544944763,
+    "latency_ms": 35.582500000145956
+  },
+  {
+    "event_id": "sim-process-9527-596388:click2",
+    "task_run_id": "sim-process-9527-596388",
+    "click_index": 2,
+    "iou": 0.8911213278770447,
+    "boundary_iou": 0.6765056252479553,
+    "latency_ms": 41.19959999979983
+  },
+  {
+    "event_id": "sim-process-9527-596388:click3",
+    "task_run_id": "sim-process-9527-596388",
+    "click_index": 3,
+    "iou": 0.8902730941772461,
+    "boundary_iou": 0.6770012378692627,
+    "latency_ms": 42.56439999971917
+  },
+  {
+    "event_id": "sim-process-9527-596388:click4",
+    "task_run_id": "sim-process-9527-596388",
+    "click_index": 4,
+    "iou": 0.8890354037284851,
+    "boundary_iou": 0.67568039894104,
+    "latency_ms": 35.084399999959714
+  },
+  {
+    "event_id": "sim-process-9527-596388:click5",
+    "task_run_id": "sim-process-9527-596388",
+    "click_index": 5,
+    "iou": 0.8934945464134216,
+    "boundary_iou": 0.6909806728363037,
+    "latency_ms": 41.774899999836634
+  },
+  {
+    "event_id": "sim-process-9527-1463027:click1",
+    "task_run_id": "sim-process-9527-1463027",
+    "click_index": 1,
+    "iou": 0.5733944773674011,
+    "boundary_iou": 0.5711371898651123,
+    "latency_ms": 41.843100000278355
+  },
+  {
+    "event_id": "sim-process-9527-1463027:click2",
+    "task_run_id": "sim-process-9527-1463027",
+    "click_index": 2,
+    "iou": 0.5737279057502747,
+    "boundary_iou": 0.573208749294281,
+    "latency_ms": 39.86329999997906
+  },
+  {
+    "event_id": "sim-process-9527-1463027:click3",
+    "task_run_id": "sim-process-9527-1463027",
+    "click_index": 3,
+    "iou": 0.5660574436187744,
+    "boundary_iou": 0.5660574436187744,
+    "latency_ms": 43.85529999990467
+  },
+  {
+    "event_id": "sim-process-9527-1463027:click4",
+    "task_run_id": "sim-process-9527-1463027",
+    "click_index": 4,
+    "iou": 0.5808219313621521,
+    "boundary_iou": 0.5808219313621521,
+    "latency_ms": 42.66199999983655
+  },
+  {
+    "event_id": "sim-process-9527-1463027:click5",
+    "task_run_id": "sim-process-9527-1463027",
+    "click_index": 5,
+    "iou": 0.5778031945228577,
+    "boundary_iou": 0.5778031945228577,
+    "latency_ms": 44.88099999980477
+  },
+  {
+    "event_id": "sim-process-9527-2097004:click1",
+    "task_run_id": "sim-process-9527-2097004",
+    "click_index": 1,
+    "iou": 0.7110975384712219,
+    "boundary_iou": 0.4713199734687805,
+    "latency_ms": 43.42560000031881
+  },
+  {
+    "event_id": "sim-process-9527-2097004:click2",
+    "task_run_id": "sim-process-9527-2097004",
+    "click_index": 2,
+    "iou": 0.7787998914718628,
+    "boundary_iou": 0.6391247510910034,
+    "latency_ms": 42.392600000312086
+  },
+  {
+    "event_id": "sim-process-9527-2097004:click3",
+    "task_run_id": "sim-process-9527-2097004",
+    "click_index": 3,
+    "iou": 0.8050811886787415,
+    "boundary_iou": 0.66789311170578,
+    "latency_ms": 39.91540000015448
+  },
+  {
+    "event_id": "sim-process-9527-2097004:click4",
+    "task_run_id": "sim-process-9527-2097004",
+    "click_index": 4,
+    "iou": 0.8423266410827637,
+    "boundary_iou": 0.7377987504005432,
+    "latency_ms": 40.706199999931414
+  },
+  {
+    "event_id": "sim-process-9527-2097004:click5",
+    "task_run_id": "sim-process-9527-2097004",
+    "click_index": 5,
+    "iou": 0.8172574639320374,
+    "boundary_iou": 0.6923202276229858,
+    "latency_ms": 37.408899999718415
+  },
+  {
+    "event_id": "sim-process-9527-1557529:click1",
+    "task_run_id": "sim-process-9527-1557529",
+    "click_index": 1,
+    "iou": 0.9667454361915588,
+    "boundary_iou": 0.8608732223510742,
+    "latency_ms": 39.605699999810895
+  },
+  {
+    "event_id": "sim-process-9527-1557529:click2",
+    "task_run_id": "sim-process-9527-1557529",
+    "click_index": 2,
+    "iou": 0.9721406698226929,
+    "boundary_iou": 0.8819523453712463,
+    "latency_ms": 39.30339999988064
+  },
+  {
+    "event_id": "sim-process-9527-1557529:click3",
+    "task_run_id": "sim-process-9527-1557529",
+    "click_index": 3,
+    "iou": 0.9729170203208923,
+    "boundary_iou": 0.8845717310905457,
+    "latency_ms": 40.00720000021829
+  },
+  {
+    "event_id": "sim-process-9527-1557529:click4",
+    "task_run_id": "sim-process-9527-1557529",
+    "click_index": 4,
+    "iou": 0.9727445244789124,
+    "boundary_iou": 0.8847572803497314,
+    "latency_ms": 49.54459999999017
+  },
+  {
+    "event_id": "sim-process-9527-1557529:click5",
+    "task_run_id": "sim-process-9527-1557529",
+    "click_index": 5,
+    "iou": 0.9736736416816711,
+    "boundary_iou": 0.8889046907424927,
+    "latency_ms": 38.54929999988599
+  },
+  {
+    "event_id": "sim-process-9527-333238:click1",
+    "task_run_id": "sim-process-9527-333238",
+    "click_index": 1,
+    "iou": 0.9522030353546143,
+    "boundary_iou": 0.7696973085403442,
+    "latency_ms": 42.5903999998809
+  },
+  {
+    "event_id": "sim-process-9527-333238:click2",
+    "task_run_id": "sim-process-9527-333238",
+    "click_index": 2,
+    "iou": 0.9516501426696777,
+    "boundary_iou": 0.7654793858528137,
+    "latency_ms": 39.553499999783526
+  },
+  {
+    "event_id": "sim-process-9527-333238:click3",
+    "task_run_id": "sim-process-9527-333238",
+    "click_index": 3,
+    "iou": 0.961347758769989,
+    "boundary_iou": 0.8205903172492981,
+    "latency_ms": 40.24399999980233
+  },
+  {
+    "event_id": "sim-process-9527-333238:click4",
+    "task_run_id": "sim-process-9527-333238",
+    "click_index": 4,
+    "iou": 0.9586126804351807,
+    "boundary_iou": 0.8033564686775208,
+    "latency_ms": 42.447599999832164
+  },
+  {
+    "event_id": "sim-process-9527-333238:click5",
+    "task_run_id": "sim-process-9527-333238",
+    "click_index": 5,
+    "iou": 0.9596753716468811,
+    "boundary_iou": 0.8092167973518372,
+    "latency_ms": 43.827800000144634
+  },
+  {
+    "event_id": "sim-process-9527-432891:click1",
+    "task_run_id": "sim-process-9527-432891",
+    "click_index": 1,
+    "iou": 0.9011543393135071,
+    "boundary_iou": 0.7264062762260437,
+    "latency_ms": 41.30989999976009
+  },
+  {
+    "event_id": "sim-process-9527-432891:click2",
+    "task_run_id": "sim-process-9527-432891",
+    "click_index": 2,
+    "iou": 0.9006021618843079,
+    "boundary_iou": 0.7218730449676514,
+    "latency_ms": 44.70760000003793
+  },
+  {
+    "event_id": "sim-process-9527-432891:click3",
+    "task_run_id": "sim-process-9527-432891",
+    "click_index": 3,
+    "iou": 0.9016597270965576,
+    "boundary_iou": 0.7229528427124023,
+    "latency_ms": 42.21340000003693
+  },
+  {
+    "event_id": "sim-process-9527-432891:click4",
+    "task_run_id": "sim-process-9527-432891",
+    "click_index": 4,
+    "iou": 0.8849850296974182,
+    "boundary_iou": 0.6837302446365356,
+    "latency_ms": 41.785800000070594
+  },
+  {
+    "event_id": "sim-process-9527-432891:click5",
+    "task_run_id": "sim-process-9527-432891",
+    "click_index": 5,
+    "iou": 0.8449733853340149,
+    "boundary_iou": 0.602085530757904,
+    "latency_ms": 40.04380000014862
+  },
+  {
+    "event_id": "sim-process-9527-399529:click1",
+    "task_run_id": "sim-process-9527-399529",
+    "click_index": 1,
+    "iou": 0.8319897055625916,
+    "boundary_iou": 0.38235294818878174,
+    "latency_ms": 40.395600000010745
+  },
+  {
+    "event_id": "sim-process-9527-399529:click2",
+    "task_run_id": "sim-process-9527-399529",
+    "click_index": 2,
+    "iou": 0.9586827754974365,
+    "boundary_iou": 0.6909497380256653,
+    "latency_ms": 42.979299999842624
+  },
+  {
+    "event_id": "sim-process-9527-399529:click3",
+    "task_run_id": "sim-process-9527-399529",
+    "click_index": 3,
+    "iou": 0.9653229713439941,
+    "boundary_iou": 0.7248461842536926,
+    "latency_ms": 38.21390000030078
+  },
+  {
+    "event_id": "sim-process-9527-399529:click4",
+    "task_run_id": "sim-process-9527-399529",
+    "click_index": 4,
+    "iou": 0.9717282652854919,
+    "boundary_iou": 0.7806336283683777,
+    "latency_ms": 38.69329999997717
+  },
+  {
+    "event_id": "sim-process-9527-399529:click5",
+    "task_run_id": "sim-process-9527-399529",
+    "click_index": 5,
+    "iou": 0.9723101258277893,
+    "boundary_iou": 0.7843883633613586,
+    "latency_ms": 35.5862999999772
+  },
+  {
+    "event_id": "sim-process-9527-586982:click1",
+    "task_run_id": "sim-process-9527-586982",
+    "click_index": 1,
+    "iou": 0.9661633968353271,
+    "boundary_iou": 0.7320693731307983,
+    "latency_ms": 38.6809000001449
+  },
+  {
+    "event_id": "sim-process-9527-586982:click2",
+    "task_run_id": "sim-process-9527-586982",
+    "click_index": 2,
+    "iou": 0.9687700271606445,
+    "boundary_iou": 0.7457907199859619,
+    "latency_ms": 41.96779999983846
+  },
+  {
+    "event_id": "sim-process-9527-586982:click3",
+    "task_run_id": "sim-process-9527-586982",
+    "click_index": 3,
+    "iou": 0.9687960743904114,
+    "boundary_iou": 0.7518272995948792,
+    "latency_ms": 47.02929999984917
+  },
+  {
+    "event_id": "sim-process-9527-586982:click4",
+    "task_run_id": "sim-process-9527-586982",
+    "click_index": 4,
+    "iou": 0.9687538743019104,
+    "boundary_iou": 0.7484394311904907,
+    "latency_ms": 44.62310000008074
+  },
+  {
+    "event_id": "sim-process-9527-586982:click5",
+    "task_run_id": "sim-process-9527-586982",
+    "click_index": 5,
+    "iou": 0.9690005779266357,
+    "boundary_iou": 0.7521020174026489,
+    "latency_ms": 41.39679999980217
+  },
+  {
+    "event_id": "sim-process-9527-281527:click1",
+    "task_run_id": "sim-process-9527-281527",
+    "click_index": 1,
+    "iou": 0.8131868243217468,
+    "boundary_iou": 0.8131868243217468,
+    "latency_ms": 37.66700000005585
+  },
+  {
+    "event_id": "sim-process-9527-281527:click2",
+    "task_run_id": "sim-process-9527-281527",
+    "click_index": 2,
+    "iou": 0.8037508130073547,
+    "boundary_iou": 0.8037508130073547,
+    "latency_ms": 42.529800000011164
+  },
+  {
+    "event_id": "sim-process-9527-281527:click3",
+    "task_run_id": "sim-process-9527-281527",
+    "click_index": 3,
+    "iou": 0.826631486415863,
+    "boundary_iou": 0.826631486415863,
+    "latency_ms": 46.13279999966835
+  },
+  {
+    "event_id": "sim-process-9527-281527:click4",
+    "task_run_id": "sim-process-9527-281527",
+    "click_index": 4,
+    "iou": 0.8324538469314575,
+    "boundary_iou": 0.8324538469314575,
+    "latency_ms": 39.987699999983306
+  },
+  {
+    "event_id": "sim-process-9527-281527:click5",
+    "task_run_id": "sim-process-9527-281527",
+    "click_index": 5,
+    "iou": 0.8399999737739563,
+    "boundary_iou": 0.8399999737739563,
+    "latency_ms": 38.855900000271504
+  },
+  {
+    "event_id": "sim-process-9527-1183138:click1",
+    "task_run_id": "sim-process-9527-1183138",
+    "click_index": 1,
+    "iou": 0.8818076252937317,
+    "boundary_iou": 0.6432322263717651,
+    "latency_ms": 47.87529999975959
+  },
+  {
+    "event_id": "sim-process-9527-1183138:click2",
+    "task_run_id": "sim-process-9527-1183138",
+    "click_index": 2,
+    "iou": 0.8702818751335144,
+    "boundary_iou": 0.6224973797798157,
+    "latency_ms": 43.23519999979908
+  },
+  {
+    "event_id": "sim-process-9527-1183138:click3",
+    "task_run_id": "sim-process-9527-1183138",
+    "click_index": 3,
+    "iou": 0.9128438234329224,
+    "boundary_iou": 0.6946269869804382,
+    "latency_ms": 37.851100000352744
+  },
+  {
+    "event_id": "sim-process-9527-1183138:click4",
+    "task_run_id": "sim-process-9527-1183138",
+    "click_index": 4,
+    "iou": 0.9185474514961243,
+    "boundary_iou": 0.7097151279449463,
+    "latency_ms": 40.616599999793834
+  },
+  {
+    "event_id": "sim-process-9527-1183138:click5",
+    "task_run_id": "sim-process-9527-1183138",
+    "click_index": 5,
+    "iou": 0.9203426837921143,
+    "boundary_iou": 0.7124064564704895,
+    "latency_ms": 33.91929999997956
+  },
+  {
+    "event_id": "sim-process-9527-619178:click1",
+    "task_run_id": "sim-process-9527-619178",
+    "click_index": 1,
+    "iou": 0.5362719893455505,
+    "boundary_iou": 0.5484319925308228,
+    "latency_ms": 37.16609999992215
+  },
+  {
+    "event_id": "sim-process-9527-619178:click2",
+    "task_run_id": "sim-process-9527-619178",
+    "click_index": 2,
+    "iou": 0.5320656299591064,
+    "boundary_iou": 0.5320656299591064,
+    "latency_ms": 38.88460000007399
+  },
+  {
+    "event_id": "sim-process-9527-619178:click3",
+    "task_run_id": "sim-process-9527-619178",
+    "click_index": 3,
+    "iou": 0.5782281160354614,
+    "boundary_iou": 0.5777568221092224,
+    "latency_ms": 39.210300000377174
+  },
+  {
+    "event_id": "sim-process-9527-619178:click4",
+    "task_run_id": "sim-process-9527-619178",
+    "click_index": 4,
+    "iou": 0.5100296139717102,
+    "boundary_iou": 0.5038065910339355,
+    "latency_ms": 33.70650000033493
+  },
+  {
+    "event_id": "sim-process-9527-619178:click5",
+    "task_run_id": "sim-process-9527-619178",
+    "click_index": 5,
+    "iou": 0.5846496224403381,
+    "boundary_iou": 0.5766070485115051,
+    "latency_ms": 38.10840000005555
+  },
+  {
+    "event_id": "sim-process-9527-625986:click1",
+    "task_run_id": "sim-process-9527-625986",
+    "click_index": 1,
+    "iou": 0.9313652515411377,
+    "boundary_iou": 0.7564594745635986,
+    "latency_ms": 34.14429999975255
+  },
+  {
+    "event_id": "sim-process-9527-625986:click2",
+    "task_run_id": "sim-process-9527-625986",
+    "click_index": 2,
+    "iou": 0.9314776062965393,
+    "boundary_iou": 0.753452479839325,
+    "latency_ms": 34.95730000031472
+  },
+  {
+    "event_id": "sim-process-9527-625986:click3",
+    "task_run_id": "sim-process-9527-625986",
+    "click_index": 3,
+    "iou": 0.931991696357727,
+    "boundary_iou": 0.7555168271064758,
+    "latency_ms": 40.22320000012769
+  },
+  {
+    "event_id": "sim-process-9527-625986:click4",
+    "task_run_id": "sim-process-9527-625986",
+    "click_index": 4,
+    "iou": 0.9364027380943298,
+    "boundary_iou": 0.7736623287200928,
+    "latency_ms": 46.52979999991658
+  },
+  {
+    "event_id": "sim-process-9527-625986:click5",
+    "task_run_id": "sim-process-9527-625986",
+    "click_index": 5,
+    "iou": 0.9371045827865601,
+    "boundary_iou": 0.7709372639656067,
+    "latency_ms": 68.1510999997954
+  },
+  {
+    "event_id": "sim-process-9527-633344:click1",
+    "task_run_id": "sim-process-9527-633344",
+    "click_index": 1,
+    "iou": 0.73247230052948,
+    "boundary_iou": 0.7054845690727234,
+    "latency_ms": 37.51650000003792
+  },
+  {
+    "event_id": "sim-process-9527-633344:click2",
+    "task_run_id": "sim-process-9527-633344",
+    "click_index": 2,
+    "iou": 0.7445045113563538,
+    "boundary_iou": 0.7061436176300049,
+    "latency_ms": 35.54970000004687
+  },
+  {
+    "event_id": "sim-process-9527-633344:click3",
+    "task_run_id": "sim-process-9527-633344",
+    "click_index": 3,
+    "iou": 0.7379972338676453,
+    "boundary_iou": 0.6920623779296875,
+    "latency_ms": 33.725499999945896
+  },
+  {
+    "event_id": "sim-process-9527-633344:click4",
+    "task_run_id": "sim-process-9527-633344",
+    "click_index": 4,
+    "iou": 0.82872474193573,
+    "boundary_iou": 0.8021141886711121,
+    "latency_ms": 36.919399999987945
+  },
+  {
+    "event_id": "sim-process-9527-633344:click5",
+    "task_run_id": "sim-process-9527-633344",
+    "click_index": 5,
+    "iou": 0.8496400117874146,
+    "boundary_iou": 0.8213667869567871,
+    "latency_ms": 44.77560000032099
+  },
+  {
+    "event_id": "sim-process-9527-1554902:click1",
+    "task_run_id": "sim-process-9527-1554902",
+    "click_index": 1,
+    "iou": 0.2903839647769928,
+    "boundary_iou": 0.2144540399312973,
+    "latency_ms": 35.884899999928166
+  },
+  {
+    "event_id": "sim-process-9527-1554902:click2",
+    "task_run_id": "sim-process-9527-1554902",
+    "click_index": 2,
+    "iou": 0.6902352571487427,
+    "boundary_iou": 0.4168339669704437,
+    "latency_ms": 32.30459999986124
+  },
+  {
+    "event_id": "sim-process-9527-1554902:click3",
+    "task_run_id": "sim-process-9527-1554902",
+    "click_index": 3,
+    "iou": 0.9158982634544373,
+    "boundary_iou": 0.6870861053466797,
+    "latency_ms": 38.59179999972184
+  },
+  {
+    "event_id": "sim-process-9527-1554902:click4",
+    "task_run_id": "sim-process-9527-1554902",
+    "click_index": 4,
+    "iou": 0.9190690517425537,
+    "boundary_iou": 0.7310254573822021,
+    "latency_ms": 78.13990000022386
+  },
+  {
+    "event_id": "sim-process-9527-1554902:click5",
+    "task_run_id": "sim-process-9527-1554902",
+    "click_index": 5,
+    "iou": 0.9136210680007935,
+    "boundary_iou": 0.7219290733337402,
+    "latency_ms": 73.72499999974025
+  },
+  {
+    "event_id": "sim-process-9527-1054720:click1",
+    "task_run_id": "sim-process-9527-1054720",
+    "click_index": 1,
+    "iou": 0.8452883362770081,
+    "boundary_iou": 0.8452883362770081,
+    "latency_ms": 52.77250000017375
+  },
+  {
+    "event_id": "sim-process-9527-1054720:click2",
+    "task_run_id": "sim-process-9527-1054720",
+    "click_index": 2,
+    "iou": 0.7891620993614197,
+    "boundary_iou": 0.7891620993614197,
+    "latency_ms": 43.147099999714555
+  },
+  {
+    "event_id": "sim-process-9527-1054720:click3",
+    "task_run_id": "sim-process-9527-1054720",
+    "click_index": 3,
+    "iou": 0.8178349733352661,
+    "boundary_iou": 0.8178349733352661,
+    "latency_ms": 38.118500000109634
+  },
+  {
+    "event_id": "sim-process-9527-1054720:click4",
+    "task_run_id": "sim-process-9527-1054720",
+    "click_index": 4,
+    "iou": 0.8314099311828613,
+    "boundary_iou": 0.8314099311828613,
+    "latency_ms": 31.645099999877857
+  },
+  {
+    "event_id": "sim-process-9527-1054720:click5",
+    "task_run_id": "sim-process-9527-1054720",
+    "click_index": 5,
+    "iou": 0.8241536021232605,
+    "boundary_iou": 0.8241536021232605,
+    "latency_ms": 43.079499999748805
+  },
+  {
+    "event_id": "sim-process-9527-392106:click1",
+    "task_run_id": "sim-process-9527-392106",
+    "click_index": 1,
+    "iou": 0.6540367603302002,
+    "boundary_iou": 0.43963733315467834,
+    "latency_ms": 29.981900000166206
+  },
+  {
+    "event_id": "sim-process-9527-392106:click2",
+    "task_run_id": "sim-process-9527-392106",
+    "click_index": 2,
+    "iou": 0.7224392294883728,
+    "boundary_iou": 0.44367721676826477,
+    "latency_ms": 37.68259999969814
+  },
+  {
+    "event_id": "sim-process-9527-392106:click3",
+    "task_run_id": "sim-process-9527-392106",
+    "click_index": 3,
+    "iou": 0.7593957781791687,
+    "boundary_iou": 0.4573523700237274,
+    "latency_ms": 31.937700000071345
+  },
+  {
+    "event_id": "sim-process-9527-392106:click4",
+    "task_run_id": "sim-process-9527-392106",
+    "click_index": 4,
+    "iou": 0.7493545413017273,
+    "boundary_iou": 0.482465535402298,
+    "latency_ms": 31.337100000200735
+  },
+  {
+    "event_id": "sim-process-9527-392106:click5",
+    "task_run_id": "sim-process-9527-392106",
+    "click_index": 5,
+    "iou": 0.7426640391349792,
+    "boundary_iou": 0.4814271926879883,
+    "latency_ms": 36.28870000011375
+  },
+  {
+    "event_id": "sim-process-9527-124330:click1",
+    "task_run_id": "sim-process-9527-124330",
+    "click_index": 1,
+    "iou": 0.5798338651657104,
+    "boundary_iou": 0.373205304145813,
+    "latency_ms": 46.249600000010105
+  },
+  {
+    "event_id": "sim-process-9527-124330:click2",
+    "task_run_id": "sim-process-9527-124330",
+    "click_index": 2,
+    "iou": 0.5497978329658508,
+    "boundary_iou": 0.3512519598007202,
+    "latency_ms": 35.81500000018423
+  },
+  {
+    "event_id": "sim-process-9527-124330:click3",
+    "task_run_id": "sim-process-9527-124330",
+    "click_index": 3,
+    "iou": 0.9233009219169617,
+    "boundary_iou": 0.747020423412323,
+    "latency_ms": 30.84499999977197
+  },
+  {
+    "event_id": "sim-process-9527-124330:click4",
+    "task_run_id": "sim-process-9527-124330",
+    "click_index": 4,
+    "iou": 0.9140595197677612,
+    "boundary_iou": 0.7338259816169739,
+    "latency_ms": 52.47179999969376
+  },
+  {
+    "event_id": "sim-process-9527-124330:click5",
+    "task_run_id": "sim-process-9527-124330",
+    "click_index": 5,
+    "iou": 0.8736168742179871,
+    "boundary_iou": 0.6217419505119324,
+    "latency_ms": 34.44519999993645
+  },
+  {
+    "event_id": "sim-process-9527-1378048:click1",
+    "task_run_id": "sim-process-9527-1378048",
+    "click_index": 1,
+    "iou": 0.4680207371711731,
+    "boundary_iou": 0.4675886034965515,
+    "latency_ms": 35.11010000011083
+  },
+  {
+    "event_id": "sim-process-9527-1378048:click2",
+    "task_run_id": "sim-process-9527-1378048",
+    "click_index": 2,
+    "iou": 0.839669406414032,
+    "boundary_iou": 0.839669406414032,
+    "latency_ms": 50.891500000034284
+  },
+  {
+    "event_id": "sim-process-9527-1378048:click3",
+    "task_run_id": "sim-process-9527-1378048",
+    "click_index": 3,
+    "iou": 0.878889799118042,
+    "boundary_iou": 0.878889799118042,
+    "latency_ms": 33.8157000001047
+  },
+  {
+    "event_id": "sim-process-9527-1378048:click4",
+    "task_run_id": "sim-process-9527-1378048",
+    "click_index": 4,
+    "iou": 0.8691666722297668,
+    "boundary_iou": 0.8691666722297668,
+    "latency_ms": 31.623800000033953
+  },
+  {
+    "event_id": "sim-process-9527-1378048:click5",
+    "task_run_id": "sim-process-9527-1378048",
+    "click_index": 5,
+    "iou": 0.862582802772522,
+    "boundary_iou": 0.862582802772522,
+    "latency_ms": 58.97589999995034
+  },
+  {
+    "event_id": "sim-process-9527-268807:click1",
+    "task_run_id": "sim-process-9527-268807",
+    "click_index": 1,
+    "iou": 0.9560021162033081,
+    "boundary_iou": 0.8051767945289612,
+    "latency_ms": 29.35139999999592
+  },
+  {
+    "event_id": "sim-process-9527-268807:click2",
+    "task_run_id": "sim-process-9527-268807",
+    "click_index": 2,
+    "iou": 0.9637554883956909,
+    "boundary_iou": 0.8391219973564148,
+    "latency_ms": 30.758500000047206
+  },
+  {
+    "event_id": "sim-process-9527-268807:click3",
+    "task_run_id": "sim-process-9527-268807",
+    "click_index": 3,
+    "iou": 0.9642875790596008,
+    "boundary_iou": 0.8411058187484741,
+    "latency_ms": 33.31660000003467
+  },
+  {
+    "event_id": "sim-process-9527-268807:click4",
+    "task_run_id": "sim-process-9527-268807",
+    "click_index": 4,
+    "iou": 0.9674063324928284,
+    "boundary_iou": 0.855577290058136,
+    "latency_ms": 36.616700000195124
+  },
+  {
+    "event_id": "sim-process-9527-268807:click5",
+    "task_run_id": "sim-process-9527-268807",
+    "click_index": 5,
+    "iou": 0.9706210494041443,
+    "boundary_iou": 0.8706749081611633,
+    "latency_ms": 32.279600000038045
+  },
+  {
+    "event_id": "sim-process-9527-1389905:click1",
+    "task_run_id": "sim-process-9527-1389905",
+    "click_index": 1,
+    "iou": 0.4525303840637207,
+    "boundary_iou": 0.31095942854881287,
+    "latency_ms": 32.161399999949936
+  },
+  {
+    "event_id": "sim-process-9527-1389905:click2",
+    "task_run_id": "sim-process-9527-1389905",
+    "click_index": 2,
+    "iou": 0.45987582206726074,
+    "boundary_iou": 0.29620346426963806,
+    "latency_ms": 35.560199999963515
+  },
+  {
+    "event_id": "sim-process-9527-1389905:click3",
+    "task_run_id": "sim-process-9527-1389905",
+    "click_index": 3,
+    "iou": 0.9226767420768738,
+    "boundary_iou": 0.8530229330062866,
+    "latency_ms": 32.897399999910704
+  },
+  {
+    "event_id": "sim-process-9527-1389905:click4",
+    "task_run_id": "sim-process-9527-1389905",
+    "click_index": 4,
+    "iou": 0.9181967973709106,
+    "boundary_iou": 0.8440303802490234,
+    "latency_ms": 33.205800000359886
+  },
+  {
+    "event_id": "sim-process-9527-1389905:click5",
+    "task_run_id": "sim-process-9527-1389905",
+    "click_index": 5,
+    "iou": 0.9504696726799011,
+    "boundary_iou": 0.9064253568649292,
+    "latency_ms": 36.88259999989896
+  },
+  {
+    "event_id": "sim-process-9527-1401097:click1",
+    "task_run_id": "sim-process-9527-1401097",
+    "click_index": 1,
+    "iou": 0.620561957359314,
+    "boundary_iou": 0.6020814776420593,
+    "latency_ms": 46.03140000017447
+  },
+  {
+    "event_id": "sim-process-9527-1401097:click2",
+    "task_run_id": "sim-process-9527-1401097",
+    "click_index": 2,
+    "iou": 0.6264455318450928,
+    "boundary_iou": 0.6062015295028687,
+    "latency_ms": 37.49049999987619
+  },
+  {
+    "event_id": "sim-process-9527-1401097:click3",
+    "task_run_id": "sim-process-9527-1401097",
+    "click_index": 3,
+    "iou": 0.8328889012336731,
+    "boundary_iou": 0.8186666369438171,
+    "latency_ms": 38.514200000008714
+  },
+  {
+    "event_id": "sim-process-9527-1401097:click4",
+    "task_run_id": "sim-process-9527-1401097",
+    "click_index": 4,
+    "iou": 0.8444374799728394,
+    "boundary_iou": 0.8406662344932556,
+    "latency_ms": 34.25860000015746
+  },
+  {
+    "event_id": "sim-process-9527-1401097:click5",
+    "task_run_id": "sim-process-9527-1401097",
+    "click_index": 5,
+    "iou": 0.8550060987472534,
+    "boundary_iou": 0.8519536256790161,
+    "latency_ms": 37.37669999964055
+  },
+  {
+    "event_id": "sim-process-9527-63312:click1",
+    "task_run_id": "sim-process-9527-63312",
+    "click_index": 1,
+    "iou": 0.9674280881881714,
+    "boundary_iou": 0.8714324831962585,
+    "latency_ms": 32.03140000005078
+  },
+  {
+    "event_id": "sim-process-9527-63312:click2",
+    "task_run_id": "sim-process-9527-63312",
+    "click_index": 2,
+    "iou": 0.9654814004898071,
+    "boundary_iou": 0.8589856028556824,
+    "latency_ms": 31.384500000058324
+  },
+  {
+    "event_id": "sim-process-9527-63312:click3",
+    "task_run_id": "sim-process-9527-63312",
+    "click_index": 3,
+    "iou": 0.9657710790634155,
+    "boundary_iou": 0.8615182638168335,
+    "latency_ms": 33.51720000000569
+  },
+  {
+    "event_id": "sim-process-9527-63312:click4",
+    "task_run_id": "sim-process-9527-63312",
+    "click_index": 4,
+    "iou": 0.967751145362854,
+    "boundary_iou": 0.8705123662948608,
+    "latency_ms": 39.83029999972132
+  },
+  {
+    "event_id": "sim-process-9527-63312:click5",
+    "task_run_id": "sim-process-9527-63312",
+    "click_index": 5,
+    "iou": 0.9680460095405579,
+    "boundary_iou": 0.8693438172340393,
+    "latency_ms": 32.89570000015374
+  },
+  {
+    "event_id": "sim-process-9527-588381:click1",
+    "task_run_id": "sim-process-9527-588381",
+    "click_index": 1,
+    "iou": 0.9355503916740417,
+    "boundary_iou": 0.5560050010681152,
+    "latency_ms": 34.190899999885005
+  },
+  {
+    "event_id": "sim-process-9527-588381:click2",
+    "task_run_id": "sim-process-9527-588381",
+    "click_index": 2,
+    "iou": 0.9442048072814941,
+    "boundary_iou": 0.5951194763183594,
+    "latency_ms": 36.63569999980609
+  },
+  {
+    "event_id": "sim-process-9527-588381:click3",
+    "task_run_id": "sim-process-9527-588381",
+    "click_index": 3,
+    "iou": 0.95723557472229,
+    "boundary_iou": 0.6678525805473328,
+    "latency_ms": 66.69469999997091
+  },
+  {
+    "event_id": "sim-process-9527-588381:click4",
+    "task_run_id": "sim-process-9527-588381",
+    "click_index": 4,
+    "iou": 0.9569778442382812,
+    "boundary_iou": 0.667927086353302,
+    "latency_ms": 57.497000000239495
+  },
+  {
+    "event_id": "sim-process-9527-588381:click5",
+    "task_run_id": "sim-process-9527-588381",
+    "click_index": 5,
+    "iou": 0.9578227400779724,
+    "boundary_iou": 0.6765255928039551,
+    "latency_ms": 49.40740000029109
+  },
+  {
+    "event_id": "sim-process-9527-599623:click1",
+    "task_run_id": "sim-process-9527-599623",
+    "click_index": 1,
+    "iou": 0.7846295237541199,
+    "boundary_iou": 0.7846295237541199,
+    "latency_ms": 48.15680000001521
+  },
+  {
+    "event_id": "sim-process-9527-599623:click2",
+    "task_run_id": "sim-process-9527-599623",
+    "click_index": 2,
+    "iou": 0.8036920428276062,
+    "boundary_iou": 0.8036920428276062,
+    "latency_ms": 57.36479999995936
+  },
+  {
+    "event_id": "sim-process-9527-599623:click3",
+    "task_run_id": "sim-process-9527-599623",
+    "click_index": 3,
+    "iou": 0.8271780014038086,
+    "boundary_iou": 0.8271780014038086,
+    "latency_ms": 59.417299999950046
+  },
+  {
+    "event_id": "sim-process-9527-599623:click4",
+    "task_run_id": "sim-process-9527-599623",
+    "click_index": 4,
+    "iou": 0.8277010917663574,
+    "boundary_iou": 0.8277010917663574,
+    "latency_ms": 55.881600000248
+  },
+  {
+    "event_id": "sim-process-9527-599623:click5",
+    "task_run_id": "sim-process-9527-599623",
+    "click_index": 5,
+    "iou": 0.8201923370361328,
+    "boundary_iou": 0.8201923370361328,
+    "latency_ms": 40.091299999858165
+  },
+  {
+    "event_id": "sim-process-9527-283409:click1",
+    "task_run_id": "sim-process-9527-283409",
+    "click_index": 1,
+    "iou": 0.8776577115058899,
+    "boundary_iou": 0.8776577115058899,
+    "latency_ms": 36.46019999996497
+  },
+  {
+    "event_id": "sim-process-9527-283409:click2",
+    "task_run_id": "sim-process-9527-283409",
+    "click_index": 2,
+    "iou": 0.9047290086746216,
+    "boundary_iou": 0.9047290086746216,
+    "latency_ms": 40.26000000021668
+  },
+  {
+    "event_id": "sim-process-9527-283409:click3",
+    "task_run_id": "sim-process-9527-283409",
+    "click_index": 3,
+    "iou": 0.9009595513343811,
+    "boundary_iou": 0.9009595513343811,
+    "latency_ms": 37.252600000101666
+  },
+  {
+    "event_id": "sim-process-9527-283409:click4",
+    "task_run_id": "sim-process-9527-283409",
+    "click_index": 4,
+    "iou": 0.8746402263641357,
+    "boundary_iou": 0.8746402263641357,
+    "latency_ms": 39.22779999993509
+  },
+  {
+    "event_id": "sim-process-9527-283409:click5",
+    "task_run_id": "sim-process-9527-283409",
+    "click_index": 5,
+    "iou": 0.8818415999412537,
+    "boundary_iou": 0.8818415999412537,
+    "latency_ms": 41.99830000015936
+  },
+  {
+    "event_id": "sim-process-9527-611141:click1",
+    "task_run_id": "sim-process-9527-611141",
+    "click_index": 1,
+    "iou": 0.3665906488895416,
+    "boundary_iou": 0.3665906488895416,
+    "latency_ms": 40.03640000019004
+  },
+  {
+    "event_id": "sim-process-9527-611141:click2",
+    "task_run_id": "sim-process-9527-611141",
+    "click_index": 2,
+    "iou": 0.49033883213996887,
+    "boundary_iou": 0.49033883213996887,
+    "latency_ms": 42.034500000227126
+  },
+  {
+    "event_id": "sim-process-9527-611141:click3",
+    "task_run_id": "sim-process-9527-611141",
+    "click_index": 3,
+    "iou": 0.5428571701049805,
+    "boundary_iou": 0.5428571701049805,
+    "latency_ms": 41.43700000031458
+  },
+  {
+    "event_id": "sim-process-9527-611141:click4",
+    "task_run_id": "sim-process-9527-611141",
+    "click_index": 4,
+    "iou": 0.5753045678138733,
+    "boundary_iou": 0.5753045678138733,
+    "latency_ms": 40.52739999997357
+  },
+  {
+    "event_id": "sim-process-9527-611141:click5",
+    "task_run_id": "sim-process-9527-611141",
+    "click_index": 5,
+    "iou": 0.6224043965339661,
+    "boundary_iou": 0.6224043965339661,
+    "latency_ms": 39.86159999976735
+  },
+  {
+    "event_id": "sim-process-9527-2232079:click1",
+    "task_run_id": "sim-process-9527-2232079",
+    "click_index": 1,
+    "iou": 0.8284431099891663,
+    "boundary_iou": 0.764994740486145,
+    "latency_ms": 37.42929999998523
+  },
+  {
+    "event_id": "sim-process-9527-2232079:click2",
+    "task_run_id": "sim-process-9527-2232079",
+    "click_index": 2,
+    "iou": 0.8839893341064453,
+    "boundary_iou": 0.8269429802894592,
+    "latency_ms": 41.63040000003093
+  },
+  {
+    "event_id": "sim-process-9527-2232079:click3",
+    "task_run_id": "sim-process-9527-2232079",
+    "click_index": 3,
+    "iou": 0.8930984139442444,
+    "boundary_iou": 0.8359026908874512,
+    "latency_ms": 43.28010000017457
+  },
+  {
+    "event_id": "sim-process-9527-2232079:click4",
+    "task_run_id": "sim-process-9527-2232079",
+    "click_index": 4,
+    "iou": 0.8949518799781799,
+    "boundary_iou": 0.8388851284980774,
+    "latency_ms": 55.40259999997943
+  },
+  {
+    "event_id": "sim-process-9527-2232079:click5",
+    "task_run_id": "sim-process-9527-2232079",
+    "click_index": 5,
+    "iou": 0.8983703851699829,
+    "boundary_iou": 0.8492913842201233,
+    "latency_ms": 50.99369999970804
+  },
+  {
+    "event_id": "sim-process-9527-115259:click1",
+    "task_run_id": "sim-process-9527-115259",
+    "click_index": 1,
+    "iou": 0.777621328830719,
+    "boundary_iou": 0.46987950801849365,
+    "latency_ms": 44.30960000036066
+  },
+  {
+    "event_id": "sim-process-9527-115259:click2",
+    "task_run_id": "sim-process-9527-115259",
+    "click_index": 2,
+    "iou": 0.7772811055183411,
+    "boundary_iou": 0.4692857265472412,
+    "latency_ms": 45.49219999989873
+  },
+  {
+    "event_id": "sim-process-9527-115259:click3",
+    "task_run_id": "sim-process-9527-115259",
+    "click_index": 3,
+    "iou": 0.8166482448577881,
+    "boundary_iou": 0.49957650899887085,
+    "latency_ms": 40.17789999988963
+  },
+  {
+    "event_id": "sim-process-9527-115259:click4",
+    "task_run_id": "sim-process-9527-115259",
+    "click_index": 4,
+    "iou": 0.881824791431427,
+    "boundary_iou": 0.594091534614563,
+    "latency_ms": 39.90650000014284
+  },
+  {
+    "event_id": "sim-process-9527-115259:click5",
+    "task_run_id": "sim-process-9527-115259",
+    "click_index": 5,
+    "iou": 0.9106690287590027,
+    "boundary_iou": 0.6753990650177002,
+    "latency_ms": 40.39489999968282
+  },
+  {
+    "event_id": "sim-process-9527-1957212:click1",
+    "task_run_id": "sim-process-9527-1957212",
+    "click_index": 1,
+    "iou": 0.7061707377433777,
+    "boundary_iou": 0.25094640254974365,
+    "latency_ms": 36.35309999981473
+  },
+  {
+    "event_id": "sim-process-9527-1957212:click2",
+    "task_run_id": "sim-process-9527-1957212",
+    "click_index": 2,
+    "iou": 0.8552849888801575,
+    "boundary_iou": 0.41433534026145935,
+    "latency_ms": 38.753900000301655
+  },
+  {
+    "event_id": "sim-process-9527-1957212:click3",
+    "task_run_id": "sim-process-9527-1957212",
+    "click_index": 3,
+    "iou": 0.9364614486694336,
+    "boundary_iou": 0.599452555179596,
+    "latency_ms": 39.617099999759375
+  },
+  {
+    "event_id": "sim-process-9527-1957212:click4",
+    "task_run_id": "sim-process-9527-1957212",
+    "click_index": 4,
+    "iou": 0.948471188545227,
+    "boundary_iou": 0.6722541451454163,
+    "latency_ms": 41.180700000040815
+  },
+  {
+    "event_id": "sim-process-9527-1957212:click5",
+    "task_run_id": "sim-process-9527-1957212",
+    "click_index": 5,
+    "iou": 0.9542999863624573,
+    "boundary_iou": 0.7084048390388489,
+    "latency_ms": 38.988400000107504
+  },
+  {
+    "event_id": "sim-process-9527-320889:click1",
+    "task_run_id": "sim-process-9527-320889",
+    "click_index": 1,
+    "iou": 0.7597955465316772,
+    "boundary_iou": 0.7580919861793518,
+    "latency_ms": 35.718200000246725
+  },
+  {
+    "event_id": "sim-process-9527-320889:click2",
+    "task_run_id": "sim-process-9527-320889",
+    "click_index": 2,
+    "iou": 0.7196641564369202,
+    "boundary_iou": 0.7142470479011536,
+    "latency_ms": 41.18830000015805
+  },
+  {
+    "event_id": "sim-process-9527-320889:click3",
+    "task_run_id": "sim-process-9527-320889",
+    "click_index": 3,
+    "iou": 0.7614378929138184,
+    "boundary_iou": 0.7614378929138184,
+    "latency_ms": 44.10409999991316
+  },
+  {
+    "event_id": "sim-process-9527-320889:click4",
+    "task_run_id": "sim-process-9527-320889",
+    "click_index": 4,
+    "iou": 0.7815773487091064,
+    "boundary_iou": 0.7815773487091064,
+    "latency_ms": 37.810999999692285
+  },
+  {
+    "event_id": "sim-process-9527-320889:click5",
+    "task_run_id": "sim-process-9527-320889",
+    "click_index": 5,
+    "iou": 0.7802093029022217,
+    "boundary_iou": 0.7802093029022217,
+    "latency_ms": 40.55879999987155
+  },
+  {
+    "event_id": "sim-process-9527-2136757:click1",
+    "task_run_id": "sim-process-9527-2136757",
+    "click_index": 1,
+    "iou": 0.8103599548339844,
+    "boundary_iou": 0.7853380441665649,
+    "latency_ms": 35.456799999792565
+  },
+  {
+    "event_id": "sim-process-9527-2136757:click2",
+    "task_run_id": "sim-process-9527-2136757",
+    "click_index": 2,
+    "iou": 0.8208763003349304,
+    "boundary_iou": 0.7951030731201172,
+    "latency_ms": 38.75879999986864
+  },
+  {
+    "event_id": "sim-process-9527-2136757:click3",
+    "task_run_id": "sim-process-9527-2136757",
+    "click_index": 3,
+    "iou": 0.8022356033325195,
+    "boundary_iou": 0.7777299880981445,
+    "latency_ms": 38.006299999779
+  },
+  {
+    "event_id": "sim-process-9527-2136757:click4",
+    "task_run_id": "sim-process-9527-2136757",
+    "click_index": 4,
+    "iou": 0.861733615398407,
+    "boundary_iou": 0.8259949088096619,
+    "latency_ms": 40.80149999981586
+  },
+  {
+    "event_id": "sim-process-9527-2136757:click5",
+    "task_run_id": "sim-process-9527-2136757",
+    "click_index": 5,
+    "iou": 0.8937790989875793,
+    "boundary_iou": 0.8672680258750916,
+    "latency_ms": 38.938900000175636
+  },
+  {
+    "event_id": "sim-process-9527-321957:click1",
+    "task_run_id": "sim-process-9527-321957",
+    "click_index": 1,
+    "iou": 0.8725312352180481,
+    "boundary_iou": 0.7583486437797546,
+    "latency_ms": 39.05769999983022
+  },
+  {
+    "event_id": "sim-process-9527-321957:click2",
+    "task_run_id": "sim-process-9527-321957",
+    "click_index": 2,
+    "iou": 0.8908564448356628,
+    "boundary_iou": 0.7952138781547546,
+    "latency_ms": 39.83199999993303
+  },
+  {
+    "event_id": "sim-process-9527-321957:click3",
+    "task_run_id": "sim-process-9527-321957",
+    "click_index": 3,
+    "iou": 0.9066458940505981,
+    "boundary_iou": 0.827634334564209,
+    "latency_ms": 38.1083000002036
+  },
+  {
+    "event_id": "sim-process-9527-321957:click4",
+    "task_run_id": "sim-process-9527-321957",
+    "click_index": 4,
+    "iou": 0.9072187542915344,
+    "boundary_iou": 0.8255378007888794,
+    "latency_ms": 52.415299999665876
+  },
+  {
+    "event_id": "sim-process-9527-321957:click5",
+    "task_run_id": "sim-process-9527-321957",
+    "click_index": 5,
+    "iou": 0.9121158719062805,
+    "boundary_iou": 0.8334029912948608,
+    "latency_ms": 51.93959999996878
+  },
+  {
+    "event_id": "sim-process-9527-48054:click1",
+    "task_run_id": "sim-process-9527-48054",
+    "click_index": 1,
+    "iou": 0.858252227306366,
+    "boundary_iou": 0.43048763275146484,
+    "latency_ms": 39.45899999962421
+  },
+  {
+    "event_id": "sim-process-9527-48054:click2",
+    "task_run_id": "sim-process-9527-48054",
+    "click_index": 2,
+    "iou": 0.8846185803413391,
+    "boundary_iou": 0.46168503165245056,
+    "latency_ms": 38.00379999984216
+  },
+  {
+    "event_id": "sim-process-9527-48054:click3",
+    "task_run_id": "sim-process-9527-48054",
+    "click_index": 3,
+    "iou": 0.9294188022613525,
+    "boundary_iou": 0.5765957832336426,
+    "latency_ms": 41.93059999988691
+  },
+  {
+    "event_id": "sim-process-9527-48054:click4",
+    "task_run_id": "sim-process-9527-48054",
+    "click_index": 4,
+    "iou": 0.939821183681488,
+    "boundary_iou": 0.6268249154090881,
+    "latency_ms": 43.52829999970709
+  },
+  {
+    "event_id": "sim-process-9527-48054:click5",
+    "task_run_id": "sim-process-9527-48054",
+    "click_index": 5,
+    "iou": 0.9458115100860596,
+    "boundary_iou": 0.656058669090271,
+    "latency_ms": 39.21829999990223
+  },
+  {
+    "event_id": "sim-process-9527-17154:click1",
+    "task_run_id": "sim-process-9527-17154",
+    "click_index": 1,
+    "iou": 0.8875666856765747,
+    "boundary_iou": 0.8875666856765747,
+    "latency_ms": 33.61940000013419
+  },
+  {
+    "event_id": "sim-process-9527-17154:click2",
+    "task_run_id": "sim-process-9527-17154",
+    "click_index": 2,
+    "iou": 0.8904052972793579,
+    "boundary_iou": 0.8904052972793579,
+    "latency_ms": 37.283300000126474
+  },
+  {
+    "event_id": "sim-process-9527-17154:click3",
+    "task_run_id": "sim-process-9527-17154",
+    "click_index": 3,
+    "iou": 0.8585017919540405,
+    "boundary_iou": 0.8585017919540405,
+    "latency_ms": 36.982500000249274
+  },
+  {
+    "event_id": "sim-process-9527-17154:click4",
+    "task_run_id": "sim-process-9527-17154",
+    "click_index": 4,
+    "iou": 0.8737270832061768,
+    "boundary_iou": 0.8737270832061768,
+    "latency_ms": 34.8070000000007
+  },
+  {
+    "event_id": "sim-process-9527-17154:click5",
+    "task_run_id": "sim-process-9527-17154",
+    "click_index": 5,
+    "iou": 0.8809229731559753,
+    "boundary_iou": 0.8809229731559753,
+    "latency_ms": 38.83749999977226
+  },
+  {
+    "event_id": "sim-process-9527-2074407:click1",
+    "task_run_id": "sim-process-9527-2074407",
+    "click_index": 1,
+    "iou": 0.7199499011039734,
+    "boundary_iou": 0.7199499011039734,
+    "latency_ms": 41.349199999785924
+  },
+  {
+    "event_id": "sim-process-9527-2074407:click2",
+    "task_run_id": "sim-process-9527-2074407",
+    "click_index": 2,
+    "iou": 0.7522169947624207,
+    "boundary_iou": 0.7522169947624207,
+    "latency_ms": 34.49280000040744
+  },
+  {
+    "event_id": "sim-process-9527-2074407:click3",
+    "task_run_id": "sim-process-9527-2074407",
+    "click_index": 3,
+    "iou": 0.734763503074646,
+    "boundary_iou": 0.734763503074646,
+    "latency_ms": 41.46209999998973
+  },
+  {
+    "event_id": "sim-process-9527-2074407:click4",
+    "task_run_id": "sim-process-9527-2074407",
+    "click_index": 4,
+    "iou": 0.7520661354064941,
+    "boundary_iou": 0.7520661354064941,
+    "latency_ms": 36.42439999975977
+  },
+  {
+    "event_id": "sim-process-9527-2074407:click5",
+    "task_run_id": "sim-process-9527-2074407",
+    "click_index": 5,
+    "iou": 0.7649233937263489,
+    "boundary_iou": 0.7649233937263489,
+    "latency_ms": 35.80880000026809
+  },
+  {
+    "event_id": "sim-process-9527-1176000:click1",
+    "task_run_id": "sim-process-9527-1176000",
+    "click_index": 1,
+    "iou": 0.8798229098320007,
+    "boundary_iou": 0.8798229098320007,
+    "latency_ms": 36.49589999986347
+  },
+  {
+    "event_id": "sim-process-9527-1176000:click2",
+    "task_run_id": "sim-process-9527-1176000",
+    "click_index": 2,
+    "iou": 0.8867800831794739,
+    "boundary_iou": 0.8867800831794739,
+    "latency_ms": 37.55510000019058
+  },
+  {
+    "event_id": "sim-process-9527-1176000:click3",
+    "task_run_id": "sim-process-9527-1176000",
+    "click_index": 3,
+    "iou": 0.8858839273452759,
+    "boundary_iou": 0.8858839273452759,
+    "latency_ms": 36.86000000016065
+  },
+  {
+    "event_id": "sim-process-9527-1176000:click4",
+    "task_run_id": "sim-process-9527-1176000",
+    "click_index": 4,
+    "iou": 0.8894039988517761,
+    "boundary_iou": 0.8894039988517761,
+    "latency_ms": 33.842899999854126
+  },
+  {
+    "event_id": "sim-process-9527-1176000:click5",
+    "task_run_id": "sim-process-9527-1176000",
+    "click_index": 5,
+    "iou": 0.8922872543334961,
+    "boundary_iou": 0.8922872543334961,
+    "latency_ms": 38.30249999964508
+  },
+  {
+    "event_id": "sim-process-9527-2082021:click1",
+    "task_run_id": "sim-process-9527-2082021",
+    "click_index": 1,
+    "iou": 0.6770768165588379,
+    "boundary_iou": 0.6233603954315186,
+    "latency_ms": 34.088400000200636
+  },
+  {
+    "event_id": "sim-process-9527-2082021:click2",
+    "task_run_id": "sim-process-9527-2082021",
+    "click_index": 2,
+    "iou": 0.8292682766914368,
+    "boundary_iou": 0.8292682766914368,
+    "latency_ms": 34.26949999993667
+  },
+  {
+    "event_id": "sim-process-9527-2082021:click3",
+    "task_run_id": "sim-process-9527-2082021",
+    "click_index": 3,
+    "iou": 0.8356401324272156,
+    "boundary_iou": 0.8356401324272156,
+    "latency_ms": 38.23430000011285
+  },
+  {
+    "event_id": "sim-process-9527-2082021:click4",
+    "task_run_id": "sim-process-9527-2082021",
+    "click_index": 4,
+    "iou": 0.8587140440940857,
+    "boundary_iou": 0.8587140440940857,
+    "latency_ms": 39.455399999951624
+  },
+  {
+    "event_id": "sim-process-9527-2082021:click5",
+    "task_run_id": "sim-process-9527-2082021",
+    "click_index": 5,
+    "iou": 0.84315425157547,
+    "boundary_iou": 0.84315425157547,
+    "latency_ms": 34.66230000003634
+  },
+  {
+    "event_id": "sim-process-9527-603189:click1",
+    "task_run_id": "sim-process-9527-603189",
+    "click_index": 1,
+    "iou": 0.8513948321342468,
+    "boundary_iou": 0.776150643825531,
+    "latency_ms": 36.79000000011001
+  },
+  {
+    "event_id": "sim-process-9527-603189:click2",
+    "task_run_id": "sim-process-9527-603189",
+    "click_index": 2,
+    "iou": 0.8678485155105591,
+    "boundary_iou": 0.8047229647636414,
+    "latency_ms": 38.187399999969784
+  },
+  {
+    "event_id": "sim-process-9527-603189:click3",
+    "task_run_id": "sim-process-9527-603189",
+    "click_index": 3,
+    "iou": 0.8618854284286499,
+    "boundary_iou": 0.8103199601173401,
+    "latency_ms": 38.262399999894114
+  },
+  {
+    "event_id": "sim-process-9527-603189:click4",
+    "task_run_id": "sim-process-9527-603189",
+    "click_index": 4,
+    "iou": 0.8721925020217896,
+    "boundary_iou": 0.8104021549224854,
+    "latency_ms": 41.96249999995416
+  },
+  {
+    "event_id": "sim-process-9527-603189:click5",
+    "task_run_id": "sim-process-9527-603189",
+    "click_index": 5,
+    "iou": 0.8751007318496704,
+    "boundary_iou": 0.8172403573989868,
+    "latency_ms": 35.27049999956944
+  },
+  {
+    "event_id": "sim-process-9527-1675959:click1",
+    "task_run_id": "sim-process-9527-1675959",
+    "click_index": 1,
+    "iou": 0.41991642117500305,
+    "boundary_iou": 0.41991642117500305,
+    "latency_ms": 37.277999999787426
+  },
+  {
+    "event_id": "sim-process-9527-1675959:click2",
+    "task_run_id": "sim-process-9527-1675959",
+    "click_index": 2,
+    "iou": 0.7140591740608215,
+    "boundary_iou": 0.7140591740608215,
+    "latency_ms": 36.927600000126404
+  },
+  {
+    "event_id": "sim-process-9527-1675959:click3",
+    "task_run_id": "sim-process-9527-1675959",
+    "click_index": 3,
+    "iou": 0.7771952748298645,
+    "boundary_iou": 0.7771952748298645,
+    "latency_ms": 37.50820000004751
+  },
+  {
+    "event_id": "sim-process-9527-1675959:click4",
+    "task_run_id": "sim-process-9527-1675959",
+    "click_index": 4,
+    "iou": 0.8052030205726624,
+    "boundary_iou": 0.8052030205726624,
+    "latency_ms": 43.95440000007511
+  },
+  {
+    "event_id": "sim-process-9527-1675959:click5",
+    "task_run_id": "sim-process-9527-1675959",
+    "click_index": 5,
+    "iou": 0.8333333134651184,
+    "boundary_iou": 0.8333333134651184,
+    "latency_ms": 52.70700000028228
+  },
+  {
+    "event_id": "sim-process-9527-156112:click1",
+    "task_run_id": "sim-process-9527-156112",
+    "click_index": 1,
+    "iou": 0.44124168157577515,
+    "boundary_iou": 0.44124168157577515,
+    "latency_ms": 43.15199999973629
+  },
+  {
+    "event_id": "sim-process-9527-156112:click2",
+    "task_run_id": "sim-process-9527-156112",
+    "click_index": 2,
+    "iou": 0.4802342653274536,
+    "boundary_iou": 0.4802342653274536,
+    "latency_ms": 36.571399999957066
+  },
+  {
+    "event_id": "sim-process-9527-156112:click3",
+    "task_run_id": "sim-process-9527-156112",
+    "click_index": 3,
+    "iou": 0.4261758625507355,
+    "boundary_iou": 0.4261758625507355,
+    "latency_ms": 33.852399999886984
+  },
+  {
+    "event_id": "sim-process-9527-156112:click4",
+    "task_run_id": "sim-process-9527-156112",
+    "click_index": 4,
+    "iou": 0.48030373454093933,
+    "boundary_iou": 0.48030373454093933,
+    "latency_ms": 42.612499999904685
+  },
+  {
+    "event_id": "sim-process-9527-156112:click5",
+    "task_run_id": "sim-process-9527-156112",
+    "click_index": 5,
+    "iou": 0.5612009167671204,
+    "boundary_iou": 0.5612009167671204,
+    "latency_ms": 40.98599999997532
+  },
+  {
+    "event_id": "sim-process-9527-159599:click1",
+    "task_run_id": "sim-process-9527-159599",
+    "click_index": 1,
+    "iou": 0.8237085342407227,
+    "boundary_iou": 0.7502709031105042,
+    "latency_ms": 34.278900000117574
+  },
+  {
+    "event_id": "sim-process-9527-159599:click2",
+    "task_run_id": "sim-process-9527-159599",
+    "click_index": 2,
+    "iou": 0.7941815257072449,
+    "boundary_iou": 0.6997091770172119,
+    "latency_ms": 35.31670000029408
+  },
+  {
+    "event_id": "sim-process-9527-159599:click3",
+    "task_run_id": "sim-process-9527-159599",
+    "click_index": 3,
+    "iou": 0.8123840689659119,
+    "boundary_iou": 0.7325361371040344,
+    "latency_ms": 39.254499999969994
+  },
+  {
+    "event_id": "sim-process-9527-159599:click4",
+    "task_run_id": "sim-process-9527-159599",
+    "click_index": 4,
+    "iou": 0.8203904032707214,
+    "boundary_iou": 0.7375549077987671,
+    "latency_ms": 40.03939999984141
+  },
+  {
+    "event_id": "sim-process-9527-159599:click5",
+    "task_run_id": "sim-process-9527-159599",
+    "click_index": 5,
+    "iou": 0.8207758665084839,
+    "boundary_iou": 0.7447254657745361,
+    "latency_ms": 34.59949999978562
+  },
+  {
+    "event_id": "sim-process-9527-163127:click1",
+    "task_run_id": "sim-process-9527-163127",
+    "click_index": 1,
+    "iou": 0.6625522375106812,
+    "boundary_iou": 0.39562687277793884,
+    "latency_ms": 36.987999999837484
+  },
+  {
+    "event_id": "sim-process-9527-163127:click2",
+    "task_run_id": "sim-process-9527-163127",
+    "click_index": 2,
+    "iou": 0.6550245881080627,
+    "boundary_iou": 0.3722153604030609,
+    "latency_ms": 40.79430000001594
+  },
+  {
+    "event_id": "sim-process-9527-163127:click3",
+    "task_run_id": "sim-process-9527-163127",
+    "click_index": 3,
+    "iou": 0.9005723595619202,
+    "boundary_iou": 0.7074670791625977,
+    "latency_ms": 41.404299999612704
+  },
+  {
+    "event_id": "sim-process-9527-163127:click4",
+    "task_run_id": "sim-process-9527-163127",
+    "click_index": 4,
+    "iou": 0.9153428077697754,
+    "boundary_iou": 0.732810914516449,
+    "latency_ms": 39.12140000011277
+  },
+  {
+    "event_id": "sim-process-9527-163127:click5",
+    "task_run_id": "sim-process-9527-163127",
+    "click_index": 5,
+    "iou": 0.9340970516204834,
+    "boundary_iou": 0.7992907166481018,
+    "latency_ms": 40.3956999998627
+  },
+  {
+    "event_id": "sim-process-9527-173770:click1",
+    "task_run_id": "sim-process-9527-173770",
+    "click_index": 1,
+    "iou": 0.8762373924255371,
+    "boundary_iou": 0.5742279291152954,
+    "latency_ms": 36.508799999865005
+  },
+  {
+    "event_id": "sim-process-9527-173770:click2",
+    "task_run_id": "sim-process-9527-173770",
+    "click_index": 2,
+    "iou": 0.7044994831085205,
+    "boundary_iou": 0.35277900099754333,
+    "latency_ms": 41.35419999965961
+  },
+  {
+    "event_id": "sim-process-9527-173770:click3",
+    "task_run_id": "sim-process-9527-173770",
+    "click_index": 3,
+    "iou": 0.8846338987350464,
+    "boundary_iou": 0.6042314171791077,
+    "latency_ms": 48.177099999975326
+  },
+  {
+    "event_id": "sim-process-9527-173770:click4",
+    "task_run_id": "sim-process-9527-173770",
+    "click_index": 4,
+    "iou": 0.8929570317268372,
+    "boundary_iou": 0.6280513405799866,
+    "latency_ms": 35.52190000027622
+  },
+  {
+    "event_id": "sim-process-9527-173770:click5",
+    "task_run_id": "sim-process-9527-173770",
+    "click_index": 5,
+    "iou": 0.8947356939315796,
+    "boundary_iou": 0.6330509781837463,
+    "latency_ms": 35.46460000006846
+  },
+  {
+    "event_id": "sim-process-9527-396799:click1",
+    "task_run_id": "sim-process-9527-396799",
+    "click_index": 1,
+    "iou": 0.8979591727256775,
+    "boundary_iou": 0.875,
+    "latency_ms": 35.874600000170176
+  },
+  {
+    "event_id": "sim-process-9527-396799:click2",
+    "task_run_id": "sim-process-9527-396799",
+    "click_index": 2,
+    "iou": 0.9029744863510132,
+    "boundary_iou": 0.8766635060310364,
+    "latency_ms": 39.34290000006513
+  },
+  {
+    "event_id": "sim-process-9527-396799:click3",
+    "task_run_id": "sim-process-9527-396799",
+    "click_index": 3,
+    "iou": 0.8984989523887634,
+    "boundary_iou": 0.875119149684906,
+    "latency_ms": 35.288199999740755
+  },
+  {
+    "event_id": "sim-process-9527-396799:click4",
+    "task_run_id": "sim-process-9527-396799",
+    "click_index": 4,
+    "iou": 0.8971874117851257,
+    "boundary_iou": 0.8666666746139526,
+    "latency_ms": 35.361700000066776
+  },
+  {
+    "event_id": "sim-process-9527-396799:click5",
+    "task_run_id": "sim-process-9527-396799",
+    "click_index": 5,
+    "iou": 0.9091764688491821,
+    "boundary_iou": 0.8785024881362915,
+    "latency_ms": 38.628199999948265
+  },
+  {
+    "event_id": "sim-process-9527-69642:click1",
+    "task_run_id": "sim-process-9527-69642",
+    "click_index": 1,
+    "iou": 0.8281145691871643,
+    "boundary_iou": 0.8044202923774719,
+    "latency_ms": 33.94909999997253
+  },
+  {
+    "event_id": "sim-process-9527-69642:click2",
+    "task_run_id": "sim-process-9527-69642",
+    "click_index": 2,
+    "iou": 0.900791585445404,
+    "boundary_iou": 0.8827240467071533,
+    "latency_ms": 37.7318999999261
+  },
+  {
+    "event_id": "sim-process-9527-69642:click3",
+    "task_run_id": "sim-process-9527-69642",
+    "click_index": 3,
+    "iou": 0.898740828037262,
+    "boundary_iou": 0.879859983921051,
+    "latency_ms": 38.070300000072166
+  },
+  {
+    "event_id": "sim-process-9527-69642:click4",
+    "task_run_id": "sim-process-9527-69642",
+    "click_index": 4,
+    "iou": 0.8965877294540405,
+    "boundary_iou": 0.8777044415473938,
+    "latency_ms": 39.038800000071205
+  },
+  {
+    "event_id": "sim-process-9527-69642:click5",
+    "task_run_id": "sim-process-9527-69642",
+    "click_index": 5,
+    "iou": 0.8889267444610596,
+    "boundary_iou": 0.8677789568901062,
+    "latency_ms": 35.63179999991917
+  },
+  {
+    "event_id": "sim-process-9527-587491:click1",
+    "task_run_id": "sim-process-9527-587491",
+    "click_index": 1,
+    "iou": 0.9152941107749939,
+    "boundary_iou": 0.7650916576385498,
+    "latency_ms": 35.81579999990936
+  },
+  {
+    "event_id": "sim-process-9527-587491:click2",
+    "task_run_id": "sim-process-9527-587491",
+    "click_index": 2,
+    "iou": 0.9192120432853699,
+    "boundary_iou": 0.7802010774612427,
+    "latency_ms": 42.267700000138575
+  },
+  {
+    "event_id": "sim-process-9527-587491:click3",
+    "task_run_id": "sim-process-9527-587491",
+    "click_index": 3,
+    "iou": 0.9147483110427856,
+    "boundary_iou": 0.8023817539215088,
+    "latency_ms": 38.33990000021004
+  },
+  {
+    "event_id": "sim-process-9527-587491:click4",
+    "task_run_id": "sim-process-9527-587491",
+    "click_index": 4,
+    "iou": 0.9206429123878479,
+    "boundary_iou": 0.8073567152023315,
+    "latency_ms": 53.447199999936856
+  },
+  {
+    "event_id": "sim-process-9527-587491:click5",
+    "task_run_id": "sim-process-9527-587491",
+    "click_index": 5,
+    "iou": 0.9219006896018982,
+    "boundary_iou": 0.8234989643096924,
+    "latency_ms": 40.93160000002172
+  },
+  {
+    "event_id": "sim-process-9527-591057:click1",
+    "task_run_id": "sim-process-9527-591057",
+    "click_index": 1,
+    "iou": 0.9068797826766968,
+    "boundary_iou": 0.6153692007064819,
+    "latency_ms": 38.3375999999771
+  },
+  {
+    "event_id": "sim-process-9527-591057:click2",
+    "task_run_id": "sim-process-9527-591057",
+    "click_index": 2,
+    "iou": 0.9119121432304382,
+    "boundary_iou": 0.6271267533302307,
+    "latency_ms": 40.15780000008817
+  },
+  {
+    "event_id": "sim-process-9527-591057:click3",
+    "task_run_id": "sim-process-9527-591057",
+    "click_index": 3,
+    "iou": 0.914177656173706,
+    "boundary_iou": 0.6372327208518982,
+    "latency_ms": 45.7088000002841
+  },
+  {
+    "event_id": "sim-process-9527-591057:click4",
+    "task_run_id": "sim-process-9527-591057",
+    "click_index": 4,
+    "iou": 0.9164966940879822,
+    "boundary_iou": 0.6457290053367615,
+    "latency_ms": 44.302199999947334
+  },
+  {
+    "event_id": "sim-process-9527-591057:click5",
+    "task_run_id": "sim-process-9527-591057",
+    "click_index": 5,
+    "iou": 0.9179375171661377,
+    "boundary_iou": 0.6515019536018372,
+    "latency_ms": 42.61229999974603
+  },
+  {
+    "event_id": "sim-process-9527-1905491:click1",
+    "task_run_id": "sim-process-9527-1905491",
+    "click_index": 1,
+    "iou": 0.8366234302520752,
+    "boundary_iou": 0.710991382598877,
+    "latency_ms": 38.288700000066456
+  },
+  {
+    "event_id": "sim-process-9527-1905491:click2",
+    "task_run_id": "sim-process-9527-1905491",
+    "click_index": 2,
+    "iou": 0.8622239828109741,
+    "boundary_iou": 0.762434720993042,
+    "latency_ms": 46.461400000225694
+  },
+  {
+    "event_id": "sim-process-9527-1905491:click3",
+    "task_run_id": "sim-process-9527-1905491",
+    "click_index": 3,
+    "iou": 0.8508177399635315,
+    "boundary_iou": 0.7515528202056885,
+    "latency_ms": 45.70499999999811
+  },
+  {
+    "event_id": "sim-process-9527-1905491:click4",
+    "task_run_id": "sim-process-9527-1905491",
+    "click_index": 4,
+    "iou": 0.8595694303512573,
+    "boundary_iou": 0.7597535848617554,
+    "latency_ms": 48.12820000006468
+  },
+  {
+    "event_id": "sim-process-9527-1905491:click5",
+    "task_run_id": "sim-process-9527-1905491",
+    "click_index": 5,
+    "iou": 0.8610236048698425,
+    "boundary_iou": 0.7622839212417603,
+    "latency_ms": 43.241800000032526
+  },
+  {
+    "event_id": "sim-process-9527-1052662:click1",
+    "task_run_id": "sim-process-9527-1052662",
+    "click_index": 1,
+    "iou": 0.9024364948272705,
+    "boundary_iou": 0.7731838822364807,
+    "latency_ms": 40.83339999988311
+  },
+  {
+    "event_id": "sim-process-9527-1052662:click2",
+    "task_run_id": "sim-process-9527-1052662",
+    "click_index": 2,
+    "iou": 0.917452335357666,
+    "boundary_iou": 0.8037327527999878,
+    "latency_ms": 42.09149999996953
+  },
+  {
+    "event_id": "sim-process-9527-1052662:click3",
+    "task_run_id": "sim-process-9527-1052662",
+    "click_index": 3,
+    "iou": 0.9202807545661926,
+    "boundary_iou": 0.8137591481208801,
+    "latency_ms": 39.9214000003667
+  },
+  {
+    "event_id": "sim-process-9527-1052662:click4",
+    "task_run_id": "sim-process-9527-1052662",
+    "click_index": 4,
+    "iou": 0.922738254070282,
+    "boundary_iou": 0.8196794986724854,
+    "latency_ms": 39.64480000013282
+  },
+  {
+    "event_id": "sim-process-9527-1052662:click5",
+    "task_run_id": "sim-process-9527-1052662",
+    "click_index": 5,
+    "iou": 0.933814287185669,
+    "boundary_iou": 0.8426847457885742,
+    "latency_ms": 40.715499999805616
+  },
+  {
+    "event_id": "sim-process-9527-2187964:click1",
+    "task_run_id": "sim-process-9527-2187964",
+    "click_index": 1,
+    "iou": 0.48184341192245483,
+    "boundary_iou": 0.4542025923728943,
+    "latency_ms": 35.81519999988814
+  },
+  {
+    "event_id": "sim-process-9527-2187964:click2",
+    "task_run_id": "sim-process-9527-2187964",
+    "click_index": 2,
+    "iou": 0.7777777910232544,
+    "boundary_iou": 0.7164792418479919,
+    "latency_ms": 37.736600000243925
+  },
+  {
+    "event_id": "sim-process-9527-2187964:click3",
+    "task_run_id": "sim-process-9527-2187964",
+    "click_index": 3,
+    "iou": 0.7798896431922913,
+    "boundary_iou": 0.7069336771965027,
+    "latency_ms": 37.69440000041868
+  },
+  {
+    "event_id": "sim-process-9527-2187964:click4",
+    "task_run_id": "sim-process-9527-2187964",
+    "click_index": 4,
+    "iou": 0.8010384440422058,
+    "boundary_iou": 0.7399122714996338,
+    "latency_ms": 45.39840000006734
+  },
+  {
+    "event_id": "sim-process-9527-2187964:click5",
+    "task_run_id": "sim-process-9527-2187964",
+    "click_index": 5,
+    "iou": 0.7874862551689148,
+    "boundary_iou": 0.7290993332862854,
+    "latency_ms": 41.620399999828805
+  },
+  {
+    "event_id": "sim-process-9527-319678:click1",
+    "task_run_id": "sim-process-9527-319678",
+    "click_index": 1,
+    "iou": 0.7276626229286194,
+    "boundary_iou": 0.2589280307292938,
+    "latency_ms": 38.57580000021699
+  },
+  {
+    "event_id": "sim-process-9527-319678:click2",
+    "task_run_id": "sim-process-9527-319678",
+    "click_index": 2,
+    "iou": 0.906927764415741,
+    "boundary_iou": 0.3939123749732971,
+    "latency_ms": 40.59290000031979
+  },
+  {
+    "event_id": "sim-process-9527-319678:click3",
+    "task_run_id": "sim-process-9527-319678",
+    "click_index": 3,
+    "iou": 0.9069342017173767,
+    "boundary_iou": 0.3930855691432953,
+    "latency_ms": 44.70679999985805
+  },
+  {
+    "event_id": "sim-process-9527-319678:click4",
+    "task_run_id": "sim-process-9527-319678",
+    "click_index": 4,
+    "iou": 0.9238205552101135,
+    "boundary_iou": 0.46989041566848755,
+    "latency_ms": 42.94190000018716
+  },
+  {
+    "event_id": "sim-process-9527-319678:click5",
+    "task_run_id": "sim-process-9527-319678",
+    "click_index": 5,
+    "iou": 0.9291828274726868,
+    "boundary_iou": 0.49789562821388245,
+    "latency_ms": 40.08410000005824
+  },
+  {
+    "event_id": "sim-process-9527-359071:click1",
+    "task_run_id": "sim-process-9527-359071",
+    "click_index": 1,
+    "iou": 0.871778130531311,
+    "boundary_iou": 0.8282402753829956,
+    "latency_ms": 37.503600000036386
+  },
+  {
+    "event_id": "sim-process-9527-359071:click2",
+    "task_run_id": "sim-process-9527-359071",
+    "click_index": 2,
+    "iou": 0.9131163954734802,
+    "boundary_iou": 0.881083071231842,
+    "latency_ms": 46.96349999994709
+  },
+  {
+    "event_id": "sim-process-9527-359071:click3",
+    "task_run_id": "sim-process-9527-359071",
+    "click_index": 3,
+    "iou": 0.9234172701835632,
+    "boundary_iou": 0.8961280584335327,
+    "latency_ms": 42.61449999967226
+  },
+  {
+    "event_id": "sim-process-9527-359071:click4",
+    "task_run_id": "sim-process-9527-359071",
+    "click_index": 4,
+    "iou": 0.9248554706573486,
+    "boundary_iou": 0.900484561920166,
+    "latency_ms": 42.645099999845115
+  },
+  {
+    "event_id": "sim-process-9527-359071:click5",
+    "task_run_id": "sim-process-9527-359071",
+    "click_index": 5,
+    "iou": 0.9191716909408569,
+    "boundary_iou": 0.8887669444084167,
+    "latency_ms": 43.196699999953125
+  },
+  {
+    "event_id": "sim-process-9527-2209986:click1",
+    "task_run_id": "sim-process-9527-2209986",
+    "click_index": 1,
+    "iou": 0.8632640242576599,
+    "boundary_iou": 0.8632640242576599,
+    "latency_ms": 35.266800000044896
+  },
+  {
+    "event_id": "sim-process-9527-2209986:click2",
+    "task_run_id": "sim-process-9527-2209986",
+    "click_index": 2,
+    "iou": 0.8822751045227051,
+    "boundary_iou": 0.8822751045227051,
+    "latency_ms": 39.92850000031467
+  },
+  {
+    "event_id": "sim-process-9527-2209986:click3",
+    "task_run_id": "sim-process-9527-2209986",
+    "click_index": 3,
+    "iou": 0.8955613374710083,
+    "boundary_iou": 0.8955613374710083,
+    "latency_ms": 35.45450000001438
+  },
+  {
+    "event_id": "sim-process-9527-2209986:click4",
+    "task_run_id": "sim-process-9527-2209986",
+    "click_index": 4,
+    "iou": 0.8875242471694946,
+    "boundary_iou": 0.8875242471694946,
+    "latency_ms": 40.039099999830796
+  },
+  {
+    "event_id": "sim-process-9527-2209986:click5",
+    "task_run_id": "sim-process-9527-2209986",
+    "click_index": 5,
+    "iou": 0.8867313861846924,
+    "boundary_iou": 0.8867313861846924,
+    "latency_ms": 38.43330000017886
+  },
+  {
+    "event_id": "sim-process-9527-47076:click1",
+    "task_run_id": "sim-process-9527-47076",
+    "click_index": 1,
+    "iou": 0.935795783996582,
+    "boundary_iou": 0.7894922494888306,
+    "latency_ms": 37.06959999999526
+  },
+  {
+    "event_id": "sim-process-9527-47076:click2",
+    "task_run_id": "sim-process-9527-47076",
+    "click_index": 2,
+    "iou": 0.9316670894622803,
+    "boundary_iou": 0.7667562365531921,
+    "latency_ms": 37.668200000098295
+  },
+  {
+    "event_id": "sim-process-9527-47076:click3",
+    "task_run_id": "sim-process-9527-47076",
+    "click_index": 3,
+    "iou": 0.9356682896614075,
+    "boundary_iou": 0.7887119054794312,
+    "latency_ms": 35.55839999989985
+  },
+  {
+    "event_id": "sim-process-9527-47076:click4",
+    "task_run_id": "sim-process-9527-47076",
+    "click_index": 4,
+    "iou": 0.9337325692176819,
+    "boundary_iou": 0.775984525680542,
+    "latency_ms": 42.66559999996389
+  },
+  {
+    "event_id": "sim-process-9527-47076:click5",
+    "task_run_id": "sim-process-9527-47076",
+    "click_index": 5,
+    "iou": 0.9344420433044434,
+    "boundary_iou": 0.7772164344787598,
+    "latency_ms": 41.05959999969855
+  },
+  {
+    "event_id": "sim-process-9527-584429:click1",
+    "task_run_id": "sim-process-9527-584429",
+    "click_index": 1,
+    "iou": 0.7211430072784424,
+    "boundary_iou": 0.3809307813644409,
+    "latency_ms": 39.55570000016451
+  },
+  {
+    "event_id": "sim-process-9527-584429:click2",
+    "task_run_id": "sim-process-9527-584429",
+    "click_index": 2,
+    "iou": 0.5217499136924744,
+    "boundary_iou": 0.18241019546985626,
+    "latency_ms": 39.69100000040271
+  },
+  {
+    "event_id": "sim-process-9527-584429:click3",
+    "task_run_id": "sim-process-9527-584429",
+    "click_index": 3,
+    "iou": 0.7718483209609985,
+    "boundary_iou": 0.3781731426715851,
+    "latency_ms": 41.588900000078866
+  },
+  {
+    "event_id": "sim-process-9527-584429:click4",
+    "task_run_id": "sim-process-9527-584429",
+    "click_index": 4,
+    "iou": 0.7768295407295227,
+    "boundary_iou": 0.43131107091903687,
+    "latency_ms": 44.90410000016709
+  },
+  {
+    "event_id": "sim-process-9527-584429:click5",
+    "task_run_id": "sim-process-9527-584429",
+    "click_index": 5,
+    "iou": 0.8506888151168823,
+    "boundary_iou": 0.45931828022003174,
+    "latency_ms": 45.77700000027107
+  },
+  {
+    "event_id": "sim-process-9527-600744:click1",
+    "task_run_id": "sim-process-9527-600744",
+    "click_index": 1,
+    "iou": 0.7390670776367188,
+    "boundary_iou": 0.7390670776367188,
+    "latency_ms": 40.1240000001053
+  },
+  {
+    "event_id": "sim-process-9527-600744:click2",
+    "task_run_id": "sim-process-9527-600744",
+    "click_index": 2,
+    "iou": 0.7953091859817505,
+    "boundary_iou": 0.7953091859817505,
+    "latency_ms": 38.105499999801395
+  },
+  {
+    "event_id": "sim-process-9527-600744:click3",
+    "task_run_id": "sim-process-9527-600744",
+    "click_index": 3,
+    "iou": 0.7949538230895996,
+    "boundary_iou": 0.7949538230895996,
+    "latency_ms": 39.25310000022364
+  },
+  {
+    "event_id": "sim-process-9527-600744:click4",
+    "task_run_id": "sim-process-9527-600744",
+    "click_index": 4,
+    "iou": 0.8063127398490906,
+    "boundary_iou": 0.8063127398490906,
+    "latency_ms": 38.13739999986865
+  },
+  {
+    "event_id": "sim-process-9527-600744:click5",
+    "task_run_id": "sim-process-9527-600744",
+    "click_index": 5,
+    "iou": 0.795983076095581,
+    "boundary_iou": 0.795983076095581,
+    "latency_ms": 36.239199999727134
+  },
+  {
+    "event_id": "sim-process-9527-601799:click1",
+    "task_run_id": "sim-process-9527-601799",
+    "click_index": 1,
+    "iou": 0.8332480788230896,
+    "boundary_iou": 0.8332480788230896,
+    "latency_ms": 35.609999999905995
+  },
+  {
+    "event_id": "sim-process-9527-601799:click2",
+    "task_run_id": "sim-process-9527-601799",
+    "click_index": 2,
+    "iou": 0.8647586703300476,
+    "boundary_iou": 0.8647586703300476,
+    "latency_ms": 39.40999999986161
+  },
+  {
+    "event_id": "sim-process-9527-601799:click3",
+    "task_run_id": "sim-process-9527-601799",
+    "click_index": 3,
+    "iou": 0.9005618095397949,
+    "boundary_iou": 0.9005618095397949,
+    "latency_ms": 35.54809999968711
+  },
+  {
+    "event_id": "sim-process-9527-601799:click4",
+    "task_run_id": "sim-process-9527-601799",
+    "click_index": 4,
+    "iou": 0.8836944103240967,
+    "boundary_iou": 0.8836944103240967,
+    "latency_ms": 38.08600000002116
+  },
+  {
+    "event_id": "sim-process-9527-601799:click5",
+    "task_run_id": "sim-process-9527-601799",
+    "click_index": 5,
+    "iou": 0.9013120532035828,
+    "boundary_iou": 0.9013120532035828,
+    "latency_ms": 36.03229999998803
+  },
+  {
+    "event_id": "sim-process-9527-670400:click1",
+    "task_run_id": "sim-process-9527-670400",
+    "click_index": 1,
+    "iou": 0.9443051218986511,
+    "boundary_iou": 0.8750760555267334,
+    "latency_ms": 40.329599999950005
+  },
+  {
+    "event_id": "sim-process-9527-670400:click2",
+    "task_run_id": "sim-process-9527-670400",
+    "click_index": 2,
+    "iou": 0.9493829607963562,
+    "boundary_iou": 0.8838414549827576,
+    "latency_ms": 35.870300000169664
+  },
+  {
+    "event_id": "sim-process-9527-670400:click3",
+    "task_run_id": "sim-process-9527-670400",
+    "click_index": 3,
+    "iou": 0.950313150882721,
+    "boundary_iou": 0.88599693775177,
+    "latency_ms": 34.663199999613425
+  },
+  {
+    "event_id": "sim-process-9527-670400:click4",
+    "task_run_id": "sim-process-9527-670400",
+    "click_index": 4,
+    "iou": 0.9466569423675537,
+    "boundary_iou": 0.8719733953475952,
+    "latency_ms": 41.89670000005208
+  },
+  {
+    "event_id": "sim-process-9527-670400:click5",
+    "task_run_id": "sim-process-9527-670400",
+    "click_index": 5,
+    "iou": 0.9464434385299683,
+    "boundary_iou": 0.8719345927238464,
+    "latency_ms": 39.272799999707786
+  },
+  {
+    "event_id": "sim-process-9527-1893952:click1",
+    "task_run_id": "sim-process-9527-1893952",
+    "click_index": 1,
+    "iou": 0.4592326283454895,
+    "boundary_iou": 0.4592326283454895,
+    "latency_ms": 37.71610000012515
+  },
+  {
+    "event_id": "sim-process-9527-1893952:click2",
+    "task_run_id": "sim-process-9527-1893952",
+    "click_index": 2,
+    "iou": 0.8296067714691162,
+    "boundary_iou": 0.8296067714691162,
+    "latency_ms": 40.946900000108144
+  },
+  {
+    "event_id": "sim-process-9527-1893952:click3",
+    "task_run_id": "sim-process-9527-1893952",
+    "click_index": 3,
+    "iou": 0.873909592628479,
+    "boundary_iou": 0.873909592628479,
+    "latency_ms": 37.79080000003887
+  },
+  {
+    "event_id": "sim-process-9527-1893952:click4",
+    "task_run_id": "sim-process-9527-1893952",
+    "click_index": 4,
+    "iou": 0.8755760192871094,
+    "boundary_iou": 0.8755760192871094,
+    "latency_ms": 37.152400000195485
+  },
+  {
+    "event_id": "sim-process-9527-1893952:click5",
+    "task_run_id": "sim-process-9527-1893952",
+    "click_index": 5,
+    "iou": 0.8823529481887817,
+    "boundary_iou": 0.8823529481887817,
+    "latency_ms": 33.96070000007967
+  },
+  {
+    "event_id": "sim-process-9527-1528656:click1",
+    "task_run_id": "sim-process-9527-1528656",
+    "click_index": 1,
+    "iou": 0.8411594033241272,
+    "boundary_iou": 0.8411594033241272,
+    "latency_ms": 37.04710000010891
+  },
+  {
+    "event_id": "sim-process-9527-1528656:click2",
+    "task_run_id": "sim-process-9527-1528656",
+    "click_index": 2,
+    "iou": 0.8667426109313965,
+    "boundary_iou": 0.8667426109313965,
+    "latency_ms": 36.979100000280596
+  },
+  {
+    "event_id": "sim-process-9527-1528656:click3",
+    "task_run_id": "sim-process-9527-1528656",
+    "click_index": 3,
+    "iou": 0.8713550567626953,
+    "boundary_iou": 0.8713550567626953,
+    "latency_ms": 40.4382000001533
+  },
+  {
+    "event_id": "sim-process-9527-1528656:click4",
+    "task_run_id": "sim-process-9527-1528656",
+    "click_index": 4,
+    "iou": 0.8728121519088745,
+    "boundary_iou": 0.8728121519088745,
+    "latency_ms": 39.81419999990976
+  },
+  {
+    "event_id": "sim-process-9527-1528656:click5",
+    "task_run_id": "sim-process-9527-1528656",
+    "click_index": 5,
+    "iou": 0.8654073476791382,
+    "boundary_iou": 0.8654073476791382,
+    "latency_ms": 41.22389999974985
+  },
+  {
+    "event_id": "sim-process-9527-1038994:click1",
+    "task_run_id": "sim-process-9527-1038994",
+    "click_index": 1,
+    "iou": 0.45233187079429626,
+    "boundary_iou": 0.08541320264339447,
+    "latency_ms": 39.50480000003154
+  },
+  {
+    "event_id": "sim-process-9527-1038994:click2",
+    "task_run_id": "sim-process-9527-1038994",
+    "click_index": 2,
+    "iou": 0.8859144449234009,
+    "boundary_iou": 0.5984963774681091,
+    "latency_ms": 38.75389999984691
+  },
+  {
+    "event_id": "sim-process-9527-1038994:click3",
+    "task_run_id": "sim-process-9527-1038994",
+    "click_index": 3,
+    "iou": 0.9018656611442566,
+    "boundary_iou": 0.6411942839622498,
+    "latency_ms": 35.1661999998214
+  },
+  {
+    "event_id": "sim-process-9527-1038994:click4",
+    "task_run_id": "sim-process-9527-1038994",
+    "click_index": 4,
+    "iou": 0.9071834683418274,
+    "boundary_iou": 0.6598665714263916,
+    "latency_ms": 40.964400000120804
+  },
+  {
+    "event_id": "sim-process-9527-1038994:click5",
+    "task_run_id": "sim-process-9527-1038994",
+    "click_index": 5,
+    "iou": 0.9260060787200928,
+    "boundary_iou": 0.7264143228530884,
+    "latency_ms": 35.3595999999925
+  },
+  {
+    "event_id": "sim-process-9527-1909025:click1",
+    "task_run_id": "sim-process-9527-1909025",
+    "click_index": 1,
+    "iou": 0.2589200437068939,
+    "boundary_iou": 0.03222693130373955,
+    "latency_ms": 35.109299999930954
+  },
+  {
+    "event_id": "sim-process-9527-1909025:click2",
+    "task_run_id": "sim-process-9527-1909025",
+    "click_index": 2,
+    "iou": 0.8391667008399963,
+    "boundary_iou": 0.18901151418685913,
+    "latency_ms": 41.43969999995534
+  },
+  {
+    "event_id": "sim-process-9527-1909025:click3",
+    "task_run_id": "sim-process-9527-1909025",
+    "click_index": 3,
+    "iou": 0.9077982306480408,
+    "boundary_iou": 0.38327592611312866,
+    "latency_ms": 39.434499999970285
+  },
+  {
+    "event_id": "sim-process-9527-1909025:click4",
+    "task_run_id": "sim-process-9527-1909025",
+    "click_index": 4,
+    "iou": 0.913006067276001,
+    "boundary_iou": 0.406017005443573,
+    "latency_ms": 38.397400000121706
+  },
+  {
+    "event_id": "sim-process-9527-1909025:click5",
+    "task_run_id": "sim-process-9527-1909025",
+    "click_index": 5,
+    "iou": 0.9159299731254578,
+    "boundary_iou": 0.42026031017303467,
+    "latency_ms": 39.405100000294624
+  },
+  {
+    "event_id": "sim-process-9527-1929746:click1",
+    "task_run_id": "sim-process-9527-1929746",
+    "click_index": 1,
+    "iou": 0.6077224612236023,
+    "boundary_iou": 0.6077224612236023,
+    "latency_ms": 33.48249999999098
+  },
+  {
+    "event_id": "sim-process-9527-1929746:click2",
+    "task_run_id": "sim-process-9527-1929746",
+    "click_index": 2,
+    "iou": 0.5616297125816345,
+    "boundary_iou": 0.5611139535903931,
+    "latency_ms": 42.40800000025047
+  },
+  {
+    "event_id": "sim-process-9527-1929746:click3",
+    "task_run_id": "sim-process-9527-1929746",
+    "click_index": 3,
+    "iou": 0.8648180365562439,
+    "boundary_iou": 0.8648180365562439,
+    "latency_ms": 34.557500000119035
+  },
+  {
+    "event_id": "sim-process-9527-1929746:click4",
+    "task_run_id": "sim-process-9527-1929746",
+    "click_index": 4,
+    "iou": 0.8001586198806763,
+    "boundary_iou": 0.8001586198806763,
+    "latency_ms": 39.0173999999206
+  },
+  {
+    "event_id": "sim-process-9527-1929746:click5",
+    "task_run_id": "sim-process-9527-1929746",
+    "click_index": 5,
+    "iou": 0.8054443597793579,
+    "boundary_iou": 0.8054443597793579,
+    "latency_ms": 34.62430000035965
+  },
+  {
+    "event_id": "sim-process-9527-319055:click1",
+    "task_run_id": "sim-process-9527-319055",
+    "click_index": 1,
+    "iou": 0.0900421142578125,
+    "boundary_iou": 0.02684682607650757,
+    "latency_ms": 37.58849999985614
+  },
+  {
+    "event_id": "sim-process-9527-319055:click2",
+    "task_run_id": "sim-process-9527-319055",
+    "click_index": 2,
+    "iou": 0.6966037154197693,
+    "boundary_iou": 0.3266589939594269,
+    "latency_ms": 35.02309999976205
+  },
+  {
+    "event_id": "sim-process-9527-319055:click3",
+    "task_run_id": "sim-process-9527-319055",
+    "click_index": 3,
+    "iou": 0.85809326171875,
+    "boundary_iou": 0.49738809466362,
+    "latency_ms": 34.88359999983004
+  },
+  {
+    "event_id": "sim-process-9527-319055:click4",
+    "task_run_id": "sim-process-9527-319055",
+    "click_index": 4,
+    "iou": 0.8925439119338989,
+    "boundary_iou": 0.481576532125473,
+    "latency_ms": 36.4887999999155
+  },
+  {
+    "event_id": "sim-process-9527-319055:click5",
+    "task_run_id": "sim-process-9527-319055",
+    "click_index": 5,
+    "iou": 0.8936849236488342,
+    "boundary_iou": 0.5354799032211304,
+    "latency_ms": 36.97580000016387
+  },
+  {
+    "event_id": "sim-process-9527-1109433:click1",
+    "task_run_id": "sim-process-9527-1109433",
+    "click_index": 1,
+    "iou": 0.5548712015151978,
+    "boundary_iou": 0.5548712015151978,
+    "latency_ms": 36.24519999993936
+  },
+  {
+    "event_id": "sim-process-9527-1109433:click2",
+    "task_run_id": "sim-process-9527-1109433",
+    "click_index": 2,
+    "iou": 0.5552825331687927,
+    "boundary_iou": 0.5552825331687927,
+    "latency_ms": 36.422899999706715
+  },
+  {
+    "event_id": "sim-process-9527-1109433:click3",
+    "task_run_id": "sim-process-9527-1109433",
+    "click_index": 3,
+    "iou": 0.7069351077079773,
+    "boundary_iou": 0.7069351077079773,
+    "latency_ms": 36.248999999770604
+  },
+  {
+    "event_id": "sim-process-9527-1109433:click4",
+    "task_run_id": "sim-process-9527-1109433",
+    "click_index": 4,
+    "iou": 0.7759717106819153,
+    "boundary_iou": 0.7759717106819153,
+    "latency_ms": 37.66899999982343
+  },
+  {
+    "event_id": "sim-process-9527-1109433:click5",
+    "task_run_id": "sim-process-9527-1109433",
+    "click_index": 5,
+    "iou": 0.7469621300697327,
+    "boundary_iou": 0.7469621300697327,
+    "latency_ms": 40.38040000023102
+  },
+  {
+    "event_id": "sim-process-9527-1114749:click1",
+    "task_run_id": "sim-process-9527-1114749",
+    "click_index": 1,
+    "iou": 0.45479515194892883,
+    "boundary_iou": 0.3997211158275604,
+    "latency_ms": 38.28160000011849
+  },
+  {
+    "event_id": "sim-process-9527-1114749:click2",
+    "task_run_id": "sim-process-9527-1114749",
+    "click_index": 2,
+    "iou": 0.5802037715911865,
+    "boundary_iou": 0.567394495010376,
+    "latency_ms": 38.87460000032661
+  },
+  {
+    "event_id": "sim-process-9527-1114749:click3",
+    "task_run_id": "sim-process-9527-1114749",
+    "click_index": 3,
+    "iou": 0.7072557210922241,
+    "boundary_iou": 0.7051005959510803,
+    "latency_ms": 37.919000000329106
+  },
+  {
+    "event_id": "sim-process-9527-1114749:click4",
+    "task_run_id": "sim-process-9527-1114749",
+    "click_index": 4,
+    "iou": 0.8045789003372192,
+    "boundary_iou": 0.8045789003372192,
+    "latency_ms": 36.44399999984671
+  },
+  {
+    "event_id": "sim-process-9527-1114749:click5",
+    "task_run_id": "sim-process-9527-1114749",
+    "click_index": 5,
+    "iou": 0.7247335314750671,
+    "boundary_iou": 0.7236310243606567,
+    "latency_ms": 40.666999999757536
+  },
+  {
+    "event_id": "sim-process-9527-1983642:click1",
+    "task_run_id": "sim-process-9527-1983642",
+    "click_index": 1,
+    "iou": 0.8574403524398804,
+    "boundary_iou": 0.7697768807411194,
+    "latency_ms": 35.51629999992656
+  },
+  {
+    "event_id": "sim-process-9527-1983642:click2",
+    "task_run_id": "sim-process-9527-1983642",
+    "click_index": 2,
+    "iou": 0.9102746844291687,
+    "boundary_iou": 0.8689458966255188,
+    "latency_ms": 34.76249999994252
+  },
+  {
+    "event_id": "sim-process-9527-1983642:click3",
+    "task_run_id": "sim-process-9527-1983642",
+    "click_index": 3,
+    "iou": 0.9008198380470276,
+    "boundary_iou": 0.8531558513641357,
+    "latency_ms": 36.90070000038759
+  },
+  {
+    "event_id": "sim-process-9527-1983642:click4",
+    "task_run_id": "sim-process-9527-1983642",
+    "click_index": 4,
+    "iou": 0.9248291850090027,
+    "boundary_iou": 0.8898305296897888,
+    "latency_ms": 36.713399999825924
+  },
+  {
+    "event_id": "sim-process-9527-1983642:click5",
+    "task_run_id": "sim-process-9527-1983642",
+    "click_index": 5,
+    "iou": 0.9429778456687927,
+    "boundary_iou": 0.9180887341499329,
+    "latency_ms": 38.47529999984545
+  },
+  {
+    "event_id": "sim-process-9527-1161179:click1",
+    "task_run_id": "sim-process-9527-1161179",
+    "click_index": 1,
+    "iou": 0.547702968120575,
+    "boundary_iou": 0.2189943492412567,
+    "latency_ms": 34.762599999794475
+  },
+  {
+    "event_id": "sim-process-9527-1161179:click2",
+    "task_run_id": "sim-process-9527-1161179",
+    "click_index": 2,
+    "iou": 0.9058690071105957,
+    "boundary_iou": 0.7010957598686218,
+    "latency_ms": 35.50930000028529
+  },
+  {
+    "event_id": "sim-process-9527-1161179:click3",
+    "task_run_id": "sim-process-9527-1161179",
+    "click_index": 3,
+    "iou": 0.9100186228752136,
+    "boundary_iou": 0.7037743330001831,
+    "latency_ms": 39.14500000018961
+  },
+  {
+    "event_id": "sim-process-9527-1161179:click4",
+    "task_run_id": "sim-process-9527-1161179",
+    "click_index": 4,
+    "iou": 0.8838786482810974,
+    "boundary_iou": 0.6100813150405884,
+    "latency_ms": 35.66270000010263
+  },
+  {
+    "event_id": "sim-process-9527-1161179:click5",
+    "task_run_id": "sim-process-9527-1161179",
+    "click_index": 5,
+    "iou": 0.9108344912528992,
+    "boundary_iou": 0.6999797821044922,
+    "latency_ms": 44.55129999996643
+  },
+  {
+    "event_id": "sim-process-9527-2049753:click1",
+    "task_run_id": "sim-process-9527-2049753",
+    "click_index": 1,
+    "iou": 0.6557292938232422,
+    "boundary_iou": 0.49241766333580017,
+    "latency_ms": 34.18200000032812
+  },
+  {
+    "event_id": "sim-process-9527-2049753:click2",
+    "task_run_id": "sim-process-9527-2049753",
+    "click_index": 2,
+    "iou": 0.6634320616722107,
+    "boundary_iou": 0.5067587494850159,
+    "latency_ms": 39.235199999893666
+  },
+  {
+    "event_id": "sim-process-9527-2049753:click3",
+    "task_run_id": "sim-process-9527-2049753",
+    "click_index": 3,
+    "iou": 0.8823865056037903,
+    "boundary_iou": 0.7698558568954468,
+    "latency_ms": 38.53990000015983
+  },
+  {
+    "event_id": "sim-process-9527-2049753:click4",
+    "task_run_id": "sim-process-9527-2049753",
+    "click_index": 4,
+    "iou": 0.8709625005722046,
+    "boundary_iou": 0.752479076385498,
+    "latency_ms": 36.55130000015561
+  },
+  {
+    "event_id": "sim-process-9527-2049753:click5",
+    "task_run_id": "sim-process-9527-2049753",
+    "click_index": 5,
+    "iou": 0.8777453899383545,
+    "boundary_iou": 0.7527769804000854,
+    "latency_ms": 38.19369999973787
+  },
+  {
+    "event_id": "sim-process-9527-165864:click1",
+    "task_run_id": "sim-process-9527-165864",
+    "click_index": 1,
+    "iou": 0.869077742099762,
+    "boundary_iou": 0.801601767539978,
+    "latency_ms": 38.43319999987216
+  },
+  {
+    "event_id": "sim-process-9527-165864:click2",
+    "task_run_id": "sim-process-9527-165864",
+    "click_index": 2,
+    "iou": 0.8572453260421753,
+    "boundary_iou": 0.7815638184547424,
+    "latency_ms": 34.48819999994157
+  },
+  {
+    "event_id": "sim-process-9527-165864:click3",
+    "task_run_id": "sim-process-9527-165864",
+    "click_index": 3,
+    "iou": 0.9022988677024841,
+    "boundary_iou": 0.8544061183929443,
+    "latency_ms": 40.35830000020724
+  },
+  {
+    "event_id": "sim-process-9527-165864:click4",
+    "task_run_id": "sim-process-9527-165864",
+    "click_index": 4,
+    "iou": 0.923619270324707,
+    "boundary_iou": 0.8875832557678223,
+    "latency_ms": 37.12310000037178
+  },
+  {
+    "event_id": "sim-process-9527-165864:click5",
+    "task_run_id": "sim-process-9527-165864",
+    "click_index": 5,
+    "iou": 0.9382815361022949,
+    "boundary_iou": 0.9193223118782043,
+    "latency_ms": 39.61200000003373
+  },
+  {
+    "event_id": "sim-process-9527-2175099:click1",
+    "task_run_id": "sim-process-9527-2175099",
+    "click_index": 1,
+    "iou": 0.9367783665657043,
+    "boundary_iou": 0.7013748288154602,
+    "latency_ms": 38.590600000134145
+  },
+  {
+    "event_id": "sim-process-9527-2175099:click2",
+    "task_run_id": "sim-process-9527-2175099",
+    "click_index": 2,
+    "iou": 0.9290348887443542,
+    "boundary_iou": 0.688288152217865,
+    "latency_ms": 38.05640000018684
+  },
+  {
+    "event_id": "sim-process-9527-2175099:click3",
+    "task_run_id": "sim-process-9527-2175099",
+    "click_index": 3,
+    "iou": 0.9449803829193115,
+    "boundary_iou": 0.7529138922691345,
+    "latency_ms": 37.02049999992596
+  },
+  {
+    "event_id": "sim-process-9527-2175099:click4",
+    "task_run_id": "sim-process-9527-2175099",
+    "click_index": 4,
+    "iou": 0.9420977234840393,
+    "boundary_iou": 0.728881299495697,
+    "latency_ms": 37.23459999991974
+  },
+  {
+    "event_id": "sim-process-9527-2175099:click5",
+    "task_run_id": "sim-process-9527-2175099",
+    "click_index": 5,
+    "iou": 0.9428125023841858,
+    "boundary_iou": 0.7509217858314514,
+    "latency_ms": 35.762699999850156
+  },
+  {
+    "event_id": "sim-process-9527-589946:click1",
+    "task_run_id": "sim-process-9527-589946",
+    "click_index": 1,
+    "iou": 0.8979997634887695,
+    "boundary_iou": 0.7218137979507446,
+    "latency_ms": 37.24689999990005
+  },
+  {
+    "event_id": "sim-process-9527-589946:click2",
+    "task_run_id": "sim-process-9527-589946",
+    "click_index": 2,
+    "iou": 0.9031001925468445,
+    "boundary_iou": 0.7284969687461853,
+    "latency_ms": 41.285400000106165
+  },
+  {
+    "event_id": "sim-process-9527-589946:click3",
+    "task_run_id": "sim-process-9527-589946",
+    "click_index": 3,
+    "iou": 0.9002745747566223,
+    "boundary_iou": 0.7180631160736084,
+    "latency_ms": 47.23020000028555
+  },
+  {
+    "event_id": "sim-process-9527-589946:click4",
+    "task_run_id": "sim-process-9527-589946",
+    "click_index": 4,
+    "iou": 0.9020573496818542,
+    "boundary_iou": 0.7242177128791809,
+    "latency_ms": 38.04519999994227
+  },
+  {
+    "event_id": "sim-process-9527-589946:click5",
+    "task_run_id": "sim-process-9527-589946",
+    "click_index": 5,
+    "iou": 0.8994649052619934,
+    "boundary_iou": 0.7213291525840759,
+    "latency_ms": 36.284900000282505
+  },
+  {
+    "event_id": "sim-process-9527-1426212:click1",
+    "task_run_id": "sim-process-9527-1426212",
+    "click_index": 1,
+    "iou": 0.12635692954063416,
+    "boundary_iou": 0.13497216999530792,
+    "latency_ms": 36.23199999992721
+  },
+  {
+    "event_id": "sim-process-9527-1426212:click2",
+    "task_run_id": "sim-process-9527-1426212",
+    "click_index": 2,
+    "iou": 0.5032212138175964,
+    "boundary_iou": 0.5032212138175964,
+    "latency_ms": 36.624599999868224
+  },
+  {
+    "event_id": "sim-process-9527-1426212:click3",
+    "task_run_id": "sim-process-9527-1426212",
+    "click_index": 3,
+    "iou": 0.626714825630188,
+    "boundary_iou": 0.626714825630188,
+    "latency_ms": 39.90410000005795
+  },
+  {
+    "event_id": "sim-process-9527-1426212:click4",
+    "task_run_id": "sim-process-9527-1426212",
+    "click_index": 4,
+    "iou": 0.5810510516166687,
+    "boundary_iou": 0.5810510516166687,
+    "latency_ms": 38.46419999990758
+  },
+  {
+    "event_id": "sim-process-9527-1426212:click5",
+    "task_run_id": "sim-process-9527-1426212",
+    "click_index": 5,
+    "iou": 0.6531531810760498,
+    "boundary_iou": 0.6531531810760498,
+    "latency_ms": 36.17279999980383
+  },
+  {
+    "event_id": "sim-process-9527-639666:click1",
+    "task_run_id": "sim-process-9527-639666",
+    "click_index": 1,
+    "iou": 0.024657366797327995,
+    "boundary_iou": 0.0480438657104969,
+    "latency_ms": 35.94440000006216
+  },
+  {
+    "event_id": "sim-process-9527-639666:click2",
+    "task_run_id": "sim-process-9527-639666",
+    "click_index": 2,
+    "iou": 0.6134152412414551,
+    "boundary_iou": 0.6134152412414551,
+    "latency_ms": 38.85249999984808
+  },
+  {
+    "event_id": "sim-process-9527-639666:click3",
+    "task_run_id": "sim-process-9527-639666",
+    "click_index": 3,
+    "iou": 0.7956664562225342,
+    "boundary_iou": 0.7956664562225342,
+    "latency_ms": 39.37210000003688
+  },
+  {
+    "event_id": "sim-process-9527-639666:click4",
+    "task_run_id": "sim-process-9527-639666",
+    "click_index": 4,
+    "iou": 0.7848202586174011,
+    "boundary_iou": 0.7848202586174011,
+    "latency_ms": 40.37160000007134
+  },
+  {
+    "event_id": "sim-process-9527-639666:click5",
+    "task_run_id": "sim-process-9527-639666",
+    "click_index": 5,
+    "iou": 0.7588967680931091,
+    "boundary_iou": 0.7588967680931091,
+    "latency_ms": 45.271799999682116
+  },
+  {
+    "event_id": "sim-process-9527-1862620:click1",
+    "task_run_id": "sim-process-9527-1862620",
+    "click_index": 1,
+    "iou": 0.9159824848175049,
+    "boundary_iou": 0.8739596009254456,
+    "latency_ms": 40.33130000016172
+  },
+  {
+    "event_id": "sim-process-9527-1862620:click2",
+    "task_run_id": "sim-process-9527-1862620",
+    "click_index": 2,
+    "iou": 0.9250476956367493,
+    "boundary_iou": 0.882805585861206,
+    "latency_ms": 35.39429999955246
+  },
+  {
+    "event_id": "sim-process-9527-1862620:click3",
+    "task_run_id": "sim-process-9527-1862620",
+    "click_index": 3,
+    "iou": 0.9398084878921509,
+    "boundary_iou": 0.9084908366203308,
+    "latency_ms": 39.318699999967066
+  },
+  {
+    "event_id": "sim-process-9527-1862620:click4",
+    "task_run_id": "sim-process-9527-1862620",
+    "click_index": 4,
+    "iou": 0.936753511428833,
+    "boundary_iou": 0.8973824977874756,
+    "latency_ms": 35.92750000007072
+  },
+  {
+    "event_id": "sim-process-9527-1862620:click5",
+    "task_run_id": "sim-process-9527-1862620",
+    "click_index": 5,
+    "iou": 0.9448539614677429,
+    "boundary_iou": 0.9167417883872986,
+    "latency_ms": 37.680200000068
+  },
+  {
+    "event_id": "sim-process-9527-656101:click1",
+    "task_run_id": "sim-process-9527-656101",
+    "click_index": 1,
+    "iou": 0.7356770634651184,
+    "boundary_iou": 0.7356770634651184,
+    "latency_ms": 47.64270000032411
+  },
+  {
+    "event_id": "sim-process-9527-656101:click2",
+    "task_run_id": "sim-process-9527-656101",
+    "click_index": 2,
+    "iou": 0.7252106070518494,
+    "boundary_iou": 0.7252106070518494,
+    "latency_ms": 36.679600000297796
+  },
+  {
+    "event_id": "sim-process-9527-656101:click3",
+    "task_run_id": "sim-process-9527-656101",
+    "click_index": 3,
+    "iou": 0.7354463338851929,
+    "boundary_iou": 0.7354463338851929,
+    "latency_ms": 38.15179999992324
+  },
+  {
+    "event_id": "sim-process-9527-656101:click4",
+    "task_run_id": "sim-process-9527-656101",
+    "click_index": 4,
+    "iou": 0.740645170211792,
+    "boundary_iou": 0.740645170211792,
+    "latency_ms": 34.52119999974457
+  },
+  {
+    "event_id": "sim-process-9527-656101:click5",
+    "task_run_id": "sim-process-9527-656101",
+    "click_index": 5,
+    "iou": 0.7441709637641907,
+    "boundary_iou": 0.7441709637641907,
+    "latency_ms": 38.65029999997205
+  },
+  {
+    "event_id": "sim-process-9527-1059356:click1",
+    "task_run_id": "sim-process-9527-1059356",
+    "click_index": 1,
+    "iou": 0.20368443429470062,
+    "boundary_iou": 0.14763545989990234,
+    "latency_ms": 36.06619999982286
+  },
+  {
+    "event_id": "sim-process-9527-1059356:click2",
+    "task_run_id": "sim-process-9527-1059356",
+    "click_index": 2,
+    "iou": 0.9259061217308044,
+    "boundary_iou": 0.5753170847892761,
+    "latency_ms": 36.79409999995187
+  },
+  {
+    "event_id": "sim-process-9527-1059356:click3",
+    "task_run_id": "sim-process-9527-1059356",
+    "click_index": 3,
+    "iou": 0.9248301982879639,
+    "boundary_iou": 0.5666666626930237,
+    "latency_ms": 37.0069999999032
+  },
+  {
+    "event_id": "sim-process-9527-1059356:click4",
+    "task_run_id": "sim-process-9527-1059356",
+    "click_index": 4,
+    "iou": 0.9312790632247925,
+    "boundary_iou": 0.5984207987785339,
+    "latency_ms": 38.37669999984428
+  },
+  {
+    "event_id": "sim-process-9527-1059356:click5",
+    "task_run_id": "sim-process-9527-1059356",
+    "click_index": 5,
+    "iou": 0.93312007188797,
+    "boundary_iou": 0.6000203490257263,
+    "latency_ms": 45.559700000012526
+  },
+  {
+    "event_id": "sim-process-9527-1085978:click1",
+    "task_run_id": "sim-process-9527-1085978",
+    "click_index": 1,
+    "iou": 0.9072961807250977,
+    "boundary_iou": 0.46784883737564087,
+    "latency_ms": 44.57559999991645
+  },
+  {
+    "event_id": "sim-process-9527-1085978:click2",
+    "task_run_id": "sim-process-9527-1085978",
+    "click_index": 2,
+    "iou": 0.9180065989494324,
+    "boundary_iou": 0.5037230253219604,
+    "latency_ms": 38.458600000012666
+  },
+  {
+    "event_id": "sim-process-9527-1085978:click3",
+    "task_run_id": "sim-process-9527-1085978",
+    "click_index": 3,
+    "iou": 0.9437665343284607,
+    "boundary_iou": 0.6429672837257385,
+    "latency_ms": 38.57159999961368
+  },
+  {
+    "event_id": "sim-process-9527-1085978:click4",
+    "task_run_id": "sim-process-9527-1085978",
+    "click_index": 4,
+    "iou": 0.9485846161842346,
+    "boundary_iou": 0.6792452931404114,
+    "latency_ms": 34.44840000020122
+  },
+  {
+    "event_id": "sim-process-9527-1085978:click5",
+    "task_run_id": "sim-process-9527-1085978",
+    "click_index": 5,
+    "iou": 0.9498329162597656,
+    "boundary_iou": 0.678972065448761,
+    "latency_ms": 43.09780000039609
+  },
+  {
+    "event_id": "sim-process-9527-1592528:click1",
+    "task_run_id": "sim-process-9527-1592528",
+    "click_index": 1,
+    "iou": 0.8204787373542786,
+    "boundary_iou": 0.8204787373542786,
+    "latency_ms": 36.63120000010167
+  },
+  {
+    "event_id": "sim-process-9527-1592528:click2",
+    "task_run_id": "sim-process-9527-1592528",
+    "click_index": 2,
+    "iou": 0.9275808930397034,
+    "boundary_iou": 0.9275808930397034,
+    "latency_ms": 36.743099999966944
+  },
+  {
+    "event_id": "sim-process-9527-1592528:click3",
+    "task_run_id": "sim-process-9527-1592528",
+    "click_index": 3,
+    "iou": 0.9300864338874817,
+    "boundary_iou": 0.9300864338874817,
+    "latency_ms": 38.50830000010319
+  },
+  {
+    "event_id": "sim-process-9527-1592528:click4",
+    "task_run_id": "sim-process-9527-1592528",
+    "click_index": 4,
+    "iou": 0.9149606227874756,
+    "boundary_iou": 0.9149606227874756,
+    "latency_ms": 36.291200000050594
+  },
+  {
+    "event_id": "sim-process-9527-1592528:click5",
+    "task_run_id": "sim-process-9527-1592528",
+    "click_index": 5,
+    "iou": 0.9054373502731323,
+    "boundary_iou": 0.9054373502731323,
+    "latency_ms": 41.091700000379205
+  },
+  {
+    "event_id": "sim-process-9527-321076:click1",
+    "task_run_id": "sim-process-9527-321076",
+    "click_index": 1,
+    "iou": 0.8991228342056274,
+    "boundary_iou": 0.5950374007225037,
+    "latency_ms": 37.10339999997814
+  },
+  {
+    "event_id": "sim-process-9527-321076:click2",
+    "task_run_id": "sim-process-9527-321076",
+    "click_index": 2,
+    "iou": 0.9361451268196106,
+    "boundary_iou": 0.7373461127281189,
+    "latency_ms": 39.24230000029638
+  },
+  {
+    "event_id": "sim-process-9527-321076:click3",
+    "task_run_id": "sim-process-9527-321076",
+    "click_index": 3,
+    "iou": 0.9614405035972595,
+    "boundary_iou": 0.8204589486122131,
+    "latency_ms": 42.07739999992555
+  },
+  {
+    "event_id": "sim-process-9527-321076:click4",
+    "task_run_id": "sim-process-9527-321076",
+    "click_index": 4,
+    "iou": 0.9640313982963562,
+    "boundary_iou": 0.8380494713783264,
+    "latency_ms": 40.451999999731925
+  },
+  {
+    "event_id": "sim-process-9527-321076:click5",
+    "task_run_id": "sim-process-9527-321076",
+    "click_index": 5,
+    "iou": 0.9604178667068481,
+    "boundary_iou": 0.8231111168861389,
+    "latency_ms": 43.34100000005492
+  },
+  {
+    "event_id": "sim-process-9527-1128529:click1",
+    "task_run_id": "sim-process-9527-1128529",
+    "click_index": 1,
+    "iou": 0.8855363726615906,
+    "boundary_iou": 0.876915693283081,
+    "latency_ms": 37.17950000009296
+  },
+  {
+    "event_id": "sim-process-9527-1128529:click2",
+    "task_run_id": "sim-process-9527-1128529",
+    "click_index": 2,
+    "iou": 0.8805330991744995,
+    "boundary_iou": 0.8733935952186584,
+    "latency_ms": 42.72339999988617
+  },
+  {
+    "event_id": "sim-process-9527-1128529:click3",
+    "task_run_id": "sim-process-9527-1128529",
+    "click_index": 3,
+    "iou": 0.8740457892417908,
+    "boundary_iou": 0.8702290058135986,
+    "latency_ms": 34.48670000034326
+  },
+  {
+    "event_id": "sim-process-9527-1128529:click4",
+    "task_run_id": "sim-process-9527-1128529",
+    "click_index": 4,
+    "iou": 0.8582412004470825,
+    "boundary_iou": 0.8567996025085449,
+    "latency_ms": 38.91979999980322
+  },
+  {
+    "event_id": "sim-process-9527-1128529:click5",
+    "task_run_id": "sim-process-9527-1128529",
+    "click_index": 5,
+    "iou": 0.8558385372161865,
+    "boundary_iou": 0.8548774719238281,
+    "latency_ms": 34.28500000018175
+  },
+  {
+    "event_id": "sim-process-9527-1983604:click1",
+    "task_run_id": "sim-process-9527-1983604",
+    "click_index": 1,
+    "iou": 0.9059631824493408,
+    "boundary_iou": 0.7021449208259583,
+    "latency_ms": 35.94380000004094
+  },
+  {
+    "event_id": "sim-process-9527-1983604:click2",
+    "task_run_id": "sim-process-9527-1983604",
+    "click_index": 2,
+    "iou": 0.9394323825836182,
+    "boundary_iou": 0.8069368600845337,
+    "latency_ms": 40.707799999836425
+  },
+  {
+    "event_id": "sim-process-9527-1983604:click3",
+    "task_run_id": "sim-process-9527-1983604",
+    "click_index": 3,
+    "iou": 0.9319174289703369,
+    "boundary_iou": 0.783161997795105,
+    "latency_ms": 34.34530000004088
+  },
+  {
+    "event_id": "sim-process-9527-1983604:click4",
+    "task_run_id": "sim-process-9527-1983604",
+    "click_index": 4,
+    "iou": 0.9347190856933594,
+    "boundary_iou": 0.7923692464828491,
+    "latency_ms": 35.14290000020992
+  },
+  {
+    "event_id": "sim-process-9527-1983604:click5",
+    "task_run_id": "sim-process-9527-1983604",
+    "click_index": 5,
+    "iou": 0.9393311142921448,
+    "boundary_iou": 0.80971360206604,
+    "latency_ms": 39.72860000021683
+  },
+  {
+    "event_id": "sim-process-9527-1158749:click1",
+    "task_run_id": "sim-process-9527-1158749",
+    "click_index": 1,
+    "iou": 0.872499406337738,
+    "boundary_iou": 0.7864311337471008,
+    "latency_ms": 38.303499999983615
+  },
+  {
+    "event_id": "sim-process-9527-1158749:click2",
+    "task_run_id": "sim-process-9527-1158749",
+    "click_index": 2,
+    "iou": 0.835954487323761,
+    "boundary_iou": 0.7465497255325317,
+    "latency_ms": 40.17539999995279
+  },
+  {
+    "event_id": "sim-process-9527-1158749:click3",
+    "task_run_id": "sim-process-9527-1158749",
+    "click_index": 3,
+    "iou": 0.8625044822692871,
+    "boundary_iou": 0.7729216814041138,
+    "latency_ms": 33.972199999880104
+  },
+  {
+    "event_id": "sim-process-9527-1158749:click4",
+    "task_run_id": "sim-process-9527-1158749",
+    "click_index": 4,
+    "iou": 0.8802445530891418,
+    "boundary_iou": 0.7918856739997864,
+    "latency_ms": 41.21390000000247
+  },
+  {
+    "event_id": "sim-process-9527-1158749:click5",
+    "task_run_id": "sim-process-9527-1158749",
+    "click_index": 5,
+    "iou": 0.8774556517601013,
+    "boundary_iou": 0.7873570919036865,
+    "latency_ms": 37.201699999968696
+  },
+  {
+    "event_id": "sim-process-9527-1188141:click1",
+    "task_run_id": "sim-process-9527-1188141",
+    "click_index": 1,
+    "iou": 0.7552459239959717,
+    "boundary_iou": 0.5938388109207153,
+    "latency_ms": 35.34869999975854
+  },
+  {
+    "event_id": "sim-process-9527-1188141:click2",
+    "task_run_id": "sim-process-9527-1188141",
+    "click_index": 2,
+    "iou": 0.7421471476554871,
+    "boundary_iou": 0.5732448101043701,
+    "latency_ms": 36.6996000002473
+  },
+  {
+    "event_id": "sim-process-9527-1188141:click3",
+    "task_run_id": "sim-process-9527-1188141",
+    "click_index": 3,
+    "iou": 0.8870693445205688,
+    "boundary_iou": 0.782303512096405,
+    "latency_ms": 35.91340000002674
+  },
+  {
+    "event_id": "sim-process-9527-1188141:click4",
+    "task_run_id": "sim-process-9527-1188141",
+    "click_index": 4,
+    "iou": 0.9125521779060364,
+    "boundary_iou": 0.8264510631561279,
+    "latency_ms": 39.94379999994635
+  },
+  {
+    "event_id": "sim-process-9527-1188141:click5",
+    "task_run_id": "sim-process-9527-1188141",
+    "click_index": 5,
+    "iou": 0.922528862953186,
+    "boundary_iou": 0.8413769006729126,
+    "latency_ms": 38.50109999984852
+  },
+  {
+    "event_id": "sim-process-9527-2050891:click1",
+    "task_run_id": "sim-process-9527-2050891",
+    "click_index": 1,
+    "iou": 0.6136218905448914,
+    "boundary_iou": 0.4784742295742035,
+    "latency_ms": 37.9917000000205
+  },
+  {
+    "event_id": "sim-process-9527-2050891:click2",
+    "task_run_id": "sim-process-9527-2050891",
+    "click_index": 2,
+    "iou": 0.6687816977500916,
+    "boundary_iou": 0.5558112859725952,
+    "latency_ms": 38.25360000018918
+  },
+  {
+    "event_id": "sim-process-9527-2050891:click3",
+    "task_run_id": "sim-process-9527-2050891",
+    "click_index": 3,
+    "iou": 0.8138206601142883,
+    "boundary_iou": 0.7418128252029419,
+    "latency_ms": 37.722800000210555
+  },
+  {
+    "event_id": "sim-process-9527-2050891:click4",
+    "task_run_id": "sim-process-9527-2050891",
+    "click_index": 4,
+    "iou": 0.8072975873947144,
+    "boundary_iou": 0.7257594466209412,
+    "latency_ms": 38.09460000002218
+  },
+  {
+    "event_id": "sim-process-9527-2050891:click5",
+    "task_run_id": "sim-process-9527-2050891",
+    "click_index": 5,
+    "iou": 0.8467511534690857,
+    "boundary_iou": 0.7605728507041931,
+    "latency_ms": 42.31679999975313
+  },
+  {
+    "event_id": "sim-process-9527-176686:click1",
+    "task_run_id": "sim-process-9527-176686",
+    "click_index": 1,
+    "iou": 0.8368644118309021,
+    "boundary_iou": 0.8368644118309021,
+    "latency_ms": 35.00669999993988
+  },
+  {
+    "event_id": "sim-process-9527-176686:click2",
+    "task_run_id": "sim-process-9527-176686",
+    "click_index": 2,
+    "iou": 0.8310716152191162,
+    "boundary_iou": 0.8310716152191162,
+    "latency_ms": 40.02760000003036
+  },
+  {
+    "event_id": "sim-process-9527-176686:click3",
+    "task_run_id": "sim-process-9527-176686",
+    "click_index": 3,
+    "iou": 0.8476544618606567,
+    "boundary_iou": 0.8476544618606567,
+    "latency_ms": 39.222399999744084
+  },
+  {
+    "event_id": "sim-process-9527-176686:click4",
+    "task_run_id": "sim-process-9527-176686",
+    "click_index": 4,
+    "iou": 0.8507565259933472,
+    "boundary_iou": 0.8507565259933472,
+    "latency_ms": 35.48219999993307
+  },
+  {
+    "event_id": "sim-process-9527-176686:click5",
+    "task_run_id": "sim-process-9527-176686",
+    "click_index": 5,
+    "iou": 0.8045856356620789,
+    "boundary_iou": 0.8045856356620789,
+    "latency_ms": 36.39119999979812
+  },
+  {
+    "event_id": "sim-process-9527-630412:click1",
+    "task_run_id": "sim-process-9527-630412",
+    "click_index": 1,
+    "iou": 0.7974947690963745,
+    "boundary_iou": 0.7974947690963745,
+    "latency_ms": 42.15859999976601
+  },
+  {
+    "event_id": "sim-process-9527-630412:click2",
+    "task_run_id": "sim-process-9527-630412",
+    "click_index": 2,
+    "iou": 0.8404588103294373,
+    "boundary_iou": 0.8404588103294373,
+    "latency_ms": 42.3094000002493
+  },
+  {
+    "event_id": "sim-process-9527-630412:click3",
+    "task_run_id": "sim-process-9527-630412",
+    "click_index": 3,
+    "iou": 0.8260196447372437,
+    "boundary_iou": 0.8260196447372437,
+    "latency_ms": 41.72470000003159
+  },
+  {
+    "event_id": "sim-process-9527-630412:click4",
+    "task_run_id": "sim-process-9527-630412",
+    "click_index": 4,
+    "iou": 0.8472856283187866,
+    "boundary_iou": 0.8472856283187866,
+    "latency_ms": 41.05840000011085
+  },
+  {
+    "event_id": "sim-process-9527-630412:click5",
+    "task_run_id": "sim-process-9527-630412",
+    "click_index": 5,
+    "iou": 0.806882381439209,
+    "boundary_iou": 0.806882381439209,
+    "latency_ms": 37.87319999992178
+  },
+  {
+    "event_id": "sim-process-9527-712018:click1",
+    "task_run_id": "sim-process-9527-712018",
+    "click_index": 1,
+    "iou": 0.64802485704422,
+    "boundary_iou": 0.49561968445777893,
+    "latency_ms": 40.7230000000709
+  },
+  {
+    "event_id": "sim-process-9527-712018:click2",
+    "task_run_id": "sim-process-9527-712018",
+    "click_index": 2,
+    "iou": 0.8961067199707031,
+    "boundary_iou": 0.5485707521438599,
+    "latency_ms": 38.31140000011146
+  },
+  {
+    "event_id": "sim-process-9527-712018:click3",
+    "task_run_id": "sim-process-9527-712018",
+    "click_index": 3,
+    "iou": 0.9616167545318604,
+    "boundary_iou": 0.8495272397994995,
+    "latency_ms": 37.06629999987854
+  },
+  {
+    "event_id": "sim-process-9527-712018:click4",
+    "task_run_id": "sim-process-9527-712018",
+    "click_index": 4,
+    "iou": 0.9479500651359558,
+    "boundary_iou": 0.8089560866355896,
+    "latency_ms": 35.13990000010381
+  },
+  {
+    "event_id": "sim-process-9527-712018:click5",
+    "task_run_id": "sim-process-9527-712018",
+    "click_index": 5,
+    "iou": 0.9477568864822388,
+    "boundary_iou": 0.8018602132797241,
+    "latency_ms": 36.20860000000903
+  },
+  {
+    "event_id": "sim-process-9527-1047237:click1",
+    "task_run_id": "sim-process-9527-1047237",
+    "click_index": 1,
+    "iou": 0.8940007090568542,
+    "boundary_iou": 0.4253636598587036,
+    "latency_ms": 35.424499999862746
+  },
+  {
+    "event_id": "sim-process-9527-1047237:click2",
+    "task_run_id": "sim-process-9527-1047237",
+    "click_index": 2,
+    "iou": 0.9132330417633057,
+    "boundary_iou": 0.505488932132721,
+    "latency_ms": 36.716900000101305
+  },
+  {
+    "event_id": "sim-process-9527-1047237:click3",
+    "task_run_id": "sim-process-9527-1047237",
+    "click_index": 3,
+    "iou": 0.6869227290153503,
+    "boundary_iou": 0.2499467432498932,
+    "latency_ms": 36.66869999960909
+  },
+  {
+    "event_id": "sim-process-9527-1047237:click4",
+    "task_run_id": "sim-process-9527-1047237",
+    "click_index": 4,
+    "iou": 0.9110382199287415,
+    "boundary_iou": 0.49524810910224915,
+    "latency_ms": 35.70890000037252
+  },
+  {
+    "event_id": "sim-process-9527-1047237:click5",
+    "task_run_id": "sim-process-9527-1047237",
+    "click_index": 5,
+    "iou": 0.9247029423713684,
+    "boundary_iou": 0.5631690621376038,
+    "latency_ms": 42.009499999949185
+  },
+  {
+    "event_id": "sim-process-9527-1086457:click1",
+    "task_run_id": "sim-process-9527-1086457",
+    "click_index": 1,
+    "iou": 0.4560644030570984,
+    "boundary_iou": 0.26319536566734314,
+    "latency_ms": 38.61430000006294
+  },
+  {
+    "event_id": "sim-process-9527-1086457:click2",
+    "task_run_id": "sim-process-9527-1086457",
+    "click_index": 2,
+    "iou": 0.8664337396621704,
+    "boundary_iou": 0.7657058835029602,
+    "latency_ms": 48.874699999942095
+  },
+  {
+    "event_id": "sim-process-9527-1086457:click3",
+    "task_run_id": "sim-process-9527-1086457",
+    "click_index": 3,
+    "iou": 0.8731034398078918,
+    "boundary_iou": 0.7834388613700867,
+    "latency_ms": 40.80470000008063
+  },
+  {
+    "event_id": "sim-process-9527-1086457:click4",
+    "task_run_id": "sim-process-9527-1086457",
+    "click_index": 4,
+    "iou": 0.897163450717926,
+    "boundary_iou": 0.7954613566398621,
+    "latency_ms": 40.24310000022524
+  },
+  {
+    "event_id": "sim-process-9527-1086457:click5",
+    "task_run_id": "sim-process-9527-1086457",
+    "click_index": 5,
+    "iou": 0.8940205574035645,
+    "boundary_iou": 0.8289254307746887,
+    "latency_ms": 39.36710000016319
+  },
+  {
+    "event_id": "sim-process-9527-316257:click1",
+    "task_run_id": "sim-process-9527-316257",
+    "click_index": 1,
+    "iou": 0.7723467350006104,
+    "boundary_iou": 0.3277139961719513,
+    "latency_ms": 42.33399999975518
+  },
+  {
+    "event_id": "sim-process-9527-316257:click2",
+    "task_run_id": "sim-process-9527-316257",
+    "click_index": 2,
+    "iou": 0.7666698098182678,
+    "boundary_iou": 0.29337093234062195,
+    "latency_ms": 42.966599999999744
+  },
+  {
+    "event_id": "sim-process-9527-316257:click3",
+    "task_run_id": "sim-process-9527-316257",
+    "click_index": 3,
+    "iou": 0.9185763597488403,
+    "boundary_iou": 0.3493557870388031,
+    "latency_ms": 46.017599999686354
+  },
+  {
+    "event_id": "sim-process-9527-316257:click4",
+    "task_run_id": "sim-process-9527-316257",
+    "click_index": 4,
+    "iou": 0.9889780282974243,
+    "boundary_iou": 0.7895607948303223,
+    "latency_ms": 41.29269999975804
+  },
+  {
+    "event_id": "sim-process-9527-316257:click5",
+    "task_run_id": "sim-process-9527-316257",
+    "click_index": 5,
+    "iou": 0.9912039041519165,
+    "boundary_iou": 0.8506923913955688,
+    "latency_ms": 40.105600000060804
+  },
+  {
+    "event_id": "sim-process-9527-1612964:click1",
+    "task_run_id": "sim-process-9527-1612964",
+    "click_index": 1,
+    "iou": 0.8512898087501526,
+    "boundary_iou": 0.6915745139122009,
+    "latency_ms": 39.578700000220124
+  },
+  {
+    "event_id": "sim-process-9527-1612964:click2",
+    "task_run_id": "sim-process-9527-1612964",
+    "click_index": 2,
+    "iou": 0.9277586936950684,
+    "boundary_iou": 0.7878035306930542,
+    "latency_ms": 36.831400000210124
+  },
+  {
+    "event_id": "sim-process-9527-1612964:click3",
+    "task_run_id": "sim-process-9527-1612964",
+    "click_index": 3,
+    "iou": 0.9781275987625122,
+    "boundary_iou": 0.928335964679718,
+    "latency_ms": 37.56520000024466
+  },
+  {
+    "event_id": "sim-process-9527-1612964:click4",
+    "task_run_id": "sim-process-9527-1612964",
+    "click_index": 4,
+    "iou": 0.9694536328315735,
+    "boundary_iou": 0.9082973003387451,
+    "latency_ms": 37.22280000010869
+  },
+  {
+    "event_id": "sim-process-9527-1612964:click5",
+    "task_run_id": "sim-process-9527-1612964",
+    "click_index": 5,
+    "iou": 0.9731073975563049,
+    "boundary_iou": 0.9244541525840759,
+    "latency_ms": 41.10769999988406
+  },
+  {
+    "event_id": "sim-process-9527-1129486:click1",
+    "task_run_id": "sim-process-9527-1129486",
+    "click_index": 1,
+    "iou": 0.0841757208108902,
+    "boundary_iou": 0.06337080895900726,
+    "latency_ms": 40.700399999877845
+  },
+  {
+    "event_id": "sim-process-9527-1129486:click2",
+    "task_run_id": "sim-process-9527-1129486",
+    "click_index": 2,
+    "iou": 0.888485312461853,
+    "boundary_iou": 0.7705744504928589,
+    "latency_ms": 36.301600000115286
+  },
+  {
+    "event_id": "sim-process-9527-1129486:click3",
+    "task_run_id": "sim-process-9527-1129486",
+    "click_index": 3,
+    "iou": 0.8978286981582642,
+    "boundary_iou": 0.7905259132385254,
+    "latency_ms": 37.743200000022625
+  },
+  {
+    "event_id": "sim-process-9527-1129486:click4",
+    "task_run_id": "sim-process-9527-1129486",
+    "click_index": 4,
+    "iou": 0.9109295606613159,
+    "boundary_iou": 0.8177140951156616,
+    "latency_ms": 33.485699999801
+  },
+  {
+    "event_id": "sim-process-9527-1129486:click5",
+    "task_run_id": "sim-process-9527-1129486",
+    "click_index": 5,
+    "iou": 0.9040615558624268,
+    "boundary_iou": 0.8026412129402161,
+    "latency_ms": 38.849000000027445
+  },
+  {
+    "event_id": "sim-process-9527-1138996:click1",
+    "task_run_id": "sim-process-9527-1138996",
+    "click_index": 1,
+    "iou": 0.9119862914085388,
+    "boundary_iou": 0.6305298805236816,
+    "latency_ms": 35.48959999989165
+  },
+  {
+    "event_id": "sim-process-9527-1138996:click2",
+    "task_run_id": "sim-process-9527-1138996",
+    "click_index": 2,
+    "iou": 0.912363588809967,
+    "boundary_iou": 0.6390203833580017,
+    "latency_ms": 37.70639999993364
+  },
+  {
+    "event_id": "sim-process-9527-1138996:click3",
+    "task_run_id": "sim-process-9527-1138996",
+    "click_index": 3,
+    "iou": 0.9150232672691345,
+    "boundary_iou": 0.6556482911109924,
+    "latency_ms": 36.92289999980858
+  },
+  {
+    "event_id": "sim-process-9527-1138996:click4",
+    "task_run_id": "sim-process-9527-1138996",
+    "click_index": 4,
+    "iou": 0.9165933728218079,
+    "boundary_iou": 0.6643542647361755,
+    "latency_ms": 39.39580000042042
+  },
+  {
+    "event_id": "sim-process-9527-1138996:click5",
+    "task_run_id": "sim-process-9527-1138996",
+    "click_index": 5,
+    "iou": 0.9030426740646362,
+    "boundary_iou": 0.627802848815918,
+    "latency_ms": 39.49370000009367
+  },
+  {
+    "event_id": "sim-process-9527-406692:click1",
+    "task_run_id": "sim-process-9527-406692",
+    "click_index": 1,
+    "iou": 0.8657041192054749,
+    "boundary_iou": 0.7949579954147339,
+    "latency_ms": 37.94880000032208
+  },
+  {
+    "event_id": "sim-process-9527-406692:click2",
+    "task_run_id": "sim-process-9527-406692",
+    "click_index": 2,
+    "iou": 0.8702318668365479,
+    "boundary_iou": 0.7705376744270325,
+    "latency_ms": 34.80660000013813
+  },
+  {
+    "event_id": "sim-process-9527-406692:click3",
+    "task_run_id": "sim-process-9527-406692",
+    "click_index": 3,
+    "iou": 0.9041626453399658,
+    "boundary_iou": 0.8099427223205566,
+    "latency_ms": 35.355499999695894
+  },
+  {
+    "event_id": "sim-process-9527-406692:click4",
+    "task_run_id": "sim-process-9527-406692",
+    "click_index": 4,
+    "iou": 0.8953285813331604,
+    "boundary_iou": 0.8037574291229248,
+    "latency_ms": 34.19309999981124
+  },
+  {
+    "event_id": "sim-process-9527-406692:click5",
+    "task_run_id": "sim-process-9527-406692",
+    "click_index": 5,
+    "iou": 0.9059233665466309,
+    "boundary_iou": 0.8228394985198975,
+    "latency_ms": 36.54520000009143
+  },
+  {
+    "event_id": "sim-process-9527-416870:click1",
+    "task_run_id": "sim-process-9527-416870",
+    "click_index": 1,
+    "iou": 0.7373254895210266,
+    "boundary_iou": 0.7373254895210266,
+    "latency_ms": 35.48320000027161
+  },
+  {
+    "event_id": "sim-process-9527-416870:click2",
+    "task_run_id": "sim-process-9527-416870",
+    "click_index": 2,
+    "iou": 0.752869188785553,
+    "boundary_iou": 0.752869188785553,
+    "latency_ms": 36.41799999968498
+  },
+  {
+    "event_id": "sim-process-9527-416870:click3",
+    "task_run_id": "sim-process-9527-416870",
+    "click_index": 3,
+    "iou": 0.7191213369369507,
+    "boundary_iou": 0.7191213369369507,
+    "latency_ms": 40.14649999999165
+  },
+  {
+    "event_id": "sim-process-9527-416870:click4",
+    "task_run_id": "sim-process-9527-416870",
+    "click_index": 4,
+    "iou": 0.850649356842041,
+    "boundary_iou": 0.850649356842041,
+    "latency_ms": 36.1481999998432
+  },
+  {
+    "event_id": "sim-process-9527-416870:click5",
+    "task_run_id": "sim-process-9527-416870",
+    "click_index": 5,
+    "iou": 0.8563293814659119,
+    "boundary_iou": 0.8563293814659119,
+    "latency_ms": 38.92999999970925
+  },
+  {
+    "event_id": "sim-process-9527-1824652:click1",
+    "task_run_id": "sim-process-9527-1824652",
+    "click_index": 1,
+    "iou": 0.7828733325004578,
+    "boundary_iou": 0.5940033793449402,
+    "latency_ms": 34.70609999976659
+  },
+  {
+    "event_id": "sim-process-9527-1824652:click2",
+    "task_run_id": "sim-process-9527-1824652",
+    "click_index": 2,
+    "iou": 0.8677555322647095,
+    "boundary_iou": 0.7313116788864136,
+    "latency_ms": 36.20999999975538
+  },
+  {
+    "event_id": "sim-process-9527-1824652:click3",
+    "task_run_id": "sim-process-9527-1824652",
+    "click_index": 3,
+    "iou": 0.8882085084915161,
+    "boundary_iou": 0.7716873288154602,
+    "latency_ms": 42.46680000005654
+  },
+  {
+    "event_id": "sim-process-9527-1824652:click4",
+    "task_run_id": "sim-process-9527-1824652",
+    "click_index": 4,
+    "iou": 0.9156751036643982,
+    "boundary_iou": 0.8235294222831726,
+    "latency_ms": 33.99069999977655
+  },
+  {
+    "event_id": "sim-process-9527-1824652:click5",
+    "task_run_id": "sim-process-9527-1824652",
+    "click_index": 5,
+    "iou": 0.9276415705680847,
+    "boundary_iou": 0.8539918661117554,
+    "latency_ms": 46.97099999975762
+  },
+  {
+    "event_id": "sim-process-9527-1185433:click1",
+    "task_run_id": "sim-process-9527-1185433",
+    "click_index": 1,
+    "iou": 0.8246869444847107,
+    "boundary_iou": 0.8246869444847107,
+    "latency_ms": 36.22140000015861
+  },
+  {
+    "event_id": "sim-process-9527-1185433:click2",
+    "task_run_id": "sim-process-9527-1185433",
+    "click_index": 2,
+    "iou": 0.8889328241348267,
+    "boundary_iou": 0.8889328241348267,
+    "latency_ms": 38.88189999997849
+  },
+  {
+    "event_id": "sim-process-9527-1185433:click3",
+    "task_run_id": "sim-process-9527-1185433",
+    "click_index": 3,
+    "iou": 0.8828369975090027,
+    "boundary_iou": 0.8828369975090027,
+    "latency_ms": 36.9514000003619
+  },
+  {
+    "event_id": "sim-process-9527-1185433:click4",
+    "task_run_id": "sim-process-9527-1185433",
+    "click_index": 4,
+    "iou": 0.8748043775558472,
+    "boundary_iou": 0.8748043775558472,
+    "latency_ms": 37.456099999872094
+  },
+  {
+    "event_id": "sim-process-9527-1185433:click5",
+    "task_run_id": "sim-process-9527-1185433",
+    "click_index": 5,
+    "iou": 0.8619632124900818,
+    "boundary_iou": 0.8619632124900818,
+    "latency_ms": 45.96140000012383
+  },
+  {
+    "event_id": "sim-process-9527-602266:click1",
+    "task_run_id": "sim-process-9527-602266",
+    "click_index": 1,
+    "iou": 0.7982029318809509,
+    "boundary_iou": 0.7102823257446289,
+    "latency_ms": 40.42140000001382
+  },
+  {
+    "event_id": "sim-process-9527-602266:click2",
+    "task_run_id": "sim-process-9527-602266",
+    "click_index": 2,
+    "iou": 0.844872772693634,
+    "boundary_iou": 0.7704678177833557,
+    "latency_ms": 34.919499999887194
+  },
+  {
+    "event_id": "sim-process-9527-602266:click3",
+    "task_run_id": "sim-process-9527-602266",
+    "click_index": 3,
+    "iou": 0.8683047294616699,
+    "boundary_iou": 0.7970149517059326,
+    "latency_ms": 37.7808999996887
+  },
+  {
+    "event_id": "sim-process-9527-602266:click4",
+    "task_run_id": "sim-process-9527-602266",
+    "click_index": 4,
+    "iou": 0.8804150223731995,
+    "boundary_iou": 0.8146710395812988,
+    "latency_ms": 37.62410000035743
+  },
+  {
+    "event_id": "sim-process-9527-602266:click5",
+    "task_run_id": "sim-process-9527-602266",
+    "click_index": 5,
+    "iou": 0.8614841103553772,
+    "boundary_iou": 0.7861433625221252,
+    "latency_ms": 35.09250000024622
+  },
+  {
+    "event_id": "sim-process-9527-605683:click1",
+    "task_run_id": "sim-process-9527-605683",
+    "click_index": 1,
+    "iou": 0.5357268452644348,
+    "boundary_iou": 0.5357268452644348,
+    "latency_ms": 35.29889999981606
+  },
+  {
+    "event_id": "sim-process-9527-605683:click2",
+    "task_run_id": "sim-process-9527-605683",
+    "click_index": 2,
+    "iou": 0.7136340141296387,
+    "boundary_iou": 0.7136340141296387,
+    "latency_ms": 34.99869999996008
+  },
+  {
+    "event_id": "sim-process-9527-605683:click3",
+    "task_run_id": "sim-process-9527-605683",
+    "click_index": 3,
+    "iou": 0.7134870886802673,
+    "boundary_iou": 0.7134870886802673,
+    "latency_ms": 37.922900000012305
+  },
+  {
+    "event_id": "sim-process-9527-605683:click4",
+    "task_run_id": "sim-process-9527-605683",
+    "click_index": 4,
+    "iou": 0.7058823704719543,
+    "boundary_iou": 0.7058823704719543,
+    "latency_ms": 37.82200000023295
+  },
+  {
+    "event_id": "sim-process-9527-605683:click5",
+    "task_run_id": "sim-process-9527-605683",
+    "click_index": 5,
+    "iou": 0.7515689134597778,
+    "boundary_iou": 0.7515689134597778,
+    "latency_ms": 41.169600000102946
+  },
+  {
+    "event_id": "sim-process-9527-615467:click1",
+    "task_run_id": "sim-process-9527-615467",
+    "click_index": 1,
+    "iou": 0.7161679863929749,
+    "boundary_iou": 0.7161679863929749,
+    "latency_ms": 41.49809999989884
+  },
+  {
+    "event_id": "sim-process-9527-615467:click2",
+    "task_run_id": "sim-process-9527-615467",
+    "click_index": 2,
+    "iou": 0.8635791540145874,
+    "boundary_iou": 0.8635791540145874,
+    "latency_ms": 36.72030000006998
+  },
+  {
+    "event_id": "sim-process-9527-615467:click3",
+    "task_run_id": "sim-process-9527-615467",
+    "click_index": 3,
+    "iou": 0.8942432999610901,
+    "boundary_iou": 0.8942432999610901,
+    "latency_ms": 39.464699999825825
+  },
+  {
+    "event_id": "sim-process-9527-615467:click4",
+    "task_run_id": "sim-process-9527-615467",
+    "click_index": 4,
+    "iou": 0.9024836421012878,
+    "boundary_iou": 0.9024836421012878,
+    "latency_ms": 40.050999999948544
+  },
+  {
+    "event_id": "sim-process-9527-615467:click5",
+    "task_run_id": "sim-process-9527-615467",
+    "click_index": 5,
+    "iou": 0.9065297245979309,
+    "boundary_iou": 0.9065297245979309,
+    "latency_ms": 34.194700000171
+  },
+  {
+    "event_id": "sim-process-9527-641581:click1",
+    "task_run_id": "sim-process-9527-641581",
+    "click_index": 1,
+    "iou": 0.7290071249008179,
+    "boundary_iou": 0.6527180075645447,
+    "latency_ms": 38.0764999999883
+  },
+  {
+    "event_id": "sim-process-9527-641581:click2",
+    "task_run_id": "sim-process-9527-641581",
+    "click_index": 2,
+    "iou": 0.9137436151504517,
+    "boundary_iou": 0.8540694713592529,
+    "latency_ms": 38.4051000000909
+  },
+  {
+    "event_id": "sim-process-9527-641581:click3",
+    "task_run_id": "sim-process-9527-641581",
+    "click_index": 3,
+    "iou": 0.9189087152481079,
+    "boundary_iou": 0.8696843385696411,
+    "latency_ms": 38.8133999999809
+  },
+  {
+    "event_id": "sim-process-9527-641581:click4",
+    "task_run_id": "sim-process-9527-641581",
+    "click_index": 4,
+    "iou": 0.920170247554779,
+    "boundary_iou": 0.8963626623153687,
+    "latency_ms": 39.66700000000856
+  },
+  {
+    "event_id": "sim-process-9527-641581:click5",
+    "task_run_id": "sim-process-9527-641581",
+    "click_index": 5,
+    "iou": 0.9162561297416687,
+    "boundary_iou": 0.8956206440925598,
+    "latency_ms": 35.61360000003333
+  },
+  {
+    "event_id": "sim-process-9527-288537:click1",
+    "task_run_id": "sim-process-9527-288537",
+    "click_index": 1,
+    "iou": 0.876423716545105,
+    "boundary_iou": 0.876423716545105,
+    "latency_ms": 34.580499999719905
+  },
+  {
+    "event_id": "sim-process-9527-288537:click2",
+    "task_run_id": "sim-process-9527-288537",
+    "click_index": 2,
+    "iou": 0.8716332316398621,
+    "boundary_iou": 0.8716332316398621,
+    "latency_ms": 38.51269999995566
+  },
+  {
+    "event_id": "sim-process-9527-288537:click3",
+    "task_run_id": "sim-process-9527-288537",
+    "click_index": 3,
+    "iou": 0.8615819215774536,
+    "boundary_iou": 0.8615819215774536,
+    "latency_ms": 44.04399999975794
+  },
+  {
+    "event_id": "sim-process-9527-288537:click4",
+    "task_run_id": "sim-process-9527-288537",
+    "click_index": 4,
+    "iou": 0.8729885220527649,
+    "boundary_iou": 0.8729885220527649,
+    "latency_ms": 36.895799999911105
+  },
+  {
+    "event_id": "sim-process-9527-288537:click5",
+    "task_run_id": "sim-process-9527-288537",
+    "click_index": 5,
+    "iou": 0.8737083673477173,
+    "boundary_iou": 0.8737083673477173,
+    "latency_ms": 36.64089999983844
+  },
+  {
+    "event_id": "sim-process-9527-1548361:click1",
+    "task_run_id": "sim-process-9527-1548361",
+    "click_index": 1,
+    "iou": 0.5142857432365417,
+    "boundary_iou": 0.4124738574028015,
+    "latency_ms": 41.33449999972072
+  },
+  {
+    "event_id": "sim-process-9527-1548361:click2",
+    "task_run_id": "sim-process-9527-1548361",
+    "click_index": 2,
+    "iou": 0.8601981401443481,
+    "boundary_iou": 0.7576823234558105,
+    "latency_ms": 40.19479999988107
+  },
+  {
+    "event_id": "sim-process-9527-1548361:click3",
+    "task_run_id": "sim-process-9527-1548361",
+    "click_index": 3,
+    "iou": 0.8946066498756409,
+    "boundary_iou": 0.8227392435073853,
+    "latency_ms": 41.85250000000451
+  },
+  {
+    "event_id": "sim-process-9527-1548361:click4",
+    "task_run_id": "sim-process-9527-1548361",
+    "click_index": 4,
+    "iou": 0.8948978781700134,
+    "boundary_iou": 0.8240858316421509,
+    "latency_ms": 38.605700000061915
+  },
+  {
+    "event_id": "sim-process-9527-1548361:click5",
+    "task_run_id": "sim-process-9527-1548361",
+    "click_index": 5,
+    "iou": 0.8962404727935791,
+    "boundary_iou": 0.8131144642829895,
+    "latency_ms": 38.559300000088115
+  },
+  {
+    "event_id": "sim-process-9527-2217920:click1",
+    "task_run_id": "sim-process-9527-2217920",
+    "click_index": 1,
+    "iou": 0.48101863265037537,
+    "boundary_iou": 0.16294357180595398,
+    "latency_ms": 37.55890000002182
+  },
+  {
+    "event_id": "sim-process-9527-2217920:click2",
+    "task_run_id": "sim-process-9527-2217920",
+    "click_index": 2,
+    "iou": 0.7901076078414917,
+    "boundary_iou": 0.4483228921890259,
+    "latency_ms": 36.15429999990738
+  },
+  {
+    "event_id": "sim-process-9527-2217920:click3",
+    "task_run_id": "sim-process-9527-2217920",
+    "click_index": 3,
+    "iou": 0.8062322735786438,
+    "boundary_iou": 0.504004180431366,
+    "latency_ms": 37.45539999999892
+  },
+  {
+    "event_id": "sim-process-9527-2217920:click4",
+    "task_run_id": "sim-process-9527-2217920",
+    "click_index": 4,
+    "iou": 0.802505612373352,
+    "boundary_iou": 0.4771127700805664,
+    "latency_ms": 34.21130000015182
+  },
+  {
+    "event_id": "sim-process-9527-2217920:click5",
+    "task_run_id": "sim-process-9527-2217920",
+    "click_index": 5,
+    "iou": 0.8288915753364563,
+    "boundary_iou": 0.4865748882293701,
+    "latency_ms": 38.05479999982708
+  },
+  {
+    "event_id": "sim-process-9527-1568666:click1",
+    "task_run_id": "sim-process-9527-1568666",
+    "click_index": 1,
+    "iou": 0.786618173122406,
+    "boundary_iou": 0.3464539051055908,
+    "latency_ms": 33.225600000150735
+  },
+  {
+    "event_id": "sim-process-9527-1568666:click2",
+    "task_run_id": "sim-process-9527-1568666",
+    "click_index": 2,
+    "iou": 0.9126613736152649,
+    "boundary_iou": 0.6104668974876404,
+    "latency_ms": 38.48980000020674
+  },
+  {
+    "event_id": "sim-process-9527-1568666:click3",
+    "task_run_id": "sim-process-9527-1568666",
+    "click_index": 3,
+    "iou": 0.9624714851379395,
+    "boundary_iou": 0.8188548684120178,
+    "latency_ms": 36.01890000027197
+  },
+  {
+    "event_id": "sim-process-9527-1568666:click4",
+    "task_run_id": "sim-process-9527-1568666",
+    "click_index": 4,
+    "iou": 0.967930018901825,
+    "boundary_iou": 0.8461495637893677,
+    "latency_ms": 38.19470000007641
+  },
+  {
+    "event_id": "sim-process-9527-1568666:click5",
+    "task_run_id": "sim-process-9527-1568666",
+    "click_index": 5,
+    "iou": 0.9686477184295654,
+    "boundary_iou": 0.8481619954109192,
+    "latency_ms": 36.75750000002154
+  },
+  {
+    "event_id": "sim-process-9527-2119098:click1",
+    "task_run_id": "sim-process-9527-2119098",
+    "click_index": 1,
+    "iou": 0.9319162964820862,
+    "boundary_iou": 0.9044090509414673,
+    "latency_ms": 35.97180000042499
+  },
+  {
+    "event_id": "sim-process-9527-2119098:click2",
+    "task_run_id": "sim-process-9527-2119098",
+    "click_index": 2,
+    "iou": 0.9464588165283203,
+    "boundary_iou": 0.9228149652481079,
+    "latency_ms": 40.11260000015682
+  },
+  {
+    "event_id": "sim-process-9527-2119098:click3",
+    "task_run_id": "sim-process-9527-2119098",
+    "click_index": 3,
+    "iou": 0.9608043432235718,
+    "boundary_iou": 0.9455730319023132,
+    "latency_ms": 36.74360000013621
+  },
+  {
+    "event_id": "sim-process-9527-2119098:click4",
+    "task_run_id": "sim-process-9527-2119098",
+    "click_index": 4,
+    "iou": 0.950033962726593,
+    "boundary_iou": 0.9289243817329407,
+    "latency_ms": 37.8021000001354
+  },
+  {
+    "event_id": "sim-process-9527-2119098:click5",
+    "task_run_id": "sim-process-9527-2119098",
+    "click_index": 5,
+    "iou": 0.9499154090881348,
+    "boundary_iou": 0.9295187592506409,
+    "latency_ms": 39.66919999993479
+  },
+  {
+    "event_id": "sim-process-9527-1158918:click1",
+    "task_run_id": "sim-process-9527-1158918",
+    "click_index": 1,
+    "iou": 0.6636418700218201,
+    "boundary_iou": 0.6636418700218201,
+    "latency_ms": 33.86510000018461
+  },
+  {
+    "event_id": "sim-process-9527-1158918:click2",
+    "task_run_id": "sim-process-9527-1158918",
+    "click_index": 2,
+    "iou": 0.8438287377357483,
+    "boundary_iou": 0.8438287377357483,
+    "latency_ms": 40.26759999987917
+  },
+  {
+    "event_id": "sim-process-9527-1158918:click3",
+    "task_run_id": "sim-process-9527-1158918",
+    "click_index": 3,
+    "iou": 0.8645970821380615,
+    "boundary_iou": 0.8645970821380615,
+    "latency_ms": 41.742100000192295
+  },
+  {
+    "event_id": "sim-process-9527-1158918:click4",
+    "task_run_id": "sim-process-9527-1158918",
+    "click_index": 4,
+    "iou": 0.8785291910171509,
+    "boundary_iou": 0.8785291910171509,
+    "latency_ms": 40.81919999998718
+  },
+  {
+    "event_id": "sim-process-9527-1158918:click5",
+    "task_run_id": "sim-process-9527-1158918",
+    "click_index": 5,
+    "iou": 0.8801546096801758,
+    "boundary_iou": 0.8801546096801758,
+    "latency_ms": 41.751299999759794
+  },
+  {
+    "event_id": "sim-process-9527-208261:click1",
+    "task_run_id": "sim-process-9527-208261",
+    "click_index": 1,
+    "iou": 0.7903663516044617,
+    "boundary_iou": 0.7903663516044617,
+    "latency_ms": 32.6362999999219
+  },
+  {
+    "event_id": "sim-process-9527-208261:click2",
+    "task_run_id": "sim-process-9527-208261",
+    "click_index": 2,
+    "iou": 0.766438364982605,
+    "boundary_iou": 0.766438364982605,
+    "latency_ms": 36.35530000019571
+  },
+  {
+    "event_id": "sim-process-9527-208261:click3",
+    "task_run_id": "sim-process-9527-208261",
+    "click_index": 3,
+    "iou": 0.7677035331726074,
+    "boundary_iou": 0.7677035331726074,
+    "latency_ms": 39.66739999987112
+  },
+  {
+    "event_id": "sim-process-9527-208261:click4",
+    "task_run_id": "sim-process-9527-208261",
+    "click_index": 4,
+    "iou": 0.7935065031051636,
+    "boundary_iou": 0.7935065031051636,
+    "latency_ms": 36.37709999975414
+  },
+  {
+    "event_id": "sim-process-9527-208261:click5",
+    "task_run_id": "sim-process-9527-208261",
+    "click_index": 5,
+    "iou": 0.7840102910995483,
+    "boundary_iou": 0.7840102910995483,
+    "latency_ms": 38.19229999999152
+  },
+  {
+    "event_id": "sim-process-9527-1808837:click1",
+    "task_run_id": "sim-process-9527-1808837",
+    "click_index": 1,
+    "iou": 0.8628399968147278,
+    "boundary_iou": 0.85272216796875,
+    "latency_ms": 34.782300000188116
+  },
+  {
+    "event_id": "sim-process-9527-1808837:click2",
+    "task_run_id": "sim-process-9527-1808837",
+    "click_index": 2,
+    "iou": 0.8555355668067932,
+    "boundary_iou": 0.83990877866745,
+    "latency_ms": 34.873699999934615
+  },
+  {
+    "event_id": "sim-process-9527-1808837:click3",
+    "task_run_id": "sim-process-9527-1808837",
+    "click_index": 3,
+    "iou": 0.880492091178894,
+    "boundary_iou": 0.8591831922531128,
+    "latency_ms": 37.941999999929976
+  },
+  {
+    "event_id": "sim-process-9527-1808837:click4",
+    "task_run_id": "sim-process-9527-1808837",
+    "click_index": 4,
+    "iou": 0.8753252625465393,
+    "boundary_iou": 0.8479841351509094,
+    "latency_ms": 35.06989999959842
+  },
+  {
+    "event_id": "sim-process-9527-1808837:click5",
+    "task_run_id": "sim-process-9527-1808837",
+    "click_index": 5,
+    "iou": 0.8710436224937439,
+    "boundary_iou": 0.8381138443946838,
+    "latency_ms": 39.65300000027128
+  },
+  {
+    "event_id": "sim-process-9527-1165919:click1",
+    "task_run_id": "sim-process-9527-1165919",
+    "click_index": 1,
+    "iou": 0.5080967545509338,
+    "boundary_iou": 0.4974033534526825,
+    "latency_ms": 33.27919999992446
+  },
+  {
+    "event_id": "sim-process-9527-1165919:click2",
+    "task_run_id": "sim-process-9527-1165919",
+    "click_index": 2,
+    "iou": 0.9016106724739075,
+    "boundary_iou": 0.9016106724739075,
+    "latency_ms": 35.47449999996388
+  },
+  {
+    "event_id": "sim-process-9527-1165919:click3",
+    "task_run_id": "sim-process-9527-1165919",
+    "click_index": 3,
+    "iou": 0.9124909043312073,
+    "boundary_iou": 0.9124909043312073,
+    "latency_ms": 40.49429999986387
+  },
+  {
+    "event_id": "sim-process-9527-1165919:click4",
+    "task_run_id": "sim-process-9527-1165919",
+    "click_index": 4,
+    "iou": 0.9036568403244019,
+    "boundary_iou": 0.9036568403244019,
+    "latency_ms": 36.29880000016783
+  },
+  {
+    "event_id": "sim-process-9527-1165919:click5",
+    "task_run_id": "sim-process-9527-1165919",
+    "click_index": 5,
+    "iou": 0.9232124090194702,
+    "boundary_iou": 0.9232124090194702,
+    "latency_ms": 45.70949999970253
+  },
+  {
+    "event_id": "sim-process-9527-279790:click1",
+    "task_run_id": "sim-process-9527-279790",
+    "click_index": 1,
+    "iou": 0.8712389469146729,
+    "boundary_iou": 0.7391220331192017,
+    "latency_ms": 34.619999999904394
+  },
+  {
+    "event_id": "sim-process-9527-279790:click2",
+    "task_run_id": "sim-process-9527-279790",
+    "click_index": 2,
+    "iou": 0.8754014372825623,
+    "boundary_iou": 0.7491329312324524,
+    "latency_ms": 39.00829999975031
+  },
+  {
+    "event_id": "sim-process-9527-279790:click3",
+    "task_run_id": "sim-process-9527-279790",
+    "click_index": 3,
+    "iou": 0.8720340728759766,
+    "boundary_iou": 0.7386308908462524,
+    "latency_ms": 35.362200000236044
+  },
+  {
+    "event_id": "sim-process-9527-279790:click4",
+    "task_run_id": "sim-process-9527-279790",
+    "click_index": 4,
+    "iou": 0.8889700174331665,
+    "boundary_iou": 0.7735113501548767,
+    "latency_ms": 40.09140000016487
+  },
+  {
+    "event_id": "sim-process-9527-279790:click5",
+    "task_run_id": "sim-process-9527-279790",
+    "click_index": 5,
+    "iou": 0.8897782564163208,
+    "boundary_iou": 0.7728873491287231,
+    "latency_ms": 36.61160000001473
+  },
+  {
+    "event_id": "sim-process-9527-1473059:click1",
+    "task_run_id": "sim-process-9527-1473059",
+    "click_index": 1,
+    "iou": 0.6998939514160156,
+    "boundary_iou": 0.6998939514160156,
+    "latency_ms": 36.39219999968191
+  },
+  {
+    "event_id": "sim-process-9527-1473059:click2",
+    "task_run_id": "sim-process-9527-1473059",
+    "click_index": 2,
+    "iou": 0.7655298709869385,
+    "boundary_iou": 0.7655298709869385,
+    "latency_ms": 36.08529999974053
+  },
+  {
+    "event_id": "sim-process-9527-1473059:click3",
+    "task_run_id": "sim-process-9527-1473059",
+    "click_index": 3,
+    "iou": 0.7880995869636536,
+    "boundary_iou": 0.7880995869636536,
+    "latency_ms": 45.388399999865214
+  },
+  {
+    "event_id": "sim-process-9527-1473059:click4",
+    "task_run_id": "sim-process-9527-1473059",
+    "click_index": 4,
+    "iou": 0.807740330696106,
+    "boundary_iou": 0.807740330696106,
+    "latency_ms": 35.57409999984884
+  },
+  {
+    "event_id": "sim-process-9527-1473059:click5",
+    "task_run_id": "sim-process-9527-1473059",
+    "click_index": 5,
+    "iou": 0.80641108751297,
+    "boundary_iou": 0.80641108751297,
+    "latency_ms": 36.412599999948725
+  }
+]
